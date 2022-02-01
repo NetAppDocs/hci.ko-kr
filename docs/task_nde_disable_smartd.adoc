@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: docs/task_nde_disable_smartd.html 
-summary: NetApp HCI를 배포한 후 컴퓨팅 노드에서 'smartd' 서비스를 비활성화하는 방법에 대해 알아보십시오. 
+summary: 'NetApp HCI를 배포한 후 컴퓨팅 노드에서 "smartd" 서비스를 비활성화하는 방법에 대해 알아보십시오.' 
 keywords: netapp, hci, netapp deployment engine, deployment, vsphere, ESXi, compute, smartd, polling 
 ---
 = NetApp HCI 컴퓨팅 노드에서 smartd 서비스를 비활성화합니다

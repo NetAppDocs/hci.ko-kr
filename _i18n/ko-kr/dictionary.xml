@@ -73,23 +73,14 @@
   <block id="c358b5521e8437392d0fa4c159039303" category="paragraph">NetApp HCI 하드웨어를 수령하기 전에 NetApp 프로페셔널 서비스의 구축 전 워크북에 나와 있는 체크리스트 항목을 완료하십시오. 이 문서에는 성공적인 NetApp HCI 배포를 위해 네트워크 및 환경을 준비하는 데 필요한 작업의 전체 목록이 포함되어 있습니다.</block>
   <block id="9eb3c7aec83c8289ef1d3a85d1fd7b05" category="paragraph">다음은 요구사항 및 구축 전 작업에 대한 링크입니다.</block>
   <block id="7375651611f00991b648b4a9ae04736e" category="inline-link-macro">네트워크 포트 요구 사항</block>
-  <block id="5f70af06b964fe55348da040bbd6f654" category="list-text"><block ref="5f70af06b964fe55348da040bbd6f654" category="inline-link-macro-rx"></block></block>
   <block id="06d1ccbf55777bbc9268c7c72a9d02b2" category="inline-link-macro">네트워크 및 스위치 요구 사항</block>
-  <block id="cda2f05a3dfb7eb063d3fa2c3508ceaa" category="list-text"><block ref="cda2f05a3dfb7eb063d3fa2c3508ceaa" category="inline-link-macro-rx"></block></block>
   <block id="17c9373309d774de1364173b0ca500f4" category="inline-link-macro">네트워크 케이블 요구 사항</block>
-  <block id="bf7fcc947879006874ef7754e2c1729b" category="list-text"><block ref="bf7fcc947879006874ef7754e2c1729b" category="inline-link-macro-rx"></block></block>
   <block id="39198ba53dbea43870b0e41110ca135f" category="inline-link-macro">IP 주소 요구 사항</block>
-  <block id="9f306e2eb34d03d729f093e37b26b1e6" category="list-text"><block ref="9f306e2eb34d03d729f093e37b26b1e6" category="inline-link-macro-rx"></block></block>
   <block id="5dd57c2a315d3af44c2eb40eefc47111" category="inline-link-macro">네트워크 구성</block>
-  <block id="6a693ac9011489051dbc274cb853be6a" category="list-text"><block ref="6a693ac9011489051dbc274cb853be6a" category="inline-link-macro-rx"></block></block>
   <block id="910bc6aecf05f95f12c1b61bfdeb180d" category="inline-link-macro">DNS 및 시간 표시 요구 사항</block>
-  <block id="1beb346f289cc339ec8c06713d72ffa7" category="list-text"><block ref="1beb346f289cc339ec8c06713d72ffa7" category="inline-link-macro-rx"></block></block>
   <block id="6b2019a31feeec476725deff1e79ed78" category="inline-link-macro">환경 요구 사항</block>
-  <block id="ed9c5ff9f6090055d1eb04b07fc0d82e" category="list-text"><block ref="ed9c5ff9f6090055d1eb04b07fc0d82e" category="inline-link-macro-rx"></block></block>
   <block id="9077d0c626c6abe8e5c94e742b66762a" category="inline-link-macro">보호 도메인</block>
-  <block id="9c0ed03da62dab26bda1caef12d05030" category="list-text"><block ref="9c0ed03da62dab26bda1caef12d05030" category="inline-link-macro-rx"></block></block>
   <block id="6bc3cc5c8a1df1f098ef6e35a878f98e" category="inline-link-macro">노드 2개 스토리지 클러스터의 노드 리소스 요구 사항</block>
-  <block id="fe6a9612bed54055a31776927ecf79fc" category="list-text"><block ref="fe6a9612bed54055a31776927ecf79fc" category="inline-link-macro-rx"></block></block>
   <block id="acc25bb29912a0eb99591d6397d5e11d" category="list-text"><block ref="acc25bb29912a0eb99591d6397d5e11d" category="inline-link-rx"></block></block>
   <block id="a881a0468246e93ae6e2c5bccd78758e" category="inline-link">vCenter Server용 NetApp Element 플러그인</block>
   <block id="7cf5cffc3745b8348cdcfb1c3d0d472f" category="list-text"><block ref="7cf5cffc3745b8348cdcfb1c3d0d472f" category="inline-link-rx"></block></block>
@@ -919,7 +910,6 @@
   <block id="a25577f98a416c68537ba5d36173b3cd" category="paragraph">NetApp HCI 1.8부터 스토리지 노드 2개로 스토리지 클러스터를 설정할 수 있습니다.</block>
   <block id="169529280d59fa19257685252a99970c" category="inline-link">NetApp HCI 1.8 릴리스 정보</block>
   <block id="b85bb4664dc2035fb8f04e60d3206424" category="list-text">특정 유형의 노드를 사용하여 2노드 스토리지 클러스터를 구성할 수 있습니다. 을 참조하십시오<block ref="6fe76529472a52e5056e058b90349b40" category="inline-link-rx"></block>.</block>
-  <block id="0072d89e723f74b716de02a6ad74dc61" category="admonition">2노드 클러스터의 스토리지 노드는 모델 유형이 동일해야 합니다.</block>
   <block id="99e3fe6b1b0d4b6123b3de5cb0f80ae6" category="list-text">2노드 스토리지 클러스터는 대용량 및 고성능 요구사항에 종속되지 않는 워크로드를 가진 소규모 구축에 적합합니다.</block>
   <block id="23b7b2dd0ee19144ebd9f156459bbb9f" category="list-text">2개의 스토리지 노드 외에도 2노드 스토리지 클러스터에는 2개의 NetApp HCI Witness Node * 가 포함됩니다.</block>
   <block id="5e44c9f9fb6609015e92611ca9985429" category="inline-link-macro">증명선 노드.</block>
@@ -6110,4 +6100,17 @@
   <block id="a310588c148d934b9b30c31802d4a30b" category="sidebar">NetApp 커뮤니티</block>
   <block id="213686afc3803be7caa09348765467fe" category="sidebar">도움을 받을 수 있는 곳</block>
   <block id="389672366ff11f72a82c5c495b9b5159" category="sidebar">NetApp HCI 1.8 설명서</block>
+  <block id="6f4f02cb0bd29a3049ddeee395d21373" category="list-text"><block ref="6f4f02cb0bd29a3049ddeee395d21373" category="inline-link-macro-rx"></block></block>
+  <block id="d05f0358394ea81c12e954fa285913b7" category="list-text"><block ref="d05f0358394ea81c12e954fa285913b7" category="inline-link-macro-rx"></block></block>
+  <block id="8a522fe0bbb068785db1d7e6a6f8472e" category="list-text"><block ref="8a522fe0bbb068785db1d7e6a6f8472e" category="inline-link-macro-rx"></block></block>
+  <block id="e8bf7f625ad636980aeec45657ed5a6e" category="list-text"><block ref="e8bf7f625ad636980aeec45657ed5a6e" category="inline-link-macro-rx"></block></block>
+  <block id="56ce1be606d2b59357622e9e0ce1a50a" category="list-text"><block ref="56ce1be606d2b59357622e9e0ce1a50a" category="inline-link-macro-rx"></block></block>
+  <block id="bba585390add115b473af2e7549e0a5f" category="list-text"><block ref="bba585390add115b473af2e7549e0a5f" category="inline-link-macro-rx"></block></block>
+  <block id="e6fe46816496c4c9ce609ed474f0b900" category="list-text"><block ref="e6fe46816496c4c9ce609ed474f0b900" category="inline-link-macro-rx"></block></block>
+  <block id="62b04af8c4282f934d228f5334940b4f" category="list-text"><block ref="62b04af8c4282f934d228f5334940b4f" category="inline-link-macro-rx"></block></block>
+  <block id="f6a8ca908309208ad5959a4430ffc844" category="list-text"><block ref="f6a8ca908309208ad5959a4430ffc844" category="inline-link-macro-rx"></block></block>
+  <block id="c6c8ddff59bb9e0ae4d31df7879ae4db" category="admonition">2노드 클러스터의 스토리지 노드는 480GB 및 960GB 드라이브가 있는 노드로 제한되며 노드는 동일한 모델 유형이어야 합니다.</block>
+  <block id="cf79b57edb2dfa983d325f942bfbd38f" category="inline-link-macro">2노드 스토리지 클러스터</block>
+  <block id="a52e4bad07801720393fbbf29b7b6106" category="paragraph">NetApp HCI는 2노드 스토리지 클러스터에서 특정 스토리지 노드 모델만 지원합니다. 자세한 내용은 을 참조하십시오 <block ref="80bd6fa8d6a6ded3ab311d7c2cccd46d" category="inline-link-macro-rx"></block> 또는 NetApp HCI 버전의 릴리즈 노트 를 참조하십시오.</block>
+  <block id="a4660721cf97657e05d3cb886c11d311" category="admonition">2노드 스토리지 클러스터를 구축할 경우 스토리지 노드 유형은 480GB 및 960GB 드라이브가 장착된 노드로 제한됩니다.</block>
 </blocks>

@@ -20,15 +20,15 @@ NetApp HCI 하드웨어를 수령하기 전에 NetApp 프로페셔널 서비스�
 
 다음은 요구사항 및 구축 전 작업에 대한 링크입니다.
 
-* link:hci_prereqs_required_network_ports.html["네트워크 포트 요구 사항"^]
-* link:hci_prereqs_network_switch.html["네트워크 및 스위치 요구 사항"^]
-* link:hci_prereqs_network_cables.html["네트워크 케이블 요구 사항"^]
-* link:hci_prereqs_ip_address.html["IP 주소 요구 사항"^]
-* link:hci_prereqs_network_configuration.html["네트워크 구성"^]
-* link:hci_prereqs_timekeeping.html["DNS 및 시간 표시 요구 사항"^]
-* link:hci_prereqs_environmental.html["환경 요구 사항"^]
-* link:hci_prereqs_protection_domains.html["보호 도메인"^]
-* link:hci_prereqs_witness_nodes.html["노드 2개 스토리지 클러스터의 노드 리소스 요구 사항"^]
+* link:hci_prereqs_required_network_ports.html["네트워크 포트 요구 사항"]
+* link:hci_prereqs_network_switch.html["네트워크 및 스위치 요구 사항"]
+* link:hci_prereqs_network_cables.html["네트워크 케이블 요구 사항"]
+* link:hci_prereqs_ip_address.html["IP 주소 요구 사항"]
+* link:hci_prereqs_network_configuration.html["네트워크 구성"]
+* link:hci_prereqs_timekeeping.html["DNS 및 시간 표시 요구 사항"]
+* link:hci_prereqs_environmental.html["환경 요구 사항"]
+* link:hci_prereqs_protection_domains.html["보호 도메인"]
+* link:hci_prereqs_witness_nodes.html["노드 2개 스토리지 클러스터의 노드 리소스 요구 사항"]
 
 
 [discrete]
