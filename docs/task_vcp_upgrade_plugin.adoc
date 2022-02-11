@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: docs/task_vcp_upgrade_plugin.html 
-summary: NetApp HCI 또는 SolidFire 스토리지 시스템 업그레이드의 일부로 vCenter Server용 Element 플러그인을 업그레이드할 수 있습니다. 
+summary: NetApp HCI 시스템 업그레이드의 일부로 vCenter Server용 Element 플러그인을 업그레이드할 수 있습니다. 
 keywords: netapp, vcp, vCenter plug-in, upgrade, 4.4, 4.5, 4.6, 4.7, 4.8 
 ---
 = vCenter Server용 Element 플러그인을 업그레이드합니다
@@ -23,15 +23,15 @@ IMPORTANT: 이 플러그인은 VCP 4.7 이상용 VMware vCenter Server 6.5와 �
 * 6.7 Flash vSphere Web Client로 업그레이드하는 중입니다.
 +
 
-IMPORTANT: 플러그인은 HTML5 vSphere Web Client의 버전 6.7 U2 빌드 13007421 및 업데이트 2a 이전에 릴리스된 기타 6.7 U2 빌드(빌드 13643870)와 호환되지 않습니다. 지원되는 vSphere 버전에 대한 자세한 내용은 의 릴리즈 노트를 참조하십시오 https://docs.netapp.com/us-en/vcp/rn_relatedrn_vcp.html#netapp-element-plug-in-for-vcenter-server["플러그인 버전입니다"].
+IMPORTANT: 플러그인은 HTML5 vSphere Web Client의 버전 6.7 U2 빌드 13007421 및 업데이트 2a 이전에 릴리스된 기타 6.7 U2 빌드(빌드 13643870)와 호환되지 않습니다. 지원되는 vSphere 버전에 대한 자세한 내용은 의 릴리즈 노트를 참조하십시오 https://docs.netapp.com/us-en/vcp/rn_relatedrn_vcp.html#netapp-element-plug-in-for-vcenter-server["플러그인 버전입니다"^].
 
 
 
 .무엇을 &#8217;필요로 할거야
 * * 관리자 권한 *: 플러그인을 설치할 vCenter 관리자 역할 권한이 있습니다.
 * * vSphere 업그레이드 *: vCenter Server용 NetApp Element 플러그인을 업그레이드하기 전에 필요한 vCenter 업그레이드를 모두 수행했습니다. 이 절차에서는 vCenter 업그레이드가 이미 완료된 것으로 가정합니다.
-* * vCenter Server *: vCenter 플러그인 버전 4.x가 vCenter Server에 등록됩니다. 등록 유틸리티('https://[management node IP]:9443')에서 * 등록 상태 * 를 클릭하고 필요한 필드를 입력한 다음 * 상태 확인 * 을 클릭하여 vCenter 플러그인이 이미 등록되어 있는지, 현재 설치의 버전 번호가 올바른지 확인합니다.
-* * 관리 서비스 업데이트 *: 을(를) 업데이트했습니다 https://mysupport.netapp.com/site/products/all/details/mgmtservices/downloads-tab["관리 서비스 번들"] 를 최신 버전으로 업데이트합니다. vCenter 플러그인의 업데이트는 NetApp HCI 및 SolidFire All-Flash 스토리지의 주요 제품 릴리즈 외부에서 릴리스된 관리 서비스 업데이트를 사용하여 배포됩니다.
+* * vCenter Server *: vCenter 플러그인 버전 4.x가 vCenter Server에 등록됩니다. 등록 유틸리티('https://[management node IP]:9443')에서 * 등록 상태 * 를 선택하고 필수 필드를 입력한 다음 * 상태 확인 * 을 선택하여 vCenter 플러그인이 이미 등록되어 있는지, 현재 설치의 버전 번호를 확인합니다.
+* * 관리 서비스 업데이트 *: 을(를) 업데이트했습니다 https://mysupport.netapp.com/site/products/all/details/mgmtservices/downloads-tab["관리 서비스 번들"^] 를 최신 버전으로 업데이트합니다. vCenter 플러그인의 업데이트는 NetApp HCI의 주요 제품 릴리즈 외부에서 릴리스된 관리 서비스 업데이트를 사용하여 배포됩니다.
 * * 관리 노드 업그레이드 *: 이미 실행 중인 관리 노드를 실행 중입니다 link:task_hcc_upgrade_management_node.html["업그레이드되었습니다"] 11.3 이상 버전으로. vCenter 플러그인 4.4 이상에서는 개별 서비스를 제공하는 모듈식 아키텍처를 갖춘 11.3 이상의 관리 노드가 필요합니다. 관리 노드의 전원은 IP 주소 또는 DHCP 주소가 구성되어 있어야 합니다.
 * * Element 스토리지 업그레이드 *: NetApp Element 소프트웨어 11.3 이상을 실행하는 클러스터가 있습니다.
 * * vSphere Web Client *: 플러그인 업그레이드를 시작하기 전에 vSphere Web Client에서 로그아웃했습니다. 로그아웃하지 않으면 웹 클라이언트가 이 프로세스 중에 수행한 업데이트를 플러그인으로 인식하지 못합니다.
@@ -42,7 +42,7 @@ IMPORTANT: 플러그인은 HTML5 vSphere Web Client의 버전 6.7 U2 빌드 1300
 +
 image::vcp_registration_utility_ui_qossioc.png[에서는 플러그인의 등록 유틸리티 UI를 보여 줍니다]
 
-. vCenter 플러그인 등록 * 을 클릭합니다.
+. vCenter 플러그인 등록 * 을 선택합니다.
 +
 image::vcp_registration_utility_ui.png[에서는 플러그인의 등록 유틸리티 UI를 보여 줍니다]
 
@@ -59,11 +59,11 @@ NOTE: 입력한 사용자 이름과 암호 자격 증명은 vCenter 관리자 �
 .. (사내 서버/다크 사이트의 경우) 플러그인 ZIP에 대한 사용자 지정 URL입니다.
 +
 
-NOTE: HTTP 또는 HTTPS 서버(다크 사이트)를 사용 중이거나 ZIP 파일 이름 또는 네트워크 설정을 수정한 경우 * 사용자 지정 URL * 을 클릭하여 URL을 사용자 지정할 수 있습니다. URL을 사용자 지정하려는 경우 추가 구성 단계를 보려면 vCenter Server용 Element Plug-in 설명서를 참조하십시오. 내부(다크 사이트) HTTP 서버에 대한 vCenter 속성 수정에 대한 자세한 내용은 vCenter Server 설명서를 참조하십시오.
+NOTE: HTTP 또는 HTTPS 서버(다크 사이트)를 사용 중이거나 ZIP 파일 이름 또는 네트워크 설정을 수정한 경우 * 사용자 지정 URL * 을 선택하여 URL을 사용자 지정할 수 있습니다. URL을 사용자 지정하려는 경우 추가 구성 단계를 보려면 vCenter Server용 Element Plug-in 설명서를 참조하십시오. 내부(다크 사이트) HTTP 서버에 대한 vCenter 속성 수정에 대한 자세한 내용은 vCenter Server 설명서를 참조하십시오.
 
 
 
-. Update * 를 클릭합니다.
+. Update * 를 선택합니다.
 +
 등록이 성공하면 등록 유틸리티 UI에 배너가 나타납니다.
 

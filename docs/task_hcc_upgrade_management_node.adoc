@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: docs/task_hcc_upgrade_management_node.html 
-summary: NetApp HCI 또는 SolidFire 스토리지 시스템 업그레이드의 일부로 관리 노드를 업그레이드합니다. 
+summary: NetApp HCI 시스템 업그레이드의 일부로 관리 노드를 업그레이드합니다. 
 keywords: netapp, hci, on premise, cluster, management node, mNode, upgrade, 10, 11.0, 11.1, 11.3, 11.5, 11.7, 12.0, 12.2, 12.3, 12.3.1, 12.3.2, 12.3.x 
 ---
 = 관리 노드를 업그레이드합니다
@@ -73,7 +73,7 @@ NOTE: eth0을 SVIP로 라우팅할 수 없는 경우 영구 볼륨에는 추가 
 
 .단계
 . SSH 또는 콘솔 액세스를 사용하여 관리 노드 가상 머신에 로그인합니다.
-. 에 대한 관리 노드 ISO를 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI"^] NetApp Support 사이트에서 관리 노드 가상 시스템으로.
+. 를 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["관리 노드 ISO"^] NetApp HCI의 경우 NetApp Support 사이트에서 관리 노드 가상 시스템으로.
 +
 
 NOTE: ISO의 이름은 'olidfire-fdva-<Element release>-patchX-XX.X.XXXX.iso'와 비슷합니다
@@ -172,7 +172,7 @@ NOTE: eth0을 SVIP로 라우팅할 수 없는 경우 영구 볼륨에는 추가 
 
 
 . SSH 또는 콘솔 액세스를 사용하여 관리 노드 가상 머신에 로그인합니다.
-. 에 대한 관리 노드 ISO를 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI"] NetApp Support 사이트에서 관리 노드 가상 시스템으로.
+. 를 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["관리 노드 ISO"^] NetApp HCI의 경우 NetApp Support 사이트에서 관리 노드 가상 시스템으로.
 +
 
 NOTE: ISO의 이름은 'olidfire-fdva-<Element release>-patchX-XX.X.XXXX.iso'와 비슷합니다
@@ -271,7 +271,7 @@ NOTE: eth0을 SVIP로 라우팅할 수 없는 경우 영구 볼륨에는 추가 
 
 
 . SSH 또는 콘솔 액세스를 사용하여 관리 노드 가상 머신에 로그인합니다.
-. 에 대한 관리 노드 ISO를 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI"] NetApp Support 사이트에서 관리 노드 가상 시스템으로.
+. 를 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["관리 노드 ISO"^] NetApp HCI의 경우 NetApp Support 사이트에서 관리 노드 가상 시스템으로.
 +
 
 NOTE: ISO의 이름은 'olidfire-fdva-<Element release>-patchX-XX.X.XXXX.iso'와 비슷합니다
@@ -370,7 +370,7 @@ NOTE: eth0을 SVIP로 라우팅할 수 없는 경우 영구 볼륨에는 추가 
 
 
 . SSH 또는 콘솔 액세스를 사용하여 관리 노드 가상 머신에 로그인합니다.
-. 에 대한 관리 노드 ISO를 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI"] NetApp Support 사이트에서 관리 노드 가상 시스템으로.
+. 를 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["관리 노드 ISO"^] NetApp HCI의 경우 NetApp Support 사이트에서 관리 노드 가상 시스템으로.
 +
 
 NOTE: ISO의 이름은 'olidfire-fdva-<Element release>-patchX-XX.X.XXXX.iso'와 비슷합니다
@@ -470,7 +470,7 @@ sudo /sf/packages/mnode/upgrade-mnode -mu <mnode user> -pvm <mvip for persistent
 ----
 
 
-. (모든 NetApp HCI 설치 및 vCenter Server용 NetApp Element 플러그인을 사용한 SolidFire All-Flash 스토리지 설치의 경우) 의 단계에 따라 12.3.x 관리 노드에서 vCenter 플러그인을 업데이트합니다 link:task_vcp_upgrade_plugin.html["vCenter Server용 Element 플러그인을 업그레이드합니다"] 주제.
+. (vCenter Server용 NetApp Element 플러그인을 사용하는 모든 NetApp HCI 설치의 경우) 의 단계에 따라 12.3.x 관리 노드에서 vCenter 플러그인을 업데이트합니다 link:task_vcp_upgrade_plugin.html["vCenter Server용 Element 플러그인을 업그레이드합니다"] 주제.
 . 관리 노드 API를 사용하여 설치의 자산 ID를 찾습니다.
 +
 .. 브라우저에서 관리 노드 REST API UI에 로그인합니다.
@@ -484,46 +484,46 @@ sudo /sf/packages/mnode/upgrade-mnode -mu <mnode user> -pvm <mvip for persistent
 ----
 https://<ManagementNodeIP>/inventory/1/
 ----
-.. authorize * 를 클릭하고 다음을 완료합니다.
+.. authorize * 를 선택하고 다음을 완료합니다.
 +
 ... 클러스터 사용자 이름 및 암호를 입력합니다.
 ... Client ID를 mnode-client로 입력한다.
-... 세션을 시작하려면 * authorize * 를 클릭합니다.
+... 세션을 시작하려면 * authorize * 를 선택합니다.
 ... 창을 닫습니다.
 
 
-.. REST API UI에서 * Get Windows/Installations * 를 클릭합니다.
-.. 체험하기 * 를 클릭합니다.
-.. Execute * 를 클릭합니다.
+.. REST API UI에서 * Get Windows/Installations * 를 선택합니다.
+.. 체험하기 * 를 선택합니다.
+.. Execute * 를 선택합니다.
 .. 코드 200 응답 본문에서 설치 시 id를 복사한다.
 +
 설치 또는 업그레이드 중에 생성된 기본 자산 구성을 설치하였습니다.
 
 
 
-. NetApp HCI를 설치한 경우 vSphere에서 컴퓨팅 노드의 하드웨어 태그를 찾습니다.
+. vSphere에서 컴퓨팅 노드의 하드웨어 태그를 찾습니다.
 +
 .. vSphere Web Client 탐색기에서 호스트를 선택합니다.
-.. 모니터 * 탭을 클릭하고 * 하드웨어 상태 * 를 클릭합니다.
+.. 모니터 * 탭을 선택하고 * 하드웨어 상태 * 를 선택합니다.
 .. 노드 BIOS 제조업체 및 모델 번호가 나열됩니다. 나중 단계에서 사용할 'tag'의 값을 복사하여 저장합니다.
 
 
-. HCI 모니터링(NetApp HCI 설치만 해당) 및 하이브리드 클라우드 제어(모든 설치용)에 대한 vCenter 컨트롤러 자산을 관리 노드의 알려진 자산에 추가합니다.
+. HCI 모니터링 및 하이브리드 클라우드 제어에 대한 vCenter 컨트롤러 자산을 관리 노드의 알려진 자산에 추가합니다.
 +
-.. 컨트롤러 하위 자산을 추가하려면 * POST/ASSET/{ASSET_ID}/CONTROLLER * 를 클릭합니다.
-.. 체험하기 * 를 클릭합니다.
+.. 컨트롤러 하위 자산을 추가하려면 * POST/ASSET/{ASSET_ID}/컨트롤러 * 를 선택합니다.
+.. 체험하기 * 를 선택합니다.
 .. 클립보드에 복사한 상위 기본 자산 ID를 * asset_id * 필드에 입력합니다.
 .. 유형 'vCenter'와 vCenter 자격 증명을 사용하여 필요한 페이로드 값을 입력합니다.
-.. Execute * 를 클릭합니다.
+.. Execute * 를 선택합니다.
 
 
-. (NetApp HCI에만 해당) 컴퓨팅 노드 자산을 관리 노드의 알려진 자산에 추가합니다.
+. 컴퓨팅 노드 자산을 관리 노드의 알려진 자산에 추가합니다.
 +
-.. POST/assets/{asset_id}/compute-nodes * 를 클릭하여 컴퓨팅 노드 자산에 대한 자격 증명이 있는 컴퓨팅 노드 하위 자산을 추가합니다.
-.. 체험하기 * 를 클릭합니다.
+.. 컴퓨팅 노드 자산에 대한 자격 증명이 있는 컴퓨팅 노드 하위 자산을 추가하려면 * POST/ASSET/{ASSET_ID}/컴퓨팅 노드 * 를 선택합니다.
+.. 체험하기 * 를 선택합니다.
 .. 클립보드에 복사한 상위 기본 자산 ID를 * asset_id * 필드에 입력합니다.
 .. 페이로드에서 Model(모델) 탭에 정의된 대로 필요한 페이로드 값을 입력합니다. type로 ESXi Host를 입력하고, hardware_tag의 이전 단계에서 저장한 하드웨어 태그를 붙여넣습니다.
-.. Execute * 를 클릭합니다.
+.. Execute * 를 선택합니다.
 
 
 
@@ -546,8 +546,8 @@ https://<ManagementNodeIP>/inventory/1/
 https://<mNode 11.1 IP address>:9443
 ----
 . vSphere에서 * NetApp Element 구성 * > * mNode 설정 * 을 선택합니다. (이전 버전에서는 최상위 메뉴가 * NetApp SolidFire 구성 * 입니다.)
-. Actions * > * Clear * 를 클릭합니다.
-. 확인하려면 * 예 * 를 클릭합니다. mNode Status 필드는 구성되지 않음을 보고해야 합니다.
+. Actions * > * Clear * 를 선택합니다.
+. 확인하려면 * 예 * 를 선택합니다. mNode Status 필드는 구성되지 않음을 보고해야 합니다.
 +
 
 NOTE: mNode 설정 * 탭으로 처음 이동하면 예상 * 업 * 대신 * 구성되지 않음 * 으로 mNode 상태 필드가 표시될 수 있습니다. * 작업 * > * 지우기 * 를 선택하지 못할 수도 있습니다. 브라우저를 새로 고칩니다. mNode Status(mNode 상태) 필드에 최종적으로 * up * 이 표시됩니다.
@@ -564,11 +564,11 @@ https://<mNode 11.1 IP address>:9443
 
 NOTE: 기본 비밀번호는 SolidFire입니다. 새 암호를 설정하려면 이 암호가 필요합니다.
 
-. vCenter 플러그인 등록 * 탭을 클릭합니다.
+. vCenter 플러그인 등록 * 탭을 선택합니다.
 . Update Plug-in * 을 선택합니다.
-. 필요한 값을 입력합니다. 완료되면 * 업데이트 * 를 클릭합니다.
+. 필요한 값을 입력합니다. 완료되면 * 업데이트 * 를 선택합니다.
 . vSphere에 로그인하고 * NetApp Element 구성 * > * mNode 설정 * 을 선택합니다.
-. Actions * > * Configure * 를 클릭합니다.
+. Actions * > * Configure * 를 선택합니다.
 . 관리 노드 IP 주소, 관리 노드 사용자 ID(사용자 이름은 "admin"), 등록 유틸리티의 * QoSSIOC 서비스 관리 * 탭에서 설정한 암호, vCenter 사용자 ID 및 암호를 제공합니다.
 +
 vSphere에서 * mNode Settings * (mNode 설정 *) 탭은 mNode 상태를 * up * 으로 표시해야 합니다. 이는 관리 노드 11.1이 vCenter에 등록되었음을 나타냅니다.
@@ -657,17 +657,17 @@ sudo systemctl restart sfcollector
 ----
 https://<ManagementNodeIP>/mnode
 ----
-. authorize * 를 클릭하고 다음을 완료합니다.
+. authorize * 를 선택하고 다음을 완료합니다.
 +
 .. 클러스터 사용자 이름 및 암호를 입력합니다.
 .. 값이 아직 채워지지 않은 경우 클라이언트 ID를 mnode-client로 입력합니다.
-.. 세션을 시작하려면 * authorize * 를 클릭합니다.
+.. 세션을 시작하려면 * authorize * 를 선택합니다.
 
 
-. REST API UI에서 * POST/services/reconfigure-auth * 를 클릭합니다.
-. 체험하기 * 를 클릭합니다.
+. REST API UI에서 * POST/services/reconfigure-auth * 를 선택합니다.
+. 체험하기 * 를 선택합니다.
 . load_images * 매개 변수에 대해 'true'를 선택합니다.
-. Execute * 를 클릭합니다.
+. Execute * 를 선택합니다.
 +
 응답 본문은 재구성이 성공했음을 나타냅니다.
 

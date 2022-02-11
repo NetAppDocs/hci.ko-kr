@@ -1166,7 +1166,6 @@
   <block id="a1c6e7e95c797346381866e156460cb0" category="paragraph">운영 환경에서는 클러스터의 컴퓨팅 노드를 롤링 방식으로 업데이트하고, 한 노드는 한 번에 하나씩 노드 방식으로 NetApp HCI를 설치해야 합니다. NetApp 하이브리드 클라우드 제어의 API는 상태 점검 실행, 컴퓨팅 노드에 ESXi를 유지 관리에 배치, 펌웨어 업그레이드를 적용하기 위해 컴퓨팅 노드를 재부팅하는 등 단일 컴퓨팅 노드에 대한 전체 컴퓨팅 노드 펌웨어 업그레이드 프로세스를 조정합니다. Ansible 역할은 컴퓨팅 노드 그룹 또는 전체 클러스터의 펌웨어 업그레이드를 오케스트레이션할 수 있는 옵션을 제공합니다.</block>
   <block id="39e0115b52067ca373c2974cabbedb66" category="inline-link">GitHub의 NetApp Ansible 리포지토리</block>
   <block id="5c43103944569fd8012409d26d35ae27" category="paragraph">시작하려면 로 이동합니다<block ref="800625a9fb0814935e48340d0d4931ee" category="inline-link-rx"></block> 그리고 'NAR_컴퓨팅_노드_펌웨어_업그레이드' 역할 및 문서를 다운로드하십시오.</block>
-  <block id="a80ea9fd147150be225676ffc95c2334" category="summary">NetApp HCI 또는 SolidFire 시스템 업그레이드의 일부로 NetApp Element 소프트웨어를 업그레이드합니다.</block>
   <block id="c4d41483c4ebb2063097b14712424742" category="doc">Element 소프트웨어 업그레이드</block>
   <block id="b62290ff53a518e59ca66a10ffbbe80f" category="paragraph">NetApp Element 소프트웨어를 업그레이드하려면 NetApp 하이브리드 클라우드 제어 UI, REST API 또는 HealthTools 도구 제품군을 사용할 수 있습니다. 노드 추가 및 제거, 드라이브 추가 및 제거, 이니시에이터, 볼륨 액세스 그룹 및 가상 네트워크와 관련된 명령 등 Element 소프트웨어를 업그레이드하는 동안 특정 작업이 표시되지 않습니다.</block>
   <block id="af97413bfe0fcaebbe8c8bbf7a552c1e" category="list-text">* 관리자 권한 *: 업그레이드를 수행할 수 있는 스토리지 클러스터 관리자 권한이 있습니다.</block>
@@ -1196,24 +1195,18 @@
   <block id="7fad05c5548f9989eaee59a54633305a" category="admonition">업그레이드 프로세스는 H610S 플랫폼이 아닌 경우 노드당 약 30분 정도 소요됩니다.</block>
   <block id="76dc87fa8de1da44ac9cde3fec3cb965" category="list-text">웹 브라우저를 열고 관리 노드의 IP 주소를 찾습니다.</block>
   <block id="d64a6336a39c9f27c33956f187d79c87" category="list-text">NetApp 하이브리드 클라우드 제어에 스토리지 클러스터 관리자 자격 증명을 제공하여 로그인하십시오.</block>
-  <block id="c05fe698f8669174e3b992a2e903801f" category="list-text">인터페이스 오른쪽 상단 근처에 있는 * Upgrade * 를 클릭합니다.</block>
   <block id="8d2b20731c568a1d9a02267e5d20edb7" category="list-text">업그레이드 * 페이지에서 * 스토리지 * 를 선택합니다.</block>
   <block id="eced5161fd4b5a5d98480da44ccabc87" category="paragraph">Storage * 탭에는 설치에 포함된 스토리지 클러스터가 나열됩니다. NetApp Hybrid Cloud Control에서 클러스터에 액세스할 수 없는 경우 * 업그레이드 * 페이지에 표시되지 않습니다.</block>
   <block id="f1bd2e17b5412e4b45851ad42541f684" category="list-text">다음 옵션 중 하나를 선택하고 클러스터에 적용할 수 있는 단계 세트를 수행합니다.</block>
   <block id="042b4c254a65c4222ecfd8eda19de8fb" category="cell">관리 노드에 외부 연결이 있습니다.</block>
-  <block id="ea81e0987d30e98ecdb1930382fb8b88" category="list-text">업그레이드할 클러스터 옆에 있는 드롭다운 화살표를 클릭하고 * Element * 탭 아래에서 사용 가능한 업그레이드 버전 중에서 선택합니다.</block>
-  <block id="b0d7c43db7977807029a542ec00848b5" category="list-text">업그레이드 시작 * 을 클릭합니다.</block>
   <block id="b9088c022e9648ce7ddea6e6d4a7d2a2" category="admonition">업그레이드 중 * 업그레이드 상태 * 는 프로세스 상태를 반영하기 위해 변경됩니다. 또한 업그레이드를 일시 중지하거나 업그레이드가 오류를 반환하는 경우와 같이 수행한 작업에 대한 응답으로 변경됩니다. 을 참조하십시오 <block ref="963ffe23b927e51707381f60a050d9f4" category="inline-xref-macro-rx"></block>.</block>
   <block id="1c1f68c70e4604204e19388cd8dedfa2" category="admonition">업그레이드가 진행되는 동안 페이지를 종료하고 나중에 다시 돌아와 진행 상황을 계속 모니터링할 수 있습니다. 클러스터 행이 축소되어 있는 경우 이 페이지는 상태 및 현재 버전을 동적으로 업데이트하지 않습니다. 테이블을 업데이트하거나 페이지를 새로 고치려면 클러스터 행을 확장해야 합니다.</block>
   <block id="f7c462da794bbac0b6cb931507af8070" category="paragraph">업그레이드가 완료된 후 로그를 다운로드할 수 있습니다.</block>
   <block id="8fce94dc58f1bdc7de438659f9a9a00b" category="cell">관리 노드는 외부 연결이 없는 어두운 사이트 내에 있습니다.</block>
-  <block id="64af008841326ef1992e7dfa61e6838e" category="list-text">다운로드한 업그레이드 패키지를 업로드하려면 * 찾아보기 * 를 클릭합니다.</block>
   <block id="9f3e44fdaf4628028bd071e9fdf42636" category="list-text">업로드가 완료될 때까지 기다립니다. 진행률 표시줄에 업로드 상태가 표시됩니다.</block>
   <block id="4109e9de1e5e5e6a88e7ab1943736894" category="admonition">브라우저 창에서 이동하면 파일 업로드가 손실됩니다.</block>
   <block id="effc57e6ad213336e96f00439b792658" category="paragraph">파일이 성공적으로 업로드 및 확인되면 화면에 메시지가 표시됩니다. 정품 확인에 몇 분 정도 걸릴 수 있습니다. 이 단계에서 브라우저 창에서 다른 곳으로 이동하면 파일 업로드가 유지됩니다.</block>
   <block id="2b96c3916188bec9de822541d9cf623f" category="cell">11.8 이전의 Element 버전을 실행하는 H610S 클러스터를 업그레이드하고 있습니다.</block>
-  <block id="77dc0583e73681935b1b313654009c0a" category="list-text">업그레이드할 클러스터 옆에 있는 드롭다운 화살표를 클릭하고 사용 가능한 업그레이드 버전 중에서 선택합니다.</block>
-  <block id="2319902fb47ba4de53acdd271735eea6" category="list-text">업그레이드 시작 * 을 클릭합니다. 업그레이드가 완료되면 UI에서 프로세스의 2단계를 수행하라는 메시지를 표시합니다.</block>
   <block id="2351c1e27093e71da7b231f5059cc476" category="list-text">에서 필요한 추가 단계(2단계)를 완료합니다<block ref="f89d7bc8c94108aeb49b4fdeac4ce106" category="inline-link-rx"></block>, 및 UI에서 단계 2를 완료했음을 확인합니다.</block>
   <block id="d215420632f75acd5be40e1f61fad92e" category="paragraph">업그레이드가 완료된 후 로그를 다운로드할 수 있습니다. 다양한 업그레이드 상태 변경에 대한 자세한 내용은 을 참조하십시오 <block ref="963ffe23b927e51707381f60a050d9f4" category="inline-xref-macro-rx"></block>.</block>
   <block id="d3e7182b84a940e7db18b7fb84516b9d" category="section-title">업그레이드 상태 변경</block>
@@ -1226,11 +1219,8 @@
   <block id="c9413dd7682a45da9ecc9efa8cea47d7" category="cell">진행 중</block>
   <block id="b28a77ac58f4aaa651a37dfc7eaa6a5b" category="cell">업그레이드가 진행 중입니다. 진행 표시줄에 업그레이드 상태가 표시됩니다. 화면 메시지에는 노드 레벨 장애가 표시되고 업그레이드가 진행되는 동안 클러스터의 각 노드에 대한 노드 ID가 표시됩니다. Element UI 또는 vCenter Server UI용 NetApp Element 플러그인을 사용하여 각 노드의 상태를 모니터링할 수 있습니다.</block>
   <block id="1c0bfd3d5057a65664221d4c93d2b215" category="cell">업그레이드 일시 중지 중</block>
-  <block id="5e30bdb4b7ba3fe0d8457b62eda44845" category="cell">업그레이드를 일시 중지할 수 있습니다. 업그레이드 프로세스의 상태에 따라 일시 중지 작업이 성공하거나 실패할 수 있습니다. 일시 중지 작업을 확인하는 UI 프롬프트가 표시됩니다. 업그레이드를 일시 중지하기 전에 클러스터가 안전한 장소에 있는지 확인하려면 업그레이드 작업을 완전히 일시 중지하는 데 최대 2시간이 걸릴 수 있습니다. 업그레이드를 다시 시작하려면 * Resume * 을 클릭합니다.</block>
   <block id="e99180abf47a8b3a856e0bcb2656990a" category="cell">일시 중지되었습니다</block>
-  <block id="a5b32657c9bfe9ac9575ad737ca080f2" category="cell">업그레이드를 일시 중지했습니다. 프로세스를 다시 시작하려면 * Resume * 을 클릭합니다.</block>
   <block id="902b0d55fddef6f8d651fe1035b7d4bd" category="cell">오류</block>
-  <block id="ecb776e2fa7dc6d1ecf3a51baff6f86b" category="cell">업그레이드 중 오류가 발생했습니다. 오류 로그를 다운로드하여 NetApp Support에 보낼 수 있습니다. 오류를 해결한 후 페이지로 돌아가서 * Resume * 을 클릭할 수 있습니다. 업그레이드를 다시 시작하면 시스템에서 상태 점검을 실행하고 업그레이드의 현재 상태를 확인하는 동안 진행 표시줄이 몇 분 동안 뒤로 이동합니다.</block>
   <block id="6fc59d6889d5ac60b02946bb6b8b8898" category="cell">감지할 수 없습니다</block>
   <block id="25026455f4896275dc71ea344eae7273" category="inline-link-macro">프록시 구성</block>
   <block id="583f3e650ef38070d35da27a89c06904" category="cell">NetApp 하이브리드 클라우드 제어에는 온라인 소프트웨어 리포지토리에 연결할 수 있는 외부 연결이 없을 때 * 사용 가능한 버전 * 대신 * 이 상태가 표시됩니다. 외부 연결이 있지만 이 메시지가 계속 표시되면 를 확인하십시오 <block ref="6ff9e66037288034fea8427eccd4ef4c" category="inline-link-macro-rx"></block>.</block>
@@ -1243,22 +1233,14 @@
   <block id="a6ed38b882eb2bb18669e728ffb1f93a" category="list-text">관리 노드에서 관리 노드 REST API UI를 엽니다.</block>
   <block id="4cf730cc1f866d2057be98ddf272d32e" category="list-text">authorize * 를 클릭하고 다음을 완료합니다.</block>
   <block id="85bb06226f2384b478691f49e53204fc" category="list-text">인증 창을 닫습니다.</block>
-  <block id="b9526e0922b97e2493776d81c53a182a" category="list-text">REST API UI에서 * get s./packagesmote/remote-repositorysessitory이거나 connection * 을 클릭합니다.</block>
   <block id="7ac2eb4e7073a0bed37085ee1d0656de" category="list-text">코드 200이 반환되는 경우 다음 단계로 이동합니다. 원격 리포지토리에 연결되지 않은 경우 연결을 설정하거나 다크 사이트 옵션을 사용합니다.</block>
   <block id="ecd4792b2445292557fc3b37de2cda15" category="list-text">업그레이드 패키지 ID 찾기:</block>
-  <block id="5cfd0f3085aaff01ae90ec4baedc6280" category="list-text">REST API UI에서 * GET/packages * 를 클릭합니다.</block>
   <block id="92c655ce479b4404b3a51afa0527fd9b" category="list-text">응답에서 패키지 ID를 복사하여 나중에 사용할 수 있도록 저장합니다.</block>
-  <block id="4276657b06044ce75b41dc80b78f9b3c" category="list-text">스토리지 업그레이드 패키지를 관리 노드에서 액세스할 수 있는 디바이스로 다운로드합니다.</block>
   <block id="4876c936414c8b50876cdff810c036bd" category="inline-link">다운로드 페이지</block>
   <block id="ca9b271bda1fd83c0839a53fe115bfdb" category="list-text">스토리지 업그레이드 패키지를 관리 노드에 업로드합니다.</block>
-  <block id="830365f182a61ee2daba9b06b6d1a11a" category="list-text">REST API UI에서 * POST/packages * 를 클릭합니다.</block>
-  <block id="c9cfa08b31f744b7b9dd1bd038f411f2" category="list-text">찾아보기 * 를 클릭하고 업그레이드 패키지를 선택합니다.</block>
-  <block id="3481b4b80b9e3a443b7cba659809071d" category="list-text">업로드를 시작하려면 * 실행 * 을 클릭합니다.</block>
   <block id="e81c071d4e9f69ab45651ea4cb8be73c" category="list-text">응답에서 패키지 ID(""id"")를 복사하여 나중에 사용할 수 있도록 저장합니다.</block>
   <block id="bda887a56a8d04dcb170e9898f3843b3" category="list-text">업로드 상태를 확인합니다.</block>
-  <block id="fa2f8a7fb1af644c64d7622fd47ca86a" category="list-text">REST API UI에서 * GETICK/packagesCmx/{id} s./status * 를 클릭합니다.</block>
   <block id="ec1ddc98a355dba89ef5b1ccc291885d" category="list-text">이전 단계에서 복사한 패키지 ID를 * id * 에 입력합니다.</block>
-  <block id="8bf5993955b0b8622b93b837c91d81fe" category="list-text">[실행]을 클릭하여 상태 요청을 시작합니다.</block>
   <block id="b0b65da42828ba058318330a013c3e29" category="paragraph">완료했을 때 '성공'이라는 응답이 나타납니다.</block>
   <block id="65e3827c3b16db30418ea863dfbb70b2" category="list-text">스토리지 클러스터 ID를 찾습니다.</block>
   <block id="d8a529bb2e8cb17b42fbbd746b707f68" category="list-text">REST API UI에서 * Get/Installations * 를 클릭합니다.</block>
@@ -1268,24 +1250,19 @@
   <block id="b3e42cab03f3258e266289a5cb473b26" category="list-text">응답에서 업그레이드할 클러스터의 스토리지 클러스터 ID("" id")를 복사하여 나중에 사용할 수 있도록 저장합니다.</block>
   <block id="57d1363358ed907b2a8b4e6fd33958af" category="list-text">스토리지 업그레이드를 실행합니다.</block>
   <block id="22987ed21eb820a9aeef354b7bb062c3" category="list-text">관리 노드에서 스토리지 REST API UI를 엽니다.</block>
-  <block id="e98adf76044f14eaf17a9c91a89cd1e2" category="list-text">POST/upgrades * 를 클릭합니다.</block>
   <block id="3d73d8aacfb24ab8d9ebf63f85cc923a" category="list-text">매개변수 필드에 업그레이드 패키지 ID를 입력합니다.</block>
   <block id="a80a2e215168c9bb8d1d7b0e32021251" category="list-text">매개 변수 필드에 스토리지 클러스터 ID를 입력합니다.</block>
   <block id="488b3707934837436e2251dfc1801c6c" category="paragraph">페이로드는 다음 예와 유사해야 합니다.</block>
-  <block id="789918b07758ce5d60fb98a099904d59" category="list-text">[실행]을 클릭하여 업그레이드를 시작합니다.</block>
   <block id="e06c90593ff7801dfefdc10b4aa3b913" category="paragraph">이에 대한 대응은 "초기화 중"으로 표시되어야 합니다.</block>
   <block id="64d520399f18fcab905348b4fd8838b4" category="list-text">응답에 포함된 업그레이드 ID("upgrade eId")를 복사합니다.</block>
   <block id="74937fca75155543e64fe89fc070f1d1" category="list-text">업그레이드 진행 상황 및 결과를 확인합니다.</block>
-  <block id="90232ddd36429406a75d02f72c5d2508" category="list-text">Get Windows/upgrade/{upgrade eId} * 를 클릭합니다.</block>
   <block id="3209d89b1ac6561bdc8db3c1f4f25799" category="list-text">이전 단계의 업그레이드 ID를 * upgrade eId * 에 입력합니다.</block>
   <block id="c338903f3a062adc25e2d4c1eb2c35c8" category="list-text">업그레이드 중 문제가 있거나 특별한 요구 사항이 있는 경우 다음 중 하나를 수행합니다.</block>
   <block id="9439376d1f9eb896483283efdb64281b" category="cell">응답 본문의 'failedHealthChecks' 메시지로 인해 클러스터 상태 문제를 해결해야 합니다.</block>
   <block id="51ea75317980f6158432ce49ef5cceec" category="list-text">각 문제에 대해 나열된 특정 KB 문서로 이동하거나 지정된 해결책을 수행합니다.</block>
   <block id="b4a0479be3c9adaef04f603fcfc17102" category="list-text">KB가 지정된 경우 관련 KB 문서에 설명된 프로세스를 완료합니다.</block>
-  <block id="e0a974ed061ce7c5412604f9ffd0d7f1" category="list-text">클러스터 문제를 해결한 후 필요한 경우 다시 인증한 다음 * Put} m./upgrades/{upgrade eId} * 를 클릭합니다.</block>
   <block id="c3b2d48205919d9b80e19bd9010720cc" category="list-text">요청서에 액션이력서 입력</block>
   <block id="15e4b27c3ddbd4f6284b6fb714f764c3" category="cell">유지 보수 기간이 종료되었거나 다른 이유로 업그레이드를 일시 중지해야 합니다.</block>
-  <block id="0e135e088b43aa91704312a156edb200" category="list-text">필요한 경우 재인증을 수행하고 * Put cer/upgrades/{upgrade eId} * 를 클릭합니다.</block>
   <block id="0f449201481f814f1674b02766850303" category="list-text">요청 본문에 ""동작":"일시정지""를 입력합니다.</block>
   <block id="ecfc48ecc069bce7a3654faa3d90f6ba" category="cell">11.8 이전의 Element 버전을 실행하는 H610S 클러스터를 업그레이드하는 경우 응답 본문에 "finishedNeedsAck" 상태가 표시됩니다. 각 H610S 스토리지 노드에 대해 추가 업그레이드 단계(2단계)를 수행해야 합니다.</block>
   <block id="8d00e90838fe38374a95fae1a5bd94ba" category="list-text">을 참조하십시오 <block ref="3d9982c2d057e73df2291b5532839d41" category="inline-xref-macro-rx"></block> 각 노드에 대해 프로세스를 완료합니다.</block>
@@ -1294,10 +1271,8 @@
   <block id="05e1370c6bc841bbf10001b3bec41c0e" category="paragraph">업그레이드 중에 오류가 발생하지 않으면 상태 는 실행 중(Running)을 나타냅니다. 각 노드가 업그레이드되면 'tep' 값이 'NodeFinished'로 변경됩니다.</block>
   <block id="78cd54a4d18290c804697177cdb2c7d2" category="paragraph">%가 100이고 '상태'가 '완료'로 표시되면 업그레이드가 성공적으로 완료된 것입니다.</block>
   <block id="4aa7e58f0a7559374030bc4b4edc1666" category="section-title">NetApp 하이브리드 클라우드 제어를 사용하여 업그레이드에 실패할 경우 어떻게 됩니까</block>
-  <block id="040af7d9887fb746157cd389ac859b84" category="paragraph">업그레이드 중 드라이브 또는 노드에 장애가 발생할 경우 Element UI에 클러스터 장애가 표시됩니다. 업그레이드 프로세스가 다음 노드로 진행되지 않고 클러스터 오류가 해결될 때까지 대기합니다. UI의 진행률 표시줄에 클러스터 오류가 해결될 때까지 업그레이드가 기다리고 있음을 나타냅니다. 이 단계에서 UI에서 * Pause * 를 클릭하면 업그레이드가 클러스터가 정상 상태가 될 때까지 대기하므로 작동하지 않습니다. 장애 조사를 돕기 위해 NetApp Support에 문의해야 합니다.</block>
   <block id="1cf53d88c6420f1bec01b7ed2be5647b" category="paragraph">NetApp 하이브리드 클라우드 제어에는 3시간의 사전 설정 대기 시간이 있으며, 그 동안 다음 시나리오 중 하나가 발생할 수 있습니다.</block>
   <block id="dc10d6ac703c7987da8e206f17bfba19" category="list-text">3시간 이내에 클러스터 장애가 해결되고 업그레이드가 재개됩니다. 이 시나리오에서는 어떠한 조치도 취할 필요가 없습니다.</block>
-  <block id="3cd1832a1bc7290b328be55ee5bd9b15" category="list-text">3시간 후에도 문제가 지속되고 업그레이드 상태가 빨간색 배너와 함께 * 오류 * 로 표시됩니다. 문제가 해결된 후 * Resume * 을 클릭하여 업그레이드를 다시 시작할 수 있습니다.</block>
   <block id="59176eee36815639c56b916d1ee6d2b9" category="list-text">NetApp 지원에 따라 3시간 이내에 수정 조치를 취하려면 업그레이드를 일시적으로 중단해야 한다고 판단했습니다. 지원 부서에서 API를 사용하여 업그레이드를 중단합니다.</block>
   <block id="e0cac02c93ade1b7ecc2eb64907171a8" category="admonition">노드가 업데이트되는 동안 클러스터 업그레이드를 중단하면 드라이브가 노드에서 올바르게 제거되지 않을 수 있습니다. 드라이브가 올바르게 제거되지 않은 경우 업그레이드 중에 드라이브를 다시 추가하려면 NetApp Support에서 수동으로 개입해야 합니다. 노드가 펌웨어 업데이트 또는 업데이트 동기화 후 작업을 수행하는 데 시간이 더 오래 걸릴 수 있습니다. 업그레이드 진행이 멈춘 것 같다면 NetApp Support에 지원을 문의하십시오.</block>
   <block id="f7cb949e38e4d529492a7a05aae8a9db" category="section-title">HealthTools를 사용하여 연결된 사이트에서 Element 소프트웨어를 업그레이드합니다</block>
@@ -1737,10 +1712,7 @@
   <block id="4946e18fada664601bd87ab0e6b0c461" category="admonition">2노드 스토리지 클러스터 구성이 여러 개 있는 경우 각 클러스터 구성이 자체 vCenter 내에 있으면 Witness 노드 상태 검사가 정확하게 보고되지 않을 수 있습니다. 따라서 ESXi 호스트를 업그레이드할 준비가 되면 업그레이드 중인 ESXi 호스트에서 Witness Node만 종료해야 합니다. 대체 방식으로 Witness 노드의 전원을 꺼서 NetApp HCI 설치 시 항상 Witness Node가 하나만 실행 중인지 확인해야 합니다.</block>
   <block id="807a82eaa952baafdd118220e7bd9abc" category="list-text">업그레이드 * 페이지에서 * 컴퓨팅 펌웨어 * 탭을 선택합니다.</block>
   <block id="baec6461b0d69dde1b861aefbe375d8a" category="inline-image-macro">아이콘을 클릭합니다</block>
-  <block id="1d7f9233eaf459ab8773ffdc120f9299" category="list-text">상태 점검을 클릭합니다 <block ref="121ad3230a694a5231762b0ae438963f" category="inline-image-macro-rx" type="image"></block> 업그레이드 준비 상태를 확인하려는 클러스터의 경우</block>
-  <block id="07dde9ecde11ddff0e6d3adeb5912040" category="list-text">Compute Health Check * 페이지에서 * Run Health Check * 를 클릭합니다.</block>
   <block id="9dd06da7bba13199d2ce351ef71c8f81" category="list-text">문제가 있는 경우 페이지에 보고서가 제공됩니다. 다음을 수행합니다.</block>
-  <block id="51e0b5f7cd91462d8704ed2fbefc7c23" category="list-text">클러스터 문제를 해결한 후 * 상태 점검 다시 실행 * 을 클릭합니다.</block>
   <block id="8406008ec259132ca12aa6e40ba20fdc" category="paragraph">상태 점검이 오류 없이 완료된 후 클러스터의 컴퓨팅 노드를 업그레이드할 준비가 되었습니다. 을 참조하십시오 <block ref="b3955269ff6e22f4641a814b8bc4ad1a" category="inline-link-macro-rx"></block> 를 눌러 계속합니다.</block>
   <block id="ba4923c590566e20d57f9e97c49c2ff8" category="section-title">펌웨어를 업그레이드하기 전에 API를 사용하여 컴퓨팅 노드 상태 점검을 실행하십시오</block>
   <block id="1c0df4b7a2bfcb9621c59f147066e174" category="paragraph">REST API를 사용하여 클러스터의 컴퓨팅 노드를 업그레이드할 준비가 되었는지 확인할 수 있습니다. 상태 점검은 ESXi 호스트 문제 또는 기타 vSphere 문제와 같이 업그레이드에 장애가 없는지 확인합니다. 사용자 환경의 각 컴퓨팅 클러스터에 대해 컴퓨팅 노드 상태 점검을 실행해야 합니다.</block>
@@ -1749,22 +1721,18 @@
   <block id="65c8e9fe3474b804ceb1cd31970c8897" category="list-text">값이 아직 채워지지 않은 경우 클라이언트 ID를 mnode-client로 입력합니다.</block>
   <block id="092f6d73fb496611eabb3ef3d72d6956" category="list-text">REST API UI에서 * Get Windows/Installations * 를 클릭합니다.</block>
   <block id="c5465f7c051351da994753292e14797a" category="list-text">코드 200 응답 본문에서 상태 점검을 위해 사용할 설치에 대한 " id ""를 복사합니다.</block>
-  <block id="5b821a129372830acc2e53cbb3e1c7ef" category="list-text">REST API UI에서 * get si./installationsi./{id} * 를 클릭합니다.</block>
   <block id="4b043557ff89a62c08b09b8f16a23974" category="list-text">설치 ID를 입력합니다.</block>
   <block id="8c886ce84885c8a2721f65882f2d383b" category="list-text">코드 200 응답 본문에서 다음 각 항목의 ID를 복사합니다.</block>
   <block id="632a4698933b6d6b19cf1a1a388ad19d" category="list-text">클러스터 ID(""clusterID"")</block>
   <block id="85d9602053913aad1469d6bdd1eb5122" category="list-text">컨트롤러 ID(""controllerId"")</block>
   <block id="9341fa848dbf3c45d93ddb4bcd4f87b7" category="list-text">클러스터의 컴퓨팅 노드에서 상태 점검을 실행합니다.</block>
   <block id="6b8f6e18b231bf99c6146439693599fc" category="list-text">관리 노드에서 컴퓨팅 서비스 REST API UI를 엽니다.</block>
-  <block id="1c8392f6269dece4f5a812199952157c" category="list-text">POST/computeeh./{controller_ID} hifx/health-checks * 를 클릭합니다.</block>
   <block id="383612ece420590514a7a698fb1a98a9" category="list-text">이전 단계에서 복사한 ""controllerId""를 * Controller_ID * 매개 변수 필드에 입력합니다.</block>
   <block id="745c554f364dd4daa431fff381f3de05" category="list-text">페이로드에서 이전 단계에서 복사한 "클러스터 ID"를 ""클러스터"" 값으로 입력하고 ""노드"" 매개 변수를 제거합니다.</block>
-  <block id="7560f9460b060c4ffb044041d8e94a93" category="list-text">클러스터에서 상태 점검을 실행하려면 * 실행 * 을 클릭합니다.</block>
   <block id="cfea934fc932560f7afc3e2599922d3c" category="paragraph">코드 200 응답은 상태 점검 결과를 확인하는 데 필요한 작업 ID가 추가된 ""ResourceLink"" URL을 제공합니다.</block>
   <block id="931943b9535da59244da338b2185e037" category="list-text">작업 결과를 확인하려면 ""ResourceLink"" URL의 작업 ID 부분을 복사하십시오.</block>
   <block id="878561216ecd51efeb5cc678630b708d" category="list-text">상태 점검 결과를 확인합니다.</block>
   <block id="b06d10a1c40d3224aea27fb57e7da834" category="list-text">관리 노드의 컴퓨팅 서비스 REST API UI로 돌아가기:</block>
-  <block id="f5c3fe94ef9bde0f45d3db6cb92cd149" category="list-text">get/computeh./tasks/{task_id} * 를 클릭합니다.</block>
   <block id="e3fd98fa7fa0ff1565dca452688be47f" category="list-text">"task_id" 매개 변수 필드에 * POST/computees./{controller_ID} health-checks * code 200 응답에서 ""ResourceLink"" URL의 작업 ID 부분을 입력합니다.</block>
   <block id="a833be2f413e0a1f40ebf4693762cf04" category="list-text">반환된 '상태'가 컴퓨팅 노드 상태에 문제가 있음을 나타내는 경우 다음을 수행합니다.</block>
   <block id="e62ae23ebffcac16bd140d14408fc2ad" category="list-text">각 문제에 대해 나열된 특정 KB 문서('KbLink')로 이동하거나 지정된 해결책을 수행합니다.</block>
@@ -1780,16 +1748,12 @@
   <block id="249694a485fc5d3289c38986b4f8e887" category="cell">클러스터</block>
   <block id="1cbc59a2e915aeee2a8b6232b7cbc105" category="cell">DRS를 켜고 완전히 자동화되었는지 확인하십시오.</block>
   <block id="a6b1609eef7bf18b35a56455ba310c97" category="inline-link-macro">이 KB를 참조하십시오</block>
-  <block id="0b106011e1401491ec50127e30824f65" category="cell"><block ref="201fe794fdd50313a29a863d464c6f9d" category="inline-link-macro-rx"></block>. 참고: 표준 라이센스가 있는 경우 ESXi 호스트를 유지 관리 모드로 전환하고 이 상태 점검 실패 경고를 무시하십시오.</block>
   <block id="d191d2b41df83d7ad4c364b26e4cccf9" category="cell">vSphere에서 DPM을 사용할 수 없습니까?</block>
   <block id="f1995ca709ae217fb7b4f19e32019b5e" category="cell">분산 전원 관리를 끕니다.</block>
-  <block id="08a23929aaacf7e0d9e33e75e2ce551e" category="cell"><block ref="1c3f7b674ad95e260e4a9227b78eaca2" category="inline-link-macro-rx"></block>.</block>
   <block id="30b17a95ef007789fd1a7823bbbab11f" category="cell">vSphere에서 HA 승인 제어가 비활성화됩니까?</block>
   <block id="fe7225ba05a4d8e53f2c5a206e3b3da0" category="cell">HA 승인 제어를 끕니다.</block>
-  <block id="991e2a38721c060dac31f1c6dc53b10c" category="cell"><block ref="49d99fd8ae721a33e2a0bd623d036691" category="inline-link-macro-rx"></block>.</block>
   <block id="83cafbf274b5abe9d9fd4e1e35f8f52a" category="cell">클러스터의 호스트에 있는 VM에 대해 FT가 활성화되어 있습니까?</block>
   <block id="31958364c116ad548060d5d6ba632424" category="cell">영향을 받는 모든 가상 시스템에서 내결함성 중지</block>
-  <block id="a5100508bd83e8e2af0136102d318f40" category="cell"><block ref="0c751f0aced803fc27338a967c0b48da" category="inline-link-macro-rx"></block>.</block>
   <block id="1019c395da73abf37e118c51b26fe8c5" category="cell">클러스터에 대한 vCenter에 위험 경보가 있습니까?</block>
   <block id="c7462ff7a8e00312bceaaafa2d1605c7" category="cell">계속하기 전에 vSphere를 시작하고 알림을 확인 및/또는 확인합니다.</block>
   <block id="1d0f735f7201abbac6d3ce3db73c7322" category="cell">문제 해결에 필요한 KB가 없습니다.</block>
@@ -1820,7 +1784,6 @@
   <block id="795c4d81c36fe966d72f9df190515945" category="cell">문제 해결에 필요한 KB가 없습니다. 을 참조하십시오 <block ref="2a07d7c13714741ba4b52577b79b7461" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="efa35e2a26c4b1293ce5278173656110" category="cell">클러스터에서 Witness 노드의 상태는 어떻습니까? 확인된 증인 노드 중 가동 및 실행 중인 노드가 없습니다.</block>
   <block id="661efa3329c18b8c1bf89a7159543aac" category="cell">대체 ESXi 호스트에서 Witness 노드가 실행되고 있지 않습니다. 대체 ESXi 호스트에서 Witness Node의 전원을 켜고 상태 점검을 다시 실행합니다. * 하나의 Witness Node는 HCI 설치에서 항상 실행되어야 합니다 *.</block>
-  <block id="7c8994da921faa4e84244cc696f272ce" category="cell"><block ref="7c8994da921faa4e84244cc696f272ce" category="inline-link-rx"></block></block>
   <block id="079adfadc2c43b45434eb8d256d2b33b" category="cell">클러스터에서 Witness 노드의 상태는 어떻습니까? 이 ESXi 호스트에서 감시 노드가 실행 중이며 대체 감시 노드가 실행 중이 아닙니다.</block>
   <block id="b21d5da6d770d534028a937df9e701e0" category="cell">대체 ESXi 호스트에서 Witness 노드가 실행되고 있지 않습니다. 대체 ESXi 호스트에서 Witness Node의 전원을 켭니다. 이 ESXi 호스트를 업그레이드할 준비가 되면 이 ESXi 호스트에서 실행 중인 감시 노드를 종료하고 상태 점검을 다시 실행합니다. * 하나의 Witness Node는 HCI 설치에서 항상 실행되어야 합니다 *.</block>
   <block id="84ed944f530bec821e980ba07fa756b9" category="cell">클러스터에서 Witness 노드의 상태는 어떻습니까? 감시 노드가 이 ESXi 호스트에서 실행 중이고 대체 노드가 작동 중이지만 동일한 ESXi 호스트에서 실행 중입니다.</block>
@@ -2639,7 +2602,6 @@
   <block id="e984e6e5e79a4f62c039f33332d1bc5b" category="list-text">삭제 작업을 확인하고 * 예 * 를 선택합니다.</block>
   <block id="e9af127a726ca755ecdd7c7247d97220" category="inline-link-macro">이니시에이터에 대해 자세히 알아보십시오</block>
   <block id="520e54b191d9f32833ed20cf5d810399" category="list-text"><block ref="520e54b191d9f32833ed20cf5d810399" category="inline-link-macro-rx"></block></block>
-  <block id="de7cc64e04028e029cdcba5bb94d3a0a" category="summary">NetApp HCI 또는 SolidFire 스토리지 시스템 업그레이드의 일환으로 NetApp Element 소프트웨어에 대한 상태 점검을 실행해야 합니다.</block>
   <block id="f5734d4e8acdeb186a1c22c351c4a0bf" category="paragraph">Element 스토리지를 업그레이드하기 전에 상태 점검을 실행하여 클러스터의 모든 스토리지 노드가 다음 Element 스토리지 업그레이드를 수행할 준비가 되었는지 확인해야 합니다.</block>
   <block id="a9665a647615566ad8a19d93fbf94aa9" category="list-text">최신 관리 서비스 번들(2.10.27 이상)으로 업데이트되었습니다.</block>
   <block id="1b4d7862ca62ac0691b197c1c4e48017" category="admonition">Element 소프트웨어를 업그레이드하기 전에 최신 관리 서비스 번들로 업그레이드해야 합니다.</block>
@@ -2705,7 +2667,6 @@
   <block id="7dffbd2f21931076fdb29acaf8ae26f0" category="list-text">응답에 설명된 지침을 따릅니다.</block>
   <block id="5415d26aa4e82d38e1a9e3b034df122a" category="section-title">관리 노드가 어두운 사이트에 있습니다</block>
   <block id="58bbc3933c0ddb7478a26f7552520e97" category="list-text">메시지를 검토하고 업그레이드 확인이 실패하는지 확인합니다.</block>
-  <block id="52ad9cf7578fff9e46bc67a65b3a38a5" category="list-text">를 다운로드합니다 <block ref="6a2e5ca01ea61ee7e7ab842e0ceb651a" category="inline-link-macro-rx"></block> 관리 노드가 아닌 컴퓨터의 NetApp 지원 사이트에서 'metadata.json'으로 이름을 바꿉니다.</block>
   <block id="337d79852891a37d41285c9101c3fff4" category="list-text">다음 명령을 실행합니다.</block>
   <block id="fcc491914f2a9b039c0cf0193fff10b3" category="list-text">자세한 내용은 추가 를 참조하십시오 <block ref="6108af9ca5aa4fda7c0167fbe5ccda18" category="inline-link-macro-rx"></block> 어두운 사이트에 대한 정보입니다.</block>
   <block id="611547aaaf1aef29fd97e330f0d053dc" category="list-text">다음 명령을 실행하여 HealthTools 제품군이 최신 상태인지 확인합니다.</block>
@@ -2777,7 +2738,6 @@
   <block id="8fc04a8e11ea6436ee0a878e99ffaaff" category="paragraph">업그레이드 후 컴퓨팅 노드가 ESXi로 부팅되고 이전과 같이 작동하므로 구성이 유지됩니다.</block>
   <block id="67c28390ec59a86cf6eef633a3248a0e" category="inline-link-macro">컴퓨팅 노드 펌웨어 릴리스 정보</block>
   <block id="c9dd6bad4c7d561872f2e2d498a990bf" category="inline-link">상호 운용성 매트릭스 툴(IMT)</block>
-  <block id="3195f97b6cdf919c06b94918169aaaf6" category="list-text">* 컴퓨팅 드라이버 *: 컴퓨팅 노드 드라이버를 업그레이드했습니다. 컴퓨팅 노드 드라이버가 새 펌웨어와 호환되지 않으면 업그레이드가 시작되지 않습니다. 를 참조하십시오<block ref="3028580b30f2b1d483aad9f9a7a65c7a" category="inline-link-rx"></block> 드라이버 및 펌웨어 호환성 정보를 확인하고 최신 버전을 확인하십시오 <block ref="8e52b55ffa3dd99e7231384e5c6e0fa1" category="inline-link-macro-rx"></block> 최신 펌웨어 및 드라이버 세부 정보를 제공합니다.</block>
   <block id="3b91723b8891cf7744d215242975ffa1" category="list-text">* 관리자 권한 *: 업그레이드를 수행할 수 있는 클러스터 관리자 및 BMC 관리자 권한이 있습니다.</block>
   <block id="0f7fc058ffe4e473e69ea8b600e3ea58" category="list-text">* 최소 BMC 및 BIOS 버전 *: NetApp 하이브리드 클라우드 제어를 사용하여 업그레이드하려는 노드는 다음과 같은 최소 요구사항을 충족합니다.</block>
   <block id="a559b87068921eec05086ce5485e9784" category="cell">모델</block>
@@ -2795,9 +2755,7 @@
   <block id="590f0f5145e5d58d73d507c6a67aa0b2" category="admonition">H615C 컴퓨팅 노드는 를 사용하여 BMC 펌웨어를 버전 4.68로 업데이트해야 합니다 <block ref="c58be2f499a493f0490ff81a29aa7beb" category="inline-link-macro-rx"></block> NetApp 하이브리드 클라우드 제어에서 향후 펌웨어 업그레이드를 수행할 수 있도록 지원합니다.</block>
   <block id="ae6346ffcf8868be71ccf7393c359eb7" category="admonition">NetApp 하이브리드 클라우드 제어에서 향후 펌웨어 업그레이드를 수행하려면 H300E, H500E 및 H700E 컴퓨팅 노드에 Redfish 라이센스가 필요합니다. 새로운 컴퓨팅 펌웨어 번들이 후속 릴리즈에서 이 프로세스를 자동화할 때까지 NetApp 지원에 연락하여 라이센스를 수동으로 설치하십시오.</block>
   <block id="7389b01d5fe0e17f5523a7fb85295f91" category="inline-link">이 KB 문서를 참조하십시오</block>
-  <block id="1713d181b21d6c0fe093728a7e13a24e" category="admonition">하드웨어의 펌웨어 및 드라이버 펌웨어의 전체 매트릭스는 을 참조하십시오<block ref="fc24ec3d1e44bf8a2f61224d71bc24a8" category="inline-link-rx"></block> (로그인 필요).</block>
   <block id="92a2b5cb9c6906035c2864fa225e1940" category="inline-link-macro">기사</block>
-  <block id="321b344486a7f135fdd502e95923f7cd" category="list-text">BIOS 부트 순서 *: 부트 목록에 'USB CD/DVD'가 표시되도록 각 노드의 BIOS 설정에서 부트 순서를 수동으로 변경합니다. 자세한 내용은 다음을 참조하십시오 <block ref="bf0d685451f26fbf320f656cde8e05a9" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="71ff71526d15db86eb50fcac245d183b" category="inline-link-macro">UI</block>
   <block id="db974238714ca8de634a7ce1d083a14f" category="inline-link-macro">API를 참조하십시오</block>
   <block id="a0eadab1ec17be36511ca995d844ebaa" category="list-text">* BMC 자격 증명 *: NetApp Hybrid Cloud Control에서 컴퓨팅 노드 BMC에 연결하는 데 사용하는 자격 증명을 업데이트합니다. NetApp 하이브리드 클라우드 제어를 사용하면 이러한 작업을 수행할 수 있습니다 <block ref="68c20b51b9ac5e7df85517007b658e2f" category="inline-link-macro-rx"></block> 또는 <block ref="3c5e4db962920c879b083f5ee44c9cb7" category="inline-link-macro-rx"></block>. 업그레이드 전에 BMC 정보를 업데이트하면 인벤토리가 새로 고쳐지고 관리 노드 서비스가 업그레이드를 완료하는 데 필요한 모든 하드웨어 매개 변수를 인식하게 됩니다.</block>
@@ -2808,7 +2766,6 @@
   <block id="e32fcfe10328af0f3217cd5ddb0808a4" category="paragraph">운영 환경에서는 컴퓨팅 노드 한 번에 펌웨어를 업그레이드할 수 있습니다.</block>
   <block id="344e78ec2ad025d33ea36041579f298c" category="inline-link-macro">ESXi 호스트에서 잠금 모드를 해제하는 방법</block>
   <block id="51e2f064fae02b78d50335320fa64dee" category="inline-link-macro">VMware 잠금 모드 동작</block>
-  <block id="edd8b3282549ec1d6dc78d1eb7e1c40e" category="admonition">상태 점검을 실행하고 펌웨어 업그레이드를 진행하기 전에 ESXi 호스트를 잠금 모드에서 해제해야 합니다. 을 참조하십시오 <block ref="fb19a39b93a06583d5a94b26b178d3e3" category="inline-link-macro-rx"></block> 및 <block ref="53ad52678690a80a10338f589ef87ae4" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="565ec7586d772ac9b8a3401217ae8135" category="paragraph">NetApp 하이브리드 클라우드 제어 UI 또는 API 업그레이드의 경우, DRS 기능이 있고 필요한 라이센스가 있는 경우 업그레이드 프로세스 중에 ESXi 호스트가 자동으로 유지 관리 모드로 전환됩니다. 노드가 재부팅되고 업그레이드 프로세스가 완료되면 ESXi 호스트가 유지 관리 모드에서 제외됩니다. USB 및 BMC UI 옵션의 경우 각 절차에 설명된 대로 ESXi 호스트를 유지 관리 모드로 수동으로 배치해야 합니다.</block>
   <block id="97b77951b2d4eaea0f64d30f79d9ee22" category="admonition">업그레이드하기 전에 현재 ESXi 드라이버 버전을 확인하십시오. 드라이버가 최신 버전이 아니면 먼저 드라이버를 업그레이드하십시오. 그런 다음 컴퓨팅 노드의 컴퓨팅 펌웨어를 업그레이드합니다.</block>
   <block id="24aff39b6c002fcae2afa707e6dba7be" category="paragraph">업그레이드 시나리오와 관련된 옵션을 선택합니다.</block>
@@ -2828,16 +2785,12 @@
   <block id="fa7063e93d956bc8344f5540bf669b09" category="list-text">업그레이드할 클러스터를 선택합니다.</block>
   <block id="1051fa9779041ad6e9ee3beab1a5804e" category="paragraph">업그레이드할 수 있는 경우 클러스터에 있는 노드가 현재 펌웨어 버전 및 최신 버전과 함께 표시됩니다.</block>
   <block id="1ec7d94e055dd1b38fea54a8c52a7107" category="list-text">업그레이드 패키지를 선택합니다.</block>
-  <block id="f5a8a4afc9bf10ecf273f4a23cfb65e2" category="paragraph">업그레이드 시작 * 을 클릭하면 창에 실패한 상태 검사가 표시됩니다(있는 경우).</block>
   <block id="a3341b6eded1e35dfa9b561f8a07b57d" category="admonition">시작한 후에는 업그레이드를 일시 중지할 수 없습니다. 펌웨어는 NIC, BIOS 및 BMC 순서로 순차적으로 업데이트됩니다. 업그레이드 중에는 BMC UI에 로그인하지 마십시오. BMC에 로그인하면 업그레이드 프로세스를 모니터링하는 하이브리드 클라우드 제어 SOL(Serial-over-LAN) 세션이 종료됩니다.</block>
-  <block id="45ad41240a82d6ed24a2dabee37f2a5a" category="list-text">클러스터 또는 노드 레벨의 상태 점검이 경고와 함께 통과되었지만 심각한 오류가 없는 경우 * 업그레이드 준비 완료 * 가 표시됩니다. 업그레이드 노드 * 를 클릭합니다.</block>
   <block id="576792eafbabeb08a721725d8cd7f8c5" category="admonition">업그레이드가 진행되는 동안 페이지를 종료하고 나중에 다시 돌아와 진행 상황을 계속 모니터링할 수 있습니다. 업그레이드 중에 UI에 업그레이드 상태에 대한 다양한 메시지가 표시됩니다.</block>
   <block id="79df72a933d3593ef7d9131e8d7c509c" category="admonition">H610C 및 H615S 컴퓨팅 노드에서 펌웨어를 업그레이드하는 동안 BMC 웹 UI를 통해 SOL(Serial-over-LAN) 콘솔을 열지 마십시오. 이로 인해 업그레이드에 실패할 수 있습니다.</block>
   <block id="f018c25e2ba6e7d9e59d6f27fbefc1d1" category="paragraph">업그레이드가 완료된 후 UI에 메시지가 표시됩니다. 업그레이드가 완료된 후 로그를 다운로드할 수 있습니다.</block>
-  <block id="c0b4c391ffe1e98755b4499ece43961c" category="list-text">에서 다운로드한 업그레이드 패키지를 업로드하려면 * 찾아보기 * 를 클릭합니다<block ref="132031089c33792b234781a9d8501a93" category="inline-link-rx"></block>.</block>
   <block id="67986ad534a347b7de1afe60bc4bad42" category="admonition">브라우저 창에서 멀리 이동하면 백그라운드에서 파일 업로드가 수행됩니다.</block>
   <block id="21ab535a80a78a0fb75c944c402b4134" category="paragraph">파일이 성공적으로 업로드 및 확인되면 화면에 메시지가 표시됩니다. 정품 확인에 몇 분 정도 걸릴 수 있습니다. 업그레이드가 완료된 후 로그를 다운로드할 수 있습니다. 다양한 업그레이드 상태 변경에 대한 자세한 내용은 을 참조하십시오 <block ref="963ffe23b927e51707381f60a050d9f4" category="inline-xref-macro-rx"></block>.</block>
-  <block id="46edf9490e1c2c1a395b8706b759f2af" category="admonition">업그레이드 중에 장애가 발생할 경우 NetApp 하이브리드 클라우드 제어에서 노드를 재부팅하고 유지보수 모드에서 벗어난 다음 오류 로그에 대한 링크를 표시하여 장애 상태를 표시합니다. 특정 지침 또는 KB 문서 링크가 포함된 오류 로그를 다운로드하여 문제를 진단하고 해결할 수 있습니다. NetApp 하이브리드 클라우드 제어를 사용하는 컴퓨팅 노드 펌웨어 업그레이드 문제에 대한 자세한 내용은 다음을 참조하십시오 <block ref="6f5a5b0da22050fc7aaf44daa977b489" category="inline-link-macro-rx"></block> 기사.</block>
   <block id="eebe4635b143ec06c3d82067486e5631" category="paragraph">업그레이드 프로세스 전, 도중 및 이후에 UI에 표시되는 다양한 상태는 다음과 같습니다.</block>
   <block id="cfe0f5606d79e2e4c6bbb68f7ed24315" category="cell">노드가 하나 이상의 상태 확인에 실패했습니다. 세부 정보를 보려면 확장합니다.</block>
   <block id="7fbb279da47cc6249b548441f8eeef5a" category="cell">하나 이상의 상태 검사에 실패했습니다.</block>
@@ -2846,7 +2799,6 @@
   <block id="f978a6c0248c217a81017210bb0a3fb6" category="cell">업그레이드할 준비가 되었습니다.</block>
   <block id="ccfdf7f17010a61d70b1bbebffca8da7" category="cell">모든 상태 검사가 성공적으로 완료되었으며 노드를 업그레이드할 준비가 되었습니다.</block>
   <block id="41a328f03550f94c63742812c6e33bab" category="cell">업그레이드 중 오류가 발생했습니다.</block>
-  <block id="23849adf280d8705a61ef2dd0492aba0" category="cell">심각한 오류가 발생하면 이 알림과 함께 업그레이드가 실패합니다. 오류 해결을 위해 * 로그 다운로드 * 링크를 클릭하여 로그를 다운로드합니다. 오류를 해결한 후 업그레이드를 다시 시도할 수 있습니다.</block>
   <block id="358c081d3609c99cc65d904871da499d" category="cell">노드 업그레이드가 진행 중입니다.</block>
   <block id="54011adfa7bb72ee88b88d3ba0d26d4e" category="cell">업그레이드가 진행 중입니다. 진행 표시줄에 업그레이드 상태가 표시됩니다.</block>
   <block id="819180dac1edd7f3ad94afb1cd39ecc4" category="section-title">NetApp 하이브리드 클라우드 제어 API를 사용하여 컴퓨팅 노드를 업그레이드하십시오</block>
@@ -2854,37 +2806,29 @@
   <block id="571ebba046dfc62ef7155919bf315d2d" category="paragraph">vCenter 및 하드웨어 자산을 비롯한 컴퓨팅 노드 자산을 관리 노드 자산이라고 합니다. 재고 서비스 API를 사용하여 자산을 확인할 수 있습니다('https://&lt;ManagementNodeIP&gt;/inventory/1/`).</block>
   <block id="689c642c94aa6268a48bbbc19bb529c5" category="list-text">관리 노드에서 패키지 서비스 REST API UI를 엽니다.</block>
   <block id="325b3df765685b8bf7d0a291e60ff0d7" category="list-text">응답에서 업그레이드 패키지 이름(""packageName"")과 패키지 버전(""packageVersion")을 복사하여 나중에 사용할 수 있도록 저장합니다.</block>
-  <block id="6d766ad7112c950eb04002ef1c7fc39c" category="list-text">NetApp HCI 소프트웨어로 이동합니다<block ref="3dffc4c3eb8dd9089d721ea160bd23f1" category="inline-link-rx"></block> 최신 컴퓨팅 노드 펌웨어 이미지를 관리 노드에서 액세스할 수 있는 디바이스에 다운로드합니다.</block>
   <block id="6020d7988dfd2e648ba586d737e1f210" category="list-text">컴퓨팅 펌웨어 업그레이드 패키지를 관리 노드에 업로드합니다.</block>
   <block id="62924c929d970628e011c457f2df9215" category="list-text">응답에서 업그레이드 패키지 이름("이름")과 패키지 버전("버전")을 복사하여 나중에 사용할 수 있도록 저장합니다.</block>
   <block id="a73185557316cb4d3140159601de085c" category="list-text">업그레이드하려는 노드의 컴퓨팅 컨트롤러 ID 및 노드 하드웨어 ID를 찾습니다.</block>
   <block id="c1b6479fd9c7db0471ff4d500bfa314c" category="list-text">응답에서 클러스터 컨트롤러 ID(""controllerId"") 및 노드 하드웨어 ID(""hardwareId"")를 복사하여 나중에 사용할 수 있도록 저장합니다.</block>
   <block id="41bae0332cd621d5a87b2f4d2ae66dbd" category="list-text">컴퓨팅 노드 펌웨어 업그레이드를 실행합니다.</block>
-  <block id="8ef0a6dd93d520c0c6fe91d91ff2a0a0" category="list-text">POST/nodes/{hardware_id}/upgrades * 를 클릭합니다.</block>
   <block id="9a1357e1e71579f662d24d17aed1a23a" category="list-text">매개변수 필드에 하드웨어 호스트 자산 ID("하드웨어 ID""이전 단계에서 저장한")를 입력합니다.</block>
   <block id="7271267de19060ea8c43031aa1e16351" category="list-text">페이로드 값을 사용하여 다음을 수행합니다.</block>
   <block id="951849308163feee05b1b4f669f83c91" category="list-text">노드에서 상태 점검이 수행되고 ESXi 호스트가 유지 보수 모드로 설정되도록 값 ""force":false" 및 ""maintenanceMode":true""를 유지합니다.</block>
   <block id="8e9b8402fc729e5b8cf2e9a5e6d1f4a7" category="list-text">이전 단계에서 저장한 클러스터 컨트롤러 ID("controllerId")를 입력합니다.</block>
   <block id="898aa9fbdeaf861f6b63c3aee3dcac0a" category="list-text">이전 단계에서 저장한 패키지 이름 및 패키지 버전을 입력합니다.</block>
   <block id="c658aaae7b770a779963c2f0814f7b97" category="list-text">응답에서 리소스 링크(""ResourceLink") URL의 일부인 업그레이드 작업 ID를 복사합니다.</block>
-  <block id="727f7564461107301e77c148e46ff7ec" category="list-text">Get/task/{task_id}/logs * 를 클릭합니다.</block>
   <block id="41ae3303c96aa0617f8cdc8eaf5eacba" category="list-text">작업 ID * 에 이전 단계의 작업 ID를 입력합니다.</block>
-  <block id="4cf61591dd43b980bc04125e0b5ea270" category="list-text">클러스터 문제를 해결한 후 필요한 경우 다시 인증하고 * POST/nodes/{hardware_id}/upgrades * 를 클릭합니다.</block>
   <block id="6fc04e69abf4e1a97cbcb23fdcde3485" category="list-text">앞서 업그레이드 단계에서 설명한 단계를 반복합니다.</block>
   <block id="c4b11491ff82324ef6528926fdb97efb" category="cell">업그레이드에 실패하고 업그레이드 로그에 완화 단계가 나열되지 않습니다.</block>
-  <block id="ee5fbad85baa7771ef1a6095bdff51ac" category="inline-link">KB 문서(로그인 필요</block>
-  <block id="cfed35538c68f486e81d90b69c20d751" category="list-text">자세한 내용은 다음을 참조하십시오<block ref="38a16d57c78bb3b918105079b6305af4" category="inline-link-rx"></block>)를 클릭합니다.</block>
   <block id="76ebc3a73437f302f36ef1432523633d" category="list-text">필요한 경우 프로세스가 완료될 때까지 * Get 횟수/작업/{task_id}/logs * API를 여러 번 실행합니다.</block>
   <block id="8db93f67ae0c4a59be8d38cb28cd9964" category="paragraph">업그레이드 중에 오류가 발생하지 않으면 상태 는 실행 중(Running)을 나타냅니다. 각 단계가 끝나면 '상태' 값이 '완료됨'으로 바뀝니다.</block>
   <block id="42b05f11767800e8781ed3667e5bc181" category="paragraph">각 단계의 상태가 완료됨이고 percentageCompleted 값이 100이면 업그레이드가 성공적으로 완료된 것입니다.</block>
   <block id="7f42ec43a3a2d2efea9a00b87242c0cb" category="list-text">(선택 사항) 각 구성 요소에 대해 업그레이드된 펌웨어 버전을 확인합니다.</block>
-  <block id="9601fe12fef1f9fad33378b6a920c4ed" category="list-text">REST API UI에서 * get si./nodescib/{hardware_id} synx/upgrades * 를 클릭합니다.</block>
   <block id="4b441364b36bb6f4c7b059dcc366682f" category="list-text">(선택 사항) 날짜 및 상태 매개 변수를 입력하여 결과를 필터링합니다.</block>
   <block id="cc0bc3ddeb0e718be7e738b95d572af9" category="list-text">모든 구성 요소의 펌웨어가 이전 버전에서 최신 펌웨어로 성공적으로 업그레이드되었다는 응답에서 확인합니다.</block>
   <block id="c4c5c223d03335842a4306d18b9fe4c8" category="section-title">최신 컴퓨팅 노드 펌웨어 번들 ISO로 이미지화된 USB 드라이브를 사용합니다</block>
   <block id="f67b6a10eef3ca58e647dda805d94d0f" category="paragraph">최신 컴퓨팅 노드 펌웨어 ISO가 다운로드된 USB 드라이브를 컴퓨팅 노드의 USB 포트에 삽입할 수 있습니다. 이 절차에서 설명하는 USB 썸 드라이브 방법을 사용하는 대신 BMC(베이스보드 관리 컨트롤러) 인터페이스의 가상 콘솔에 있는 * 가상 CD/DVD * 옵션을 사용하여 컴퓨팅 노드에 ISO를 마운트할 수 있습니다. BMC 방법은 USB 썸 드라이브 방식보다 훨씬 오래 걸립니다. 워크스테이션 또는 서버에 필요한 네트워크 대역폭이 있는지, 그리고 BMC와 브라우저 세션이 시간 초과되지 않는지 확인합니다.</block>
   <block id="66049ae453415635891440129594baf4" category="inline-link">NetApp 소프트웨어 다운로드</block>
-  <block id="9ac20456749c4139e1523f9c809e62f9" category="list-text">로 이동합니다<block ref="0330f2661c7496a0691699dabbb8c3be" category="inline-link-rx"></block> 페이지에서 * NetApp HCI * 를 클릭하고 올바른 버전의 NetApp HCI에 대한 다운로드 링크를 클릭합니다.</block>
   <block id="fdb5d17e28db94dde362ad7ba5b0d662" category="list-text">최종 사용자 사용권 계약에 동의합니다.</block>
   <block id="b36befe8937b455a62256bcdbd1761e1" category="list-text">컴퓨팅 및 스토리지 노드 * 섹션에서 컴퓨팅 노드 이미지를 다운로드합니다.</block>
   <block id="6b42b239fce8e2fd9ba87948604faced" category="list-text">Etcher 유틸리티를 사용하여 컴퓨팅 노드 펌웨어 ISO를 USB 드라이브로 플래시합니다.</block>
@@ -2910,28 +2854,19 @@
   <block id="9348cc4ca180e752af9a30b1d8edd48a" category="list-text">노드가 클러스터의 일부인 경우 다음과 같이 유지보수 모드로 전환합니다. 그렇지 않으면 2단계로 건너뜁니다.</block>
   <block id="8561216c60b15334923d6df7a3a507ea" category="list-text">VMware vCenter 웹 클라이언트에 로그인합니다.</block>
   <block id="0006dbea26c0768b7eb409a4548b0d78" category="list-text">호스트(컴퓨팅 노드) 이름을 마우스 오른쪽 버튼으로 클릭하고 * Maintenance Mode &gt; Enter Maintenance Mode * 를 선택합니다.</block>
-  <block id="b564a6ce3dee2108fea4fb751c62e7e7" category="list-text">확인 * 을 클릭합니다. 호스트의 VM이 사용 가능한 다른 호스트로 마이그레이션됩니다. VM 마이그레이션은 마이그레이션해야 하는 VM 수에 따라 시간이 걸릴 수 있습니다.</block>
   <block id="56f11fa64f88708e12f86525e1f10c60" category="admonition">계속하기 전에 호스트의 모든 VM이 마이그레이션되었는지 확인합니다.</block>
   <block id="7766a6f95761106ad6d741a6947ad460" category="list-text">BMC UI인 https://BMCIP/#login` 으로 이동합니다. 여기서 BMCIP는 BMC의 IP 주소입니다.</block>
   <block id="7f9391befb5b4ab3aa0261d24fee724f" category="list-text">자격 증명을 사용하여 로그인합니다.</block>
   <block id="f60400fe89867cd8c8b3e1095fa53a2b" category="list-text">Remote Control &gt; Console Redirection * 을 선택합니다.</block>
-  <block id="5ff6ac28d71a37b48ebf68885d910712" category="list-text">Launch Console * 을 클릭합니다.</block>
   <block id="593b9eacda7134868a2d80ea3c474ec6" category="admonition">Java를 설치하거나 업데이트해야 할 수 있습니다.</block>
-  <block id="ff29c984a76445cda8cc1b46df7124f4" category="list-text">콘솔이 열리면 * 가상 미디어 &gt; 가상 스토리지 * 를 클릭합니다.</block>
-  <block id="52445d4eb11fcdc510107a453f1dc72b" category="list-text">가상 스토리지 * 화면에서 * 논리 드라이브 유형 * 을 클릭하고 * ISO 파일 * 을 선택합니다.</block>
   <block id="46da4b73e077041d82cbd4b49b3a2a45" category="inline-image-macro">ISO 파일을 선택할 수 있는 탐색 경로를 표시합니다.</block>
   <block id="88bfc9e47329ab3d571f1872dc37c1fb" category="paragraph"><block ref="88bfc9e47329ab3d571f1872dc37c1fb" category="inline-image-macro-rx" type="image"></block></block>
-  <block id="f769a704ec825d9662c82099fa7809df" category="list-text">이미지 열기 * 를 클릭하여 ISO 파일을 다운로드한 폴더를 찾은 다음 ISO 파일을 선택합니다.</block>
-  <block id="b0a233c15d1b5b7d8464d9c89b5ea838" category="list-text">플러그인 * 을 클릭합니다.</block>
-  <block id="02f900a59043e0983b47748ad26aa402" category="list-text">연결 상태가 Device#: VM Plug-in OK!!"로 표시되면 * OK * 를 클릭합니다.</block>
-  <block id="99a5f3ec864d680e99b59d4d83f73238" category="list-text">F12 * 를 누르고 * 재시작 * 을 클릭하거나 * 전원 제어 &gt; 전원 재설정 설정 * 을 클릭하여 노드를 재부팅합니다.</block>
   <block id="b96987f61d66ba1db77d5b4f1783876a" category="list-text">재부팅 중에 * F11 * 을 눌러 부팅 옵션을 선택하고 ISO를 로드합니다. 부팅 메뉴가 표시되기 전에 F11 키를 여러 번 눌러야 할 수 있습니다.</block>
   <block id="a69d47f968d2fc21fb9cdec24acfbe9a" category="paragraph">다음 화면이 표시됩니다.</block>
   <block id="d0ed128bd3c8c20ecdc5eb6ff37f7d5a" category="inline-image-macro">가상 ISO가 부팅되는 화면을 표시합니다.</block>
   <block id="64db04a065fe8c5683677bfa2a4efcff" category="paragraph"><block ref="64db04a065fe8c5683677bfa2a4efcff" category="inline-image-macro-rx" type="image"></block></block>
   <block id="04b5db58b14ac00557c12b22488da4a9" category="list-text">위 화면에서 * Enter * 를 누릅니다. 네트워크에 따라 * Enter * 를 눌러 업그레이드를 시작한 후 몇 분 정도 걸릴 수 있습니다.</block>
   <block id="c61e49078f881925dbdfe8eb0ca8d922" category="admonition">일부 펌웨어 업그레이드로 인해 콘솔의 연결이 끊기거나 BMC의 세션 연결이 끊길 수 있습니다. BMC에 다시 로그인할 수 있지만 펌웨어 업그레이드로 인해 콘솔과 같은 일부 서비스를 사용하지 못할 수 있습니다. 업그레이드가 완료된 후 노드는 콜드 재부팅을 수행하며, 이는 약 5분이 걸릴 수 있습니다.</block>
-  <block id="c8b495fc4ec38fe576323036df4f4062" category="list-text">BMC UI에 다시 로그인하고 * System * 을 클릭하여 OS로 부팅한 후 BIOS 버전과 빌드 시간을 확인합니다. 업그레이드가 올바르게 완료되면 새 BIOS 및 BMC 버전이 표시됩니다.</block>
   <block id="c0d2845b5e57dd0d6b0732369c810c73" category="admonition">BIOS 버전은 노드가 완전히 부팅될 때까지 업그레이드된 버전을 표시하지 않습니다.</block>
   <block id="4b700a11c4dc15bc2c44032b82a6221f" category="list-text">노드가 클러스터의 일부인 경우 다음 단계를 수행하십시오. 독립 실행형 노드인 경우 추가 작업이 필요하지 않습니다.</block>
   <block id="6559f407fcadf1c3e1b80127774db925" category="list-text">호스트를 유지 관리 모드에서 해제합니다. 연결이 끊어진 빨간색 플래그가 표시될 수 있습니다. 모든 상태가 지워질 때까지 기다립니다.</block>
@@ -2939,18 +2874,11 @@
   <block id="d9007dd2676748983c400ce8ca221bb7" category="section-title">H610C/H615C 노드에서 펌웨어를 업그레이드합니다</block>
   <block id="e2cec94acacbfde7b552c83c32e84744" category="paragraph">이 단계는 노드가 독립 실행형인지 또는 클러스터의 일부인지에 따라 다릅니다. 이 절차는 약 25분 정도 소요될 수 있으며, 노드 전원을 끄고, ISO를 업로드하고, 장치를 플래싱하고, 업그레이드 후 노드 전원을 다시 켜는 작업이 포함됩니다.</block>
   <block id="ae2e167448f73cc45a857eeed2a38a45" category="list-text">BMC UI인 https://BMCIP/#login` 으로 이동합니다. 여기서 BMC IP는 BMC의 IP 주소입니다.</block>
-  <block id="80877029ef9b9693657b05001c6465aa" category="list-text">원격 제어 &gt; KVM(Java) 시작 * 을 클릭합니다.</block>
-  <block id="b95b1397016fbe0ae54b9e1391e3b295" category="list-text">콘솔 창에서 * 미디어 &gt; 가상 미디어 마법사 * 를 클릭합니다.</block>
   <block id="1d622834b8e28acedd0c470eff5709f7" category="image-alt">BMC UI에서 가상 미디어 마법사를 시작합니다.</block>
-  <block id="8a44ecefdd60a05cf41c9c1fbc04efbe" category="list-text">찾아보기 * 를 클릭하고 컴퓨팅 펌웨어 ".iso" 파일을 선택합니다.</block>
-  <block id="478d61e686778ff42217703865c18cb8" category="list-text">연결 * 을 클릭합니다. 하단의 경로 및 장치와 함께 성공 여부를 나타내는 팝업이 표시됩니다. Virtual Media* 창을 닫을 수 있습니다.</block>
   <block id="e3e72bb291b26812bea6d962e4866dab" category="image-alt">ISO 업로드 성공을 보여주는 팝업 창.</block>
   <block id="7edcc1835a80e09463c4bf3b46c42cc0" category="list-text">재부팅 중에 * F11 * 을 눌러 부팅 옵션을 선택하고 ISO를 로드합니다.</block>
-  <block id="2c5dad6825fb78e8a81becbffdc64362" category="list-text">표시된 목록에서 * AMI Virtual CDROM * 을 선택하고 * Enter * 를 클릭합니다. 목록에 AMI 가상 CDROM이 표시되지 않으면 BIOS로 이동하여 부팅 목록에서 활성화하십시오. 저장한 후에 노드가 재부팅됩니다. 재부팅 중에 * F11 * 을 누릅니다.</block>
   <block id="b6c3b9c6bed53710f2cbf2c4dad9c6ef" category="image-alt">부팅 장치를 선택할 수 있는 창이 표시됩니다.</block>
-  <block id="549c7be30acce7ebed2ee3ae3dc6de07" category="list-text">표시된 화면에서 * Enter * 를 클릭합니다.</block>
   <block id="38b1366a8da5dc836d161c511ddcb3a8" category="admonition">일부 펌웨어 업그레이드로 인해 콘솔의 연결이 끊기거나 BMC의 세션 연결이 끊길 수 있습니다. BMC에 다시 로그인할 수 있지만 펌웨어 업그레이드로 인해 콘솔과 같은 일부 서비스를 사용하지 못할 수 있습니다. 업그레이드가 완료된 후 노드는 콜드 재부팅을 수행하며, 이는 약 5분이 걸릴 수 있습니다.</block>
-  <block id="276df6f2cf89a24bf42cdb497efac803" category="list-text">콘솔에서 연결이 끊어지면 * 원격 제어 * 를 선택하고 * KVM * 실행 또는 * KVM(Java) 시작 * 을 클릭하여 다시 연결하고 노드 부팅이 끝났는지 확인합니다. 노드가 성공적으로 부팅되었는지 확인하려면 여러 번 다시 연결해야 할 수 있습니다.</block>
   <block id="2558425336b0f6c46dd76c2ddacfe150" category="admonition">전원이 켜지는 동안 약 5분 동안 KVM 콘솔에 * 신호 없음 * 이 표시됩니다.</block>
   <block id="983386544e3658c647474bfcbcb7bb36" category="list-text">노드의 전원을 켠 후 * 대시보드 &gt; 장치 정보 &gt; 추가 정보 * 를 선택하여 BIOS 및 BMC 버전을 확인합니다. 업그레이드된 BIOS 및 BMC 버전이 표시됩니다. 업그레이드된 BIOS 버전은 노드가 완전히 부팅될 때까지 표시되지 않습니다.</block>
   <block id="ed615718612dbf4adcce1e9d4941ba75" category="list-text">노드를 유지 관리 모드로 전환한 경우 노드가 ESXi로 부팅된 후 호스트(컴퓨팅 노드) 이름을 마우스 오른쪽 버튼으로 클릭하고 * 유지 관리 모드 &gt; 유지 관리 모드 종료 * 를 선택한 다음 VM을 다시 호스트로 마이그레이션합니다.</block>
@@ -3135,7 +3063,6 @@
   <block id="a1fbdd995fe1c1ccce6635a976aff3a7" category="paragraph">에 대한 정보를 참조하십시오 <block ref="c41e4fefd5b14d95ad96eb2c4a1441c5" category="inline-link-macro-rx"></block>.</block>
   <block id="3500be2d6452b665360ea9b308c6c109" category="inline-link">SolidFire 및 요소 문서</block>
   <block id="06ace0d3bf47e1a95240223bce9b2125" category="list-text"><block ref="06ace0d3bf47e1a95240223bce9b2125" category="inline-link-rx"></block></block>
-  <block id="6b62a6e067bcba1d45a20dcf25bd7baf" category="summary">NetApp HCI 또는 SolidFire 스토리지 시스템 업그레이드의 일부로 관리 노드를 업그레이드합니다.</block>
   <block id="1761ea607c3f8d002099290408801187" category="doc">관리 노드를 업그레이드합니다</block>
   <block id="1d9f05f083ca394b7aa3fbee6b4ba1c9" category="paragraph">관리 노드를 버전 11.0 이상에서 관리 노드 버전 12.3.x로 업그레이드할 수 있습니다.</block>
   <block id="c3215740fa940d9b86ab9435fcad9e83" category="paragraph">스토리지 클러스터에서 Element 소프트웨어를 업그레이드하는 데 관리 노드 운영 체제를 더 이상 업그레이드할 필요가 없습니다. 관리 노드가 버전 11.3 이상인 경우 NetApp 하이브리드 클라우드 제어를 사용하여 관리 서비스를 최신 버전으로 업그레이드하여 Element 업그레이드를 수행할 수 있습니다. 보안 문제 해결과 같은 다른 이유로 관리 노드 운영 체제를 업그레이드하려면 시나리오에 따라 관리 노드 업그레이드 절차를 따르십시오.</block>
@@ -3207,22 +3134,17 @@
   <block id="1d0dd1d7212314cbec4589ef288c9451" category="list-text">영구 볼륨과 함께 기존 관리 노드 11.0 또는 11.1에서 관리되는 여러 스토리지 클러스터의 경우:</block>
   <block id="efc71656b9c688dd8b024426e9fac6f5" category="list-text">영구 볼륨이 없는 기존 관리 노드 11.0 또는 11.1에서 관리되는 여러 스토리지 클러스터의 경우("-PVM" 플래그는 클러스터의 MVIP 주소 중 하나를 제공하는 것입니다):</block>
   <block id="9e31323b5cbbe61c6c8c43ad2755958b" category="inline-link-macro">vCenter Server용 Element 플러그인을 업그레이드합니다</block>
-  <block id="17102379fc0bc7ea881f95eab28fb8d1" category="list-text">(모든 NetApp HCI 설치 및 vCenter Server용 NetApp Element 플러그인을 사용한 SolidFire All-Flash 스토리지 설치의 경우) 의 단계에 따라 12.3.x 관리 노드에서 vCenter 플러그인을 업데이트합니다 <block ref="61768f3798a436486dacb908355263cd" category="inline-link-macro-rx"></block> 주제.</block>
   <block id="49fe4cc83f5673ee4313707be652fb5a" category="list-text">관리 노드 API를 사용하여 설치의 자산 ID를 찾습니다.</block>
   <block id="81b4d8ce3b6d3d31bcc065c5589192ab" category="list-text">브라우저에서 관리 노드 REST API UI에 로그인합니다.</block>
   <block id="c1d91df00a0c3fac54e32076a41126ac" category="list-text">스토리지 MVIP로 이동하여 로그인합니다. 이 작업을 수행하면 다음 단계에서 인증서가 수락됩니다.</block>
   <block id="53c2c27c3b3fb674bd0285146df5b77b" category="list-text">코드 200 응답 본문에서 설치 시 id를 복사한다.</block>
   <block id="05c59d2489c111c7947e09976e2c1d9a" category="paragraph">설치 또는 업그레이드 중에 생성된 기본 자산 구성을 설치하였습니다.</block>
-  <block id="b8724110e3db04169214a0e77620c7c8" category="list-text">NetApp HCI를 설치한 경우 vSphere에서 컴퓨팅 노드의 하드웨어 태그를 찾습니다.</block>
   <block id="7c6477f25c22d13e15a77d85b6584b69" category="list-text">vSphere Web Client 탐색기에서 호스트를 선택합니다.</block>
-  <block id="ab7c1c96fc4fe2d55e0932c9885caeaa" category="list-text">모니터 * 탭을 클릭하고 * 하드웨어 상태 * 를 클릭합니다.</block>
   <block id="20de52053c3a1a30b1244f7ee45bc34f" category="list-text">노드 BIOS 제조업체 및 모델 번호가 나열됩니다. 나중 단계에서 사용할 'tag'의 값을 복사하여 저장합니다.</block>
-  <block id="31213b2a0736c2e0d9485f08f3ce0ce0" category="list-text">HCI 모니터링(NetApp HCI 설치만 해당) 및 하이브리드 클라우드 제어(모든 설치용)에 대한 vCenter 컨트롤러 자산을 관리 노드의 알려진 자산에 추가합니다.</block>
   <block id="d3ceaee3eba1f3d1dc3dd762d6254a77" category="list-text">컨트롤러 하위 자산을 추가하려면 * POST/ASSET/{ASSET_ID}/CONTROLLER * 를 클릭합니다.</block>
   <block id="4fc766d515cef70e327bbefb8f32007e" category="list-text">클립보드에 복사한 상위 기본 자산 ID를 * asset_id * 필드에 입력합니다.</block>
   <block id="e2e193a380a16845739e1445cfe23fde" category="list-text">유형 'vCenter'와 vCenter 자격 증명을 사용하여 필요한 페이로드 값을 입력합니다.</block>
   <block id="421226b233bd18f9c1f8d179419a2f39" category="list-text">(NetApp HCI에만 해당) 컴퓨팅 노드 자산을 관리 노드의 알려진 자산에 추가합니다.</block>
-  <block id="8d0a0f5de3a566c316d21f114ab1503d" category="list-text">POST/assets/{asset_id}/compute-nodes * 를 클릭하여 컴퓨팅 노드 자산에 대한 자격 증명이 있는 컴퓨팅 노드 하위 자산을 추가합니다.</block>
   <block id="05d6c35ef525375d16c0c0ed228b8280" category="list-text">페이로드에서 Model(모델) 탭에 정의된 대로 필요한 페이로드 값을 입력합니다. type로 ESXi Host를 입력하고, hardware_tag의 이전 단계에서 저장한 하드웨어 태그를 붙여넣습니다.</block>
   <block id="1128aaca3a95604af9f4e6f46e755aa7" category="section-title">관리 노드 버전 10.x에서 11.x로 마이그레이션</block>
   <block id="aa85ba7b60fc5a8d160bcac4e76602a7" category="inline-link-macro">최신 상태 진단 도구</block>
@@ -3233,18 +3155,13 @@
   <block id="de8fb9a417e5ff3f4cf6f4376300aedb" category="list-text">관리 노드 TUI에서 새 ID와 암호를 사용하여 관리 노드에 로그인하고 작동 여부를 확인합니다.</block>
   <block id="f91d0a737a08806ffd3053b00e324760" category="list-text">vCenter 또는 관리 노드 TUI에서 관리 노드 11.1 IP 주소를 가져온 다음 포트 9443의 IP 주소로 이동하여 관리 노드 UI를 엽니다.</block>
   <block id="9f9e2eada94a2b513e7ea2fd2070a26f" category="list-text">vSphere에서 * NetApp Element 구성 * &gt; * mNode 설정 * 을 선택합니다. (이전 버전에서는 최상위 메뉴가 * NetApp SolidFire 구성 * 입니다.)</block>
-  <block id="1286aad41d2555692570d9712015408b" category="list-text">Actions * &gt; * Clear * 를 클릭합니다.</block>
-  <block id="86078283f9813c09ca3bd3eefc0e0502" category="list-text">확인하려면 * 예 * 를 클릭합니다. mNode Status 필드는 구성되지 않음을 보고해야 합니다.</block>
   <block id="56a32dd49a6dbb0e0348a840882069b1" category="admonition">mNode 설정 * 탭으로 처음 이동하면 예상 * 업 * 대신 * 구성되지 않음 * 으로 mNode 상태 필드가 표시될 수 있습니다. * 작업 * &gt; * 지우기 * 를 선택하지 못할 수도 있습니다. 브라우저를 새로 고칩니다. mNode Status(mNode 상태) 필드에 최종적으로 * up * 이 표시됩니다.</block>
   <block id="bcc7cd82367090bebeb1a81f71b20707" category="list-text">vSphere에서 로그아웃합니다.</block>
   <block id="6bc08ff2c798923f83399b466e83828c" category="list-text">웹 브라우저에서 관리 노드 등록 유틸리티를 열고 * QoSSIOC 서비스 관리 * 를 선택합니다.</block>
   <block id="b142f691f9ca32840a06262706751854" category="list-text">새 QoSSIOC 암호를 설정합니다.</block>
   <block id="7d175f707658ab8d8d7209eef36c531b" category="admonition">기본 비밀번호는 SolidFire입니다. 새 암호를 설정하려면 이 암호가 필요합니다.</block>
-  <block id="fc0551f8816f4bf952b2401f3e2773ff" category="list-text">vCenter 플러그인 등록 * 탭을 클릭합니다.</block>
   <block id="d620125983dc5f2427e48ef8cf64e05d" category="list-text">Update Plug-in * 을 선택합니다.</block>
-  <block id="c41d4bc0a478053250e25458ba302995" category="list-text">필요한 값을 입력합니다. 완료되면 * 업데이트 * 를 클릭합니다.</block>
   <block id="d2ba2536a729c91022a8866cb76aa0d0" category="list-text">vSphere에 로그인하고 * NetApp Element 구성 * &gt; * mNode 설정 * 을 선택합니다.</block>
-  <block id="de826356b70121aa8fa90986bc78720b" category="list-text">Actions * &gt; * Configure * 를 클릭합니다.</block>
   <block id="39bcb493b71e1252cc79ed60aca98b72" category="list-text">관리 노드 IP 주소, 관리 노드 사용자 ID(사용자 이름은 "admin"), 등록 유틸리티의 * QoSSIOC 서비스 관리 * 탭에서 설정한 암호, vCenter 사용자 ID 및 암호를 제공합니다.</block>
   <block id="394f33ee158efaf5b14e0d18c2f943ed" category="paragraph">vSphere에서 * mNode Settings * (mNode 설정 *) 탭은 mNode 상태를 * up * 으로 표시해야 합니다. 이는 관리 노드 11.1이 vCenter에 등록되었음을 나타냅니다.</block>
   <block id="df3dc388ad6c26081374f74d856f9abd" category="list-text">관리 노드 등록 유틸리티('https://&lt;mNode 11.1 IP 주소&gt;:9443')에서 * QoSSIOC 서비스 관리 * 에서 SIOC 서비스를 다시 시작합니다.</block>
@@ -3269,7 +3186,6 @@
   <block id="7d77f30dd6c3619cac922b1bf9fc7a7c" category="list-text">스토리지 클러스터에서 Element 12.0 이상이 실행되고 있습니다.</block>
   <block id="69bfe4b77f2e59784e9a7c91881f1161" category="list-text">관리 노드는 11.3 이상이어야 합니다.</block>
   <block id="69f5442caf6936145cd4f73e7c83f2a4" category="list-text">Element 스토리지를 업그레이드한 후 관리 서비스를 순차적으로 업데이트했습니다. 설명된 순서대로 업그레이드를 완료하지 않으면 이 절차를 사용하여 인증을 다시 구성할 수 없습니다.</block>
-  <block id="8b185b6ee956bb55fd53ce53dfeefbd6" category="list-text">REST API UI에서 * POST/services/reconfigure-auth * 를 클릭합니다.</block>
   <block id="d4d6be65d679aa54296e16328ec041bf" category="list-text">load_images * 매개 변수에 대해 'true'를 선택합니다.</block>
   <block id="2a1519db00ab50aa3a0e4964f93a27f8" category="paragraph">응답 본문은 재구성이 성공했음을 나타냅니다.</block>
   <block id="4d3218f7c65e3f09421b33fd3e190ecc" category="summary">NetApp 하이브리드 클라우드 제어에는 특정 기능이 있으며, 이러한 기능을 바탕으로 운영하도록 권장합니다.</block>
@@ -3394,11 +3310,9 @@
   <block id="f77963c528aa19e59cf9f7c9d5b4a19d" category="summary">NetApp HCI 시스템 업그레이드의 일부로 컴퓨팅 노드 드라이버를 업그레이드합니다.</block>
   <block id="0c13e0dd6ebaa11c814ce3c5b29ab7f1" category="paragraph">모든 H 시리즈 컴퓨팅 노드에 대해 VMware Update Manager를 사용하여 노드에 사용된 드라이버를 업데이트할 수 있습니다.</block>
   <block id="bab93f378f6cea1ed1024018548e066c" category="inline-link">이 NetApp KB 문서를 참조하십시오</block>
-  <block id="f6f57ef583a2a8f65eca6d1dd3ad430c" category="paragraph">의 하드웨어 펌웨어 및 드라이버 매트릭스를 참조하십시오<block ref="281f8980032ebb79864d728ec2225e48" category="inline-link-rx"></block> (로그인 필요).</block>
   <block id="cae4b286c77e42f24641d126e94e3848" category="paragraph">이러한 업데이트 작업 중 하나만 한 번에 수행합니다.</block>
   <block id="7f1cb6f883abc23a81f6db00c067e34f" category="paragraph">컴퓨팅 펌웨어 업그레이드를 시도하기 전에 현재 ESXi 드라이버 버전을 확인해야 합니다. 드라이버가 최신 버전이 아니면 먼저 드라이버를 업그레이드하십시오. 그런 다음 컴퓨팅 노드의 컴퓨팅 펌웨어를 업그레이드합니다.</block>
   <block id="3e79f2f4eea24dddb8f0e1d175482fea" category="inline-link">NetApp HCI 소프트웨어 다운로드</block>
-  <block id="ee2173a85bb67a0d4771cd4c2fd0a819" category="list-text">로 이동합니다<block ref="586f94736261e3cc826ee8e69c814c18" category="inline-link-rx"></block> 페이지를 방문하여 올바른 버전의 NetApp HCI에 대한 다운로드 링크를 클릭합니다.</block>
   <block id="3a238ed477365094aba2542d83b9d7e1" category="list-text">드롭다운 목록에서 * ESXi_drivers * 를 선택합니다.</block>
   <block id="3e60e9735750995ab5055c09cb6b687b" category="list-text">해당 노드 유형 및 ESXi 버전에 대한 드라이버 패키지를 다운로드합니다.</block>
   <block id="583b2202b6101e8fb6a6243369ac0f58" category="list-text">로컬 컴퓨터에서 다운로드한 드라이버 번들의 압축을 풉니다.</block>
@@ -3408,9 +3322,7 @@
   <block id="151c76834ad80bda72b790ed956b343b" category="list-text">컴퓨팅 노드의 새 호스트 기준을 생성합니다.</block>
   <block id="a103a95f7d753b061f47218b727a92a9" category="list-text">이름 및 유형 으로 * Host Extension * 을 선택하고 가져온 드라이버 패키지를 모두 선택하여 새 기준에 포함합니다.</block>
   <block id="a496a18e70096c13771244c2dde8267d" category="list-text">vCenter의 * Host and Clusters * 메뉴에서 업데이트할 컴퓨팅 노드가 있는 클러스터를 선택하고 * Update Manager * 탭으로 이동합니다.</block>
-  <block id="152375a13a7ff77d78d7e7e5ed2cb1b2" category="list-text">Remediate * 를 클릭하고 새로 생성된 호스트 기준선을 선택합니다. 기준에 포함된 드라이버가 선택되었는지 확인합니다.</block>
   <block id="6d44c32d6b840dfaa324161a0e3d3f72" category="list-text">마법사를 통해 * 호스트 수정 옵션 * 으로 이동하고 드라이버 업데이트 중에 가상 시스템을 온라인 상태로 유지하기 위해 * VM 전원 상태 변경 안 함 * 옵션이 선택되어 있는지 확인합니다.</block>
-  <block id="ad2566c6ba088dd09a41bd19ab095be5" category="list-text">마법사의 * Ready to Complete * 페이지로 이동한 후 * Finish * 를 클릭합니다.</block>
   <block id="7b21b071d697849e963c58b4acc1d064" category="paragraph">클러스터의 모든 컴퓨팅 노드에 대한 드라이버는 가상 머신이 온라인 상태일 때 한 번에 한 노드씩 업데이트됩니다.</block>
   <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="summary">법적 고지 사항은 저작권 선언, 상표, 특허 등에 대한 액세스를 제공합니다.</block>
   <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">법적 고지</block>
@@ -3610,13 +3522,11 @@
   <block id="cbc6bc00687b09827f841102ff79b99c" category="list-text">동일한 모델의 컴퓨팅 노드에 대한 네트워크 케이블 연결 구성은 단일 컴퓨팅 클러스터 내에서 일치해야 합니다.</block>
   <block id="63b242a9aa4eafd6278e80e8d62418ac" category="inline-link">SolidFire 및 Element 소프트웨어 설명서</block>
   <block id="574fec4c923cfe8953b14b138adec28e" category="list-text"><block ref="574fec4c923cfe8953b14b138adec28e" category="inline-link-rx"></block></block>
-  <block id="ec420e81b4295bf240fe77c1e8dbd427" category="summary">NetApp HCI 또는 SolidFire 시스템 업그레이드의 일환으로 스토리지 노드와 연결된 펌웨어를 업그레이드합니다.</block>
   <block id="28d43e5e13ecfc96dece6248ba9a0e4f" category="admonition">Element 소프트웨어 버전 12.0을 실행하는 H610S 스토리지 노드의 경우 스토리지 펌웨어 번들 2.27로 업그레이드하기 전에 D-패치 SUST-909를 적용해야 합니다. 업그레이드하기 전에 NetApp Support에서 D-패치를 받으려면 먼저 NetApp Support에 문의하십시오. 을 참조하십시오 <block ref="f5af28c84f405696357f61b6dbcf298d" category="inline-link-macro-rx"></block>.</block>
   <block id="26db8374256abd97a337e0f9af2f21c8" category="admonition">스토리지 노드의 펌웨어를 업그레이드하기 전에 최신 관리 서비스 번들로 업그레이드해야 합니다. Element 소프트웨어를 버전 12.2 이상으로 업데이트하는 경우 계속하려면 관리 서비스 2.14.60 이상이 필요합니다.</block>
   <block id="1162dd84e55b1e6c2517bf0323faf96b" category="admonition">iDRAC/BIOS 펌웨어를 업데이트하려면 NetApp 지원 에 문의하십시오. 자세한 내용은 다음을 참조하십시오 <block ref="ce98bbbd0598351d03b47f370ea3b773" category="inline-link-macro-rx"></block>.</block>
   <block id="736c409b380383ee8843715d26079c63" category="list-text">* 클러스터 상태 *: 상태 점검을 실행하였습니다. 을 참조하십시오 <block ref="bdcf6db43efb3c82b174a0c4c0a65c66" category="inline-link-macro-rx"></block>.</block>
   <block id="ebf60ae83a327f8be16b2010df1010c2" category="list-text">* H610S 노드의 업데이트된 BMC *: H610S 노드의 BMC 버전을 업그레이드했습니다. 을 참조하십시오 <block ref="f04f9a521fc4fd678cdbd3d698415a24" category="inline-link-macro-rx"></block>.</block>
-  <block id="549d257a6f61f3935af556f51f5a19e8" category="admonition">하드웨어에 대한 펌웨어 및 드라이버 펌웨어의 전체 매트릭스를 보려면 다음을 참조하십시오<block ref="6cc0561cb437417f52ccd7c1b6fd3ccc" category="inline-link-rx"></block> (로그인 필요).</block>
   <block id="5212e4232f93722ce70d3ed042cd25c1" category="paragraph">다음 스토리지 펌웨어 업그레이드 옵션 중 하나를 선택합니다.</block>
   <block id="71894c0623112f371e3598666af16695" category="list-text"><block ref="c67f607f0c5a6b98a7e28e151694a09a" category="inline-xref-macro-rx"></block></block>
   <block id="b8cff0b41605e83e8a12999dd0a4ca92" category="list-text"><block ref="bd241c643056b4027f18f8f059752b73" category="inline-xref-macro-rx"></block></block>
@@ -4950,7 +4860,6 @@
   <block id="8c0ae26900e5f58b61204e22ec858924" category="list-text">Get/services * 를 선택합니다.</block>
   <block id="c9febdd1cdc631cc150e210af5959338" category="list-text">상태를 * Running * 으로 선택합니다.</block>
   <block id="344071cf9eae741abef1df0044596a37" category="paragraph">관리 노드에서 실행 중인 서비스는 응답 본문에 표시됩니다.</block>
-  <block id="f6abd23df184583be904e6f9220ba600" category="summary">NetApp HCI 또는 SolidFire 스토리지 시스템 업그레이드의 일부로 vCenter Server용 Element 플러그인을 업그레이드할 수 있습니다.</block>
   <block id="03efd38b0802e06b31537f557cd0421f" category="paragraph">vCenter Server용 NetApp Element 플러그인(VCP)이 등록된 기존 vSphere 환경의 경우 플러그인 서비스가 포함된 관리 서비스 패키지를 먼저 업데이트한 후 플러그인 등록을 업데이트할 수 있습니다.</block>
   <block id="e6c04958395a323ddbc02c929b4dfdf0" category="paragraph">등록 유틸리티를 사용하여 vCenter Server vCSA(Virtual Appliance) 또는 Windows에서 플러그인 등록을 업데이트할 수 있습니다. 플러그인을 사용해야 하는 모든 vCenter Server에서 vCenter 플러그인의 등록을 변경해야 합니다.</block>
   <block id="badb045d93b6de2fe8d2a1a664b92d6f" category="paragraph">이 업그레이드 절차에서는 다음 업그레이드 시나리오에 대해 설명합니다.</block>
@@ -4959,19 +4868,15 @@
   <block id="10d52a77bc99042d3e815ba24e48132b" category="admonition">이 플러그인은 VCP 4.7 이상용 VMware vCenter Server 6.5와 호환되지 않습니다.</block>
   <block id="f171584692be059c88cbbda35827f299" category="list-text">6.7 Flash vSphere Web Client로 업그레이드하는 중입니다.</block>
   <block id="26f2f1d140c70238a07a5f09e846fd82" category="inline-link">플러그인 버전입니다</block>
-  <block id="7320d4f9ce78688fd8066aecc8c81be4" category="admonition">플러그인은 HTML5 vSphere Web Client의 버전 6.7 U2 빌드 13007421 및 업데이트 2a 이전에 릴리스된 기타 6.7 U2 빌드(빌드 13643870)와 호환되지 않습니다. 지원되는 vSphere 버전에 대한 자세한 내용은 의 릴리즈 노트를 참조하십시오<block ref="a81344cf9e0a62906c34e4f24b52644e" category="inline-link-rx"></block>.</block>
   <block id="d7be3f2367f28daeaac07c2967977074" category="list-text">* 관리자 권한 *: 플러그인을 설치할 vCenter 관리자 역할 권한이 있습니다.</block>
   <block id="7df6c84beb4c7f9c0109ea10accef1ed" category="list-text">* vSphere 업그레이드 *: vCenter Server용 NetApp Element 플러그인을 업그레이드하기 전에 필요한 vCenter 업그레이드를 모두 수행했습니다. 이 절차에서는 vCenter 업그레이드가 이미 완료된 것으로 가정합니다.</block>
-  <block id="36aa454d124fba9c0e6922eafdf89396" category="list-text">* vCenter Server *: vCenter 플러그인 버전 4.x가 vCenter Server에 등록됩니다. 등록 유틸리티('https://[management node IP]:9443')에서 * 등록 상태 * 를 클릭하고 필요한 필드를 입력한 다음 * 상태 확인 * 을 클릭하여 vCenter 플러그인이 이미 등록되어 있는지, 현재 설치의 버전 번호가 올바른지 확인합니다.</block>
   <block id="72b0efdaad5d469b43f79c332bb57be4" category="inline-link">관리 서비스 번들</block>
-  <block id="77d899df336762a18bba18ea64c8c2c5" category="list-text">* 관리 서비스 업데이트 *: 을(를) 업데이트했습니다<block ref="fa63a529ec625e6607508bcea6b40451" category="inline-link-rx"></block> 를 최신 버전으로 업데이트합니다. vCenter 플러그인의 업데이트는 NetApp HCI 및 SolidFire All-Flash 스토리지의 주요 제품 릴리즈 외부에서 릴리스된 관리 서비스 업데이트를 사용하여 배포됩니다.</block>
   <block id="4c02ebe342ea429a0d2a2a23be2ddd19" category="inline-link-macro">업그레이드되었습니다</block>
   <block id="27c25a67c147529824177fc694e7fd19" category="list-text">* 관리 노드 업그레이드 *: 이미 실행 중인 관리 노드를 실행 중입니다 <block ref="23cc83378d4b0551eef4ac573737e008" category="inline-link-macro-rx"></block> 11.3 이상 버전으로. vCenter 플러그인 4.4 이상에서는 개별 서비스를 제공하는 모듈식 아키텍처를 갖춘 11.3 이상의 관리 노드가 필요합니다. 관리 노드의 전원은 IP 주소 또는 DHCP 주소가 구성되어 있어야 합니다.</block>
   <block id="7d3b6b8e2540bf5435b3b6984ad1f702" category="list-text">* Element 스토리지 업그레이드 *: NetApp Element 소프트웨어 11.3 이상을 실행하는 클러스터가 있습니다.</block>
   <block id="12a6ece51476e2d3feae5dff01704e58" category="list-text">* vSphere Web Client *: 플러그인 업그레이드를 시작하기 전에 vSphere Web Client에서 로그아웃했습니다. 로그아웃하지 않으면 웹 클라이언트가 이 프로세스 중에 수행한 업데이트를 플러그인으로 인식하지 못합니다.</block>
   <block id="c13fa68b55894aaf612067aa7455ac53" category="list-text">등록 TCP 포트를 포함한 브라우저에 관리 노드의 IP 주소를 입력하십시오: "https://[management node IP]:9443" 등록 유틸리티 UI가 플러그인의 * QoSSIOC 서비스 자격 증명 관리 * 페이지로 열립니다.</block>
   <block id="26fc450c5cd9b7f28b10cff7659b479d" category="image-alt">에서는 플러그인의 등록 유틸리티 UI를 보여 줍니다</block>
-  <block id="fdc3277c2c62fa2903e727dca976e450" category="list-text">vCenter 플러그인 등록 * 을 클릭합니다.</block>
   <block id="5c8b8f78ed09c86ecda3569ee8c3a3f0" category="list-text">vCenter 플러그인 관리 * 에서 * 플러그인 업데이트 * 를 선택합니다.</block>
   <block id="8d8ce4b808495ff41a197ebd82fa0d15" category="list-text">다음 정보를 확인하거나 업데이트합니다.</block>
   <block id="07cdef615c44d9173ab998dea612cb1c" category="list-text">플러그인을 등록할 vCenter 서비스의 IPv4 주소 또는 FQDN입니다.</block>
@@ -4979,8 +4884,6 @@
   <block id="b1e24f0b2fb8f66a9c2444bf0e385f97" category="admonition">입력한 사용자 이름과 암호 자격 증명은 vCenter 관리자 역할 권한이 있는 사용자의 자격 증명이어야 합니다.</block>
   <block id="c2611280cf76890b83743a67ac6478e2" category="list-text">vCenter 관리자 암호입니다.</block>
   <block id="92d3ac74b6d30f321507464dbfb9220d" category="list-text">(사내 서버/다크 사이트의 경우) 플러그인 ZIP에 대한 사용자 지정 URL입니다.</block>
-  <block id="d4b9a4e220c815cc1436ff29491de974" category="admonition">HTTP 또는 HTTPS 서버(다크 사이트)를 사용 중이거나 ZIP 파일 이름 또는 네트워크 설정을 수정한 경우 * 사용자 지정 URL * 을 클릭하여 URL을 사용자 지정할 수 있습니다. URL을 사용자 지정하려는 경우 추가 구성 단계를 보려면 vCenter Server용 Element Plug-in 설명서를 참조하십시오. 내부(다크 사이트) HTTP 서버에 대한 vCenter 속성 수정에 대한 자세한 내용은 vCenter Server 설명서를 참조하십시오.</block>
-  <block id="04252e4e5460971d7f33943bd841f366" category="list-text">Update * 를 클릭합니다.</block>
   <block id="14b68e07a69ae90b19c2bd823797ff21" category="paragraph">등록이 성공하면 등록 유틸리티 UI에 배너가 나타납니다.</block>
   <block id="2bfb7d51aea637d48bf5bca4afcb46a1" category="list-text">vCenter 관리자로 vSphere Web Client에 로그인합니다. vSphere Web Client에 이미 로그인한 경우 먼저 로그아웃하고 2-3분 정도 기다린 다음 다시 로그인해야 합니다.</block>
   <block id="f523905d48a1db956815565365a5a6ad" category="admonition">이 작업을 수행하면 새 데이터베이스가 생성되고 vSphere Web Client에서 설치가 완료됩니다.</block>
@@ -5156,30 +5059,22 @@
   <block id="d9cb09ff3bb363d7f443887f17b4e9a8" category="cell">CSESF-352</block>
   <block id="0ae0e27e8f79fb1637ff41b83a54eae9" category="cell">TLS 버전 1.0 및 1.1은 보안 취약점을 악용합니다. 이 릴리즈에서는 H610C 및 H615C 컴퓨팅 노드에 대해 TLS 1.0 및 1.1을 사용하지 않습니다.</block>
   <block id="4d2352199ed83f9c4e375e964be766eb" category="cell">H410C 노드:1의 버전 NA3.7로 BIOS를 수동으로 업데이트합니다. 로 이동합니다<block ref="012c28af9aeadbd43f80372415d73a47" category="inline-link-rx"></block>. 드롭다운 목록 텍스트 필드에 H410C_BIOS_3.7 을 입력합니다. 이동 * 을 클릭합니다. 업데이트 지침은 다운로드 페이지에서 PDF 형식으로 제공됩니다. BIOS 및 BMC를 업데이트한 후 컴퓨팅 펌웨어 12.2.109 패키지를 사용하여 H410C 노드 펌웨어를 업데이트하십시오.</block>
-  <block id="ac7407b9cbe3d3eb544a2425bee6370f" category="summary">NetApp HCI 또는 SolidFire 스토리지 시스템 업그레이드의 일부로 관리 서비스를 업데이트해야 합니다.</block>
   <block id="2fdf7cb371995103b459c97e897b87ee" category="doc">관리 서비스를 업데이트합니다</block>
   <block id="79775a85ecd792fca2ed73286c1313cf" category="paragraph">관리 노드 11.3 이상을 설치한 후 관리 서비스를 최신 번들 버전으로 업데이트할 수 있습니다.</block>
-  <block id="e01636036452239b025ed3c18d3a540f" category="paragraph">Element 11.3 관리 노드 릴리즈부터 개별 서비스를 제공하는 새로운 모듈식 아키텍처에 따라 관리 노드 설계가 변경되었습니다. 이러한 모듈식 서비스는 NetApp HCI 및 SolidFire All-Flash 스토리지 시스템을 위한 중앙 집중식 확장 관리 기능을 제공합니다. 관리 서비스에는 시스템 원격 측정, 로깅 및 업데이트 서비스, vCenter Server용 Element Plug-in용 QoSSIOC 서비스, NetApp 하이브리드 클라우드 제어(HCC) 등이 포함됩니다.</block>
   <block id="a443497b41405480f6755e35166556e7" category="inline-link">관리 서비스 릴리즈 노트</block>
-  <block id="55d1ba0cfc919d4b1d9560241a53e655" category="admonition">주요 서비스, 새로운 기능, 버그 수정 사항 및 각 서비스 번들에 대한 대안을 설명하는 최신 관리 서비스 릴리즈 노트는 를 참조하십시오<block ref="86aba836d25bf027674d7682756c7cf3" category="inline-link-rx"></block></block>
-  <block id="884a5edae007e6d3e774a912317f61ca" category="paragraph">NetApp HCC(하이브리드 클라우드 제어) UI 또는 관리 노드 REST API를 사용하여 관리 서비스를 업데이트할 수 있습니다.</block>
   <block id="7d6cae0c176b060b3eb918e8fc3a8a88" category="list-text"><block ref="8b810af37d36ecef3e8ce0cfd28cc60b" category="inline-xref-macro-rx"></block> (권장 방법)</block>
   <block id="45d5739efe933eabe3dda4a4ba6b61b1" category="list-text"><block ref="b795f7048c0a3127327e392f4c115728" category="inline-xref-macro-rx"></block></block>
   <block id="610172e2b0e7d4051f0d0b230bd8c722" category="list-text"><block ref="79f95b99cf6c6dc511dd13bb08f1454f" category="inline-xref-macro-rx"></block></block>
   <block id="2325934efda1befa076510008b0f7646" category="section-title">하이브리드 클라우드 제어를 사용하여 관리 서비스를 업데이트합니다</block>
-  <block id="6812fbe299c3076c40d64e3555fb0f6e" category="paragraph">NetApp 하이브리드 클라우드 제어(HCC)를 사용하여 NetApp 관리 서비스를 업데이트할 수 있습니다.</block>
   <block id="c3e2bcb5601498c3470bd272236342a3" category="paragraph">관리 서비스 번들은 주요 릴리스 이외의 설치 시 향상된 기능과 수정 사항을 제공합니다.</block>
   <block id="d0d4d24acea2b29c2079bdc9f046795d" category="list-text">관리 서비스를 버전 2.16 이상으로 업데이트하고 관리 노드 11.3에서 11.8을 실행 중인 경우 관리 서비스를 업데이트하기 전에 관리 노드 VM의 RAM을 늘려야 합니다.</block>
   <block id="291b81212712dc828fee9037f0662499" category="list-text">관리 서비스를 버전 2.1.326으로 업그레이드했습니다. NetApp 하이브리드 클라우드 제어 업그레이드는 이전 서비스 번들에서 사용할 수 없습니다.</block>
-  <block id="23e2afe72bb4982d49bafc030ee36b2e" category="admonition">각 서비스 번들 버전에 대해 사용 가능한 서비스 목록은 를 참조하십시오<block ref="2c3c1c9ce7397fdd444812632621a9e1" category="inline-link-rx"></block>.</block>
   <block id="55d2ac8cdb689c1c5a8537d8871bd39e" category="list-text">웹 브라우저를 열고 관리 노드의 IP 주소(https://&lt;ManagementNodeIP&gt;` 찾습니다</block>
   <block id="9c3b6a2840d81e74fa978e35f9fda09e" category="list-text">업그레이드 페이지에서 * 관리 서비스 * 탭을 선택합니다.</block>
   <block id="2a67be48fd33aed34d5d9b95445a0c20" category="paragraph">관리 서비스 탭에는 관리 서비스 소프트웨어의 현재 버전과 사용 가능한 버전이 표시됩니다.</block>
   <block id="8b130e5cda5c613782f9b3fe6b6b0fbe" category="admonition">설치가 인터넷에 액세스할 수 없는 경우 현재 소프트웨어 버전만 표시됩니다. 외부 연결이 있지만 NetApp HCI이 NetApp 온라인 리포지토리에 액세스할 수 없는 경우 을(를) 확인합니다 <block ref="6ff9e66037288034fea8427eccd4ef4c" category="inline-link-macro-rx"></block>.</block>
-  <block id="e967fc111a48b936b8d4f31bd802510d" category="list-text">설치가 인터넷에 액세스할 수 있고 관리 서비스 업그레이드를 사용할 수 있는 경우 * 업그레이드 시작 * 을 클릭합니다.</block>
   <block id="88cc6eac67699034974d69a75c774238" category="list-text">설치가 인터넷에 액세스할 수 없는 경우 다음을 수행합니다.</block>
   <block id="3a91ea590517ccc87ccaf6cbda3ac55c" category="list-text">페이지의 지침에 따라 관리 서비스 업그레이드 패키지를 다운로드하여 컴퓨터에 저장합니다.</block>
-  <block id="82c97bf4e39a1910f6a3d41a6beba3a8" category="list-text">저장한 패키지를 찾아 업로드하려면 * 찾아보기 * 를 클릭합니다.</block>
   <block id="30c2b654de6b157d3965b69e2e973b9c" category="paragraph">업그레이드가 시작되면 이 페이지에서 업그레이드 상태를 확인할 수 있습니다. 업그레이드 중에 NetApp 하이브리드 클라우드 컨트롤과 연결이 끊어지고 업그레이드 결과를 보려면 다시 로그인해야 할 수 있습니다.</block>
   <block id="e1ab7975bc85b8e4a805e35bfd948176" category="section-title">관리 노드 API를 사용하여 관리 서비스를 업데이트합니다</block>
   <block id="f64b52761fbac72e8bfdd229b3a113f1" category="paragraph">사용자는 NetApp 하이브리드 클라우드 제어에서 관리 서비스 업데이트를 수행하는 것이 이상적입니다. 그러나 관리 노드의 REST API UI를 사용하여 관리 서비스를 수동으로 업데이트할 수 있습니다.</block>
@@ -5195,7 +5090,6 @@
   <block id="e620d1115b8f26b9e2c66f46d34832bc" category="section-title">다크 사이트에 대한 관리 노드 API를 사용하여 관리 서비스를 업데이트합니다</block>
   <block id="c202282c44af53d5ea8a677636541731" category="paragraph">사용자는 NetApp 하이브리드 클라우드 제어에서 관리 서비스 업데이트를 수행하는 것이 이상적입니다. 하지만 REST API를 사용하여 관리 서비스에 대한 서비스 번들 업데이트를 관리 노드에 수동으로 업로드, 추출 및 배포할 수 있습니다. 관리 노드의 REST API UI에서 각 명령을 실행할 수 있습니다.</block>
   <block id="3601cad086244ec56eee653db5e2b0a3" category="list-text">NetApp Element 소프트웨어 관리 노드 11.3 이상을 배포했습니다.</block>
-  <block id="55f3fe3380783b5b8504008e208fde3e" category="list-text">에서 서비스 번들 업데이트를 다운로드했습니다<block ref="2b5762a08c48e59925e98fb05c9f6fc6" category="inline-link-rx"></block> 어두운 곳에서 사용할 수 있는 장치.</block>
   <block id="54521ea545972501500b09f85df8ba55" category="list-text">'PUT/SERVICES/UPLOAD' 명령어를 이용하여 관리 노드에 서비스 번들을 업로드하고 추출한다</block>
   <block id="4963e624e3688c6904a816aa37c6c7cc" category="list-text">관리 노드(PUT/SERVICES/Deploy)에 관리 서비스를 배치한다</block>
   <block id="c512caf817d81cdc178fb65c97607344" category="list-text">업데이트 상태 모니터링: 'Get/services/update/status</block>
@@ -5383,7 +5277,6 @@
   <block id="497e1101c9e2f864d2e2dda128ecb452" category="list-text">관리 노드 11.0, 11.1 이상을 실행하고 있습니다.</block>
   <block id="dad7cfe229aa9e4b9f9b9cf0e87704cc" category="paragraph">NetApp 하이브리드 클라우드 제어 업그레이드는 이전 서비스 번들 버전에서 사용할 수 없습니다.</block>
   <block id="9def504d64ab69879cb0311556fe8cc3" category="inline-link">상태 진단 도구</block>
-  <block id="e7da0cdbfdb339591463b52922b2d3ba" category="list-text">의 최신 버전을 다운로드했습니다<block ref="1055054f9873b0bd497cc7f564cc86d3" category="inline-link-rx"></block> 설치 파일을 관리 노드에 복사했습니다.</block>
   <block id="903d0f97d11dd5ed20516ec36dd2abc7" category="admonition">'fsupdate-healthtools -v' 명령을 실행하여 로컬에 설치된 HealthTools 버전을 확인할 수 있습니다.</block>
   <block id="10fbc8fd3ac1a011e7631cdf01332562" category="list-text">어두운 장소에서 HealthTools를 사용하려면 다음 추가 단계를 수행해야 합니다.</block>
   <block id="f86ddd2fb45950e1479e5ffde319cb8f" category="list-text">관리 노드를 가동하여 어두운 사이트에서 실행되도록 합니다.</block>
@@ -6109,17 +6002,97 @@
   <block id="28891145b6c39ff95afbdf5c47061837" category="inline-link">NetApp HCI 컴퓨팅 펌웨어 번들</block>
   <block id="ad20855a10bcb28bd96d1134e8e2d09e" category="paragraph">Compute Firmware Bundle을 다운로드하려면 로 이동합니다<block ref="9e726c85d19808fe7c4afbfe8514b543" category="inline-link-rx"></block> 페이지.</block>
   <block id="68baec1bded108851f5cb6cb9332b5fb" category="paragraph">관리 노드가 인터넷에 연결되어 있지 않은 경우 를 다운로드했습니다<block ref="f0f7b836568f7e533a3947b76da1a20e" category="inline-link-rx"></block>.</block>
-  <block id="1551e888ab5308b8b3157b61a9afa28c" category="paragraph">NetApp HCI 시스템의 경우 NetApp HCI 소프트웨어로 이동하십시오<block ref="6b16bb0b4b0be4862f98f84f9683318e" category="inline-link-rx"></block> 최신 스토리지 노드 이미지를 다운로드합니다.</block>
-  <block id="4f05ad42d37ba064812b10f3a7a7c448" category="list-text">스토리지 업그레이드 패키지를 다운로드합니다. NetApp HCI 시스템의 경우 NetApp HCI 소프트웨어로 이동하십시오<block ref="6b16bb0b4b0be4862f98f84f9683318e" category="inline-link-rx"></block> 최신 스토리지 노드 이미지를 관리 노드가 아닌 디바이스로 다운로드합니다.</block>
-  <block id="5e16870e97cd7494312cfcaccde66101" category="list-text">NetApp HCI 시스템의 경우 NetApp HCI 소프트웨어로 이동하십시오<block ref="6b16bb0b4b0be4862f98f84f9683318e" category="inline-link-rx"></block>.</block>
   <block id="cabc168d31fc4c314cb500b86813e131" category="list-text">이 파일을 다운로드하십시오<block ref="747556e0149f6188670059abaeb4fd3e" category="inline-link-rx"></block> <block ref="53034c8197fc6f1049d26569a56db918" category="inline-link-rx"></block> 관리 노드가 아닌 컴퓨터의 NetApp 지원 사이트에서 'metadata.json'으로 이름을 바꿉니다.</block>
-  <block id="83e648796d8c15021f306aae3dd3d686" category="list-text">에 대한 관리 노드 ISO를 다운로드합니다<block ref="4844a5a06bc8e1ed86ef9bb2a86e549e" category="inline-link-rx"></block> NetApp Support 사이트에서 관리 노드 가상 시스템으로.</block>
-  <block id="2e6c3e131d0b66465caec32d003e1958" category="list-text">에 대한 관리 노드 ISO를 다운로드합니다<block ref="60d1b63b51cb88758e890cf18a0d4bbe" category="inline-link-rx"></block> NetApp Support 사이트에서 관리 노드 가상 시스템으로.</block>
   <block id="6f0fdd346038a9e820296de3d9746c93" category="inline-link">NetApp HCI 스토리지 클러스터용 스토리지 펌웨어 패키지를 다운로드했습니다</block>
   <block id="68591212ccf64f918a02a9a99d9b17cb" category="paragraph">관리 노드가 인터넷에 연결되어 있지 않은 경우 이 있는 것입니다<block ref="aafe992914552d0a3aa0655fa1abc52d" category="inline-link-rx"></block>.</block>
   <block id="34c8eaed7bf9fcb94a9fec8fc99e01f5" category="inline-link">Element 소프트웨어 스토리지 펌웨어 번들 페이지</block>
   <block id="4c22618bec261776093bb20f43db4da2" category="list-text">관리 노드에서 액세스할 수 있는 장치에 최신 스토리지 펌웨어 업그레이드 패키지를 다운로드합니다. 로 이동합니다<block ref="6c480cd9e53c4fa50830a2dbc4709412" category="inline-link-rx"></block> 최신 스토리지 펌웨어 이미지를 다운로드합니다.</block>
-  <block id="cb0ff683af4927c8b141ca4fdd047e6f" category="list-text">에서 설치에 대한 OVA 또는 ISO를 다운로드합니다<block ref="b6552e9fe421f9ef58cbc1fac1e87c10" category="inline-link-rx"></block> 페이지로 이동합니다.</block>
-  <block id="fb9dbde245c31e55deba5a52e39161b7" category="inline-link">NetApp HCI 컴퓨팅 펌웨어 번들</block>
-  <block id="5867a9249c217b0fd396efc0b056c46a" category="paragraph">Compute Firmware Bundle을 다운로드하려면 로 이동합니다<block ref="47afcbf58f4f7c048fb68385f91a8522" category="inline-link-rx"></block> 페이지.</block>
+  <block id="084b0131bd480b2202263e1d2feee26f" category="summary">NetApp HCI 시스템 업그레이드의 일부로 NetApp Element 소프트웨어를 업그레이드합니다.</block>
+  <block id="28915945fea0308bbd2cdf191b79dd68" category="list-text">업그레이드할 클러스터 옆에 있는 드롭다운 화살표를 선택하고 * Element * 탭 아래에서 사용 가능한 업그레이드 버전 중에서 선택합니다.</block>
+  <block id="b6d17024c4c99e0348e4d802e2508b6b" category="list-text">업그레이드할 클러스터 옆에 있는 드롭다운 화살표를 선택하고 사용 가능한 업그레이드 버전 중에서 선택합니다.</block>
+  <block id="6c0526aed8944efbe6192f67a288210b" category="list-text">업그레이드 시작 * 을 선택합니다. 업그레이드가 완료되면 UI에서 프로세스의 2단계를 수행하라는 메시지를 표시합니다.</block>
+  <block id="814733d416c95bcc389df46e42881e26" category="inline-link">다운로드 페이지</block>
+  <block id="f512f8e6b128b8f7bff6fcc1ef0cae59" category="list-text">스토리지 업그레이드 패키지를 관리 노드에서 액세스할 수 있는 디바이스로 다운로드하고 NetApp HCI 소프트웨어로 이동합니다<block ref="af9e5e5835f26953a003c9bfeff1e72d" category="inline-link-rx"></block> 최신 스토리지 노드 이미지를 다운로드합니다.</block>
+  <block id="72d6d922116ab2c5c4e00582da6636fe" category="list-text">스토리지 업그레이드 패키지를 다운로드합니다. NetApp HCI 소프트웨어로 이동합니다<block ref="af9e5e5835f26953a003c9bfeff1e72d" category="inline-link-rx"></block> 최신 스토리지 노드 이미지를 관리 노드가 아닌 디바이스로 다운로드합니다.</block>
+  <block id="33877e64a4f252eccfc0cd9a26c42e8e" category="list-text">NetApp HCI 소프트웨어로 이동합니다<block ref="af9e5e5835f26953a003c9bfeff1e72d" category="inline-link-rx"></block>.</block>
+  <block id="e9e291beb54413fecd8975237eb4bb64" category="list-text">Compute Health Check * 페이지에서 * Run Health Check * 를 선택합니다.</block>
+  <block id="b63360b381f2f4d20abc8c6e41ad03e9" category="list-text">REST API UI에서 * get si./installations./{id} * 를 선택합니다.</block>
+  <block id="0244d8caf66b9412467f25ad4401d48f" category="list-text">POST/computeeh./{controller_ID} mifx/health-checks * 를 선택합니다.</block>
+  <block id="9235b927ec0e8cc731efecee81ca42bc" category="list-text">클러스터에서 상태 점검을 실행하려면 * Execute * 를 선택합니다.</block>
+  <block id="746798a24b035d442003701c9b2ff2cf" category="list-text">get/computeh./tasks/{task_id} * 를 선택합니다.</block>
+  <block id="934ce6052c9c54838baf7b56970a8ea1" category="cell"><block ref="dafd9e53b0e107319fd7c98e26521f9c" category="inline-link-macro-rx"></block>. 참고: 표준 라이센스가 있는 경우 ESXi 호스트를 유지 관리 모드로 전환하고 이 상태 점검 실패 경고를 무시하십시오.</block>
+  <block id="bd856841d50b1115c0be80b2b4c03f96" category="cell"><block ref="9cae80730f58713cd253305bd8a17f51" category="inline-link-macro-rx"></block>.</block>
+  <block id="901e3d3daf031f6d5818264fe95950fb" category="cell"><block ref="af342b67e8cb1017f4d3851a95ecec2c" category="inline-link-macro-rx"></block>.</block>
+  <block id="3c9edce8deb164b2bcb5a4c0edb19031" category="cell"><block ref="438a0bd6ae60534499b49dc869c9923c" category="inline-link-macro-rx"></block>.</block>
+  <block id="493dbf808140d6e440e6d71d077c313b" category="cell"><block ref="493dbf808140d6e440e6d71d077c313b" category="inline-link-rx"></block></block>
+  <block id="a5b37844a6e9e768f0ce85640b2581b5" category="summary">NetApp HCI 시스템 업그레이드의 일부로 NetApp Element 소프트웨어에 대한 상태 점검을 실행해야 합니다.</block>
+  <block id="6a2367272d7df1e3bc820ae7cd85cca3" category="list-text">를 다운로드합니다 <block ref="a8a51581fa7186019dceaf790825b165" category="inline-link-macro-rx"></block> 관리 노드가 아닌 컴퓨터의 NetApp 지원 사이트에서 'metadata.json'으로 이름을 바꿉니다.</block>
+  <block id="735339172aeec7b940204188ab8289fb" category="list-text">* 컴퓨팅 드라이버 *: 컴퓨팅 노드 드라이버를 업그레이드했습니다. 컴퓨팅 노드 드라이버가 새 펌웨어와 호환되지 않으면 업그레이드가 시작되지 않습니다. 를 참조하십시오<block ref="2b761b14db6e131ceb5a9ee87e5e085a" category="inline-link-rx"></block> 드라이버 및 펌웨어 호환성 정보를 확인하고 최신 버전을 확인하십시오 <block ref="8e52b55ffa3dd99e7231384e5c6e0fa1" category="inline-link-macro-rx"></block> 최신 펌웨어 및 드라이버 세부 정보를 제공합니다.</block>
+  <block id="b24f3db75077a578765967e0b8ffa295" category="admonition">하드웨어의 펌웨어 및 드라이버 펌웨어의 전체 매트릭스는 을 참조하십시오<block ref="54a79ab153742147d13ffd4ac16bf6ba" category="inline-link-rx"></block> (로그인 필요).</block>
+  <block id="a6c551bfacbff9bc6d510d240a1f729e" category="list-text">BIOS 부트 순서 *: 부트 목록에 'USB CD/DVD'가 표시되도록 각 노드의 BIOS 설정에서 부트 순서를 수동으로 변경합니다. 자세한 내용은 다음을 참조하십시오 <block ref="40fb6836e33e97dd94fb747393132791" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
+  <block id="8cbab0daf89fd647357f115f87cafa08" category="admonition">상태 점검을 실행하고 펌웨어 업그레이드를 진행하기 전에 ESXi 호스트를 잠금 모드에서 해제해야 합니다. 을 참조하십시오 <block ref="413633461dfba42d2895a891a0754971" category="inline-link-macro-rx"></block> 및 <block ref="3763c4992ac43c28a18a921e7668037d" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
+  <block id="ad658e59cd09feeecf6b238e019458b8" category="paragraph">업그레이드 시작 * 을 선택하면 창에 실패한 상태 검사가 표시됩니다(있는 경우).</block>
+  <block id="466e65481ab5efa6812230aeb4b69f80" category="list-text">클러스터 또는 노드 레벨의 상태 점검이 경고와 함께 통과되었지만 심각한 오류가 없는 경우 * 업그레이드 준비 완료 * 가 표시됩니다. 업그레이드 노드 * 를 선택합니다.</block>
+  <block id="c39906efe5a223585b255a41266ea9c8" category="list-text">에서 다운로드한 업그레이드 패키지를 업로드하려면 * 찾아보기 * 를 선택합니다<block ref="132031089c33792b234781a9d8501a93" category="inline-link-rx"></block>.</block>
+  <block id="a4566f571e6e969e6131fb2ffde2867a" category="admonition">업그레이드 중에 장애가 발생할 경우 NetApp 하이브리드 클라우드 제어에서 노드를 재부팅하고 유지보수 모드에서 벗어난 다음 오류 로그에 대한 링크를 표시하여 장애 상태를 표시합니다. 특정 지침 또는 KB 문서 링크가 포함된 오류 로그를 다운로드하여 문제를 진단하고 해결할 수 있습니다. NetApp 하이브리드 클라우드 제어를 사용하는 컴퓨팅 노드 펌웨어 업그레이드 문제에 대한 자세한 내용은 다음을 참조하십시오 <block ref="4842a5749652a9b76b4c5d2cd1cc749c" category="inline-link-macro-rx"></block> 기사.</block>
+  <block id="f3656040c81e459770d6f808f555e44b" category="cell">심각한 오류가 발생하면 이 알림과 함께 업그레이드가 실패합니다. 오류 해결에 도움이 되는 * 로그 다운로드 * 링크를 선택하여 로그를 다운로드합니다. 오류를 해결한 후 업그레이드를 다시 시도할 수 있습니다.</block>
+  <block id="aa9d5bf83f31cb6b0178cd6fca1bf339" category="list-text">NetApp HCI 소프트웨어로 이동합니다<block ref="5edcf9a6caebd1bfc3b9c296487defc8" category="inline-link-rx"></block> 최신 컴퓨팅 노드 펌웨어 이미지를 관리 노드에서 액세스할 수 있는 디바이스에 다운로드합니다.</block>
+  <block id="afa7546eaf1454c94bb86a84962765ef" category="list-text">POST/nodes/{hardware_id}/upgrades * 를 선택합니다.</block>
+  <block id="2af0540e1b6b59e46ab66bb3122952c5" category="list-text">get/task/{task_id}/logs * 를 선택합니다.</block>
+  <block id="39752c4375b51cda523113de3c91a69a" category="list-text">클러스터 문제를 해결한 후 필요한 경우 다시 인증하고 * POST/nodes/{hardware_id}/upgrades * 를 선택합니다.</block>
+  <block id="626dccb9f3533429f8ff6726b7bc468c" category="list-text">자세한 내용은 다음을 참조하십시오<block ref="ab9b4acb1029e814de59e725ff477757" category="inline-link-rx"></block> (로그인 필요).</block>
+  <block id="8cbe2759efcdf76c5f107e0ecb7b4592" category="list-text">REST API UI에서 * get si./nodescib/{hardware_id} dynx/upgrades * 를 선택합니다.</block>
+  <block id="9db3b1bbf31a34f016b6751560d022ca" category="list-text">로 이동합니다<block ref="faddc0b2b4da1eceb58811a395f38dc6" category="inline-link-rx"></block> 페이지에서 * NetApp HCI * 를 선택하고 올바른 버전의 NetApp HCI에 대한 다운로드 링크를 선택합니다.</block>
+  <block id="7b2ebadeeacacfd175f5f97176710a3a" category="list-text">OK * 를 선택합니다. 호스트의 VM이 사용 가능한 다른 호스트로 마이그레이션됩니다. VM 마이그레이션은 마이그레이션해야 하는 VM 수에 따라 시간이 걸릴 수 있습니다.</block>
+  <block id="d4978a595335fff63b260fc4b8cdbca0" category="list-text">Launch Console * 을 선택합니다.</block>
+  <block id="086e11190936943bd47b89359cc316ab" category="list-text">콘솔이 열리면 * 가상 미디어 &gt; 가상 스토리지 * 를 선택합니다.</block>
+  <block id="0d86b24c482b6af94686b61cab281a55" category="list-text">Virtual Storage * 화면에서 * Logical Drive Type * 을 선택하고 * ISO File * 을 선택합니다.</block>
+  <block id="1034338dbc0cc8fb2f0061d492d27045" category="list-text">이미지 열기 * 를 선택하여 ISO 파일을 다운로드한 폴더를 찾은 다음 ISO 파일을 선택합니다.</block>
+  <block id="9e02313ddd26aee118ee23b52ccb621f" category="list-text">플러그인 * 을 선택합니다.</block>
+  <block id="1ae7c00d24ffdca7598b194b2dc27dbf" category="list-text">연결 상태가 Device#: VM Plug-in OK!!"로 표시되면 * OK * 를 선택합니다.</block>
+  <block id="da7914315fd2c0a46bc91f4a9b89ba7a" category="list-text">F12 * 를 누르고 * 재시작 * 을 선택하거나 * 전원 제어 &gt; 전원 재설정 설정 * 을 선택하여 노드를 재부팅합니다.</block>
+  <block id="970cbfd1c58267733c44d0cd2358be33" category="list-text">BMC UI에 다시 로그인하고 * System * 을 선택하여 OS로 부팅한 후 BIOS 버전과 빌드 시간을 확인합니다. 업그레이드가 올바르게 완료되면 새 BIOS 및 BMC 버전이 표시됩니다.</block>
+  <block id="d2fcf7c7acbf0658169aa81fda53c0ff" category="list-text">원격 제어 &gt; KVM(Java) 시작 * 을 선택합니다.</block>
+  <block id="7d853bfef08c6d2c19333026c6a5f295" category="list-text">콘솔 창에서 * 미디어 &gt; 가상 미디어 마법사 * 를 선택합니다.</block>
+  <block id="ff568983eaa948e1c45ea44fd20c3515" category="list-text">Browse * 를 선택하고 컴퓨팅 펌웨어 '.iso' 파일을 선택합니다.</block>
+  <block id="6988680d8d9db783d89d962e3a07b128" category="list-text">Connect * 를 선택합니다. 하단의 경로 및 장치와 함께 성공 여부를 나타내는 팝업이 표시됩니다. Virtual Media* 창을 닫을 수 있습니다.</block>
+  <block id="e57c91d23315863d32587c65e08c874a" category="list-text">표시된 목록에서 * AMI Virtual CDROM * 을 선택하고 * Enter * 를 선택합니다. 목록에 AMI 가상 CDROM이 표시되지 않으면 BIOS로 이동하여 부팅 목록에서 활성화하십시오. 저장한 후에 노드가 재부팅됩니다. 재부팅 중에 * F11 * 을 누릅니다.</block>
+  <block id="f168f35f98997ef1f6a33afa3e3be93e" category="list-text">표시된 화면에서 * Enter * 를 선택합니다.</block>
+  <block id="81fa3392dafdab901ebeed86d16e4abe" category="list-text">콘솔에서 연결이 끊어지면 * 원격 제어 * 를 선택하고 * Launch KVM * 또는 * Launch KVM(Java) * 을 선택하여 다시 연결하고 노드 부팅 완료 시기를 확인합니다. 노드가 성공적으로 부팅되었는지 확인하려면 여러 번 다시 연결해야 할 수 있습니다.</block>
+  <block id="f7658c00205041bd6da6d27dbaa7fe7b" category="summary">NetApp HCI 시스템 업그레이드의 일부로 관리 노드를 업그레이드합니다.</block>
+  <block id="303c7d52b5c18e714947ecd4996594a2" category="inline-link">관리 노드 ISO</block>
+  <block id="5454c55e4483c81c83dc88e7d51b7235" category="list-text">를 다운로드합니다<block ref="81f96ab5ebaacae5f09640e77583a876" category="inline-link-rx"></block> NetApp HCI의 경우 NetApp Support 사이트에서 관리 노드 가상 시스템으로.</block>
+  <block id="d142097cec7b7123937c2ec16e09998c" category="list-text">(vCenter Server용 NetApp Element 플러그인을 사용하는 모든 NetApp HCI 설치의 경우) 의 단계에 따라 12.3.x 관리 노드에서 vCenter 플러그인을 업데이트합니다 <block ref="61768f3798a436486dacb908355263cd" category="inline-link-macro-rx"></block> 주제.</block>
+  <block id="3af4bea014b0f1b76a3603ae6f5957ff" category="list-text">vSphere에서 컴퓨팅 노드의 하드웨어 태그를 찾습니다.</block>
+  <block id="a8e5aea5105effb7b748821e3735f2bb" category="list-text">HCI 모니터링 및 하이브리드 클라우드 제어에 대한 vCenter 컨트롤러 자산을 관리 노드의 알려진 자산에 추가합니다.</block>
+  <block id="cbda5d4a711e27c7bcc1c2cc1d2b18ac" category="list-text">컴퓨팅 노드 자산을 관리 노드의 알려진 자산에 추가합니다.</block>
+  <block id="94ab457d92269ad56ccbd284e4f2d66e" category="list-text">Actions * &gt; * Clear * 를 선택합니다.</block>
+  <block id="d12a393c1ac6d6c4feb3dcc671803e35" category="list-text">확인하려면 * 예 * 를 선택합니다. mNode Status 필드는 구성되지 않음을 보고해야 합니다.</block>
+  <block id="7b837430d09749101caac8ac6929be11" category="list-text">vCenter 플러그인 등록 * 탭을 선택합니다.</block>
+  <block id="6387feb1f0b906aebdb1cafedac7cc98" category="list-text">필요한 값을 입력합니다. 완료되면 * 업데이트 * 를 선택합니다.</block>
+  <block id="f4c7104fec7161266ebc2750f99bf53e" category="list-text">Actions * &gt; * Configure * 를 선택합니다.</block>
+  <block id="b8e3af673664eb79ebe128d1f309bdd6" category="list-text">REST API UI에서 * POST/services/reconfigure-auth * 를 선택합니다.</block>
+  <block id="de3741b094be24deccfc553754ce0a3a" category="paragraph">의 하드웨어 펌웨어 및 드라이버 매트릭스를 참조하십시오<block ref="69b1d186a6529d94f61dae13551aa3aa" category="inline-link-rx"></block> (로그인 필요).</block>
+  <block id="477a3e44a347d971185a2c3a5140588e" category="list-text">로 이동합니다<block ref="d4caed46ff739416e1ca7149df2744c7" category="inline-link-rx"></block> 페이지를 방문하여 올바른 버전의 NetApp HCI에 대한 다운로드 링크를 선택합니다.</block>
+  <block id="1288b4af7d9b295a0901b8b5e9b2de64" category="list-text">Remediate * 를 선택하고 새로 생성된 호스트 기준선을 선택합니다. 기준에 포함된 드라이버가 선택되었는지 확인합니다.</block>
+  <block id="ecd715524a148d3d6e20b711f37ce2c3" category="list-text">마법사의 * Ready to Complete * 페이지로 이동한 후 * Finish * 를 선택합니다.</block>
+  <block id="0f1940d8b9e51abf4381f9e406fda543" category="summary">NetApp HCI 시스템 업그레이드의 일환으로 스토리지 노드와 연결된 펌웨어를 업그레이드합니다.</block>
+  <block id="13c2b42759130af4400c46b2b928dc26" category="admonition">하드웨어에 대한 펌웨어 및 드라이버 펌웨어의 전체 매트릭스를 보려면 다음을 참조하십시오<block ref="919d0da258d2c9346bfb11f078cfd474" category="inline-link-rx"></block> (로그인 필요).</block>
+  <block id="fc6261a1be6f27091e994d8c8b075b29" category="summary">NetApp HCI 시스템 업그레이드의 일부로 vCenter Server용 Element 플러그인을 업그레이드할 수 있습니다.</block>
+  <block id="1e1e7dd8551842ca8c6e4ac3c35cb249" category="admonition">플러그인은 HTML5 vSphere Web Client의 버전 6.7 U2 빌드 13007421 및 업데이트 2a 이전에 릴리스된 기타 6.7 U2 빌드(빌드 13643870)와 호환되지 않습니다. 지원되는 vSphere 버전에 대한 자세한 내용은 의 릴리즈 노트를 참조하십시오<block ref="52a3661120ba33cd100cafc9c9d568e0" category="inline-link-rx"></block>.</block>
+  <block id="c60238cb58d95b456566853e62db1d18" category="list-text">* vCenter Server *: vCenter 플러그인 버전 4.x가 vCenter Server에 등록됩니다. 등록 유틸리티('https://[management node IP]:9443')에서 * 등록 상태 * 를 선택하고 필수 필드를 입력한 다음 * 상태 확인 * 을 선택하여 vCenter 플러그인이 이미 등록되어 있는지, 현재 설치의 버전 번호를 확인합니다.</block>
+  <block id="73bb2b0d39f901d3bcdddd6b19d7170a" category="list-text">* 관리 서비스 업데이트 *: 을(를) 업데이트했습니다<block ref="f6e495ec9a99fcd5692d41358780e884" category="inline-link-rx"></block> 를 최신 버전으로 업데이트합니다. vCenter 플러그인의 업데이트는 NetApp HCI의 주요 제품 릴리즈 외부에서 릴리스된 관리 서비스 업데이트를 사용하여 배포됩니다.</block>
+  <block id="0bd0c7dc69df55cee394b64eebcd27ab" category="list-text">vCenter 플러그인 등록 * 을 선택합니다.</block>
+  <block id="daa4768416116e6634bf75e379507244" category="admonition">HTTP 또는 HTTPS 서버(다크 사이트)를 사용 중이거나 ZIP 파일 이름 또는 네트워크 설정을 수정한 경우 * 사용자 지정 URL * 을 선택하여 URL을 사용자 지정할 수 있습니다. URL을 사용자 지정하려는 경우 추가 구성 단계를 보려면 vCenter Server용 Element Plug-in 설명서를 참조하십시오. 내부(다크 사이트) HTTP 서버에 대한 vCenter 속성 수정에 대한 자세한 내용은 vCenter Server 설명서를 참조하십시오.</block>
+  <block id="35165f9b14f6cde03fa7f6f9b03732ba" category="list-text">Update * 를 선택합니다.</block>
+  <block id="de136c431770d40aaaa67d78445252dd" category="summary">NetApp HCI 시스템 업그레이드의 일부로 관리 서비스를 업데이트해야 합니다.</block>
+  <block id="4a7821cd3898fc74659163d0e111cd38" category="paragraph">Element 11.3 관리 노드 릴리즈부터 개별 서비스를 제공하는 새로운 모듈식 아키텍처에 따라 관리 노드 설계가 변경되었습니다. 이러한 모듈식 서비스는 NetApp HCI 시스템을 위한 중앙 집중식 및 확장 관리 기능을 제공합니다. 관리 서비스에는 시스템 원격 측정, 로깅 및 업데이트 서비스, vCenter Server용 Element Plug-in용 QoSSIOC 서비스, NetApp 하이브리드 클라우드 제어 등이 포함됩니다.</block>
+  <block id="b142e9d9b67c7c4504bd1ab09fd15db2" category="admonition">주요 서비스, 새로운 기능, 버그 수정 사항 및 각 서비스 번들에 대한 대안을 설명하는 최신 관리 서비스 릴리즈 노트는 를 참조하십시오<block ref="51c56ce961e981301a44342800a6fcbd" category="inline-link-rx"></block></block>
+  <block id="a5237c2b3436db5dc67ab53b053d3ec9" category="paragraph">NetApp 하이브리드 클라우드 제어 UI 또는 관리 노드 REST API를 사용하여 관리 서비스를 업데이트할 수 있습니다.</block>
+  <block id="6dd42a6a80b9ea41a3c15d5cbf5c3528" category="paragraph">NetApp 하이브리드 클라우드 제어를 사용하여 NetApp 관리 서비스를 업데이트할 수 있습니다.</block>
+  <block id="f4b19cd96a813fb177542ed57f6d27aa" category="admonition">각 서비스 번들 버전에 대해 사용 가능한 서비스 목록은 를 참조하십시오<block ref="b7b8dc48337abf993d8909e2c4d32cb1" category="inline-link-rx"></block>.</block>
+  <block id="b48c8e3e654392e94eba7ff80f2a9810" category="list-text">설치가 인터넷에 액세스할 수 있고 관리 서비스 업그레이드를 사용할 수 있는 경우 * 업그레이드 시작 * 을 선택합니다.</block>
+  <block id="59ab5341afeb797e4cbab599e21e347f" category="list-text">저장한 패키지를 찾아 업로드하려면 * 찾아보기 * 를 선택합니다.</block>
+  <block id="9d89df9ed11d9d07aa2a21fce8623b87" category="list-text">에서 서비스 번들 업데이트를 다운로드했습니다<block ref="1c68cef0c53db6ec1d50d3b221c314cd" category="inline-link-rx"></block> 어두운 곳에서 사용할 수 있는 장치.</block>
+  <block id="36d419edc3b1ab2e45efc2685e55bd65" category="list-text">의 최신 버전을 다운로드했습니다<block ref="ca5118192781a2e9e031eb3a76fde869" category="inline-link-rx"></block> 설치 파일을 관리 노드에 복사했습니다.</block>
 </blocks>

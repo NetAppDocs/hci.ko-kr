@@ -1,7 +1,7 @@
 ---
 sidebar: sidebar 
 permalink: docs/task_hcc_upgrade_element_prechecks.html 
-summary: NetApp HCI 또는 SolidFire 스토리지 시스템 업그레이드의 일환으로 NetApp Element 소프트웨어에 대한 상태 점검을 실행해야 합니다. 
+summary: NetApp HCI 시스템 업그레이드의 일부로 NetApp Element 소프트웨어에 대한 상태 점검을 실행해야 합니다. 
 keywords: netapp, storage prechecks, element upgrade, healthtools, sfupgradecheck 
 ---
 = 스토리지를 업그레이드하기 전에 Element 스토리지 상태 점검을 실행합니다
@@ -345,7 +345,7 @@ Or rerun with the -n option
 ----
 sfupgradecheck failed: Unable to verify latest available version of healthtools.
 ----
-. 를 다운로드합니다 link:https://library.netapp.com/ecm/ecm_get_file/ECMLP2840740["JSON 파일"] 관리 노드가 아닌 컴퓨터의 NetApp 지원 사이트에서 'metadata.json'으로 이름을 바꿉니다.
+. 를 다운로드합니다 link:https://library.netapp.com/ecm/ecm_get_file/ECMLP2840740["JSON 파일"^] 관리 노드가 아닌 컴퓨터의 NetApp 지원 사이트에서 'metadata.json'으로 이름을 바꿉니다.
 . 다음 명령을 실행합니다.
 +
 [listing]

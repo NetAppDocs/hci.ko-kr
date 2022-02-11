@@ -61,7 +61,7 @@ Element 12.2 관리 노드는 선택적 업그레이드입니다. 기존 배포�
 
 == ISO 또는 OVA를 다운로드하고 VM을 배포합니다
 
-. 에서 설치에 대한 OVA 또는 ISO를 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tabNetApp["NetApp HCI"^] 페이지로 이동합니다.
+. 에서 설치에 대한 OVA 또는 ISO를 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI"^] NetApp Support 사이트의 페이지:
 +
 .. 최신 릴리스 다운로드 * 를 선택하고 EULA에 동의합니다.
 .. 다운로드할 관리 노드 이미지를 선택합니다.

@@ -13,7 +13,7 @@ H 시리즈 컴퓨팅 노드의 경우 BMC, BIOS 및 NIC와 같은 하드웨어 
 업그레이드 후 컴퓨팅 노드가 ESXi로 부팅되고 이전과 같이 작동하므로 구성이 유지됩니다.
 
 .무엇을 &#8217;필요로 할거야
-* * 컴퓨팅 드라이버 *: 컴퓨팅 노드 드라이버를 업그레이드했습니다. 컴퓨팅 노드 드라이버가 새 펌웨어와 호환되지 않으면 업그레이드가 시작되지 않습니다. 를 참조하십시오 https://mysupport.netapp.com/matrix["상호 운용성 매트릭스 툴(IMT)"] 드라이버 및 펌웨어 호환성 정보를 확인하고 최신 버전을 확인하십시오 link:rn_relatedrn.html["컴퓨팅 노드 펌웨어 릴리스 정보"] 최신 펌웨어 및 드라이버 세부 정보를 제공합니다.
+* * 컴퓨팅 드라이버 *: 컴퓨팅 노드 드라이버를 업그레이드했습니다. 컴퓨팅 노드 드라이버가 새 펌웨어와 호환되지 않으면 업그레이드가 시작되지 않습니다. 를 참조하십시오 https://mysupport.netapp.com/matrix["상호 운용성 매트릭스 툴(IMT)"^] 드라이버 및 펌웨어 호환성 정보를 확인하고 최신 버전을 확인하십시오 link:rn_relatedrn.html["컴퓨팅 노드 펌웨어 릴리스 정보"] 최신 펌웨어 및 드라이버 세부 정보를 제공합니다.
 * * 관리자 권한 *: 업그레이드를 수행할 수 있는 클러스터 관리자 및 BMC 관리자 권한이 있습니다.
 * * 시스템 포트 *: 업그레이드에 NetApp 하이브리드 클라우드 제어를 사용하는 경우 필요한 포트가 열려 있는지 확인했습니다. 을 참조하십시오 link:hci_prereqs_required_network_ports.html["네트워크 포트"] 를 참조하십시오.
 * * 최소 BMC 및 BIOS 버전 *: NetApp 하이브리드 클라우드 제어를 사용하여 업그레이드하려는 노드는 다음과 같은 최소 요구사항을 충족합니다.
@@ -44,9 +44,9 @@ NOTE: NetApp 하이브리드 클라우드 제어에서 향후 펌웨어 업그�
 
 +
 
-NOTE: 하드웨어의 펌웨어 및 드라이버 펌웨어의 전체 매트릭스는 을 참조하십시오 https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Firmware_and_driver_versions_in_NetApp_HCI_and_NetApp_Element_software["이 KB 문서를 참조하십시오"] (로그인 필요).
+NOTE: 하드웨어의 펌웨어 및 드라이버 펌웨어의 전체 매트릭스는 을 참조하십시오 https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Firmware_and_driver_versions_in_NetApp_HCI_and_NetApp_Element_software["이 KB 문서를 참조하십시오"^] (로그인 필요).
 
-* BIOS 부트 순서 *: 부트 목록에 'USB CD/DVD'가 표시되도록 각 노드의 BIOS 설정에서 부트 순서를 수동으로 변경합니다. 자세한 내용은 다음을 참조하십시오 link:https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Known_issues_and_workarounds_for_Compute_Node_upgrades#BootOrder["기사"] 를 참조하십시오.
+* BIOS 부트 순서 *: 부트 목록에 'USB CD/DVD'가 표시되도록 각 노드의 BIOS 설정에서 부트 순서를 수동으로 변경합니다. 자세한 내용은 다음을 참조하십시오 link:https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Known_issues_and_workarounds_for_Compute_Node_upgrades#BootOrder["기사"^] 를 참조하십시오.
 * * BMC 자격 증명 *: NetApp Hybrid Cloud Control에서 컴퓨팅 노드 BMC에 연결하는 데 사용하는 자격 증명을 업데이트합니다. NetApp 하이브리드 클라우드 제어를 사용하면 이러한 작업을 수행할 수 있습니다 link:task_hcc_edit_bmc_info.html#use-netapp-hybrid-cloud-control-to-edit-bmc-information["UI"] 또는 . 업그레이드 전에 BMC 정보를 업데이트하면 인벤토리가 새로 고쳐지고 관리 노드 서비스가 업그레이드를 완료하는 데 필요한 모든 하드웨어 매개 변수를 인식하게 됩니다.
 * * 연결된 미디어 *: 컴퓨팅 노드 업그레이드를 시작하기 전에 물리적 USB 또는 ISO를 모두 분리하십시오.
 * * KVM ESXi 콘솔 *: 컴퓨팅 노드 업그레이드를 시작하기 전에 BMC UI에서 열려 있는 SOL(Serial-over-LAN) 세션과 활성 KVM 세션을 모두 닫습니다.
@@ -57,7 +57,7 @@ NOTE: 하드웨어의 펌웨어 및 드라이버 펌웨어의 전체 매트릭�
 운영 환경에서는 컴퓨팅 노드 한 번에 펌웨어를 업그레이드할 수 있습니다.
 
 
-NOTE: 상태 점검을 실행하고 펌웨어 업그레이드를 진행하기 전에 ESXi 호스트를 잠금 모드에서 해제해야 합니다. 을 참조하십시오 link:https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/How_to_disable_lockdown_mode_on_ESXi_host["ESXi 호스트에서 잠금 모드를 해제하는 방법"] 및  를 참조하십시오.
+NOTE: 상태 점검을 실행하고 펌웨어 업그레이드를 진행하기 전에 ESXi 호스트를 잠금 모드에서 해제해야 합니다. 을 참조하십시오 link:https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/How_to_disable_lockdown_mode_on_ESXi_host["ESXi 호스트에서 잠금 모드를 해제하는 방법"^] 및  를 참조하십시오.
 
 NetApp 하이브리드 클라우드 제어 UI 또는 API 업그레이드의 경우, DRS 기능이 있고 필요한 라이센스가 있는 경우 업그레이드 프로세스 중에 ESXi 호스트가 자동으로 유지 관리 모드로 전환됩니다. 노드가 재부팅되고 업그레이드 프로세스가 완료되면 ESXi 호스트가 유지 관리 모드에서 제외됩니다. USB 및 BMC UI 옵션의 경우 각 절차에 설명된 대로 ESXi 호스트를 유지 관리 모드로 수동으로 배치해야 합니다.
 
@@ -103,7 +103,7 @@ NOTE: TAR.GZ 파일을 TAR 파일로 추출한 다음 ISO에 TAR 파일을 추�
 https://<ManagementNodeIP>
 ----
 . NetApp 하이브리드 클라우드 제어에 스토리지 클러스터 관리자 자격 증명을 제공하여 로그인하십시오.
-. 인터페이스 오른쪽 상단 근처에 있는 * Upgrade * 를 클릭합니다.
+. 인터페이스의 오른쪽 상단 근처에 있는 * Upgrade * 를 선택합니다.
 . 업그레이드 * 페이지에서 * 컴퓨팅 펌웨어 * 를 선택합니다.
 . 다음 옵션 중 하나를 선택하고 클러스터에 적용할 수 있는 단계 세트를 수행합니다.
 +
@@ -118,15 +118,15 @@ https://<ManagementNodeIP>
 업그레이드할 수 있는 경우 클러스터에 있는 노드가 현재 펌웨어 버전 및 최신 버전과 함께 표시됩니다.
 
 .. 업그레이드 패키지를 선택합니다.
-.. 업그레이드 시작 * 을 클릭합니다.
+.. 업그레이드 시작 * 을 선택합니다.
 +
-업그레이드 시작 * 을 클릭하면 창에 실패한 상태 검사가 표시됩니다(있는 경우).
+업그레이드 시작 * 을 선택하면 창에 실패한 상태 검사가 표시됩니다(있는 경우).
 
 +
 
 CAUTION: 시작한 후에는 업그레이드를 일시 중지할 수 없습니다. 펌웨어는 NIC, BIOS 및 BMC 순서로 순차적으로 업데이트됩니다. 업그레이드 중에는 BMC UI에 로그인하지 마십시오. BMC에 로그인하면 업그레이드 프로세스를 모니터링하는 하이브리드 클라우드 제어 SOL(Serial-over-LAN) 세션이 종료됩니다.
 
-.. 클러스터 또는 노드 레벨의 상태 점검이 경고와 함께 통과되었지만 심각한 오류가 없는 경우 * 업그레이드 준비 완료 * 가 표시됩니다. 업그레이드 노드 * 를 클릭합니다.
+.. 클러스터 또는 노드 레벨의 상태 점검이 경고와 함께 통과되었지만 심각한 오류가 없는 경우 * 업그레이드 준비 완료 * 가 표시됩니다. 업그레이드 노드 * 를 선택합니다.
 
 
 
@@ -141,7 +141,7 @@ CAUTION: H610C 및 H615S 컴퓨팅 노드에서 펌웨어를 업그레이드하�
 
 | 관리 노드는 외부 연결이 없는 어두운 사이트 내에 있습니다.  a| 
 .. 업그레이드할 클러스터를 선택합니다.
-.. 에서 다운로드한 업그레이드 패키지를 업로드하려면 * 찾아보기 * 를 클릭합니다https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp Support 사이트"^].
+.. 에서 다운로드한 업그레이드 패키지를 업로드하려면 * 찾아보기 * 를 선택합니다https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp Support 사이트"^].
 .. 업로드가 완료될 때까지 기다립니다. 진행률 표시줄에 업로드 상태가 표시됩니다.
 
 
@@ -154,7 +154,7 @@ TIP: 브라우저 창에서 멀리 이동하면 백그라운드에서 파일 업
 
 
 
-TIP: 업그레이드 중에 장애가 발생할 경우 NetApp 하이브리드 클라우드 제어에서 노드를 재부팅하고 유지보수 모드에서 벗어난 다음 오류 로그에 대한 링크를 표시하여 장애 상태를 표시합니다. 특정 지침 또는 KB 문서 링크가 포함된 오류 로그를 다운로드하여 문제를 진단하고 해결할 수 있습니다. NetApp 하이브리드 클라우드 제어를 사용하는 컴퓨팅 노드 펌웨어 업그레이드 문제에 대한 자세한 내용은 다음을 참조하십시오 link:https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Known_issues_and_workarounds_for_Compute_Node_upgrades["KB를 클릭합니다"] 기사.
+TIP: 업그레이드 중에 장애가 발생할 경우 NetApp 하이브리드 클라우드 제어에서 노드를 재부팅하고 유지보수 모드에서 벗어난 다음 오류 로그에 대한 링크를 표시하여 장애 상태를 표시합니다. 특정 지침 또는 KB 문서 링크가 포함된 오류 로그를 다운로드하여 문제를 진단하고 해결할 수 있습니다. NetApp 하이브리드 클라우드 제어를 사용하는 컴퓨팅 노드 펌웨어 업그레이드 문제에 대한 자세한 내용은 다음을 참조하십시오 link:https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Known_issues_and_workarounds_for_Compute_Node_upgrades["KB를 클릭합니다"^] 기사.
 
 
 
@@ -179,7 +179,7 @@ TIP: 업그레이드 중에 장애가 발생할 경우 NetApp 하이브리드 �
 | 업그레이드할 준비가 되었습니다. | 모든 상태 검사가 성공적으로 완료되었으며 노드를 업그레이드할 준비가 되었습니다. 
 
 
-| 업그레이드 중 오류가 발생했습니다. | 심각한 오류가 발생하면 이 알림과 함께 업그레이드가 실패합니다. 오류 해결을 위해 * 로그 다운로드 * 링크를 클릭하여 로그를 다운로드합니다. 오류를 해결한 후 업그레이드를 다시 시도할 수 있습니다. 
+| 업그레이드 중 오류가 발생했습니다. | 심각한 오류가 발생하면 이 알림과 함께 업그레이드가 실패합니다. 오류 해결에 도움이 되는 * 로그 다운로드 * 링크를 선택하여 로그를 다운로드합니다. 오류를 해결한 후 업그레이드를 다시 시도할 수 있습니다. 
 
 
 | 노드 업그레이드가 진행 중입니다. | 업그레이드가 진행 중입니다. 진행 표시줄에 업그레이드 상태가 표시됩니다. 
@@ -209,25 +209,25 @@ vCenter 및 하드웨어 자산을 비롯한 컴퓨팅 노드 자산을 관리 �
 ----
 https://<ManagementNodeIP>/package-repository/1/
 ----
-... authorize * 를 클릭하고 다음을 완료합니다.
+... authorize * 를 선택하고 다음을 완료합니다.
 +
 .... 클러스터 사용자 이름 및 암호를 입력합니다.
 .... Client ID를 mnode-client로 입력한다.
-.... 세션을 시작하려면 * authorize * 를 클릭합니다.
+.... 세션을 시작하려면 * authorize * 를 선택합니다.
 .... 인증 창을 닫습니다.
 
 
-... REST API UI에서 * get s./packagesmote/remote-repositorysessitory이거나 connection * 을 클릭합니다.
-... 체험하기 * 를 클릭합니다.
-... Execute * 를 클릭합니다.
+... REST API UI에서 * get s./packagesmote/remote-repositorysessitory이거나 connection * 을 선택합니다.
+... 체험하기 * 를 선택합니다.
+... Execute * 를 선택합니다.
 ... 코드 200이 반환되는 경우 다음 단계로 이동합니다. 원격 리포지토리에 연결되지 않은 경우 연결을 설정하거나 다크 사이트 옵션을 사용합니다.
 
 
 .. 업그레이드 패키지 ID 찾기:
 +
-... REST API UI에서 * GET/packages * 를 클릭합니다.
-... 체험하기 * 를 클릭합니다.
-... Execute * 를 클릭합니다.
+... REST API UI에서 * GET/packages * 를 선택한다.
+... 체험하기 * 를 선택합니다.
+... Execute * 를 선택합니다.
 ... 응답에서 업그레이드 패키지 이름(""packageName"")과 패키지 버전(""packageVersion")을 복사하여 나중에 사용할 수 있도록 저장합니다.
 
 
@@ -236,7 +236,7 @@ https://<ManagementNodeIP>/package-repository/1/
 
 
 | 관리 노드는 외부 연결이 없는 어두운 사이트 내에 있습니다.  a| 
-.. NetApp HCI 소프트웨어로 이동합니다 https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab/download/62542/Compute_Firmware_Bundle["다운로드 페이지"] 최신 컴퓨팅 노드 펌웨어 이미지를 관리 노드에서 액세스할 수 있는 디바이스에 다운로드합니다.
+.. NetApp HCI 소프트웨어로 이동합니다 https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab/download/62542/Compute_Firmware_Bundle["다운로드 페이지"^] 최신 컴퓨팅 노드 펌웨어 이미지를 관리 노드에서 액세스할 수 있는 디바이스에 다운로드합니다.
 +
 
 TIP: 다크 사이트 업그레이드의 경우 업그레이드 패키지와 관리 노드가 모두 로컬인 경우 업로드 시간을 줄일 수 있습니다.
@@ -249,27 +249,27 @@ TIP: 다크 사이트 업그레이드의 경우 업그레이드 패키지와 관
 ----
 https://<ManagementNodeIP>/package-repository/1/
 ----
-... authorize * 를 클릭하고 다음을 완료합니다.
+... authorize * 를 선택하고 다음을 완료합니다.
 +
 .... 클러스터 사용자 이름 및 암호를 입력합니다.
 .... Client ID를 mnode-client로 입력한다.
-.... 세션을 시작하려면 * authorize * 를 클릭합니다.
+.... 세션을 시작하려면 * authorize * 를 선택합니다.
 .... 인증 창을 닫습니다.
 
 
-... REST API UI에서 * POST/packages * 를 클릭합니다.
-... 체험하기 * 를 클릭합니다.
-... 찾아보기 * 를 클릭하고 업그레이드 패키지를 선택합니다.
-... 업로드를 시작하려면 * 실행 * 을 클릭합니다.
+... REST API UI에서 * POST/packages * 를 선택합니다.
+... 체험하기 * 를 선택합니다.
+... Browse * 를 선택하고 업그레이드 패키지를 선택합니다.
+... 업로드를 시작하려면 * 실행 * 을 선택합니다.
 ... 응답에서 패키지 ID(""id"")를 복사하여 나중에 사용할 수 있도록 저장합니다.
 
 
 .. 업로드 상태를 확인합니다.
 +
-... REST API UI에서 * GETICK/packagesCmx/{id} s./status * 를 클릭합니다.
-... 체험하기 * 를 클릭합니다.
+... REST API UI에서 * GETCi.\packagesCmx/{id}} mi있거나 status * 를 선택합니다.
+... 체험하기 * 를 선택합니다.
 ... 이전 단계에서 복사한 패키지 ID를 * id * 에 입력합니다.
-... [실행]을 클릭하여 상태 요청을 시작합니다.
+... 상태 요청을 시작하려면 * Execute * 를 선택합니다.
 +
 완료했을 때 '성공'이라는 응답이 나타납니다.
 
@@ -287,22 +287,22 @@ https://<ManagementNodeIP>/package-repository/1/
 ----
 https://<ManagementNodeIP>/inventory/1/
 ----
-.. authorize * 를 클릭하고 다음을 완료합니다.
+.. authorize * 를 선택하고 다음을 완료합니다.
 +
 ... 클러스터 사용자 이름 및 암호를 입력합니다.
 ... Client ID를 mnode-client로 입력한다.
-... 세션을 시작하려면 * authorize * 를 클릭합니다.
+... 세션을 시작하려면 * authorize * 를 선택합니다.
 ... 인증 창을 닫습니다.
 
 
-.. REST API UI에서 * Get/Installations * 를 클릭합니다.
-.. 체험하기 * 를 클릭합니다.
-.. Execute * 를 클릭합니다.
+.. REST API UI에서 * GET/Installations * 를 선택합니다.
+.. 체험하기 * 를 선택합니다.
+.. Execute * 를 선택합니다.
 .. 응답에서 설치 자산 ID(""id"")를 복사합니다.
-.. REST API UI에서 * get/Installations/{id} * 를 클릭합니다.
-.. 체험하기 * 를 클릭합니다.
+.. REST API UI에서 * get/Installations/{id} * 를 선택합니다.
+.. 체험하기 * 를 선택합니다.
 .. 설치 자산 ID를 * id * 필드에 붙여 넣습니다.
-.. Execute * 를 클릭합니다.
+.. Execute * 를 선택합니다.
 .. 응답에서 클러스터 컨트롤러 ID(""controllerId"") 및 노드 하드웨어 ID(""hardwareId"")를 복사하여 나중에 사용할 수 있도록 저장합니다.
 +
 [listing, subs="+quotes"]
@@ -342,16 +342,16 @@ https://<ManagementNodeIP>/inventory/1/
 ----
 https://<ManagementNodeIP>/hardware/2/
 ----
-.. authorize * 를 클릭하고 다음을 완료합니다.
+.. authorize * 를 선택하고 다음을 완료합니다.
 +
 ... 클러스터 사용자 이름 및 암호를 입력합니다.
 ... Client ID를 mnode-client로 입력한다.
-... 세션을 시작하려면 * authorize * 를 클릭합니다.
+... 세션을 시작하려면 * authorize * 를 선택합니다.
 ... 인증 창을 닫습니다.
 
 
-.. POST/nodes/{hardware_id}/upgrades * 를 클릭합니다.
-.. 체험하기 * 를 클릭합니다.
+.. POST/nodes/{hardware_id}/upgrades * 를 선택합니다.
+.. 체험하기 * 를 선택합니다.
 .. 매개변수 필드에 하드웨어 호스트 자산 ID("하드웨어 ID""이전 단계에서 저장한")를 입력합니다.
 .. 페이로드 값을 사용하여 다음을 수행합니다.
 +
@@ -373,7 +373,7 @@ https://<ManagementNodeIP>/hardware/2/
 ----
 
 
-.. [실행]을 클릭하여 업그레이드를 시작합니다.
+.. 업그레이드를 시작하려면 * Execute * 를 선택합니다.
 +
 
 CAUTION: 시작한 후에는 업그레이드를 일시 중지할 수 없습니다. 펌웨어는 NIC, BIOS 및 BMC 순서로 순차적으로 업데이트됩니다. 업그레이드 중에는 BMC UI에 로그인하지 마십시오. BMC에 로그인하면 업그레이드 프로세스를 모니터링하는 하이브리드 클라우드 제어 SOL(Serial-over-LAN) 세션이 종료됩니다.
@@ -383,10 +383,10 @@ CAUTION: 시작한 후에는 업그레이드를 일시 중지할 수 없습니�
 
 . 업그레이드 진행 상황 및 결과를 확인합니다.
 +
-.. Get/task/{task_id}/logs * 를 클릭합니다.
-.. 체험하기 * 를 클릭합니다.
+.. get/task/{task_id}/logs * 를 선택합니다.
+.. 체험하기 * 를 선택합니다.
 .. 작업 ID * 에 이전 단계의 작업 ID를 입력합니다.
-.. Execute * 를 클릭합니다.
+.. Execute * 를 선택합니다.
 .. 업그레이드 중 문제가 있거나 특별한 요구 사항이 있는 경우 다음 중 하나를 수행합니다.
 +
 [cols="2*"]
@@ -397,14 +397,14 @@ CAUTION: 시작한 후에는 업그레이드를 일시 중지할 수 없습니�
 | 응답 본문의 'failedHealthChecks' 메시지로 인해 클러스터 상태 문제를 해결해야 합니다.  a| 
 ... 각 문제에 대해 나열된 특정 KB 문서로 이동하거나 지정된 해결책을 수행합니다.
 ... KB가 지정된 경우 관련 KB 문서에 설명된 프로세스를 완료합니다.
-... 클러스터 문제를 해결한 후 필요한 경우 다시 인증하고 * POST/nodes/{hardware_id}/upgrades * 를 클릭합니다.
+... 클러스터 문제를 해결한 후 필요한 경우 다시 인증하고 * POST/nodes/{hardware_id}/upgrades * 를 선택합니다.
 ... 앞서 업그레이드 단계에서 설명한 단계를 반복합니다.
 
 
 
 
 | 업그레이드에 실패하고 업그레이드 로그에 완화 단계가 나열되지 않습니다.  a| 
-... 자세한 내용은 다음을 참조하십시오 https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Known_issues_and_workarounds_for_Compute_Node_upgrades["KB 문서(로그인 필요"])를 클릭합니다.
+... 자세한 내용은 다음을 참조하십시오 https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Known_issues_and_workarounds_for_Compute_Node_upgrades["KB 문서를 참조하십시오"^] (로그인 필요).
 
 
 |===
@@ -425,19 +425,19 @@ CAUTION: 시작한 후에는 업그레이드를 일시 중지할 수 없습니�
 ----
 https://<ManagementNodeIP>/hardware/2/
 ----
-.. authorize * 를 클릭하고 다음을 완료합니다.
+.. authorize * 를 선택하고 다음을 완료합니다.
 +
 ... 클러스터 사용자 이름 및 암호를 입력합니다.
 ... Client ID를 mnode-client로 입력한다.
-... 세션을 시작하려면 * authorize * 를 클릭합니다.
+... 세션을 시작하려면 * authorize * 를 선택합니다.
 ... 인증 창을 닫습니다.
 
 
-.. REST API UI에서 * get si./nodescib/{hardware_id} synx/upgrades * 를 클릭합니다.
+.. REST API UI에서 * get si./nodescib/{hardware_id} dynx/upgrades * 를 선택합니다.
 .. (선택 사항) 날짜 및 상태 매개 변수를 입력하여 결과를 필터링합니다.
 .. 매개변수 필드에 하드웨어 호스트 자산 ID("하드웨어 ID""이전 단계에서 저장한")를 입력합니다.
-.. 체험하기 * 를 클릭합니다.
-.. Execute * 를 클릭합니다.
+.. 체험하기 * 를 선택합니다.
+.. Execute * 를 선택합니다.
 .. 모든 구성 요소의 펌웨어가 이전 버전에서 최신 펌웨어로 성공적으로 업그레이드되었다는 응답에서 확인합니다.
 
 
@@ -450,7 +450,7 @@ https://<ManagementNodeIP>/hardware/2/
 최신 컴퓨팅 노드 펌웨어 ISO가 다운로드된 USB 드라이브를 컴퓨팅 노드의 USB 포트에 삽입할 수 있습니다. 이 절차에서 설명하는 USB 썸 드라이브 방법을 사용하는 대신 BMC(베이스보드 관리 컨트롤러) 인터페이스의 가상 콘솔에 있는 * 가상 CD/DVD * 옵션을 사용하여 컴퓨팅 노드에 ISO를 마운트할 수 있습니다. BMC 방법은 USB 썸 드라이브 방식보다 훨씬 오래 걸립니다. 워크스테이션 또는 서버에 필요한 네트워크 대역폭이 있는지, 그리고 BMC와 브라우저 세션이 시간 초과되지 않는지 확인합니다.
 
 .단계
-. 로 이동합니다 https://mysupport.netapp.com/site/downloads["NetApp 소프트웨어 다운로드"] 페이지에서 * NetApp HCI * 를 클릭하고 올바른 버전의 NetApp HCI에 대한 다운로드 링크를 클릭합니다.
+. 로 이동합니다 https://mysupport.netapp.com/site/downloads["NetApp 소프트웨어 다운로드"^] 페이지에서 * NetApp HCI * 를 선택하고 올바른 버전의 NetApp HCI에 대한 다운로드 링크를 선택합니다.
 . 최종 사용자 사용권 계약에 동의합니다.
 . 컴퓨팅 및 스토리지 노드 * 섹션에서 컴퓨팅 노드 이미지를 다운로드합니다.
 . Etcher 유틸리티를 사용하여 컴퓨팅 노드 펌웨어 ISO를 USB 드라이브로 플래시합니다.
@@ -501,7 +501,7 @@ TIP: 프로세스 중에 표시되는 다음과 같은 정보 메시지를 무�
 +
 .. VMware vCenter 웹 클라이언트에 로그인합니다.
 .. 호스트(컴퓨팅 노드) 이름을 마우스 오른쪽 버튼으로 클릭하고 * Maintenance Mode > Enter Maintenance Mode * 를 선택합니다.
-.. 확인 * 을 클릭합니다. 호스트의 VM이 사용 가능한 다른 호스트로 마이그레이션됩니다. VM 마이그레이션은 마이그레이션해야 하는 VM 수에 따라 시간이 걸릴 수 있습니다.
+.. OK * 를 선택합니다. 호스트의 VM이 사용 가능한 다른 호스트로 마이그레이션됩니다. VM 마이그레이션은 마이그레이션해야 하는 VM 수에 따라 시간이 걸릴 수 있습니다.
 +
 
 CAUTION: 계속하기 전에 호스트의 모든 VM이 마이그레이션되었는지 확인합니다.
@@ -511,20 +511,20 @@ CAUTION: 계속하기 전에 호스트의 모든 VM이 마이그레이션되었�
 . BMC UI인 https://BMCIP/#login` 으로 이동합니다. 여기서 BMCIP는 BMC의 IP 주소입니다.
 . 자격 증명을 사용하여 로그인합니다.
 . Remote Control > Console Redirection * 을 선택합니다.
-. Launch Console * 을 클릭합니다.
+. Launch Console * 을 선택합니다.
 +
 
 NOTE: Java를 설치하거나 업데이트해야 할 수 있습니다.
 
-. 콘솔이 열리면 * 가상 미디어 > 가상 스토리지 * 를 클릭합니다.
-. 가상 스토리지 * 화면에서 * 논리 드라이브 유형 * 을 클릭하고 * ISO 파일 * 을 선택합니다.
+. 콘솔이 열리면 * 가상 미디어 > 가상 스토리지 * 를 선택합니다.
+. Virtual Storage * 화면에서 * Logical Drive Type * 을 선택하고 * ISO File * 을 선택합니다.
 +
 image:BIOS_H410C_iso.png["ISO 파일을 선택할 수 있는 탐색 경로를 표시합니다."]
 
-. 이미지 열기 * 를 클릭하여 ISO 파일을 다운로드한 폴더를 찾은 다음 ISO 파일을 선택합니다.
-. 플러그인 * 을 클릭합니다.
-. 연결 상태가 Device#: VM Plug-in OK!!"로 표시되면 * OK * 를 클릭합니다.
-. F12 * 를 누르고 * 재시작 * 을 클릭하거나 * 전원 제어 > 전원 재설정 설정 * 을 클릭하여 노드를 재부팅합니다.
+. 이미지 열기 * 를 선택하여 ISO 파일을 다운로드한 폴더를 찾은 다음 ISO 파일을 선택합니다.
+. 플러그인 * 을 선택합니다.
+. 연결 상태가 Device#: VM Plug-in OK!!"로 표시되면 * OK * 를 선택합니다.
+. F12 * 를 누르고 * 재시작 * 을 선택하거나 * 전원 제어 > 전원 재설정 설정 * 을 선택하여 노드를 재부팅합니다.
 . 재부팅 중에 * F11 * 을 눌러 부팅 옵션을 선택하고 ISO를 로드합니다. 부팅 메뉴가 표시되기 전에 F11 키를 여러 번 눌러야 할 수 있습니다.
 +
 다음 화면이 표시됩니다.
@@ -537,7 +537,7 @@ image:boot_option_iso_h410c.png["가상 ISO가 부팅되는 화면을 표시합�
 
 NOTE: 일부 펌웨어 업그레이드로 인해 콘솔의 연결이 끊기거나 BMC의 세션 연결이 끊길 수 있습니다. BMC에 다시 로그인할 수 있지만 펌웨어 업그레이드로 인해 콘솔과 같은 일부 서비스를 사용하지 못할 수 있습니다. 업그레이드가 완료된 후 노드는 콜드 재부팅을 수행하며, 이는 약 5분이 걸릴 수 있습니다.
 
-. BMC UI에 다시 로그인하고 * System * 을 클릭하여 OS로 부팅한 후 BIOS 버전과 빌드 시간을 확인합니다. 업그레이드가 올바르게 완료되면 새 BIOS 및 BMC 버전이 표시됩니다.
+. BMC UI에 다시 로그인하고 * System * 을 선택하여 OS로 부팅한 후 BIOS 버전과 빌드 시간을 확인합니다. 업그레이드가 올바르게 완료되면 새 BIOS 및 BMC 버전이 표시됩니다.
 +
 
 NOTE: BIOS 버전은 노드가 완전히 부팅될 때까지 업그레이드된 버전을 표시하지 않습니다.
@@ -562,7 +562,7 @@ NOTE: BIOS 버전은 노드가 완전히 부팅될 때까지 업그레이드된 
 +
 .. VMware vCenter 웹 클라이언트에 로그인합니다.
 .. 호스트(컴퓨팅 노드) 이름을 마우스 오른쪽 버튼으로 클릭하고 * Maintenance Mode > Enter Maintenance Mode * 를 선택합니다.
-.. 확인 * 을 클릭합니다. 호스트의 VM이 사용 가능한 다른 호스트로 마이그레이션됩니다. VM 마이그레이션은 마이그레이션해야 하는 VM 수에 따라 시간이 걸릴 수 있습니다.
+.. OK * 를 선택합니다. 호스트의 VM이 사용 가능한 다른 호스트로 마이그레이션됩니다. VM 마이그레이션은 마이그레이션해야 하는 VM 수에 따라 시간이 걸릴 수 있습니다.
 +
 
 CAUTION: 계속하기 전에 호스트의 모든 VM이 마이그레이션되었는지 확인합니다.
@@ -571,28 +571,28 @@ CAUTION: 계속하기 전에 호스트의 모든 VM이 마이그레이션되었�
 
 . BMC UI인 https://BMCIP/#login` 으로 이동합니다. 여기서 BMC IP는 BMC의 IP 주소입니다.
 . 자격 증명을 사용하여 로그인합니다.
-. 원격 제어 > KVM(Java) 시작 * 을 클릭합니다.
-. 콘솔 창에서 * 미디어 > 가상 미디어 마법사 * 를 클릭합니다.
+. 원격 제어 > KVM(Java) 시작 * 을 선택합니다.
+. 콘솔 창에서 * 미디어 > 가상 미디어 마법사 * 를 선택합니다.
 +
 image::bmc_wizard.gif[BMC UI에서 가상 미디어 마법사를 시작합니다.]
 
-. 찾아보기 * 를 클릭하고 컴퓨팅 펌웨어 ".iso" 파일을 선택합니다.
-. 연결 * 을 클릭합니다. 하단의 경로 및 장치와 함께 성공 여부를 나타내는 팝업이 표시됩니다. Virtual Media* 창을 닫을 수 있습니다.
+. Browse * 를 선택하고 컴퓨팅 펌웨어 '.iso' 파일을 선택합니다.
+. Connect * 를 선택합니다. 하단의 경로 및 장치와 함께 성공 여부를 나타내는 팝업이 표시됩니다. Virtual Media* 창을 닫을 수 있습니다.
 +
 image::virtual_med_popup.gif[ISO 업로드 성공을 보여주는 팝업 창.]
 
-. F12 * 를 누르고 * 재시작 * 을 클릭하거나 * 전원 제어 > 전원 재설정 설정 * 을 클릭하여 노드를 재부팅합니다.
+. F12 * 를 누르고 * 재시작 * 을 선택하거나 * 전원 제어 > 전원 재설정 설정 * 을 선택하여 노드를 재부팅합니다.
 . 재부팅 중에 * F11 * 을 눌러 부팅 옵션을 선택하고 ISO를 로드합니다.
-. 표시된 목록에서 * AMI Virtual CDROM * 을 선택하고 * Enter * 를 클릭합니다. 목록에 AMI 가상 CDROM이 표시되지 않으면 BIOS로 이동하여 부팅 목록에서 활성화하십시오. 저장한 후에 노드가 재부팅됩니다. 재부팅 중에 * F11 * 을 누릅니다.
+. 표시된 목록에서 * AMI Virtual CDROM * 을 선택하고 * Enter * 를 선택합니다. 목록에 AMI 가상 CDROM이 표시되지 않으면 BIOS로 이동하여 부팅 목록에서 활성화하십시오. 저장한 후에 노드가 재부팅됩니다. 재부팅 중에 * F11 * 을 누릅니다.
 +
 image::boot_device.gif[부팅 장치를 선택할 수 있는 창이 표시됩니다.]
 
-. 표시된 화면에서 * Enter * 를 클릭합니다.
+. 표시된 화면에서 * Enter * 를 선택합니다.
 +
 
 NOTE: 일부 펌웨어 업그레이드로 인해 콘솔의 연결이 끊기거나 BMC의 세션 연결이 끊길 수 있습니다. BMC에 다시 로그인할 수 있지만 펌웨어 업그레이드로 인해 콘솔과 같은 일부 서비스를 사용하지 못할 수 있습니다. 업그레이드가 완료된 후 노드는 콜드 재부팅을 수행하며, 이는 약 5분이 걸릴 수 있습니다.
 
-. 콘솔에서 연결이 끊어지면 * 원격 제어 * 를 선택하고 * KVM * 실행 또는 * KVM(Java) 시작 * 을 클릭하여 다시 연결하고 노드 부팅이 끝났는지 확인합니다. 노드가 성공적으로 부팅되었는지 확인하려면 여러 번 다시 연결해야 할 수 있습니다.
+. 콘솔에서 연결이 끊어지면 * 원격 제어 * 를 선택하고 * Launch KVM * 또는 * Launch KVM(Java) * 을 선택하여 다시 연결하고 노드 부팅 완료 시기를 확인합니다. 노드가 성공적으로 부팅되었는지 확인하려면 여러 번 다시 연결해야 할 수 있습니다.
 +
 
 CAUTION: 전원이 켜지는 동안 약 5분 동안 KVM 콘솔에 * 신호 없음 * 이 표시됩니다.
