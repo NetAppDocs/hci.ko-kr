@@ -46,9 +46,7 @@ NOTE: 하드웨어에 대한 펌웨어 및 드라이버 펌웨어의 전체 매�
 
 NetApp 하이브리드 클라우드 제어 UI를 사용하여 클러스터에 있는 스토리지 노드의 펌웨어를 업그레이드할 수 있습니다.
 
-.무엇을 &#8217;필요로 할거야
-* 관리 노드가 인터넷에 연결되어 있지 않은 경우 이 있는 것입니다 https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab/download/62654/Storage_Firmware_Bundle["스토리지 펌웨어 번들을 다운로드했습니다"^].
-
+관리 노드가 인터넷에 연결되어 있지 않은 경우 이 있는 것입니다 https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab/download/62654/Storage_Firmware_Bundle["NetApp HCI 스토리지 클러스터용 스토리지 펌웨어 패키지를 다운로드했습니다"^].
 
 
 CAUTION: NetApp 하이브리드 클라우드 제어를 사용하여 스토리지 클러스터를 업그레이드하는 동안 발생할 수 있는 문제와 그 해결 방법은 을 참조하십시오 https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Potential_issues_and_workarounds_when_running_storage_upgrades_using_NetApp_Hybrid_Cloud_Control["KB 문서를 참조하십시오"^].
@@ -204,12 +202,7 @@ https://<ManagementNodeIP>/package-repository/1/
 
 
 | 관리 노드는 외부 연결이 없는 어두운 사이트 내에 있습니다.  a| 
-.. 스토리지 펌웨어 업그레이드 패키지를 관리 노드에서 액세스할 수 있는 장치로 다운로드합니다.
-+
-*** NetApp HCI 시스템의 경우 NetApp HCI 소프트웨어로 이동하십시오 https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["다운로드 페이지"] 최신 스토리지 펌웨어 이미지를 다운로드합니다.
-*** SolidFire 스토리지 시스템의 경우 Element 소프트웨어로 이동하십시오 https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab["다운로드 페이지"] 최신 스토리지 펌웨어 이미지를 다운로드합니다.
-
-
+.. 관리 노드에서 액세스할 수 있는 장치에 최신 스토리지 펌웨어 업그레이드 패키지를 다운로드합니다. 로 이동합니다 https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab/download/62654/Storage_Firmware_Bundle["Element 소프트웨어 스토리지 펌웨어 번들 페이지"^] 최신 스토리지 펌웨어 이미지를 다운로드합니다.
 .. 스토리지 펌웨어 업그레이드 패키지를 관리 노드에 업로드합니다.
 +
 ... 관리 노드에서 관리 노드 REST API UI를 엽니다.

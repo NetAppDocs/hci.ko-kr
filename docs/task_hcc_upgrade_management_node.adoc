@@ -73,7 +73,7 @@ NOTE: eth0을 SVIP로 라우팅할 수 없는 경우 영구 볼륨에는 추가 
 
 .단계
 . SSH 또는 콘솔 액세스를 사용하여 관리 노드 가상 머신에 로그인합니다.
-. 에 대한 관리 노드 ISO를 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI"] 또는 NetApp Support 사이트에서 관리 노드 가상 시스템으로 소프트웨어 구성
+. 에 대한 관리 노드 ISO를 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI"^] NetApp Support 사이트에서 관리 노드 가상 시스템으로.
 +
 
 NOTE: ISO의 이름은 'olidfire-fdva-<Element release>-patchX-XX.X.XXXX.iso'와 비슷합니다
@@ -172,7 +172,7 @@ NOTE: eth0을 SVIP로 라우팅할 수 없는 경우 영구 볼륨에는 추가 
 
 
 . SSH 또는 콘솔 액세스를 사용하여 관리 노드 가상 머신에 로그인합니다.
-. 에 대한 관리 노드 ISO를 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI"] 또는 NetApp Support 사이트에서 관리 노드 가상 시스템으로 소프트웨어 구성
+. 에 대한 관리 노드 ISO를 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI"] NetApp Support 사이트에서 관리 노드 가상 시스템으로.
 +
 
 NOTE: ISO의 이름은 'olidfire-fdva-<Element release>-patchX-XX.X.XXXX.iso'와 비슷합니다
@@ -271,7 +271,7 @@ NOTE: eth0을 SVIP로 라우팅할 수 없는 경우 영구 볼륨에는 추가 
 
 
 . SSH 또는 콘솔 액세스를 사용하여 관리 노드 가상 머신에 로그인합니다.
-. 에 대한 관리 노드 ISO를 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI"] 또는 NetApp Support 사이트에서 관리 노드 가상 시스템으로 소프트웨어 구성
+. 에 대한 관리 노드 ISO를 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI"] NetApp Support 사이트에서 관리 노드 가상 시스템으로.
 +
 
 NOTE: ISO의 이름은 'olidfire-fdva-<Element release>-patchX-XX.X.XXXX.iso'와 비슷합니다
@@ -370,7 +370,7 @@ NOTE: eth0을 SVIP로 라우팅할 수 없는 경우 영구 볼륨에는 추가 
 
 
 . SSH 또는 콘솔 액세스를 사용하여 관리 노드 가상 머신에 로그인합니다.
-. 에 대한 관리 노드 ISO를 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI"] 또는 NetApp Support 사이트에서 관리 노드 가상 시스템으로 소프트웨어 구성
+. 에 대한 관리 노드 ISO를 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI"] NetApp Support 사이트에서 관리 노드 가상 시스템으로.
 +
 
 NOTE: ISO의 이름은 'olidfire-fdva-<Element release>-patchX-XX.X.XXXX.iso'와 비슷합니다

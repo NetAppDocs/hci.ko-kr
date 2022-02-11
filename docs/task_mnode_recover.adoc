@@ -52,10 +52,7 @@ keywords: netapp, element, management node, mnode, disaster recovery, redeploy, 
 
 == ISO 또는 OVA를 다운로드하고 VM을 배포합니다
 
-. NetApp Support 사이트에서 설치를 위한 OVA 또는 ISO를 다운로드합니다.
-+
-Element 소프트웨어: https://mysupport.netapp.com/site/products/all/details/element-software/downloads-tab[]NetApp HCI:
-
+. 에서 설치에 대한 OVA 또는 ISO를 다운로드합니다 https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI"^] NetApp Support 사이트의 페이지:
 +
 .. 최신 릴리스 다운로드 * 를 클릭하고 EULA에 동의합니다.
 .. 다운로드할 관리 노드 이미지를 선택합니다.

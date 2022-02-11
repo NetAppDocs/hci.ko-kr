@@ -535,8 +535,6 @@
   <block id="cd7b2f0814db99464baac1222444932f" category="list-text"><block ref="cbfedbfc47267d0d76c848bfa4f73e5d" category="inline-xref-macro-rx"></block></block>
   <block id="e670d2fb8156448df75370f7ae287641" category="list-text"><block ref="71021130b09fed32ac7e7ab601988045" category="inline-xref-macro-rx"></block></block>
   <block id="5bf2236fb0d245894b988f96a0ff32f6" category="section-title">ISO 또는 OVA를 다운로드하고 VM을 배포합니다</block>
-  <block id="9ef29b07a9471b76befac230a9b4cb4d" category="list-text">NetApp Support 사이트에서 설치를 위한 OVA 또는 ISO를 다운로드합니다.</block>
-  <block id="92028a00ef6a1b5ea32043c430086fe5" category="paragraph">Element 소프트웨어:<block ref="b69a88c11707735c9407be5e45510286" category="inline-link-rx"></block>NetApp HCI:<block ref="03b5dbe7faa112201cf462a361fed457" category="inline-link-rx"></block></block>
   <block id="752442a884ebb7f25f7dd8d65f6a5431" category="list-text">최신 릴리스 다운로드 * 를 클릭하고 EULA에 동의합니다.</block>
   <block id="9fd5f1f79bb7ead4a7bdb1a4e6b94825" category="list-text">다운로드할 관리 노드 이미지를 선택합니다.</block>
   <block id="b8ccf40afa6e3a195a8f4d93c8daa17d" category="list-text">OVA를 다운로드한 경우 다음 단계를 수행하십시오.</block>
@@ -640,11 +638,6 @@
   <block id="40b6b042e91d765e0955c9bd57051567" category="admonition">2.76 버전으로 업그레이드하기 전에 현재 ESXi 드라이버 버전을 확인하십시오. 드라이버가 최신 버전이 아니면 먼저 드라이버를 업그레이드하십시오. 그런 다음 컴퓨팅 노드에서 컴퓨팅 펌웨어를 버전 2.76으로 업그레이드합니다. 를 방문하십시오 <block ref="325436a4e666ed53574c87eb30870a4b" category="inline-link-macro-rx"></block> ESXi 드라이버를 포함하는 컴퓨팅 노드 드라이버를 업데이트하는 방법은 를 참조하십시오.</block>
   <block id="e335575a2edc0f1a0a3fb7b76918fa94" category="paragraph">NetApp Deployment Engine 1.8P1은 ESXi 버전 7.0을 배포하지 않지만 ESXi 7.0은 자체 설치 또는 수동 업그레이드 옵션으로 지원됩니다. 호스트 OS를 수동으로 설치 또는 업그레이드할 때 NetApp은 이러한 OS에 대한 드라이버 및 펌웨어를 제어할 수 없습니다.</block>
   <block id="2d694ffc8438215748ab404c27b90c4a" category="section-title">Compute Firmware Bundle 2.76을 다운로드합니다</block>
-  <block id="6dd74001120be10211b1aa60f90e3a86" category="paragraph">컴퓨팅 펌웨어 번들을 다운로드하려면 다음을 수행하십시오.</block>
-  <block id="ad39e5da85569c96dc672b1696606668" category="inline-link">NetApp HCI 다운로드 페이지</block>
-  <block id="72a4e8a8d8dd6c15c91456b347cdaecd" category="list-text">로 이동합니다<block ref="be72cb0bd16989c2b15b94fd94435862" category="inline-link-rx"></block>.</block>
-  <block id="7ee3f483a8b1581c03314542ded657ce" category="list-text">드롭다운 목록에서 * Compute_Firmware_Bundle * 을 선택합니다.</block>
-  <block id="05ff9017ade4661d59fe98b0a98d68de" category="list-text">Go * 를 클릭합니다.</block>
   <block id="eaca9680a0a2978b1ede83548674ce9a" category="inline-link-macro">컴퓨팅 노드 펌웨어를 업데이트합니다</block>
   <block id="88402acd6adc8f35fd75e79c7e3689a6" category="paragraph">를 방문하십시오 <block ref="152b2065cdaf1a8e1f54648b1920938d" category="inline-link-macro-rx"></block> 컴퓨팅 노드 펌웨어 업데이트에 대한 지침은 를 참조하십시오.</block>
   <block id="71cff4f5e7236447a14d42c7cff9dd55" category="section-title">보안 취약성 해결</block>
@@ -1197,11 +1190,7 @@
   <block id="18efefbb7dfc549a016b6c88a83bd60d" category="admonition">H610S 시리즈 노드를 Element 12.3.x로 업그레이드하는 경우 노드에서 11.8 이전의 Element 버전이 실행되는 경우 추가 업그레이드 단계( )를 수행해야 합니다<block ref="705f7add14cc7784392a1a0405b32daa" category="inline-xref-macro-rx"></block>)를 각 스토리지 노드에 대해 설정합니다. Element 11.8 이상을 실행 중인 경우 추가 업그레이드 단계(2단계)가 필요하지 않습니다.</block>
   <block id="1a1c6d70aec56ed56fdc5c3ac8162a8b" category="section-title">NetApp 하이브리드 클라우드 제어 UI를 사용하여 Element 스토리지를 업그레이드하십시오</block>
   <block id="a544a5293c147dec832e983a6fbad504" category="paragraph">NetApp 하이브리드 클라우드 제어 UI를 사용하여 스토리지 클러스터를 업그레이드할 수 있습니다.</block>
-  <block id="f3a2134df5c7151ff064042a424a4b6f" category="list-text">관리 노드가 인터넷에 연결되어 있지 않은 경우 관련 위치에서 패키지를 다운로드했습니다.</block>
   <block id="358a3ff6d008d52e4a816f3c9f4d8d5f" category="inline-link">NetApp HCI 스토리지 클러스터용 NetApp HCI 소프트웨어 패키지</block>
-  <block id="579fd310dd6393c99694f665c7c50306" category="list-text"><block ref="579fd310dd6393c99694f665c7c50306" category="inline-link-rx"></block></block>
-  <block id="106cc5a0e6a0bb3c0776b3ba8fb64337" category="inline-link">SolidFire 스토리지 클러스터용 Element 소프트웨어 업그레이드 패키지(.tar.gz</block>
-  <block id="49e349363aad0972c82ddaf25dd30f70" category="list-text"><block ref="49e349363aad0972c82ddaf25dd30f70" category="inline-link-rx"></block></block>
   <block id="dd76252ea7a50def2a98f218cb1505b4" category="inline-link">KB 문서를 참조하십시오</block>
   <block id="2882996895673f16b2fcf0cabfb994f1" category="admonition">NetApp 하이브리드 클라우드 제어를 사용하여 스토리지 클러스터를 업그레이드하는 동안 발생할 수 있는 문제와 그 해결 방법은 을 참조하십시오<block ref="385c83615df1d77fbf0bae3f06fabb3d" category="inline-link-rx"></block>.</block>
   <block id="7fad05c5548f9989eaee59a54633305a" category="admonition">업그레이드 프로세스는 H610S 플랫폼이 아닌 경우 노드당 약 30분 정도 소요됩니다.</block>
@@ -1261,8 +1250,6 @@
   <block id="92c655ce479b4404b3a51afa0527fd9b" category="list-text">응답에서 패키지 ID를 복사하여 나중에 사용할 수 있도록 저장합니다.</block>
   <block id="4276657b06044ce75b41dc80b78f9b3c" category="list-text">스토리지 업그레이드 패키지를 관리 노드에서 액세스할 수 있는 디바이스로 다운로드합니다.</block>
   <block id="4876c936414c8b50876cdff810c036bd" category="inline-link">다운로드 페이지</block>
-  <block id="415cb4bf7c588f5a1b0f9a06d2d7b2ea" category="list-text">NetApp HCI 시스템의 경우 NetApp HCI 소프트웨어로 이동하십시오<block ref="39ca4e6b406fcf4593246b3140c7aff0" category="inline-link-rx"></block> 최신 스토리지 노드 이미지를 다운로드합니다.</block>
-  <block id="607c1bd0deb119c7e67b4b2a5d245512" category="list-text">SolidFire 스토리지 시스템의 경우 Element 소프트웨어로 이동하십시오<block ref="155be7eafcbb6c5a6f06740bcc09e590" category="inline-link-rx"></block> 최신 스토리지 노드 이미지를 다운로드합니다.</block>
   <block id="ca9b271bda1fd83c0839a53fe115bfdb" category="list-text">스토리지 업그레이드 패키지를 관리 노드에 업로드합니다.</block>
   <block id="830365f182a61ee2daba9b06b6d1a11a" category="list-text">REST API UI에서 * POST/packages * 를 클릭합니다.</block>
   <block id="c9cfa08b31f744b7b9dd1bd038f411f2" category="list-text">찾아보기 * 를 클릭하고 업그레이드 패키지를 선택합니다.</block>
@@ -1314,10 +1301,7 @@
   <block id="59176eee36815639c56b916d1ee6d2b9" category="list-text">NetApp 지원에 따라 3시간 이내에 수정 조치를 취하려면 업그레이드를 일시적으로 중단해야 한다고 판단했습니다. 지원 부서에서 API를 사용하여 업그레이드를 중단합니다.</block>
   <block id="e0cac02c93ade1b7ecc2eb64907171a8" category="admonition">노드가 업데이트되는 동안 클러스터 업그레이드를 중단하면 드라이브가 노드에서 올바르게 제거되지 않을 수 있습니다. 드라이브가 올바르게 제거되지 않은 경우 업그레이드 중에 드라이브를 다시 추가하려면 NetApp Support에서 수동으로 개입해야 합니다. 노드가 펌웨어 업데이트 또는 업데이트 동기화 후 작업을 수행하는 데 시간이 더 오래 걸릴 수 있습니다. 업그레이드 진행이 멈춘 것 같다면 NetApp Support에 지원을 문의하십시오.</block>
   <block id="f7cb949e38e4d529492a7a05aae8a9db" category="section-title">HealthTools를 사용하여 연결된 사이트에서 Element 소프트웨어를 업그레이드합니다</block>
-  <block id="8d65b7b2ed44a2a1faf7d2e3d5c800fb" category="list-text">스토리지 업그레이드 패키지를 다운로드합니다.</block>
   <block id="2d95a5cefb4bb26e6c4f585e36b7dd0a" category="admonition">Element 스토리지 소프트웨어를 업그레이드하려면 최신 버전의 HealthTools가 필요합니다.</block>
-  <block id="be6c10c148aba95e72e65d9fb2f1a8b1" category="list-text">NetApp HCI 시스템의 경우 NetApp HCI 소프트웨어로 이동하십시오<block ref="39ca4e6b406fcf4593246b3140c7aff0" category="inline-link-rx"></block> 최신 스토리지 노드 이미지를 관리 노드가 아닌 디바이스로 다운로드합니다.</block>
-  <block id="51d3a80c5861fe71e2445bfa6ba794ce" category="list-text">SolidFire 스토리지 시스템의 경우 Element 소프트웨어로 이동하십시오<block ref="155be7eafcbb6c5a6f06740bcc09e590" category="inline-link-rx"></block> 최신 스토리지 노드 이미지를 관리 노드가 아닌 디바이스로 다운로드합니다.</block>
   <block id="0ec4573ec12f9825d509316cd1dca61c" category="list-text">ISO 파일을 /tmp와 같은 액세스 가능한 위치의 관리 노드에 복사합니다.</block>
   <block id="f2c453451cde52ee9d2593c6e63274eb" category="paragraph">ISO 파일을 업로드할 때 파일 이름이 변경되지 않는지 확인합니다. 그렇지 않으면 이후 단계가 실패합니다.</block>
   <block id="897472b951e965022b0064dfc63a0f4a" category="list-text">* 선택 사항 *: 업그레이드하기 전에 관리 노드에서 클러스터 노드로 ISO를 다운로드합니다.</block>
@@ -1337,10 +1321,8 @@
   <block id="d91b070c7f8d6b290722e056d7aff9ce" category="paragraph">성공적인 업그레이드에서 다음 샘플 발췌 부분을 참조하십시오. 업그레이드 이벤트를 사용하여 업그레이드 진행률을 모니터링할 수 있습니다.</block>
   <block id="503d85929978f593abfff70c30d833a9" category="section-title">HealthTools를 사용하여 다크 사이트에 Element 소프트웨어를 업그레이드합니다</block>
   <block id="dda57880ebc4e427f14795d16b1ee0ad" category="paragraph">HealthTools 도구 제품군을 사용하면 외부 연결이 없는 어두운 사이트에서 NetApp Element 소프트웨어를 업데이트할 수 있습니다.</block>
-  <block id="2b5e85b8ce0299e9e27f21c8824f30ae" category="list-text">NetApp HCI 시스템의 경우 NetApp HCI 소프트웨어로 이동하십시오<block ref="39ca4e6b406fcf4593246b3140c7aff0" category="inline-link-rx"></block>. SolidFire 스토리지 시스템의 경우 Element 소프트웨어로 이동하십시오<block ref="155be7eafcbb6c5a6f06740bcc09e590" category="inline-link-rx"></block>.</block>
   <block id="33ff5a5d635fbe38905932dd4b045967" category="list-text">올바른 소프트웨어 릴리즈를 선택하고 최신 스토리지 노드 이미지를 관리 노드가 아닌 컴퓨터에 다운로드합니다.</block>
   <block id="a6c9e3a7671c1fd9d7328c3be5d107b5" category="inline-link">JSON 파일</block>
-  <block id="78499c447f897d64f28fd17af8d321bd" category="list-text">이 파일을 다운로드하십시오<block ref="d176f80cb3ec646dbc2753dff6840737" category="inline-link-rx"></block> <block ref="53034c8197fc6f1049d26569a56db918" category="inline-link-rx"></block> 관리 노드가 아닌 컴퓨터의 NetApp 지원 사이트에서 'metadata.json'으로 이름을 바꿉니다.</block>
   <block id="d862ce84c0cf2ec154f546bffc1c8204" category="list-text">ISO 파일을 '/tmp'와 같은 액세스 가능한 위치에 있는 관리 노드에 복사합니다.</block>
   <block id="22e106a3b8f9362d811fda2079e6b8db" category="admonition">예를 들어 SCP를 사용하여 이 작업을 수행할 수 있습니다. ISO 파일을 업로드할 때 파일 이름이 변경되지 않는지 확인합니다. 그렇지 않으면 이후 단계가 실패합니다.</block>
   <block id="1ef2f7a3b01bf7110273e9236fe54c5f" category="list-text">'fsupdate-healthtools' 명령어를 실행한다.</block>
@@ -3184,8 +3166,6 @@
   <block id="97badad042e3a18dd496d204994f3a2f" category="admonition">eth0을 SVIP로 라우팅할 수 없는 경우 영구 볼륨에는 추가 네트워크 어댑터가 필요할 수 있습니다. 영구 볼륨의 구성을 허용하도록 iSCSI 스토리지 네트워크에서 새 네트워크 어댑터를 구성합니다.</block>
   <block id="2759cbca8a5572fe6fdc10d347df91c2" category="list-text">스토리지 노드가 Element 11.3 이상을 실행하고 있습니다.</block>
   <block id="1a6ffd97834fd7495156f52f3058e50b" category="list-text">SSH 또는 콘솔 액세스를 사용하여 관리 노드 가상 머신에 로그인합니다.</block>
-  <block id="231afe47f3f37d3808096b36c28b4ded" category="inline-link">요소</block>
-  <block id="b64b1e098957e1ed710f09dc7aa6b162" category="list-text">에 대한 관리 노드 ISO를 다운로드합니다<block ref="60d1b63b51cb88758e890cf18a0d4bbe" category="inline-link-rx"></block> 또는<block ref="f1879511a555e2a34b95f4c0f58472cf" category="inline-link-rx"></block> NetApp Support 사이트에서 관리 노드 가상 시스템으로 소프트웨어 구성</block>
   <block id="e097e26564fa470c938b5aa9cb375497" category="admonition">ISO의 이름은 'olidfire-fdva-&lt;Element release&gt;-patchX-XX.X.XXXX.iso'와 비슷합니다</block>
   <block id="f077979ddc9a2f599964924e1fd96e46" category="list-text">다운로드한 파일에 md5sum을 실행하여 다운로드의 무결성을 확인하고 다음 예제와 같이 NetApp HCI 또는 Element 소프트웨어에 대해 NetApp Support 사이트에서 제공되는 것과 출력을 비교합니다.</block>
   <block id="4e82f8cfbdbaab82d0c8c7e65d59b756" category="paragraph">'SUDO md5sum -b &lt;ISO&gt;/solidfire-fdva-&lt;Element release&gt;-patchX-XX.X.XXXX.iso'</block>
@@ -3649,9 +3629,6 @@
   <block id="5d1b774bcdd716279a4e1f6c45c21ae4" category="cell">NetApp 하이브리드 클라우드 제어에는 온라인 소프트웨어 리포지토리에 연결할 수 있는 외부 연결이 없을 때 * 사용 가능한 버전 * 대신 * 이 상태가 표시됩니다. 스토리지 서비스 API가 가능한 업그레이드 상태의 열거 목록에 없는 업그레이드 상태를 반환하는 경우에도 이 상태가 표시됩니다.</block>
   <block id="3aff5fc3a8e8d7210a56cf227b42a6e8" category="section-title">NetApp 하이브리드 클라우드 제어 API를 사용하여 스토리지 펌웨어를 업그레이드하십시오</block>
   <block id="fa296e9495ac8602647feef1c1f92880" category="list-text">응답에서 펌웨어 패키지 ID를 복사하여 나중에 사용할 수 있도록 저장합니다.</block>
-  <block id="80fe4da3626b6e144a938323af2aed96" category="list-text">스토리지 펌웨어 업그레이드 패키지를 관리 노드에서 액세스할 수 있는 장치로 다운로드합니다.</block>
-  <block id="901441bb27b73eb2ff8f44c00bbe83c3" category="list-text">NetApp HCI 시스템의 경우 NetApp HCI 소프트웨어로 이동하십시오<block ref="39ca4e6b406fcf4593246b3140c7aff0" category="inline-link-rx"></block> 최신 스토리지 펌웨어 이미지를 다운로드합니다.</block>
-  <block id="b16473cb7fe43704f1ae3446e90ce31a" category="list-text">SolidFire 스토리지 시스템의 경우 Element 소프트웨어로 이동하십시오<block ref="155be7eafcbb6c5a6f06740bcc09e590" category="inline-link-rx"></block> 최신 스토리지 펌웨어 이미지를 다운로드합니다.</block>
   <block id="3d849e77fb6435c594cb34aff5254c7a" category="list-text">스토리지 펌웨어 업그레이드 패키지를 관리 노드에 업로드합니다.</block>
   <block id="cbba2755a405305c04008eba28b81066" category="list-text">이전 단계에서 복사한 펌웨어 패키지 ID를 * id * 에 입력합니다.</block>
   <block id="3982b15a7d8608c803ba0fea915a806a" category="list-text">설치 자산 ID를 찾습니다.</block>
@@ -5170,7 +5147,6 @@
   <block id="d4be170f87bc9401bba5a07b9dd9805b" category="cell">* 3.96.07 *</block>
   <block id="14be6d273e32a2283d6e17da8c060734" category="cell">* 4.64.07 *</block>
   <block id="c101d269b2f79196170287cd58ab9856" category="cell">14.23.1020</block>
-  <block id="58f4d6ea25d126e4e42a5bb544c8b41d" category="paragraph">컴퓨팅 노드 펌웨어 패키지를 다운로드하려면 다음을 수행하십시오.</block>
   <block id="f70279c42ea9516972bdb4dcc00c94e4" category="cell">PE-10306</block>
   <block id="e8d14920b6b17f407e2a0e08e071e88c" category="cell">Element 11.8 스토리지 노드에서 BMC 소프트웨어를 업그레이드하면 BMC 사용자 자격 증명이 손실됩니다.</block>
   <block id="0fc6ef66826a84d522e4803b7732376d" category="cell">CSESF-26</block>
@@ -6106,8 +6082,6 @@
   <block id="cf79b57edb2dfa983d325f942bfbd38f" category="inline-link-macro">2노드 스토리지 클러스터</block>
   <block id="a52e4bad07801720393fbbf29b7b6106" category="paragraph">NetApp HCI는 2노드 스토리지 클러스터에서 특정 스토리지 노드 모델만 지원합니다. 자세한 내용은 을 참조하십시오 <block ref="80bd6fa8d6a6ded3ab311d7c2cccd46d" category="inline-link-macro-rx"></block> 또는 NetApp HCI 버전의 릴리즈 노트 를 참조하십시오.</block>
   <block id="a4660721cf97657e05d3cb886c11d311" category="admonition">2노드 스토리지 클러스터를 구축할 경우 스토리지 노드 유형은 480GB 및 960GB 드라이브가 장착된 노드로 제한됩니다.</block>
-  <block id="0b012f0f130a45a29cb100381b8d8a18" category="inline-link">스토리지 펌웨어 번들을 다운로드했습니다</block>
-  <block id="2860f82003378d24e87a2b07d470efff" category="list-text">관리 노드가 인터넷에 연결되어 있지 않은 경우 이 있는 것입니다<block ref="91eecee6b4dd8708a7b3c9904156a5c7" category="inline-link-rx"></block>.</block>
   <block id="9c47e71a015bd93b8e8980c012bb680d" category="admonition">Storage * 탭에는 설치에 포함된 스토리지 클러스터가 나열됩니다. NetApp Hybrid Cloud Control에서 클러스터에 액세스할 수 없는 경우 * 업그레이드 * 페이지에 표시되지 않습니다. Element 12.0 이상을 실행하는 클러스터가 있는 경우 이러한 클러스터에 대해 현재 펌웨어 번들 버전이 나열됩니다. 단일 클러스터의 노드가 서로 다른 펌웨어 버전을 가지고 있거나 업그레이드가 진행되는 동안 * Current Firmware Bundle Version * (현재 펌웨어 번들 버전 *) 열에 * Multiple * (다중 *)이 표시됩니다. 여러 * 를 선택하여 * 노드 * 페이지로 이동하여 펌웨어 버전을 비교할 수 있습니다. 모든 클러스터가 12.0 이전 버전의 Element를 실행하는 경우 펌웨어 번들 버전 번호에 대한 정보가 표시되지 않습니다. 이 정보는 * 노드 * 페이지에서도 사용할 수 있습니다. 을 참조하십시오 <block ref="4d8bfbcb84a29a1601595359b67752e6" category="inline-link-macro-rx"></block>. 클러스터가 최신 버전이거나 사용 가능한 업그레이드 패키지가 없는 경우 * Element * 및 * Firmware Only * 탭이 표시되지 않습니다. 이 탭은 업그레이드가 진행 중일 때도 표시되지 않습니다. Element * 탭이 표시되지만 * Firmware Only * 탭이 표시되지 않으면 사용 가능한 펌웨어 패키지가 없습니다.</block>
   <block id="c2478fbc134086873c832f9086152247" category="list-text">업그레이드할 클러스터 옆에 있는 드롭다운 화살표를 선택합니다.</block>
   <block id="e0d814d8ce005e1e08731f39dc4cff27" category="list-text">펌웨어 전용 * 을 선택하고 사용 가능한 업그레이드 버전 중에서 선택합니다.</block>
@@ -6131,4 +6105,21 @@
   <block id="6e64c79081c3ef151e7d323b1b9a51e4" category="list-text">Get h./upgrades/{upgrade eId} * 를 선택합니다.</block>
   <block id="a8d9449a5d657b5f3b81cbcb493fc001" category="list-text">클러스터 문제를 해결한 후 필요한 경우 다시 인증한 후 * Put} m./upgrades/{upgrade eId} * 를 선택합니다.</block>
   <block id="86eda75a7f9a428040647949a600637f" category="list-text">필요한 경우 재인증을 수행하고 * Put cer/upgrades/{upgrade eId} * 를 선택합니다.</block>
+  <block id="2caa79e72de1ebc3a96da19b6a92c451" category="list-text">에서 설치에 대한 OVA 또는 ISO를 다운로드합니다<block ref="4844a5a06bc8e1ed86ef9bb2a86e549e" category="inline-link-rx"></block> NetApp Support 사이트의 페이지:</block>
+  <block id="28891145b6c39ff95afbdf5c47061837" category="inline-link">NetApp HCI 컴퓨팅 펌웨어 번들</block>
+  <block id="ad20855a10bcb28bd96d1134e8e2d09e" category="paragraph">Compute Firmware Bundle을 다운로드하려면 로 이동합니다<block ref="9e726c85d19808fe7c4afbfe8514b543" category="inline-link-rx"></block> 페이지.</block>
+  <block id="68baec1bded108851f5cb6cb9332b5fb" category="paragraph">관리 노드가 인터넷에 연결되어 있지 않은 경우 를 다운로드했습니다<block ref="f0f7b836568f7e533a3947b76da1a20e" category="inline-link-rx"></block>.</block>
+  <block id="1551e888ab5308b8b3157b61a9afa28c" category="paragraph">NetApp HCI 시스템의 경우 NetApp HCI 소프트웨어로 이동하십시오<block ref="6b16bb0b4b0be4862f98f84f9683318e" category="inline-link-rx"></block> 최신 스토리지 노드 이미지를 다운로드합니다.</block>
+  <block id="4f05ad42d37ba064812b10f3a7a7c448" category="list-text">스토리지 업그레이드 패키지를 다운로드합니다. NetApp HCI 시스템의 경우 NetApp HCI 소프트웨어로 이동하십시오<block ref="6b16bb0b4b0be4862f98f84f9683318e" category="inline-link-rx"></block> 최신 스토리지 노드 이미지를 관리 노드가 아닌 디바이스로 다운로드합니다.</block>
+  <block id="5e16870e97cd7494312cfcaccde66101" category="list-text">NetApp HCI 시스템의 경우 NetApp HCI 소프트웨어로 이동하십시오<block ref="6b16bb0b4b0be4862f98f84f9683318e" category="inline-link-rx"></block>.</block>
+  <block id="cabc168d31fc4c314cb500b86813e131" category="list-text">이 파일을 다운로드하십시오<block ref="747556e0149f6188670059abaeb4fd3e" category="inline-link-rx"></block> <block ref="53034c8197fc6f1049d26569a56db918" category="inline-link-rx"></block> 관리 노드가 아닌 컴퓨터의 NetApp 지원 사이트에서 'metadata.json'으로 이름을 바꿉니다.</block>
+  <block id="83e648796d8c15021f306aae3dd3d686" category="list-text">에 대한 관리 노드 ISO를 다운로드합니다<block ref="4844a5a06bc8e1ed86ef9bb2a86e549e" category="inline-link-rx"></block> NetApp Support 사이트에서 관리 노드 가상 시스템으로.</block>
+  <block id="2e6c3e131d0b66465caec32d003e1958" category="list-text">에 대한 관리 노드 ISO를 다운로드합니다<block ref="60d1b63b51cb88758e890cf18a0d4bbe" category="inline-link-rx"></block> NetApp Support 사이트에서 관리 노드 가상 시스템으로.</block>
+  <block id="6f0fdd346038a9e820296de3d9746c93" category="inline-link">NetApp HCI 스토리지 클러스터용 스토리지 펌웨어 패키지를 다운로드했습니다</block>
+  <block id="68591212ccf64f918a02a9a99d9b17cb" category="paragraph">관리 노드가 인터넷에 연결되어 있지 않은 경우 이 있는 것입니다<block ref="aafe992914552d0a3aa0655fa1abc52d" category="inline-link-rx"></block>.</block>
+  <block id="34c8eaed7bf9fcb94a9fec8fc99e01f5" category="inline-link">Element 소프트웨어 스토리지 펌웨어 번들 페이지</block>
+  <block id="4c22618bec261776093bb20f43db4da2" category="list-text">관리 노드에서 액세스할 수 있는 장치에 최신 스토리지 펌웨어 업그레이드 패키지를 다운로드합니다. 로 이동합니다<block ref="6c480cd9e53c4fa50830a2dbc4709412" category="inline-link-rx"></block> 최신 스토리지 펌웨어 이미지를 다운로드합니다.</block>
+  <block id="cb0ff683af4927c8b141ca4fdd047e6f" category="list-text">에서 설치에 대한 OVA 또는 ISO를 다운로드합니다<block ref="b6552e9fe421f9ef58cbc1fac1e87c10" category="inline-link-rx"></block> 페이지로 이동합니다.</block>
+  <block id="fb9dbde245c31e55deba5a52e39161b7" category="inline-link">NetApp HCI 컴퓨팅 펌웨어 번들</block>
+  <block id="5867a9249c217b0fd396efc0b056c46a" category="paragraph">Compute Firmware Bundle을 다운로드하려면 로 이동합니다<block ref="47afcbf58f4f7c048fb68385f91a8522" category="inline-link-rx"></block> 페이지.</block>
 </blocks>

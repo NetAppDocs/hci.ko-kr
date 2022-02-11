@@ -36,12 +36,7 @@ keywords: netapp, hci, compute firmware
 
 | NIC/Mellanox | 14.21.1000 | 14.21.1000 | 14.22.1002 | 14.23.1020 
 |===
-컴퓨팅 노드 펌웨어 패키지를 다운로드하려면 다음을 수행하십시오.
-
-. 로 이동합니다 https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI 다운로드 페이지"^].
-. 드롭다운 목록에서 * Compute_Firmware_Bundle * 을 선택합니다.
-. Go * 를 클릭합니다.
-
+Compute Firmware Bundle을 다운로드하려면 로 이동합니다 https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab/download/62542/Compute_Firmware_Bundle["NetApp HCI 컴퓨팅 펌웨어 번들"^] 페이지.
 
 를 방문하십시오 link:task_hcc_upgrade_compute_node_firmware.html#use-the-baseboard-management-controller-bmc-user-interface-ui["컴퓨팅 노드 펌웨어를 업데이트합니다"^] 컴퓨팅 노드 펌웨어 업데이트에 대한 지침은 를 참조하십시오.
 
