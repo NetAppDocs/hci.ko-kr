@@ -9,7 +9,7 @@
   <meta property="og:title" content="관리 서비스를 업데이트합니다" />
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="https://docs.netapp.com/ko-kr/hci/docs/task_hcc_update_management_services.html" />
-	<meta property="og:description" content="NetApp HCI 또는 SolidFire 스토리지 시스템 업그레이드의 일부로 관리 서비스를 업데이트해야 합니다." />
+	<meta property="og:description" content="NetApp HCI 시스템 업그레이드의 일부로 관리 서비스를 업데이트해야 합니다." />
   <meta property="og:image" content="https://docs.netapp.com/ko-kr/hci/images/logo-tophat-social.png" />
   <meta property="og:image:alt" content="NetApp Logo" />
   <meta name="format-detection" content="telephone=no">
@@ -18,7 +18,7 @@
   <meta http-equiv="nss-type" content="Product Documentation"/>
   <meta http-equiv="nss-subtype" content="User Guide"/>
   
-  <meta name="description" content="NetApp HCI 또는 SolidFire 스토리지 시스템 업그레이드의 일부로 관리 서비스를 업데이트해야 합니다.">
+  <meta name="description" content="NetApp HCI 시스템 업그레이드의 일부로 관리 서비스를 업데이트해야 합니다.">
   <meta name="keywords" content=" netapp, hci, on premise, cluster, management services">
   
   
@@ -1716,7 +1716,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-02-11 17:11:31 +0000">02/11/2022</time>
+    <time datetime="2022-02-11 20:29:01 +0000">02/11/2022</time>
     
   
 
@@ -1734,6 +1734,14 @@
           alt="dbag-personal"
           width="20" height="20"
           src="https://avatars.githubusercontent.com/u/56609800?v=4"
+          style="border-radius: 50%;"/>
+  </a>
+  
+  <a target="_blank" href="https://github.com/netapp-pcarriga">
+    <img  class="avatar avatar-small"
+          alt="netapp-pcarriga"
+          width="20" height="20"
+          src="https://avatars.githubusercontent.com/u/77334475?v=4"
           style="border-radius: 50%;"/>
   </a>
   
@@ -1765,7 +1773,7 @@
 <p>관리 노드 11.3 이상을 설치한 후 관리 서비스를 최신 번들 버전으로 업데이트할 수 있습니다.</p>
 </div>
 <div class="paragraph">
-<p>Element 11.3 관리 노드 릴리즈부터 개별 서비스를 제공하는 새로운 모듈식 아키텍처에 따라 관리 노드 설계가 변경되었습니다. 이러한 모듈식 서비스는 NetApp HCI 및 SolidFire All-Flash 스토리지 시스템을 위한 중앙 집중식 확장 관리 기능을 제공합니다. 관리 서비스에는 시스템 원격 측정, 로깅 및 업데이트 서비스, vCenter Server용 Element Plug-in용 QoSSIOC 서비스, NetApp 하이브리드 클라우드 제어(HCC) 등이 포함됩니다.</p>
+<p>Element 11.3 관리 노드 릴리즈부터 개별 서비스를 제공하는 새로운 모듈식 아키텍처에 따라 관리 노드 설계가 변경되었습니다. 이러한 모듈식 서비스는 NetApp HCI 시스템을 위한 중앙 집중식 및 확장 관리 기능을 제공합니다. 관리 서비스에는 시스템 원격 측정, 로깅 및 업데이트 서비스, vCenter Server용 Element Plug-in용 QoSSIOC 서비스, NetApp 하이브리드 클라우드 제어 등이 포함됩니다.</p>
 </div>
 <div class="ulist">
 <div class="title">이 작업에 대해</div>
@@ -1782,13 +1790,13 @@
 <img src="/us-en/hci/images/note.svg" alt="참고">
 </td>
 <td class="content">
-주요 서비스, 새로운 기능, 버그 수정 사항 및 각 서비스 번들에 대한 대안을 설명하는 최신 관리 서비스 릴리즈 노트는 를 참조하십시오 <a href="https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes">"관리 서비스 릴리즈 노트"</a>
+주요 서비스, 새로운 기능, 버그 수정 사항 및 각 서비스 번들에 대한 대안을 설명하는 최신 관리 서비스 릴리즈 노트는 를 참조하십시오 <a href="https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes" target="_blank" rel="noopener">"관리 서비스 릴리즈 노트"</a>
 </td>
 </tr>
 </table>
 </div>
 <div class="paragraph">
-<p>NetApp HCC(하이브리드 클라우드 제어) UI 또는 관리 노드 REST API를 사용하여 관리 서비스를 업데이트할 수 있습니다.</p>
+<p>NetApp 하이브리드 클라우드 제어 UI 또는 관리 노드 REST API를 사용하여 관리 서비스를 업데이트할 수 있습니다.</p>
 </div>
 <div class="ulist">
 <ul>
@@ -1809,7 +1817,7 @@
 <h2 id="하이브리드-클라우드-제어를-사용하여-관리-서비스를-업데이트합니다">하이브리드 클라우드 제어를 사용하여 관리 서비스를 업데이트합니다</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>NetApp 하이브리드 클라우드 제어(HCC)를 사용하여 NetApp 관리 서비스를 업데이트할 수 있습니다.</p>
+<p>NetApp 하이브리드 클라우드 제어를 사용하여 NetApp 관리 서비스를 업데이트할 수 있습니다.</p>
 </div>
 <div class="paragraph">
 <p>관리 서비스 번들은 주요 릴리스 이외의 설치 시 향상된 기능과 수정 사항을 제공합니다.</p>
@@ -1851,7 +1859,7 @@
 <img src="/us-en/hci/images/note.svg" alt="참고">
 </td>
 <td class="content">
-각 서비스 번들 버전에 대해 사용 가능한 서비스 목록은 를 참조하십시오 <a href="https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes">"관리 서비스 릴리스 정보"</a>.
+각 서비스 번들 버전에 대해 사용 가능한 서비스 목록은 를 참조하십시오 <a href="https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes" target="_blank" rel="noopener">"관리 서비스 릴리스 정보"</a>.
 </td>
 </tr>
 </table>
@@ -1866,7 +1874,7 @@
 <p>NetApp 하이브리드 클라우드 제어에 스토리지 클러스터 관리자 자격 증명을 제공하여 로그인하십시오.</p>
 </li>
 <li>
-<p>인터페이스 오른쪽 상단 근처에 있는 * Upgrade * 를 클릭합니다.</p>
+<p>인터페이스의 오른쪽 상단 근처에 있는 * Upgrade * 를 선택합니다.</p>
 </li>
 <li>
 <p>업그레이드 페이지에서 * 관리 서비스 * 탭을 선택합니다.</p>
@@ -1887,7 +1895,7 @@
 </div>
 </li>
 <li>
-<p>설치가 인터넷에 액세스할 수 있고 관리 서비스 업그레이드를 사용할 수 있는 경우 * 업그레이드 시작 * 을 클릭합니다.</p>
+<p>설치가 인터넷에 액세스할 수 있고 관리 서비스 업그레이드를 사용할 수 있는 경우 * 업그레이드 시작 * 을 선택합니다.</p>
 </li>
 <li>
 <p>설치가 인터넷에 액세스할 수 없는 경우 다음을 수행합니다.</p>
@@ -1897,7 +1905,7 @@
 <p>페이지의 지침에 따라 관리 서비스 업그레이드 패키지를 다운로드하여 컴퓨터에 저장합니다.</p>
 </li>
 <li>
-<p>저장한 패키지를 찾아 업로드하려면 * 찾아보기 * 를 클릭합니다.</p>
+<p>저장한 패키지를 찾아 업로드하려면 * 찾아보기 * 를 선택합니다.</p>
 </li>
 </ol>
 </div>
@@ -1952,7 +1960,7 @@
 <img src="/us-en/hci/images/note.svg" alt="참고">
 </td>
 <td class="content">
-각 서비스 번들 버전에 대해 사용 가능한 서비스 목록은 를 참조하십시오 <a href="https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes">"관리 서비스 릴리스 정보"</a>.
+각 서비스 번들 버전에 대해 사용 가능한 서비스 목록은 를 참조하십시오 <a href="https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Management_services_for_Element_Software_and_NetApp_HCI/Management_Services_Release_Notes" target="_blank" rel="noopener">"관리 서비스 릴리스 정보"</a>.
 </td>
 </tr>
 </table>
@@ -1964,7 +1972,7 @@
 <p>관리 노드에서 REST API UI를 엽니다. 'https://&lt;ManagementNodeIP&gt;/mnode`</p>
 </li>
 <li>
-<p>authorize * 를 클릭하고 다음을 완료합니다.</p>
+<p>authorize * 를 선택하고 다음을 완료합니다.</p>
 <div class="olist loweralpha">
 <ol class="loweralpha" type="a">
 <li>
@@ -1974,7 +1982,7 @@
 <p>값이 아직 채워지지 않은 경우 클라이언트 ID를 mnode-client로 입력합니다.</p>
 </li>
 <li>
-<p>세션을 시작하려면 * authorize * 를 클릭합니다.</p>
+<p>세션을 시작하려면 * authorize * 를 선택합니다.</p>
 </li>
 <li>
 <p>창을 닫습니다.</p>
@@ -2055,7 +2063,7 @@
 <p>클러스터 버전이 NetApp Element 소프트웨어 11.3 이상을 실행 중입니다.</p>
 </li>
 <li>
-<p>에서 서비스 번들 업데이트를 다운로드했습니다 <a href="https://mysupport.netapp.com/site/products/all/details/mgmtservices/downloads-tab">"NetApp Support 사이트"</a> 어두운 곳에서 사용할 수 있는 장치.</p>
+<p>에서 서비스 번들 업데이트를 다운로드했습니다 <a href="https://mysupport.netapp.com/site/products/all/details/mgmtservices/downloads-tab" target="_blank" rel="noopener">"NetApp Support 사이트"</a> 어두운 곳에서 사용할 수 있는 장치.</p>
 </li>
 </ul>
 </div>
@@ -2066,7 +2074,7 @@
 <p>관리 노드에서 REST API UI를 엽니다. 'https://&lt;ManagementNodeIP&gt;/mnode`</p>
 </li>
 <li>
-<p>authorize * 를 클릭하고 다음을 완료합니다.</p>
+<p>authorize * 를 선택하고 다음을 완료합니다.</p>
 <div class="olist loweralpha">
 <ol class="loweralpha" type="a">
 <li>
@@ -2076,7 +2084,7 @@
 <p>값이 아직 채워지지 않은 경우 클라이언트 ID를 mnode-client로 입력합니다.</p>
 </li>
 <li>
-<p>세션을 시작하려면 * authorize * 를 클릭합니다.</p>
+<p>세션을 시작하려면 * authorize * 를 선택합니다.</p>
 </li>
 <li>
 <p>창을 닫습니다.</p>
