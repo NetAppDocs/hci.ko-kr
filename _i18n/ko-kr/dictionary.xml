@@ -6187,4 +6187,9 @@
   <block id="78f6798eb036b3dd12c871ca38087892" category="inline-link-macro">스토리지 펌웨어 번들 2.146 릴리스 정보(최신)</block>
   <block id="ffd0fc3ed0aa2dae6e9d6c7cd57e6888" category="list-text"><block ref="ffd0fc3ed0aa2dae6e9d6c7cd57e6888" category="inline-link-macro-rx"></block></block>
   <block id="c7faa307a21de68e6b2b579eb4dd6238" category="list-text"><block ref="c7faa307a21de68e6b2b579eb4dd6238" category="inline-link-macro-rx"></block></block>
+  <block id="17a3f3fcb25f60a1e4c1a40f1e7eace3" category="list-text">VMware ESXi 7.0의 경우 NetApp H610C, H615C, H410C 및 Hx00E 컴퓨팅 노드 및 빌드-인 시스템 구성 요소에 필요한 모든 드라이버가 표준 VMware ESXi 7.0 설치 ISO 이미지에 포함되어 있습니다. VMware ESXi 7.0(및 업데이트)을 실행하는 NetApp HCI 컴퓨팅 노드에 대해 추가 또는 업데이트된 드라이버가 필요하지 않습니다.</block>
+  <block id="3df9942375d4c2463d762d41ec77a6e1" category="list-text">VMware ESXi 6.x의 경우 다음 단계를 수행하여 드라이버 오프라인 번들 파일을 가져옵니다.</block>
+  <block id="772251791cdb07bc2fc3967b8243ac21" category="list-text">업데이트 * 탭을 선택합니다.</block>
+  <block id="633d466e4a34f3db8d313150633fe669" category="list-text">파일에서 * 업로드 * 를 선택합니다.</block>
+  <block id="0965e8793c3a408e2c948a5aa3f43df7" category="list-text">이전에 다운로드한 오프라인 번들을 찾아 * import * 를 선택합니다.</block>
 </blocks>
