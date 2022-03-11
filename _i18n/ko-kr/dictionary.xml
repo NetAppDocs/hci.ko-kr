@@ -6192,4 +6192,5 @@
   <block id="772251791cdb07bc2fc3967b8243ac21" category="list-text">업데이트 * 탭을 선택합니다.</block>
   <block id="633d466e4a34f3db8d313150633fe669" category="list-text">파일에서 * 업로드 * 를 선택합니다.</block>
   <block id="0965e8793c3a408e2c948a5aa3f43df7" category="list-text">이전에 다운로드한 오프라인 번들을 찾아 * import * 를 선택합니다.</block>
+  <block id="38be14292d8d278a5d7b04a84bab839d" category="admonition">VMware vCenter Server 7.0 U3으로 업그레이드하면 vCenter Server용 NetApp Element 플러그인의 모든 버전이 배포되지 않습니다. 이 문제를 해결하려면 을 참조하십시오<block ref="770c119932f7fa962a47dc0795db1af6" category="inline-link-rx"></block>.</block>
 </blocks>
