@@ -6,6 +6,7 @@ keywords: netapp, hci, witness nodes, two-node cluster, four-node cluster, compu
 ---
 = 클러스터를 확장한 후 Witness 노드를 제거합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

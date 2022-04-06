@@ -6,6 +6,7 @@ keywords: netapp, hci, H410C nodes, replacement, node replacement
 ---
 = H410C 노드를 교체합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

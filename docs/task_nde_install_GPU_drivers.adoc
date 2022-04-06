@@ -6,6 +6,7 @@ keywords: netapp, hci, deployment, review, GPU, install, driver, drivers
 ---
 = GPU 지원 컴퓨팅 노드용 GPU 드라이버를 설치합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -5,6 +5,7 @@ summary: NetApp 하이브리드 클라우드 제어를 사용하여 이전에 HC
 keywords: netapp, hci, rancher, upgrade, hcc 
 ---
 = NetApp HCI에서 Rancher를 업그레이드합니다
+:allow-uri-read: 
 
 
 [role="lead"]

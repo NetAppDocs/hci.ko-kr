@@ -5,6 +5,7 @@ summary: NetApp HCI 시스템 업그레이드의 일부로 관리 서비스를 �
 keywords: netapp, hci, on premise, cluster, management services 
 ---
 = 관리 서비스를 업데이트합니다
+:allow-uri-read: 
 
 
 [role="lead"]

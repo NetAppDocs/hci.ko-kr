@@ -5,6 +5,7 @@ summary: 노드 교체, 스토리지 노드의 드라이브 교체, 전원 공�
 keywords: netapp, hci, on premise, activeiq, active iq, cluster, performance, rails, h-series, nodes 
 ---
 = H 시리즈 하드웨어 유지 관리 개요
+:allow-uri-read: 
 
 
 [role="lead"]

@@ -5,6 +5,7 @@ summary: NetApp HCI 구축 시 Rancher 설치를 제거하여 다시 배포하�
 keywords: netapp, hci, api, REST, remove, Rancher, redeploy 
 ---
 = NetApp HCI에서 목장 설치를 제거합니다
+:allow-uri-read: 
 
 
 [role="lead"]

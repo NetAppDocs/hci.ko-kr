@@ -6,6 +6,7 @@ keywords: netapp, hci, rancher, install, trident, persistent volumes, pv
 ---
 = Trident를 설치합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

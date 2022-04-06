@@ -6,6 +6,7 @@ keywords: netapp, hci, storage volume, solidfire volume, element volume, persist
 ---
 = 볼륨 액세스 그룹
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

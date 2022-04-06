@@ -6,6 +6,7 @@ keywords: netapp, hci, deployment, compatibility, nodes
 ---
 = 네트워크 설정을 구성합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

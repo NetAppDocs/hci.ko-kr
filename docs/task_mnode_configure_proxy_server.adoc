@@ -5,6 +5,7 @@ summary: REST API UI를 사용하여 관리 노드 구성에 컴퓨팅 및 컨�
 keywords: netapp, hci, mnode, api, management node, add proxy, proxy server 
 ---
 = 프록시 서버를 구성합니다
+:allow-uri-read: 
 
 
 [role="lead"]

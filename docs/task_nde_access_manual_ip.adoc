@@ -6,6 +6,7 @@ keywords: netapp, hci, netapp deployment engine, deployment, engine, deploy, acc
 ---
 = IP 주소를 수동으로 할당하여 NetApp Deployment Engine에 액세스합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -5,6 +5,7 @@ summary: NetApp HCI 스토리지 볼륨에서 작업할 새 볼륨 액세스 그
 keywords: netapp, hci, on premise, cluster, element 
 ---
 = 볼륨 액세스 그룹을 생성하고 관리합니다
+:allow-uri-read: 
 
 
 [role="lead"]

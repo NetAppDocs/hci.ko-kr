@@ -6,6 +6,7 @@ keywords: netapp, hci, rancher, deploy, cluster, kubernetes
 ---
 = NetApp HCI의 Rancher를 위한 구축 후 작업 완료
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

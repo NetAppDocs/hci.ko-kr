@@ -6,6 +6,7 @@ keywords: netapp, hci, Rancher, install, installation, load, balance
 ---
 = 로드 밸런싱을 구성합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

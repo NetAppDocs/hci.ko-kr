@@ -5,6 +5,7 @@ summary: NetApp HCI 시스템 업그레이드의 일부로 NetApp Element 소프
 keywords: netapp, hci, HealthTools, cluster, element, H610S upgrade, hcc 
 ---
 = Element 소프트웨어 업그레이드
+:allow-uri-read: 
 
 
 [role="lead"]

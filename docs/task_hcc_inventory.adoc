@@ -6,6 +6,7 @@ keywords: netapp, hci, hcc, on premise, inventory, hybrid cloud control
 ---
 = 하이브리드 클라우드 제어에서 NetApp HCI 재고를 확인하십시오
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

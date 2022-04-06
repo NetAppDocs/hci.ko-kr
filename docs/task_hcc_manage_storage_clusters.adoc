@@ -5,6 +5,7 @@ summary: NetApp 하이브리드 제어 UI를 사용하여 스토리지 클러스
 keywords: netapp, hci, element, storage cluster, hybrid cloud control, hcc, maintenance mode, enable, disable 
 ---
 = NetApp 하이브리드 클라우드 제어를 사용하여 스토리지 클러스터를 추가하고 관리합니다
+:allow-uri-read: 
 
 
 [role="lead"]

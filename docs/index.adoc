@@ -7,6 +7,7 @@ redirect: hci/index.html
 ---
 = NetApp HCI 구성 및 관리 문서
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

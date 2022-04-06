@@ -6,6 +6,7 @@ summary: 최신 버전을 실행하지 않는 경우 이전 버전의 NetApp HCI
 ---
 = 이전 버전의 NetApp HCI 설명서
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

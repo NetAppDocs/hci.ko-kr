@@ -6,6 +6,7 @@ keywords: netapp, hci, Rancher, install, installation, requirements
 ---
 = NetApp HCI의 Rancher에 대한 요구 사항
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

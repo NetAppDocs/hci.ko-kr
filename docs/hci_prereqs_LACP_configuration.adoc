@@ -6,6 +6,7 @@ keywords: netapp, hci, storage, performance, LACP
 ---
 = 최적의 스토리지 성능을 위해 LACP를 구성합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

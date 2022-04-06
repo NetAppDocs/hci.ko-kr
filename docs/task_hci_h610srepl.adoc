@@ -6,6 +6,7 @@ keywords: netapp, hci, h610s, chassis replacement, node replacement
 ---
 = H610S 노드를 교체합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

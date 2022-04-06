@@ -6,6 +6,7 @@ keywords: netapp, hci, psu, replace power supply, H410S, H610S, H410C, H610C, H6
 ---
 = 전원 공급 장치를 교체합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

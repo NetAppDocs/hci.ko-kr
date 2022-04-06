@@ -6,6 +6,7 @@ keywords: netapp, hci, deployment, requirements
 ---
 = NetApp HCI 구축 개요에 대한 요구 사항
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

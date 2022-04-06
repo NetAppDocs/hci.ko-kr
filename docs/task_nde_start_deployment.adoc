@@ -6,6 +6,7 @@ keywords: netapp, hci, netapp deployment engine, deployment, engine, deploy, acc
 ---
 = 배포를 시작합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

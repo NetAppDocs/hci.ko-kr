@@ -6,6 +6,7 @@ keywords: netapp, hci, deployment, compatibility, nodes
 ---
 = 인벤토리 선택 및 노드 호환성
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -6,6 +6,7 @@ keywords: netapp, hci, Rancher, install, post installation, requirements, tasks
 ---
 = 구축 후 작업 개요
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

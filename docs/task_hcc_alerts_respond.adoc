@@ -6,6 +6,7 @@ keywords: netapp, hci, hcc, on premise, alerts, warnings
 ---
 = 하이브리드 클라우드 제어 대시보드의 알림에 응답
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

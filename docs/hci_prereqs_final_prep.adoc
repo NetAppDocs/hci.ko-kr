@@ -6,6 +6,7 @@ keywords: netapp, hci, final preparations, requirements
 ---
 = 각 노드에 대해 IPMI를 구성합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

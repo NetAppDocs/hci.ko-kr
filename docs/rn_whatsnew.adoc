@@ -6,6 +6,7 @@ keywords: netapp, hci, element, new, whatsnew
 ---
 = NetApp HCI의 새로운 기능
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

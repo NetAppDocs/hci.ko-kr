@@ -6,6 +6,7 @@ keywords: netapp, hci, rancher, deploy, cluster, kubernetes, telemetry, monitori
 ---
 = 모니터링을 활성화합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

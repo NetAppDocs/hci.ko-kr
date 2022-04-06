@@ -6,6 +6,7 @@ keywords: netapp, hci, data protection, ha, snapshots, replication, cloning, hel
 ---
 = 데이터 보호
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -5,6 +5,7 @@ summary: NetApp HCI 시스템 업그레이드의 일부로 관리 노드를 업�
 keywords: netapp, hci, on premise, cluster, management node, mNode, upgrade, 10, 11.0, 11.1, 11.3, 11.5, 11.7, 12.0, 12.2, 12.3, 12.3.1, 12.3.2, 12.3.x 
 ---
 = 관리 노드를 업그레이드합니다
+:allow-uri-read: 
 
 
 [role="lead"]

@@ -6,6 +6,7 @@ keywords: netapp, hci, Rancher, install, resiliency, vm, affinity
 ---
 = 복원력을 구성합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

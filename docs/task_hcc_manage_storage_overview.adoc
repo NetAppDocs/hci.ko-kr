@@ -5,6 +5,7 @@ summary: NetApp HCI을 사용하면 NetApp 하이브리드 클라우드 제어�
 keywords: netapp, hci, on premise, cluster, element, account, user, volume, hybrid cloud control, hcc 
 ---
 = NetApp HCI 스토리지 관리 개요
+:allow-uri-read: 
 
 
 [role="lead"]

@@ -5,6 +5,7 @@ summary: SolidFire Active IQ를 사용하여 클러스터 상태를 모니터링
 keywords: netapp, hci, on premise, activeiq, active iq, cluster, performance 
 ---
 = SolidFire Active IQ로 성능, 용량, 클러스터 상태를 모니터링합니다
+:allow-uri-read: 
 
 
 [role="lead"]

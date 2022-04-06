@@ -6,6 +6,7 @@ keywords: netapp, hci, on premise, concept_hci_performance
 ---
 = 성능 및 서비스 품질
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

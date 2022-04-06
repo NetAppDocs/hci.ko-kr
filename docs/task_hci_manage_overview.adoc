@@ -5,6 +5,7 @@ summary: FQDM을 구성하고 NetApp HCI, 사용자 계정, 스토리지 클러�
 keywords: netapp, hci, install, deploy, get started, configure, fqdn, fully qualified domain name 
 ---
 = NetApp HCI 관리 개요
+:allow-uri-read: 
 
 
 [role="lead"]

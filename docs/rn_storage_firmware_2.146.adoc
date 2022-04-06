@@ -6,6 +6,7 @@ keywords: netapp, hci, storage firmware
 ---
 = 스토리지 펌웨어 번들 2.146 릴리스 정보
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

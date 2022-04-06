@@ -5,6 +5,7 @@ summary: REST API UI를 사용하여 관리 노드에서 SSH 지원 연결 기�
 keywords: netapp, mnode, management node, ssh, disable, enable, rest api 
 ---
 = 관리 노드에서 SSH 기능을 관리합니다
+:allow-uri-read: 
 
 
 [role="lead"]

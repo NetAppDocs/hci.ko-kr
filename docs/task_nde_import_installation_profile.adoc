@@ -6,6 +6,7 @@ keywords: netapp, hci, deployment, compatibility, nodes, installation, profile, 
 ---
 = 설치 프로파일을 가져옵니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

@@ -5,6 +5,7 @@ summary: 관리 노드 네트워크, 클러스터 및 시스템 설정을 수정
 keywords: netapp, management node ui, mnode ui, network settings, test network, cluster settings 
 ---
 = 관리 노드 네트워크, 클러스터 및 시스템 설정을 수정하고 테스트합니다
+:allow-uri-read: 
 
 
 [role="lead"]

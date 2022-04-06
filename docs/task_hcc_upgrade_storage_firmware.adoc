@@ -5,6 +5,7 @@ summary: NetApp HCI 시스템 업그레이드의 일환으로 스토리지 노�
 keywords: netapp, element, hcc, firmware, storage firmware 
 ---
 = 스토리지 펌웨어를 업그레이드합니다
+:allow-uri-read: 
 
 
 [role="lead"]

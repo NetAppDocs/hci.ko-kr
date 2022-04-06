@@ -6,6 +6,7 @@ keywords: netapp, hci, network, cable, requirements
 ---
 = 네트워크 케이블 요구 사항
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

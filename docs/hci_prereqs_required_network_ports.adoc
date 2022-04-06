@@ -6,6 +6,7 @@ keywords: netapp, hci, ports, tcp, udp
 ---
 = 네트워크 포트 요구 사항
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

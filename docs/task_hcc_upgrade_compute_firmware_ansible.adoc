@@ -5,6 +5,7 @@ summary: H 시리즈 컴퓨팅 노드의 경우 NetApp은 BMC, BIOS, NIC와 같�
 keywords: netapp, hci, on premise, cluster, element, compute node, ansible upgrade, upgrade role 
 ---
 = Ansible을 사용하여 컴퓨팅 노드 펌웨어의 업그레이드 자동화
+:allow-uri-read: 
 
 
 [role="lead"]

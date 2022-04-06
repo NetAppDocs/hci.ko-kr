@@ -6,6 +6,7 @@ keywords: netapp, hci, H610C, H615C, chassis replacement, node replacement
 ---
 = H610C 및 H615C 노드를 교체합니다
 :hardbreaks:
+:allow-uri-read: 
 :nofooter: 
 :icons: font
 :linkattrs: 

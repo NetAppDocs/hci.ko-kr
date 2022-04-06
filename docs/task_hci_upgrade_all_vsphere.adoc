@@ -5,6 +5,7 @@ summary: NetApp HCI용 VMware 구성 요소를 업그레이드하고 vCenter 플
 keywords: netapp, hci, vSphere components, upgrade, vCenter, ESXi 
 ---
 = vCenter Server용 Element 플러그인을 사용하여 NetApp HCI 시스템용 vSphere 구성 요소를 업그레이드합니다
+:allow-uri-read: 
 
 
 [role="lead"]

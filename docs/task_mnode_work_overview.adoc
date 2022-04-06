@@ -5,6 +5,7 @@ summary: '관리 노드(mNode)를 사용하여 시스템 서비스를 사용하�
 keywords: netapp, mnode, api, rest api, mnode ui, management node ui 
 ---
 = 관리 노드 개요
+:allow-uri-read: 
 
 
 [role="lead"]
