@@ -65,7 +65,7 @@ NOTE: 스토리지 클러스터에서 Element 소프트웨어를 업그레이드
 . link:task_vcp_upgrade_plugin.html["vCenter Server용 Element 플러그인을 업그레이드합니다"].
 . link:task_upgrade_compute_prechecks.html["컴퓨팅 펌웨어를 업그레이드하기 전에 컴퓨팅 노드 상태 점검을 실행합니다"].
 . link:task_hcc_upgrade_compute_node_drivers.html["컴퓨팅 노드 드라이버를 업데이트합니다"].
-. link:task_hcc_upgrade_compute_node_firmware.html["NetApp 하이브리드 클라우드 제어를 사용하여 컴퓨팅 노드 펌웨어를 업데이트합니다"] 또는 .
+. link:task_hcc_upgrade_compute_node_firmware.html["NetApp 하이브리드 클라우드 제어를 사용하여 컴퓨팅 노드 펌웨어를 업데이트합니다"] 또는 link:task_hcc_upgrade_compute_firmware_ansible.html["Ansible을 사용하여 컴퓨팅 펌웨어 업그레이드를 자동화하십시오"].
 
 
 [discrete]

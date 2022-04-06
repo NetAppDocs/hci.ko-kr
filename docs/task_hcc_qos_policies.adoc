@@ -16,7 +16,7 @@ keywords: netapp, qos policy, quality of service, qos policies, volumes, element
 QoS(서비스 품질) 정책을 사용하면 여러 볼륨에 적용할 수 있는 표준화된 서비스 품질 설정을 생성하여 저장할 수 있습니다. QoS 정책을 사용하려면 선택한 클러스터가 Element 10.0 이상이어야 합니다. 그렇지 않으면 QoS 정책 기능을 사용할 수 없습니다.
 
 
-NOTE: 사용에 대한 자세한 내용은 NetApp HCI 개념 내용 을 참조하십시오 link:concept_hci_performance.html#qos-policies["QoS 정책"] 개별 볼륨 대신 .
+NOTE: 사용에 대한 자세한 내용은 NetApp HCI 개념 내용 을 참조하십시오 link:concept_hci_performance.html#qos-policies["QoS 정책"] 개별 볼륨 대신 link:concept_hci_performance.html["QoS를 참조하십시오"].
 
 NetApp 하이브리드 클라우드 제어를 사용하면 다음 작업을 완료하여 QoS 정책을 생성하고 관리할 수 있습니다.
 

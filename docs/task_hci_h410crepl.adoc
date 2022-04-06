@@ -23,7 +23,7 @@ NOTE: 교체 노드의 NetApp HCI 부트스트랩 OS 버전은 NetApp HCI 설치
 * 대체 컴퓨팅 노드가 있습니다. 교체 노드를 주문하려면 NetApp 지원에 문의하십시오. 컴퓨팅 노드는 부트스트랩 OS가 설치된 상태로 제공됩니다. 노드는 최신 버전의 부트스트랩 OS와 함께 공장에서 출고됩니다. 다음과 같은 경우 노드에서 RTFI(Return to Factory Image) 프로세스를 수행해야 할 수 있습니다.
 +
 ** 현재 NetApp HCI 설치에서 최신 버전보다 이전 버전의 부트스트랩 OS가 실행되고 있습니다. 이 경우 RTFI 프로세스에서 새 노드를 NetApp HCI 설치가 실행 중인 OS 버전으로 다운그레이드합니다.
-** 배송된 교체 노드에서 최신 버전보다 이전 버전의 부트스트랩 OS를 실행하고 있으며, 노드를 교체할 NetApp HCI 설치가 이미 최신 버전을 실행하고 있습니다. 이 경우 RTFI 프로세스가 새 노드의 OS 버전을 최신 버전으로 업그레이드합니다. 을 참조하십시오 link:https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/HCI_-_How_to_RTFI_using_a_USB_key["USB 키를 사용하여 RTFI를 수행하는 방법(로그인 필요)"^] 및 .
+** 배송된 교체 노드에서 최신 버전보다 이전 버전의 부트스트랩 OS를 실행하고 있으며, 노드를 교체할 NetApp HCI 설치가 이미 최신 버전을 실행하고 있습니다. 이 경우 RTFI 프로세스가 새 노드의 OS 버전을 최신 버전으로 업그레이드합니다. 을 참조하십시오 link:https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/HCI_-_How_to_RTFI_using_a_USB_key["USB 키를 사용하여 RTFI를 수행하는 방법(로그인 필요)"^] 및 link:https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/How_to_RTFI_an_HCI_Compute_Node_via_BMC["BMC를 사용하여 RTFI를 수행하는 방법(로그인 필요)"^].
 
 
 * 정전기 방전(ESD) 손목 밴드를 가지고 있거나 다른 정전기 방지 예방 조치를 취했습니다.

@@ -40,7 +40,7 @@ NOTE: H615C 컴퓨팅 노드는 를 사용하여 BMC 펌웨어를 버전 4.68로
 NOTE: 하드웨어의 펌웨어 및 드라이버 펌웨어의 전체 매트릭스는 을 참조하십시오 https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Firmware_and_driver_versions_in_NetApp_HCI_and_NetApp_Element_software["이 KB 문서를 참조하십시오"^] (로그인 필요).
 
 * BIOS 부트 순서 *: 부트 목록에 'USB CD/DVD'가 표시되도록 각 노드의 BIOS 설정에서 부트 순서를 수동으로 변경합니다. 자세한 내용은 다음을 참조하십시오 link:https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Known_issues_and_workarounds_for_Compute_Node_upgrades#BootOrder["기사"^] 를 참조하십시오.
-* * BMC 자격 증명 *: NetApp Hybrid Cloud Control에서 컴퓨팅 노드 BMC에 연결하는 데 사용하는 자격 증명을 업데이트합니다. NetApp 하이브리드 클라우드 제어를 사용하면 이러한 작업을 수행할 수 있습니다 link:task_hcc_edit_bmc_info.html#use-netapp-hybrid-cloud-control-to-edit-bmc-information["UI"] 또는 . 업그레이드 전에 BMC 정보를 업데이트하면 인벤토리가 새로 고쳐지고 관리 노드 서비스가 업그레이드를 완료하는 데 필요한 모든 하드웨어 매개 변수를 인식하게 됩니다.
+* * BMC 자격 증명 *: NetApp Hybrid Cloud Control에서 컴퓨팅 노드 BMC에 연결하는 데 사용하는 자격 증명을 업데이트합니다. NetApp 하이브리드 클라우드 제어를 사용하면 이러한 작업을 수행할 수 있습니다 link:task_hcc_edit_bmc_info.html#use-netapp-hybrid-cloud-control-to-edit-bmc-information["UI"] 또는 link:task_hcc_edit_bmc_info.html#use-the-rest-api-to-edit-bmc-information["API를 참조하십시오"]. 업그레이드 전에 BMC 정보를 업데이트하면 인벤토리가 새로 고쳐지고 관리 노드 서비스가 업그레이드를 완료하는 데 필요한 모든 하드웨어 매개 변수를 인식하게 됩니다.
 * * 연결된 미디어 *: 컴퓨팅 노드 업그레이드를 시작하기 전에 물리적 USB 또는 ISO를 모두 분리하십시오.
 * * KVM ESXi 콘솔 *: 컴퓨팅 노드 업그레이드를 시작하기 전에 BMC UI에서 열려 있는 SOL(Serial-over-LAN) 세션과 활성 KVM 세션을 모두 닫습니다.
 * * Witness 노드 요구 사항 *: 2노드 및 3노드 스토리지 클러스터의 경우 1개 link:concept_hci_nodes.html["증인 노드"] 항상 NetApp HCI 설치에서 실행되어야 합니다.
@@ -50,7 +50,7 @@ NOTE: 하드웨어의 펌웨어 및 드라이버 펌웨어의 전체 매트릭�
 운영 환경에서는 컴퓨팅 노드 한 번에 펌웨어를 업그레이드할 수 있습니다.
 
 
-NOTE: 상태 점검을 실행하고 펌웨어 업그레이드를 진행하기 전에 ESXi 호스트를 잠금 모드에서 해제해야 합니다. 을 참조하십시오 link:https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/How_to_disable_lockdown_mode_on_ESXi_host["ESXi 호스트에서 잠금 모드를 해제하는 방법"^] 및  를 참조하십시오.
+NOTE: 상태 점검을 실행하고 펌웨어 업그레이드를 진행하기 전에 ESXi 호스트를 잠금 모드에서 해제해야 합니다. 을 참조하십시오 link:https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/How_to_disable_lockdown_mode_on_ESXi_host["ESXi 호스트에서 잠금 모드를 해제하는 방법"^] 및 link:https://docs.vmware.com/en/VMware-vSphere/7.0/com.vmware.vsphere.security.doc/GUID-F8F105F7-CF93-46DF-9319-F8991839D265.html["VMware 잠금 모드 동작"^] 를 참조하십시오.
 
 NetApp 하이브리드 클라우드 제어 UI 또는 API 업그레이드의 경우, DRS 기능이 있고 필요한 라이센스가 있는 경우 업그레이드 프로세스 중에 ESXi 호스트가 자동으로 유지 관리 모드로 전환됩니다. 노드가 재부팅되고 업그레이드 프로세스가 완료되면 ESXi 호스트가 유지 관리 모드에서 제외됩니다. USB 및 BMC UI 옵션의 경우 각 절차에 설명된 대로 ESXi 호스트를 유지 관리 모드로 수동으로 배치해야 합니다.
 
