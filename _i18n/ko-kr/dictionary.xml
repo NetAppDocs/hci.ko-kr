@@ -4880,8 +4880,6 @@
   <block id="c4676996d8b51da422f5ab619c54ae01" category="list-text">NetApp Element 구성 및 관리 확장 지점이 vSphere 웹 클라이언트의 * Shortcuts * 탭과 측면 패널에 나타나는지 확인합니다.</block>
   <block id="342171073fda0fd2cec612dc41323bdb" category="image-alt">에서는 업그레이드 또는 설치 후 플러그인 확장 지점을 보여 줍니다</block>
   <block id="a0abd6db969f497b63a29f8fbd1771df" category="inline-link-macro">vCenter Server용 Element 플러그인</block>
-  <block id="3cc243a697de25c61818bc316cea4e98" category="paragraph">vCenter 플러그인 아이콘이 표시되지 않으면 를 참조하십시오 <block ref="f9851c8aa620f0cd00ac6d51cd4290b1" category="inline-link-macro-rx"></block> 플러그인 문제 해결에 대한 문서</block>
-  <block id="65dc103da0aa4a7822d43218290b7b8d" category="paragraph">VMware vCenter Server 6.7U1을 사용하여 VCP 4.8로 업그레이드한 후 스토리지 클러스터가 나열되지 않거나 NetApp Element 구성의 * 클러스터 * 및 * QoSSIOC 설정 * 섹션에 서버 오류가 나타나면 을 참조하십시오 <block ref="107c2c097bec52fadb44d9536d1a3a46" category="inline-link-macro-rx"></block> 이러한 오류 문제 해결에 대한 문서.</block>
   <block id="b9e50e6a339819ad9d12906b29e978ca" category="list-text">플러그인의 * NetApp Element 구성 * 확장 지점의 * 정보 * 탭에서 버전 변경을 확인합니다.</block>
   <block id="a2b39afbde860c9c0fc759f3772e2dd2" category="paragraph">최신 버전의 다음 버전 세부 정보 또는 세부 정보가 표시됩니다.</block>
   <block id="4715e0cc20eb79c52c1f181ce0f6afb0" category="admonition">vCenter 플러그인에는 온라인 도움말 콘텐츠가 포함되어 있습니다. 도움말에 최신 콘텐츠가 포함되어 있는지 확인하려면 플러그인을 업그레이드한 후 브라우저 캐시를 지웁니다.</block>
@@ -6214,4 +6212,6 @@
   <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">통지 파일은 NetApp 소프트웨어에 사용된 타사의 저작권 및 라이센스에 대한 정보를 제공합니다.</block>
+  <block id="5e98629f8afe2eee1c27355eb45a80e0" category="paragraph">vCenter 플러그인 아이콘이 표시되지 않으면 를 참조하십시오 <block ref="ab9b282dbdbe327f4195d1f5d71c406f" category="inline-link-macro-rx"></block> 플러그인 문제 해결에 대한 문서</block>
+  <block id="3d06b6c0430a7ea489938883e0eb617e" category="paragraph">VMware vCenter Server 6.7U1을 사용하여 VCP 4.8로 업그레이드한 후 스토리지 클러스터가 나열되지 않거나 NetApp Element 구성의 * 클러스터 * 및 * QoSSIOC 설정 * 섹션에 서버 오류가 나타나면 을 참조하십시오 <block ref="ccd6ffc15d371ab994b0e9dff04cb8c2" category="inline-link-macro-rx"></block> 이러한 오류 문제 해결에 대한 문서.</block>
 </blocks>
