@@ -106,7 +106,6 @@
   <block id="22dfc93c7498df46851a2a6e9b37a4ea" category="list-text">동일한 클러스터에서 컴퓨팅 노드와 BPU 지원 컴퓨팅 노드를 혼합할 수 없습니다. GPU 지원 컴퓨팅 노드를 선택하면 CPU 전용 컴퓨팅 노드를 선택할 수 없으며 반대의 경우도 마찬가지입니다.</block>
   <block id="a0ff16ccd8b4e8012b9e6f21f1254afb" category="list-text">기존 컴퓨팅 노드의 CPU 생성 및 EVC(Enhanced vMotion Compatibility)가 비활성화된 상태에서 CPU 생성 노드와 다른 계산 노드를 추가하는 경우 계속 진행하기 전에 EVC를 활성화해야 합니다. 이렇게 하면 확장이 완료된 후 vMotion 기능을 사용할 수 있습니다.</block>
   <block id="f3a29486bed19a90f2da6d007818b427" category="list-title">단계</block>
-  <block id="22a850d72f690cbbd2600492a8add31d" category="list-text">웹 브라우저를 열고 관리 노드의 IP 주소를 찾습니다. 예를 들면 다음과 같습니다.</block>
   <block id="4d41fb1211aa5ce58e5235fb983f1a15" category="list-text">NetApp 하이브리드 클라우드 제어에 NetApp HCI 스토리지 클러스터 관리자 자격 증명을 제공하여 로그인하십시오.</block>
   <block id="9b6c54a62f57f89342aae003cf762345" category="list-text">인터페이스의 오른쪽 위 모서리에 있는 * Expand * (확장 *)를 클릭합니다.</block>
   <block id="c279fa7b9df4852c4e23caa58f534561" category="paragraph">브라우저에서 NetApp 배포 엔진이 열립니다.</block>
@@ -1193,7 +1192,6 @@
   <block id="dd76252ea7a50def2a98f218cb1505b4" category="inline-link">KB 문서를 참조하십시오</block>
   <block id="2882996895673f16b2fcf0cabfb994f1" category="admonition">NetApp 하이브리드 클라우드 제어를 사용하여 스토리지 클러스터를 업그레이드하는 동안 발생할 수 있는 문제와 그 해결 방법은 을 참조하십시오<block ref="385c83615df1d77fbf0bae3f06fabb3d" category="inline-link-rx"></block>.</block>
   <block id="7fad05c5548f9989eaee59a54633305a" category="admonition">업그레이드 프로세스는 H610S 플랫폼이 아닌 경우 노드당 약 30분 정도 소요됩니다.</block>
-  <block id="76dc87fa8de1da44ac9cde3fec3cb965" category="list-text">웹 브라우저를 열고 관리 노드의 IP 주소를 찾습니다.</block>
   <block id="d64a6336a39c9f27c33956f187d79c87" category="list-text">NetApp 하이브리드 클라우드 제어에 스토리지 클러스터 관리자 자격 증명을 제공하여 로그인하십시오.</block>
   <block id="8d2b20731c568a1d9a02267e5d20edb7" category="list-text">업그레이드 * 페이지에서 * 스토리지 * 를 선택합니다.</block>
   <block id="eced5161fd4b5a5d98480da44ccabc87" category="paragraph">Storage * 탭에는 설치에 포함된 스토리지 클러스터가 나열됩니다. NetApp Hybrid Cloud Control에서 클러스터에 액세스할 수 없는 경우 * 업그레이드 * 페이지에 표시되지 않습니다.</block>
@@ -1455,7 +1453,6 @@
   <block id="2c111a0fdc76875d754c1dba15adb4c8" category="list-text">가상 분산 스위치를 사용하여 구축을 확장하는 경우 vSphere 인스턴스 NetApp HCI에 vSphere Enterprise Plus 라이센스가 있는지 확인합니다.</block>
   <block id="2797d21d72c04e7d29225422f3460348" category="inline-link-macro">이니시에이터 및 볼륨 액세스 그룹을 관리합니다</block>
   <block id="87c2634e161ff72c27ce0766d8d3804e" category="list-text"><block ref="440645bedcccb46f5176627f912c9136" category="inline-link-macro-rx"></block> 새 컴퓨팅 노드의 경우</block>
-  <block id="38f780db972cee588cfdddc13df9c1dd" category="list-text">웹 브라우저를 열고 관리 노드의 IP 주소를 찾습니다. 예: 'https://&lt;ManagementNodeIP&gt;`</block>
   <block id="2671f57229d8ee038d01d4336694d7e0" category="list-text">Expand Installation(설치 확장) 창에서 * Expand *(확장 *)를 선택합니다.</block>
   <block id="f325a8632fd080a5f3548693673f42c7" category="list-text">시작 페이지에서 * 예 * 를 선택합니다.</block>
   <block id="131a2da3d2e15dfbc9e1264add2b347d" category="list-text">최종 사용자 라이센스 페이지에서 다음 작업을 수행합니다.</block>
@@ -1699,16 +1696,13 @@
   <block id="fe29f01ceefdfc2a26d419451331a7de" category="list-text">업데이트가 완료되면 * OK * 를 선택하고 노드가 재부팅될 때까지 기다립니다. 업그레이드 후 로그인하고 * 시스템 * 을 선택하여 * 펌웨어 개정 * 버전이 업로드한 버전과 일치하는지 확인합니다.</block>
   <block id="334408f0e511aee8b4f25d23c40c9ff2" category="summary">NetApp HCI 시스템 업그레이드의 일부로 첫 번째 업그레이드를 수행하기 전에 컴퓨팅 노드 상태 점검을 실행해야 합니다.</block>
   <block id="1627e52c42f9bb2ee66537d3c67b82b5" category="paragraph">컴퓨팅 펌웨어를 업그레이드하기 전에 상태 점검을 실행하여 클러스터의 모든 컴퓨팅 노드를 업그레이드할 준비가 되었는지 확인해야 합니다. 컴퓨팅 노드 상태 점검은 하나 이상의 관리되는 NetApp HCI 컴퓨팅 노드의 컴퓨팅 클러스터에서만 실행할 수 있습니다.</block>
-  <block id="250d290e0189c5398af860967755925d" category="list-text">최신 관리 서비스 번들(2.11 이상)으로 업데이트되었습니다.</block>
   <block id="d843290a4f160eb5d302fe442b7b62f9" category="list-text">관리 노드 11.3 이상을 실행하고 있습니다.</block>
   <block id="7ae82c07422143d84f2406fe018d3f73" category="list-text">스토리지 클러스터에서 NetApp Element 소프트웨어 11.3 이상이 실행 중입니다.</block>
-  <block id="16ef39292d881ef688285bee52bd6fa4" category="paragraph">NetApp HCC(하이브리드 클라우드 제어) UI 또는 HCC API를 사용하여 상태 점검을 실행할 수 있습니다.</block>
   <block id="850f0091282b848431e58ee599ce2ab8" category="list-text"><block ref="ee87df619a1436083a67ef0448ea6380" category="inline-xref-macro-rx"></block> (선호 방법)</block>
   <block id="12b76591ab6e6ef299232c09b9015502" category="list-text"><block ref="2b235af1877a670f4d6b71b23f1bdb21" category="inline-xref-macro-rx"></block></block>
   <block id="31ce99d0314d628aeace022f0cba613e" category="paragraph">서비스에서 실행되는 컴퓨팅 노드 상태 검사에 대한 자세한 내용을 확인할 수도 있습니다.</block>
   <block id="3475ebcb6b9fc096ddec132452d6a634" category="list-text"><block ref="7fb3385292afc47b96c312dd9ef0e7b5" category="inline-xref-macro-rx"></block></block>
   <block id="fd94b110b8a1a6cc261ec5fe42195e7c" category="section-title">펌웨어를 업그레이드하기 전에 NetApp 하이브리드 클라우드 제어를 사용하여 컴퓨팅 노드 상태 점검을 실행하십시오</block>
-  <block id="041efd20e822dd686841db95e66d4ee0" category="paragraph">NetApp 하이브리드 클라우드 제어(HCC)를 사용하여 컴퓨팅 노드가 펌웨어 업그레이드가 가능한지 확인할 수 있습니다.</block>
   <block id="4946e18fada664601bd87ab0e6b0c461" category="admonition">2노드 스토리지 클러스터 구성이 여러 개 있는 경우 각 클러스터 구성이 자체 vCenter 내에 있으면 Witness 노드 상태 검사가 정확하게 보고되지 않을 수 있습니다. 따라서 ESXi 호스트를 업그레이드할 준비가 되면 업그레이드 중인 ESXi 호스트에서 Witness Node만 종료해야 합니다. 대체 방식으로 Witness 노드의 전원을 꺼서 NetApp HCI 설치 시 항상 Witness Node가 하나만 실행 중인지 확인해야 합니다.</block>
   <block id="807a82eaa952baafdd118220e7bd9abc" category="list-text">업그레이드 * 페이지에서 * 컴퓨팅 펌웨어 * 탭을 선택합니다.</block>
   <block id="baec6461b0d69dde1b861aefbe375d8a" category="inline-image-macro">아이콘을 클릭합니다</block>
@@ -1739,7 +1733,6 @@
   <block id="7cda90ec29e69ce32eb8a59df666024c" category="list-text">클러스터 문제를 해결한 후 * POST/computeh./{controller_ID} m./health-checks * 를 다시 실행하십시오(2단계 참조).</block>
   <block id="4421a56813acb302bbd36bb157eb1e66" category="paragraph">상태 점검이 문제 없이 완료되면 응답 코드 200이 성공적인 결과를 나타냅니다.</block>
   <block id="a2dc96680bf6b6fc75fa97944f03bc51" category="section-title">서비스에서 수행한 컴퓨팅 노드 상태 점검</block>
-  <block id="f70cee9dd2f176e0d31d60f85d729ee7" category="paragraph">HCC 또는 API 방법에 의해 수행되는 컴퓨팅 상태 점검은 노드당 다음과 같은 점검을 수행합니다. 환경에 따라 이러한 검사 중 일부를 건너뛸 수 있습니다. 감지된 문제를 해결한 후 상태 점검을 다시 실행해야 합니다.</block>
   <block id="9d82e629749ca3f4fd26b49ce0f4b18a" category="cell">설명을 확인하십시오</block>
   <block id="8f516cfea9e2ddf7c18eddf1ffd3cf49" category="cell">노드/클러스터</block>
   <block id="50cd15450376100fde72a5e9f6493b6c" category="cell">해결에 필요한 조치</block>
@@ -2267,7 +2260,6 @@
   <block id="af5d6250839ed294a7160e4bec91a467" category="list-text">NetApp UI(Deployment Engine 사용자 인터페이스)를 사용하여 NetApp HCI를 구성합니다.</block>
   <block id="4db13ecf18990f2ce5d8e4bc5cfd0c24" category="admonition">다른 모든 NetApp HCI 노드는 자동으로 검색됩니다.</block>
   <block id="6bfd79c0fce4f05b8b10a7cdfd024e31" category="section-title">기존 NetApp HCI 설치를 확장합니다</block>
-  <block id="5e74aa3b306cd24a8ff545742656046e" category="list-text">웹 브라우저를 열고 관리 노드의 IP 주소를 찾습니다.</block>
   <block id="e68dd77ececf646c64129165fec43027" category="list-text">마법사의 단계에 따라 NetApp HCI 설치에 스토리지 및/또는 컴퓨팅 노드를 추가합니다.</block>
   <block id="1141055d277af6daa8951036962776b2" category="admonition">H410C 컴퓨팅 노드를 추가하려면 기존 설치 환경에서 NetApp HCI 1.4 이상을 실행해야 합니다. H615C 컴퓨팅 노드를 추가하려면 기존 설치에서 NetApp HCI 1.7 이상을 실행해야 합니다.</block>
   <block id="64469e6c1f3faa349fcab16b3be11577" category="admonition">동일한 네트워크에 새로 설치된 NetApp HCI 노드가 자동으로 검색됩니다.</block>
@@ -2603,7 +2595,6 @@
   <block id="e9af127a726ca755ecdd7c7247d97220" category="inline-link-macro">이니시에이터에 대해 자세히 알아보십시오</block>
   <block id="520e54b191d9f32833ed20cf5d810399" category="list-text"><block ref="520e54b191d9f32833ed20cf5d810399" category="inline-link-macro-rx"></block></block>
   <block id="f5734d4e8acdeb186a1c22c351c4a0bf" category="paragraph">Element 스토리지를 업그레이드하기 전에 상태 점검을 실행하여 클러스터의 모든 스토리지 노드가 다음 Element 스토리지 업그레이드를 수행할 준비가 되었는지 확인해야 합니다.</block>
-  <block id="a9665a647615566ad8a19d93fbf94aa9" category="list-text">최신 관리 서비스 번들(2.10.27 이상)으로 업데이트되었습니다.</block>
   <block id="1b4d7862ca62ac0691b197c1c4e48017" category="admonition">Element 소프트웨어를 업그레이드하기 전에 최신 관리 서비스 번들로 업그레이드해야 합니다.</block>
   <block id="a42a5f062307c65656fb022b1bc38224" category="paragraph">NetApp HCC(하이브리드 클라우드 제어) UI, HCC API 또는 HealthTools 제품군을 사용하여 상태 점검을 실행할 수 있습니다.</block>
   <block id="0096c254c62197f713da16cbb8cf17bf" category="list-text"><block ref="43e2712ac16e77262f42113e91f41bfc" category="inline-xref-macro-rx"></block> (선호 방법)</block>
@@ -3555,11 +3546,6 @@
   <block id="96a5b4941f5db6f63efa8b549d880c25" category="list-text">CVE-2020-0595, CVE-2020-0596, CVE-2020-8674, CVE-2020-0597 CVE-2020-0543 CVE-2020-0548, CVE-2020-0549</block>
   <block id="8838c26820c2bdc7ab11f616de8739d6" category="summary">NetApp HCI에서 사용하는 TCP 및 UDP 포트입니다.</block>
   <block id="ba05be2241c302ce19b7534dcd611775" category="paragraph">시스템을 원격으로 관리하고, 데이터 센터 외부의 클라이언트가 리소스에 연결하도록 하고, 내부 서비스가 제대로 작동할 수 있도록 데이터 센터의 에지 방화벽을 통해 다음 포트를 허용해야 할 수 있습니다. 시스템 사용 방법에 따라 이러한 포트, URL 또는 IP 주소 중 일부가 필요하지 않을 수 있습니다. 달리 명시되지 않는 한 모든 포트는 TCP입니다.</block>
-  <block id="f5395c9793af8a11b406ca7c1ac70da9" category="inline-link">자세한 정보</block>
-  <block id="73f6f247f92d43dc1a02705cd9cb72df" category="admonition">NetApp은 NetApp Hybrid Cloud Control의 자동 업그레이드 워크플로우를 지원하는 소프트웨어 및 펌웨어 번들 다운로드를 호스팅하는 온라인 저장소를 리빌딩 중입니다.<block ref="d8be8d6cc7cc728c856f13214fa255cd" category="inline-link-rx"></block></block>
-  <block id="1b1965ab9261b2d5c557a2c1b29aa90a" category="paragraph">NetApp 하이브리드 클라우드 제어 웹 UI 및 API 다운로드 소프트웨어 패키지는 JFrog Artifactory Cloud를 파일 호스팅을 위한 배포 허브 및 CDN 기술로 사용하는 NetApp 온라인 소프트웨어 저장소에서 다운로드할 수 있습니다. 이로 인해 일부 URL 또는 IP 주소는 콘텐츠 전송 네트워크를 기반으로 다른 URL 또는 IP 주소로 해결될 수 있습니다. 가능한 경우 네트워크 엔지니어와 협력하여 다음 일반 단계를 사용하여 이러한 URL 또는 IP 주소를 방화벽 규칙에 추가해야 합니다.</block>
-  <block id="c23be595ff2a6ce3fc50807942a4b8be" category="list-text">wget 또는 curl 유틸리티를 사용하여 URL(예: repo.netapp.com 액세스합니다.</block>
-  <block id="a6ef25224f54dbfe30361976f2ce77d9" category="list-text">URL에 액세스하지 못했습니다(repo.netapp.com 와는 다름).</block>
   <block id="cca942e088eb1473b2eb9de24822300b" category="list-text">방화벽 규칙을 편집하여 새 URL을 허용합니다.</block>
   <block id="fc0bbd3b7c620ea524d15f50953b65de" category="list-text">액세스 시도가 성공할 때까지 위의 단계를 반복합니다.</block>
   <block id="15a1051d03ca55ab79226f44fa683bbe" category="paragraph">표에 사용되는 약어는 다음과 같습니다.</block>
@@ -3604,10 +3590,6 @@
   <block id="4b04c29bd10ad8752cc2092775a38d11" category="cell">NetApp 하이브리드 클라우드 제어 HTTPS 통신</block>
   <block id="86eccd8202a873aee7f9acfbe920bb59" category="cell">monitoring.solidfire.com</block>
   <block id="6ac181854a8b48c5ac6018a305f6ae7c" category="cell">스토리지 클러스터가 Active IQ에 보고됩니다</block>
-  <block id="5144ef28ff0fa7b5ab2a36331abbe530" category="paragraph">온라인 소프트웨어 저장소:</block>
-  <block id="5230f6b2c891063490d3865eb12fbb11" category="list-text">"https://repo.netapp.com/bintray/api/package`</block>
-  <block id="387d5419d340e95ff756a4806e220b45" category="list-text">"https://repo.netapp.com/downloads`</block>
-  <block id="983c91027e090f85708d6c62fd362220" category="list-text">"https://netappdownloads.jfrog.io:443`</block>
   <block id="d747a3883d729833b05cf76084503b96" category="cell">관리 노드 서비스 업그레이드</block>
   <block id="fc134d3a0fa8179e557b660253b5fcd6" category="cell">5988-5989</block>
   <block id="5907c88df2965e500c98e948dfae20c0" category="cell">9442</block>
@@ -3928,7 +3910,6 @@
   <block id="63e49edf7549e02c949a20f809d2dd04" category="list-text">이미 설치된 스토리지 노드의 관리 IPv4 주소가 있습니다. vCenter Server용 NetApp Element 플러그인의 * NetApp Element 관리 &gt; 클러스터 &gt; 노드 * 탭에서 IP 주소를 찾을 수 있습니다.</block>
   <block id="70de678de9c25f5e798b720dbceb710b" category="list-text">새 노드가 기존 스토리지 클러스터와 동일한 네트워크 토폴로지 및 케이블 연결을 사용하도록 했습니다.</block>
   <block id="ecde3580e42485d3ef8d0227e9ab840a" category="admonition">최상의 안정성을 위해 모든 섀시에 걸쳐 스토리지 용량이 균등하게 분산되도록 합니다.</block>
-  <block id="7fbed092fb78004f6fd5381fb20279fc" category="list-text">웹 브라우저를 열고 관리 노드의 IP 주소를 찾습니다. 예: 'https://&lt;ManagementNodeIP&gt;/manager/login`</block>
   <block id="1704d55dca4dda129b0c084d7b0dac9f" category="list-text">시작 페이지에서 * 아니요 * 를 선택합니다.</block>
   <block id="c1a72b8e6d0e23818ec5b93d9bebfb17" category="list-text">사용 가능한 인벤토리 페이지에서 기존 NetApp HCI 설치에 추가할 스토리지 노드를 선택합니다.</block>
   <block id="5009e74e0608363ab90dc34281596328" category="list-text">네트워크 설정 페이지에서 일부 네트워크 정보가 초기 배포에서 감지되었습니다. 각 새 스토리지 노드는 일련 번호별로 나열되며 새 네트워크 정보를 할당해야 합니다. 다음 단계를 수행하십시오.</block>
@@ -4347,7 +4328,6 @@
   <block id="a11d9a84702eacbceacfe73c6ed81b02" category="inline-link-macro">NetApp HCI 스토리지 또는 컴퓨팅 리소스를 확장합니다</block>
   <block id="01de98522477a417e0769c1c2e4840ea" category="list-text"><block ref="01de98522477a417e0769c1c2e4840ea" category="inline-link-macro-rx"></block></block>
   <block id="4839d2f25cc35b249d5db15efa1afd75" category="paragraph">* 단계 *</block>
-  <block id="f9af8c4b5a5dd3b6f46e319c0db24366" category="paragraph"><block ref="f29d6ac74a5e8f866b57793d704c5a65" category="inline-link-rx"></block></block>
   <block id="3664bb4df59eca4395d94a7c6384dfc0" category="inline-link-macro">NetApp HCI 설치 및 설정 지침</block>
   <block id="07b021dc180c131c18c2e77e5fa1150f" category="list-text"><block ref="07b021dc180c131c18c2e77e5fa1150f" category="inline-link-macro-rx"></block></block>
   <block id="f62052d22b7c5c8f9a15b0afff504755" category="inline-link">TR-4820: NetApp HCI 네트워킹 빠른 계획 가이드</block>
@@ -4849,12 +4829,9 @@
   <block id="8c0ae26900e5f58b61204e22ec858924" category="list-text">Get/services * 를 선택합니다.</block>
   <block id="c9febdd1cdc631cc150e210af5959338" category="list-text">상태를 * Running * 으로 선택합니다.</block>
   <block id="344071cf9eae741abef1df0044596a37" category="paragraph">관리 노드에서 실행 중인 서비스는 응답 본문에 표시됩니다.</block>
-  <block id="03efd38b0802e06b31537f557cd0421f" category="paragraph">vCenter Server용 NetApp Element 플러그인(VCP)이 등록된 기존 vSphere 환경의 경우 플러그인 서비스가 포함된 관리 서비스 패키지를 먼저 업데이트한 후 플러그인 등록을 업데이트할 수 있습니다.</block>
   <block id="e6c04958395a323ddbc02c929b4dfdf0" category="paragraph">등록 유틸리티를 사용하여 vCenter Server vCSA(Virtual Appliance) 또는 Windows에서 플러그인 등록을 업데이트할 수 있습니다. 플러그인을 사용해야 하는 모든 vCenter Server에서 vCenter 플러그인의 등록을 변경해야 합니다.</block>
   <block id="badb045d93b6de2fe8d2a1a664b92d6f" category="paragraph">이 업그레이드 절차에서는 다음 업그레이드 시나리오에 대해 설명합니다.</block>
-  <block id="4c671b547a1a811f45797247ec5747c3" category="list-text">VCP 4.8, 4.7, 4.6, 4.5 또는 4.4로 업그레이드하는 중입니다.</block>
   <block id="a6a18366932bfeffc2341cc7aa5fe09d" category="list-text">7.0, 6.7 또는 6.5 HTML5 vSphere Web Client로 업그레이드하는 중입니다.</block>
-  <block id="10d52a77bc99042d3e815ba24e48132b" category="admonition">이 플러그인은 VCP 4.7 이상용 VMware vCenter Server 6.5와 호환되지 않습니다.</block>
   <block id="f171584692be059c88cbbda35827f299" category="list-text">6.7 Flash vSphere Web Client로 업그레이드하는 중입니다.</block>
   <block id="26f2f1d140c70238a07a5f09e846fd82" category="inline-link">플러그인 버전입니다</block>
   <block id="d7be3f2367f28daeaac07c2967977074" category="list-text">* 관리자 권한 *: 플러그인을 설치할 vCenter 관리자 역할 권한이 있습니다.</block>
@@ -5056,7 +5033,6 @@
   <block id="c3e2bcb5601498c3470bd272236342a3" category="paragraph">관리 서비스 번들은 주요 릴리스 이외의 설치 시 향상된 기능과 수정 사항을 제공합니다.</block>
   <block id="d0d4d24acea2b29c2079bdc9f046795d" category="list-text">관리 서비스를 버전 2.16 이상으로 업데이트하고 관리 노드 11.3에서 11.8을 실행 중인 경우 관리 서비스를 업데이트하기 전에 관리 노드 VM의 RAM을 늘려야 합니다.</block>
   <block id="291b81212712dc828fee9037f0662499" category="list-text">관리 서비스를 버전 2.1.326으로 업그레이드했습니다. NetApp 하이브리드 클라우드 제어 업그레이드는 이전 서비스 번들에서 사용할 수 없습니다.</block>
-  <block id="55d2ac8cdb689c1c5a8537d8871bd39e" category="list-text">웹 브라우저를 열고 관리 노드의 IP 주소(https://&lt;ManagementNodeIP&gt;` 찾습니다</block>
   <block id="9c3b6a2840d81e74fa978e35f9fda09e" category="list-text">업그레이드 페이지에서 * 관리 서비스 * 탭을 선택합니다.</block>
   <block id="2a67be48fd33aed34d5d9b95445a0c20" category="paragraph">관리 서비스 탭에는 관리 서비스 소프트웨어의 현재 버전과 사용 가능한 버전이 표시됩니다.</block>
   <block id="8b130e5cda5c613782f9b3fe6b6b0fbe" category="admonition">설치가 인터넷에 액세스할 수 없는 경우 현재 소프트웨어 버전만 표시됩니다. 외부 연결이 있지만 NetApp HCI이 NetApp 온라인 리포지토리에 액세스할 수 없는 경우 을(를) 확인합니다 <block ref="6ff9e66037288034fea8427eccd4ef4c" category="inline-link-macro-rx"></block>.</block>
@@ -5734,22 +5710,16 @@
   <block id="03540783615c6f29364ad461ea3aa641" category="paragraph">맞춤형 보호 도메인 사용에 대한 자세한 내용은 NetApp 지원에 문의하십시오.</block>
   <block id="afc48abd77915d4342bb6d52750ca477" category="inline-link-macro">Element API를 사용하여 스토리지를 관리합니다</block>
   <block id="8e078db9f02bd406ca631ba2825dd629" category="paragraph"><block ref="8e078db9f02bd406ca631ba2825dd629" category="inline-link-macro-rx"></block></block>
-  <block id="b5ecd82e8979ed40797d70974bacb136" category="summary">REST API UI를 사용하여 관리 노드에서 SSH 지원 연결 기능을 사용 안 함, 사용 또는 확인할 수 있습니다.</block>
   <block id="d1cfb55513d453a2cf4188067d2cf218" category="paragraph">REST API를 사용하여 관리 노드(mNode)에서 SSH 기능의 상태를 비활성화하거나 재설정하거나 확인할 수 있습니다. SSH 기능을 통해 제공됩니다 <block ref="6bb28df38aa0844e287b2e23fc581879" category="inline-link-macro-rx"></block> 관리 서비스 2.18 이상을 실행하는 관리 노드에서 기본적으로 이 비활성화됩니다.</block>
   <block id="4a8504402e610045f6f515076b209af8" category="list-text">* Element 소프트웨어 *: 클러스터에서 NetApp Element 소프트웨어 11.3 이상이 실행 중입니다.</block>
-  <block id="e320643e3f7c80faee482a0df224ffdc" category="list-text">* 관리 서비스 업데이트 *: 을(를) 업데이트했습니다<block ref="fa63a529ec625e6607508bcea6b40451" category="inline-link-rx"></block> 2.17 버전으로.</block>
   <block id="4dcaf58a1a6fd3555d9626cfadc42510" category="inline-link-macro">인증</block>
   <block id="6c037204162665482371752d5cbc4b05" category="paragraph">다음 작업 중 하나를 수행할 수 있습니다 <block ref="1e3a79de8ad58046eb273d2d7b15a0d8" category="inline-link-macro-rx"></block>:</block>
-  <block id="746fb73201580f1ce79de5d018bc83e3" category="list-text"><block ref="7ab86ed14fb41c15b39d9fc3f88bb5fb" category="inline-xref-macro-rx"></block></block>
-  <block id="14eea61135a60aa00226fb53ed68b0d6" category="list-text"><block ref="915bb5f173ab674859bad881a235217a" category="inline-xref-macro-rx"></block></block>
-  <block id="027b3ee820565177e41833e702f75a6c" category="section-title">관리 노드에서 SSH 기능을 비활성화하거나 활성화합니다</block>
   <block id="0170650c612167fa500a0929a1506872" category="paragraph">관리 노드에서 SSH 기능을 비활성화하거나 다시 활성화할 수 있습니다. SSH 기능을 통해 제공됩니다 <block ref="6bb28df38aa0844e287b2e23fc581879" category="inline-link-macro-rx"></block> 관리 서비스 2.18 이상을 실행하는 관리 노드에서 기본적으로 이 비활성화됩니다. SSH를 비활성화해도 관리 노드에 대한 기존 SSH 클라이언트 세션은 종료되거나 연결 해제하지 않습니다. SSH를 비활성화하고 나중에 다시 활성화하도록 선택한 경우 동일한 API를 사용하여 다시 활성화할 수 있습니다.</block>
   <block id="085a0793a542f0eebf46d23f033ee424" category="paragraph">관리 서비스 2.18 이상:</block>
   <block id="9d5d97be2b35b2991e27e028a5e6269e" category="paragraph">관리 서비스 2.17 이전:</block>
   <block id="6b70c036a345ea917a8a1112ea5225b9" category="list-text">관리 노드 API 서비스를 위한 REST API UI에 접속하려면 관리 노드 IP 주소와 '/mnode/'를 차례로 입력합니다.</block>
   <block id="ff6cbc041657a578c9d520790c1efc72" category="list-text">REST API UI에서 * put/settingssth./ssh * 를 선택합니다.</block>
   <block id="594b8969c95fa90b4dac77dbef24c6a0" category="list-text">SSH를 비활성화하려면 * enabled * 매개 변수를 "false"로 설정하고, 이전에 비활성화된 SSH 기능을 다시 활성화하려면 "true"로 설정합니다.</block>
-  <block id="e419c387e790d54ef946c619b6e3b391" category="section-title">관리 노드에서 SSH 기능의 상태를 확인합니다</block>
   <block id="54fe4061a922c8e20f0e36680484efba" category="paragraph">관리 노드 서비스 API를 사용하여 관리 노드에서 SSH 기능이 설정되어 있는지 여부를 확인할 수 있습니다. 관리 서비스 2.18 이상을 실행하는 관리 노드에서 SSH가 기본적으로 해제되어 있습니다.</block>
   <block id="34f75415ccae7652ea5f2cb6678e0d8b" category="list-text">REST API UI에서 * get/settingssth./ssh * 를 선택합니다.</block>
   <block id="5807dc586af1c3488330009c5fec10c3" category="summary">배포 중에 NetApp HCI 노드 인벤토리를 선택하는 방법에 대해 알아봅니다.</block>
@@ -6213,5 +6183,60 @@
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">통지 파일은 NetApp 소프트웨어에 사용된 타사의 저작권 및 라이센스에 대한 정보를 제공합니다.</block>
   <block id="5e98629f8afe2eee1c27355eb45a80e0" category="paragraph">vCenter 플러그인 아이콘이 표시되지 않으면 를 참조하십시오 <block ref="ab9b282dbdbe327f4195d1f5d71c406f" category="inline-link-macro-rx"></block> 플러그인 문제 해결에 대한 문서</block>
-  <block id="3d06b6c0430a7ea489938883e0eb617e" category="paragraph">VMware vCenter Server 6.7U1을 사용하여 VCP 4.8로 업그레이드한 후 스토리지 클러스터가 나열되지 않거나 NetApp Element 구성의 * 클러스터 * 및 * QoSSIOC 설정 * 섹션에 서버 오류가 나타나면 을 참조하십시오 <block ref="ccd6ffc15d371ab994b0e9dff04cb8c2" category="inline-link-macro-rx"></block> 이러한 오류 문제 해결에 대한 문서.</block>
+  <block id="f6a63a9052785a40e6a7b718acb627b9" category="list-text">* 관리 서비스 *: 최신 관리 서비스 번들(2.11 이상)으로 업데이트되었습니다.</block>
+  <block id="2ce38f720dba5ff083bfe1933d11eacc" category="list-text">* 관리 노드 *: 관리 노드 11.3 이상을 실행하고 있습니다.</block>
+  <block id="a141fe1c6179ed3e09aa6043ad364ac6" category="list-text">* Element 소프트웨어 *: 스토리지 클러스터에서 NetApp Element 소프트웨어 11.3 이상이 실행 중입니다.</block>
+  <block id="53b9f06d2f4963cb4351ee247eee6fc1" category="list-text">* 최종 사용자 라이센스 계약(EULA) *: 관리 서비스 2.20부터 NetApp 하이브리드 클라우드 제어 UI 또는 API를 사용하여 컴퓨팅 노드 상태 점검을 실행하기 전에 EULA에 동의하고 저장해야 합니다.</block>
+  <block id="c3dfd82361c52d5d3d1551c20c83f1a6" category="list-text">웹 브라우저에서 관리 노드의 IP 주소를 엽니다.</block>
+  <block id="be441559765f3e52d513b155b4b59981" category="list-text">EULA가 나타납니다. 아래로 스크롤하여 * 현재 업데이트 및 향후 모든 업데이트에 동의함 * 을 선택하고 * 저장 * 을 선택합니다.</block>
+  <block id="06194f109ff7ed4270c1e5f89cbe9e74" category="admonition">EULA에 동의하면 향후 모든 업데이트에 대해 기록되고 자동 다운로드 기능이 활성화됩니다. NetApp 소프트웨어 업데이트 및 업그레이드 관련 업데이트는 고유 권한으로 설치할 수 있습니다. NetApp 온라인 소프트웨어 저장소에 대한 네트워크 연결을 비활성화하여 자동 다운로드 기능을 비활성화할 수 있습니다.</block>
+  <block id="9e2b6145fca6ee9f745cae210b075880" category="paragraph">NetApp 하이브리드 클라우드 제어 UI 또는 NetApp 하이브리드 클라우드 제어 API를 사용하여 상태 점검을 실행할 수 있습니다.</block>
+  <block id="1928dedb59bedd7b01427511af34693a" category="paragraph">NetApp 하이브리드 클라우드 제어를 사용하면 컴퓨팅 노드가 펌웨어 업그레이드가 가능한지 확인할 수 있습니다.</block>
+  <block id="c36b19231a4d44de8c3649310ba038d9" category="paragraph">NetApp 하이브리드 클라우드 제어 또는 API 메서드에서 수행하는지 여부에 따라 컴퓨팅 상태 점검이 노드당 다음과 같이 수행됩니다. 환경에 따라 이러한 검사 중 일부를 건너뛸 수 있습니다. 감지된 문제를 해결한 후 상태 점검을 다시 실행해야 합니다.</block>
+  <block id="f9ebc0753ac68177e6d0f29d964386bb" category="list-text">웹 브라우저에서 관리 노드의 IP 주소를 엽니다. 예를 들면 다음과 같습니다.</block>
+  <block id="b7d9a056c7aac680c6cb5b95799e2642" category="list-text">웹 브라우저에서 관리 노드의 IP 주소를 엽니다.</block>
+  <block id="00bbf849ee83f2b3ea6c67bb7bd6c6f8" category="inline-link-macro">관리 서비스 공지 2.20.69(VCP 4.9.14)</block>
+  <block id="9631693d741b4476dc21a28cec874b0a" category="list-text"><block ref="9631693d741b4476dc21a28cec874b0a" category="inline-link-macro-rx"></block></block>
+  <block id="573d529ded9f2b66a55c1d25a9498c72" category="paragraph">관리 서비스 2.20부터 NetApp 하이브리드 클라우드 제어 UI 또는 API를 사용하여 관리 서비스를 업그레이드하기 전에 최종 사용자 라이센스 계약(EULA)에 동의해야 합니다.</block>
+  <block id="c7c27143d481078e23cd4144c0df2f10" category="inline-link">vCenter 플러그인 4.9 릴리즈 노트</block>
+  <block id="6452d1b3e56fe38fdc537aeb6fe8d1c8" category="list-text"><block ref="779aeeb0a67ee84cae70c2361654111d" category="inline-link-rx"></block>_신규 _</block>
+  <block id="07cc0d856c010a1ee3ff9ee8f5157778" category="list-text">* 최종 사용자 라이센스 계약(EULA) *: 관리 서비스 2.20부터 NetApp 하이브리드 클라우드 제어 UI 또는 API를 사용하여 스토리지 펌웨어를 업그레이드하기 전에 EULA에 동의하고 저장해야 합니다.</block>
+  <block id="0b2f19b801c71ab42a03e5347b8302ee" category="list-text">* 최종 사용자 라이센스 계약(EULA) *: 관리 서비스 2.20부터 NetApp 하이브리드 클라우드 제어 UI 또는 API를 사용하여 컴퓨팅 노드 펌웨어를 업그레이드하기 전에 EULA에 동의하고 저장해야 합니다.</block>
+  <block id="62403656f60d86891c7c9ad1ffa2f44f" category="summary">NetApp 하이브리드 클라우드 제어 UI 또는 REST API UI를 사용하여 관리 노드에서 SSH 기능을 해제 및 설정하거나 REST API UI를 사용하여 SSH 지원 연결 기능의 상태를 확인할 수 있습니다.</block>
+  <block id="de7e6ba1aa5db3f3ecd18e0db7533988" category="paragraph">관리 서비스 2.20부터는 NetApp 하이브리드 클라우드 제어 UI를 사용하여 관리 노드에서 SSH 기능을 사용하거나 사용하지 않도록 설정할 수 있습니다.</block>
+  <block id="3c94e6ce915e7526e3d52ade19785a73" category="list-text">* NetApp Hybrid Cloud Control 권한 *: 관리자로서의 권한이 있습니다.</block>
+  <block id="ac7ca17dbb21ace6afb8d4dca6cabea3" category="list-text">* 관리 서비스 업데이트 *:</block>
+  <block id="b5fac2f2425ddc92784c5c7e5d8d557e" category="list-text">NetApp 하이브리드 클라우드 제어 UI를 사용하려면 를 업데이트했습니다<block ref="f6e495ec9a99fcd5692d41358780e884" category="inline-link-rx"></block> 2.20 버전으로.</block>
+  <block id="43fe8cb39bfeedc36b52f882e1fa6566" category="list-text">REST API UI를 사용하려면 를 업데이트했습니다<block ref="f6e495ec9a99fcd5692d41358780e884" category="inline-link-rx"></block> 2.17 버전으로.</block>
+  <block id="22b10ea78e232391f766c1d30f89f143" category="list-text"><block ref="ceecdddcb31feb92e45b5238bea4a2dd" category="inline-xref-macro-rx"></block></block>
+  <block id="d67941a2c5c95f11d7bc3ffe04663673" category="list-text"><block ref="2a0c666d485e7ff160ef18f3e883e750" category="inline-xref-macro-rx"></block></block>
+  <block id="952dd7ee9f76db5eee00864b27184f09" category="list-text"><block ref="c015de97077c7fae9700ca0f0b057b0c" category="inline-xref-macro-rx"></block></block>
+  <block id="1ac9fe92a4a5c8b73ea917dd0fcc1457" category="section-title">NetApp 하이브리드 클라우드 제어 UI를 사용하여 관리 노드에서 SSH 기능을 비활성화하거나 활성화합니다</block>
+  <block id="7d480381cb8ec5a78271712dba86ed65" category="paragraph">관리 노드에서 SSH 기능을 비활성화하거나 다시 활성화할 수 있습니다. SSH 기능을 통해 제공됩니다 <block ref="6bb28df38aa0844e287b2e23fc581879" category="inline-link-macro-rx"></block> 관리 서비스 2.18 이상을 실행하는 관리 노드에서 기본적으로 이 비활성화됩니다. SSH를 비활성화해도 관리 노드에 대한 기존 SSH 클라이언트 세션은 종료되거나 연결 해제하지 않습니다. SSH를 비활성화하고 나중에 다시 활성화하도록 선택하면 NetApp 하이브리드 클라우드 제어 UI를 사용할 수 있습니다.</block>
+  <block id="660ecb933461ee45e6f742dd41d60408" category="inline-link">Element UI 클러스터 설정 페이지</block>
+  <block id="a6fac1a062589a6dbd660accd83dc4bb" category="admonition">스토리지 클러스터에 대해 SSH를 사용하여 지원 액세스를 설정하거나 해제하려면 를 사용해야 합니다<block ref="66c673b3de5ad3d6bdd339681caa3221" category="inline-link-rx"></block>.</block>
+  <block id="f5b8f13ee9298406bb5846e6c80e1259" category="list-text">관리 노드에 대한 지원 액세스 * 화면에서 스위치를 전환하여 관리 노드 SSH를 활성화합니다.</block>
+  <block id="c2ec3d3d7a3c559651551d3d9f14d2b9" category="list-text">문제 해결을 완료한 후 * Support Access for Management Node * 화면에서 스위치를 전환하여 관리 노드 SSH를 비활성화합니다.</block>
+  <block id="bd1ea3213926ecdb3e25a30ccf5157d9" category="section-title">API를 사용하여 관리 노드에서 SSH 기능을 비활성화하거나 활성화합니다</block>
+  <block id="526719701f51876f46433bfa55249a45" category="section-title">API를 사용하여 관리 노드에서 SSH 기능의 상태를 확인합니다</block>
+  <block id="a3affadb8671444f8e45462ea7a0de50" category="list-text">* 최종 사용자 라이센스 계약(EULA) *: 관리 서비스 2.20부터 NetApp 하이브리드 클라우드 제어 UI 또는 API를 사용하여 Element 소프트웨어를 업그레이드하기 전에 EULA를 수락하고 저장해야 합니다.</block>
+  <block id="2620c9636e86b36feea9216102a5bec7" category="list-text">* 최종 사용자 라이센스 계약(EULA) *: 관리 서비스 2.20부터 NetApp 하이브리드 클라우드 제어 UI 또는 API를 사용하여 Rancher 구축 환경을 업그레이드하기 전에 EULA에 동의하고 저장해야 합니다.</block>
+  <block id="f4926605dca5caffd5d52e790b9eb676" category="list-text">* 관리 서비스 *: 최신 관리 서비스 번들(2.10.27 이상)으로 업데이트되었습니다.</block>
+  <block id="cd87cb364b82cfd7ff555087f3e88e59" category="list-text">* Element 소프트웨어 *: 클러스터 버전에서 NetApp Element 소프트웨어 11.3 이상이 실행되고 있습니다.</block>
+  <block id="84d8587fb67731ba50262a0ffeacb7ac" category="list-text">* 최종 사용자 라이센스 계약(EULA) *: 관리 서비스 2.20부터 NetApp 하이브리드 클라우드 제어 UI 또는 API를 사용하여 Element 스토리지 상태 점검을 실행하기 전에 EULA에 동의하고 저장해야 합니다.</block>
+  <block id="95f27799ddeb01b37a606c94f6349232" category="paragraph">NetApp 하이브리드 클라우드 제어 웹 UI 및 API NetApp 온라인 소프트웨어 저장소에서 소프트웨어 패키지를 다운로드합니다. 이로 인해 일부 URL 또는 IP 주소는 콘텐츠 전송 네트워크를 기반으로 다른 URL 또는 IP 주소로 해결될 수 있습니다. 가능한 경우 네트워크 엔지니어와 협력하여 다음 일반 단계를 사용하여 이러한 URL 또는 IP 주소를 방화벽 규칙에 추가해야 합니다.</block>
+  <block id="468e2827e5dc0169c965a021b0f015d8" category="list-text">wget 또는 curl 유틸리티를 사용하여 URL(예: support-sg-nawest.netapp.com 액세스합니다.</block>
+  <block id="887a9d2ae67bb61c76d5d0032a4b7b0f" category="list-text">다음 예에 표시된 것처럼 연결을 확인합니다.</block>
+  <block id="9b6b0ba6c58622cfc8a6178412a0e4bf" category="image-alt">포트 연결을 확인합니다</block>
+  <block id="17dc6266a36d140e3656a007ab0a9fce" category="list-text">URL에 액세스하지 못했습니다(support-sg-nawest.netapp.com 와는 다름).</block>
+  <block id="27639a1d6103dcea8efd114fa6c08ad8" category="paragraph">새 릴리즈 알림:</block>
+  <block id="ab3ee28175c91fc275541983d197ab00" category="list-text">"https://support.netapp.com/aods/`</block>
+  <block id="202ff041fdb9a5ee3579e8cb7984ef6b" category="paragraph">소프트웨어 다운로드:</block>
+  <block id="9fc75d41716cfd46199787dcf77473a1" category="list-text">"https://support-sg-emea.netapp.com`</block>
+  <block id="a1b1a9120bbc7238c7b6088d7223d194" category="list-text">"https://support-sg-naeast.netapp.com`</block>
+  <block id="219033cd316af31663b173765be6dd78" category="list-text">"https://support-sg-nawest.netapp.com`</block>
+  <block id="651784e7a6ddc6534201a6e8d1fbf248" category="paragraph">vCenter Server용 NetApp Element 플러그인이 등록된 기존 vSphere 환경의 경우 플러그인 서비스가 포함된 관리 서비스 패키지를 먼저 업데이트한 후 플러그인 등록을 업데이트할 수 있습니다.</block>
+  <block id="fe7edd9e3b4efc71766ba03d23b51c44" category="list-text">VMware vCenter Server 4.9, 4.8, 4.7, 4.6, 4.5 또는 4.4용 Element 플러그인으로 업그레이드하려는 경우</block>
+  <block id="8eeabd6de4a231c731b82c27ee25bbdb" category="admonition">이 플러그인은 VMware vCenter Server 4.6, 4.7 및 4.8용 Element Plug-in용 VMware vCenter Server 6.5와 호환되지 않습니다.</block>
+  <block id="f31daff1bed8bc4fec4119d69f3093d9" category="paragraph">VMware vCenter Server 6.7U1을 사용하여 VCP 4.8 이상으로 업그레이드한 후 스토리지 클러스터가 나열되지 않거나 NetApp Element 구성의 * 클러스터 * 및 * QoSSIOC 설정 * 섹션에 서버 오류가 나타나는 경우 을 참조하십시오 <block ref="ccd6ffc15d371ab994b0e9dff04cb8c2" category="inline-link-macro-rx"></block> 이러한 오류 문제 해결에 대한 문서.</block>
 </blocks>

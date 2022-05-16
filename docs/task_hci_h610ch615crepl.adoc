@@ -109,7 +109,12 @@ CAUTION: 섀시 후면의 공기 환풍구가 케이블 또는 레이블에 의�
 
 
 .단계
-. 웹 브라우저를 열고 관리 노드의 IP 주소를 찾습니다. 예: 'https://<ManagementNodeIP>`
+. 웹 브라우저에서 관리 노드의 IP 주소를 엽니다. 예를 들면 다음과 같습니다.
++
+[listing]
+----
+https://<ManagementNodeIP>
+----
 . NetApp 하이브리드 클라우드 제어에 NetApp HCI 스토리지 클러스터 관리자 자격 증명을 제공하여 로그인하십시오.
 . Expand Installation(설치 확장) 창에서 * Expand *(확장 *)를 선택합니다. 브라우저에서 NetApp 배포 엔진이 열립니다.
 . NetApp HCI 스토리지 클러스터 관리자 자격 증명을 제공하여 NetApp Deployment Engine에 로그인합니다.

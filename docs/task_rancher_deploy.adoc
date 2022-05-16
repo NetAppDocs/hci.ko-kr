@@ -53,10 +53,12 @@ NOTE: Rancher 지원은 NetApp Support Edge 계약에 포함되지 않습니다.
 
 구축을 시작하려면 NetApp 하이브리드 클라우드 제어에 액세스하십시오.
 
-. 웹 브라우저를 열고 관리 노드의 IP 주소를 찾습니다. 예를 들면 다음과 같습니다.
+. 웹 브라우저에서 관리 노드의 IP 주소를 엽니다. 예를 들면 다음과 같습니다.
 +
-"https://<ManagementNodeIP>`
-
+[listing]
+----
+https://<ManagementNodeIP>
+----
 . NetApp 하이브리드 클라우드 제어에 NetApp HCI 스토리지 클러스터 관리자 자격 증명을 제공하여 로그인하십시오.
 +
 NetApp Hybrid Cloud Control 인터페이스가 나타납니다.

@@ -2,24 +2,24 @@
 sidebar: sidebar 
 permalink: docs/task_vcp_upgrade_plugin.html 
 summary: NetApp HCI 시스템 업그레이드의 일부로 vCenter Server용 Element 플러그인을 업그레이드할 수 있습니다. 
-keywords: netapp, vcp, vCenter plug-in, upgrade, 4.4, 4.5, 4.6, 4.7, 4.8 
+keywords: netapp, vcp, vCenter plug-in, upgrade, 4.4, 4.5, 4.6, 4.7, 4.8, 4.9 
 ---
 = vCenter Server용 Element 플러그인을 업그레이드합니다
 :allow-uri-read: 
 
 
 [role="lead"]
-vCenter Server용 NetApp Element 플러그인(VCP)이 등록된 기존 vSphere 환경의 경우 플러그인 서비스가 포함된 관리 서비스 패키지를 먼저 업데이트한 후 플러그인 등록을 업데이트할 수 있습니다.
+vCenter Server용 NetApp Element 플러그인이 등록된 기존 vSphere 환경의 경우 플러그인 서비스가 포함된 관리 서비스 패키지를 먼저 업데이트한 후 플러그인 등록을 업데이트할 수 있습니다.
 
 등록 유틸리티를 사용하여 vCenter Server vCSA(Virtual Appliance) 또는 Windows에서 플러그인 등록을 업데이트할 수 있습니다. 플러그인을 사용해야 하는 모든 vCenter Server에서 vCenter 플러그인의 등록을 변경해야 합니다.
 
 이 업그레이드 절차에서는 다음 업그레이드 시나리오에 대해 설명합니다.
 
-* VCP 4.8, 4.7, 4.6, 4.5 또는 4.4로 업그레이드하는 중입니다.
+* VMware vCenter Server 4.9, 4.8, 4.7, 4.6, 4.5 또는 4.4용 Element 플러그인으로 업그레이드하려는 경우
 * 7.0, 6.7 또는 6.5 HTML5 vSphere Web Client로 업그레이드하는 중입니다.
 +
 
-IMPORTANT: 이 플러그인은 VCP 4.7 이상용 VMware vCenter Server 6.5와 호환되지 않습니다.
+IMPORTANT: 이 플러그인은 VMware vCenter Server 4.6, 4.7 및 4.8용 Element Plug-in용 VMware vCenter Server 6.5와 호환되지 않습니다.
 
 * 6.7 Flash vSphere Web Client로 업그레이드하는 중입니다.
 +
@@ -83,7 +83,7 @@ image::vcp_shortcuts_page_accessing_plugin.png[에서는 업그레이드 또는 
 ====
 vCenter 플러그인 아이콘이 표시되지 않으면 를 참조하십시오 link:https://docs.netapp.com/us-en/vcp/vcp_reference_troubleshoot_vcp.html#plug-in-registration-successful-but-icons-do-not-appear-in-web-client["vCenter Server용 Element 플러그인"^] 플러그인 문제 해결에 대한 문서
 
-VMware vCenter Server 6.7U1을 사용하여 VCP 4.8로 업그레이드한 후 스토리지 클러스터가 나열되지 않거나 NetApp Element 구성의 * 클러스터 * 및 * QoSSIOC 설정 * 섹션에 서버 오류가 나타나면 을 참조하십시오 link:https://docs.netapp.com/us-en/vcp/vcp_reference_troubleshoot_vcp.html#errors-after-vcp-4-8-upgrade-with-vmware-vcenter-server-6-7u1["vCenter Server용 Element 플러그인"^] 이러한 오류 문제 해결에 대한 문서.
+VMware vCenter Server 6.7U1을 사용하여 VCP 4.8 이상으로 업그레이드한 후 스토리지 클러스터가 나열되지 않거나 NetApp Element 구성의 * 클러스터 * 및 * QoSSIOC 설정 * 섹션에 서버 오류가 나타나는 경우 을 참조하십시오 link:https://docs.netapp.com/us-en/vcp/vcp_reference_troubleshoot_vcp.html#errors-after-vcp-4-8-upgrade-with-vmware-vcenter-server-6-7u1["vCenter Server용 Element 플러그인"^] 이러한 오류 문제 해결에 대한 문서.
 
 ====
 . 플러그인의 * NetApp Element 구성 * 확장 지점의 * 정보 * 탭에서 버전 변경을 확인합니다.
@@ -94,8 +94,8 @@ VMware vCenter Server 6.7U1을 사용하여 VCP 4.8로 업그레이드한 후 �
 
 [listing]
 ----
-NetApp Element Plug-in Version: 4.8
-NetApp Element Plug-in Build Number: 34
+NetApp Element Plug-in Version: 4.9
+NetApp Element Plug-in Build Number: 14
 ----
 
 NOTE: vCenter 플러그인에는 온라인 도움말 콘텐츠가 포함되어 있습니다. 도움말에 최신 콘텐츠가 포함되어 있는지 확인하려면 플러그인을 업그레이드한 후 브라우저 캐시를 지웁니다.
