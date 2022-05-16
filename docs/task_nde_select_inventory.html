@@ -541,6 +541,8 @@
 
 
 
+
+
           
         </li>
       </ul>
@@ -1090,11 +1092,11 @@
           
           <a target="_blank" 
             
-              href="/ko-kr/hci/pdfs/sidebar/NetApp_HCI_시스템_버전_1_9_또는_1_9P1을_를__업그레이드합니다.pdf" 
+              href="/ko-kr/hci/pdfs/sidebar/NetApp_HCI_시스템_버전_1_10을_업그레이드합니다.pdf" 
             
           >
             <img src="/ko-kr/hci/images/pdf.png" width="16" height="16"/>
-            NetApp HCI 시스템 버전 1.9 또는 1.9P1을(를) 업그레이드합니다
+            NetApp HCI 시스템 버전 1.10을 업그레이드합니다
           </a>
           
 
@@ -1115,8 +1117,6 @@
             시스템 업그레이드 절차
           </a>
           
-
-
 
 
 
@@ -1441,6 +1441,8 @@
         보호 도메인
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/hci/docs/hci_prereqs_witness_nodes.html">
         노드 2개 스토리지 클러스터의 노드 리소스 요구 사항
+      </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/hci/docs/hci_prereqs_deployment_configuration_restriction.html">
+        배포 구성 제한
       </a></li></ul></li><li class="subfolders "><a href="#">
         <div class="na-navbar-padding"> NetApp HCI를 시작하십시오</div>
       </a>
@@ -1635,7 +1637,7 @@
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/hci/docs/task_hcc_collectlogs.html">
         문제 해결을 위해 로그를 수집합니다
       </a></li></ul></li><li class="subfolders "><a href="#">
-        <div class="na-navbar-padding"> NetApp HCI 시스템 버전 1.9 또는 1.9P1을(를) 업그레이드합니다</div>
+        <div class="na-navbar-padding"> NetApp HCI 시스템 버전 1.10을 업그레이드합니다</div>
       </a>
       <ul><li class=" "><a class="na-navbar-padding" href="/ko-kr/hci/docs/concept_hci_upgrade_overview.html">
         업그레이드 순서 개요
@@ -1644,8 +1646,6 @@
       </a>
       <ul><li class=" "><a class="na-navbar-padding" href="/ko-kr/hci/docs/task_hcc_update_management_services.html">
         관리 서비스를 업데이트합니다
-      </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/hci/docs/task_upgrade_element_latest_healthtools.html">
-        최신 HealthTools로 업그레이드하십시오
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/hci/docs/task_hcc_upgrade_element_prechecks.html">
         스토리지를 업그레이드하기 전에 Element 스토리지 상태 점검을 실행합니다
       </a></li><li class=" "><a class="na-navbar-padding" href="/ko-kr/hci/docs/task_hcc_upgrade_element_software.html">
@@ -1807,7 +1807,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-04-18 06:15:35 +0000">04/18/2022</time>
+    <time datetime="2022-05-16 16:28:51 +0000">05/16/2022</time>
     
   
 
@@ -1818,6 +1818,18 @@
 <div class="sectionbody">
 <div class="paragraph lead">
 <p>Inventory * 페이지에서 NetApp Deployment Engine은 사용 가능한 컴퓨팅 및 스토리지 노드를 자동으로 감지하여 모든 NetApp HCI 리소스를 선택하여 배포에 추가할 수 있도록 합니다. 노드가 구축 요구 사항을 충족하지 않는 경우 선택할 수 없으며 문제가 오류로 표시됩니다. 노드 행의 오류 위에 커서를 놓으면 설명을 볼 수 있습니다. 인벤토리 페이지에서 노드 인벤토리를 선택할 경우 NetApp 배포 엔진을 호스팅하는 스토리지 노드가 자동으로 선택되며 선택을 취소할 수 없습니다.</p>
+</div>
+<div class="admonitionblock note">
+<table>
+<tr>
+<td class="icon">
+<img src="/us-en/hci/images/note.svg" alt="참고">
+</td>
+<td class="content">
+제한된 구성에는 H610C 또는 H615C 컴퓨팅 노드를 사용하는 vSphere 7.0 및 스토리지 노드 2개 또는 3개가 포함됩니다. 제한된 구성을 진행하려면 vSphere 6.7과 같은 다른 vSphere 버전을 선택하거나 구성에 최소 4개의 스토리지 노드가 있어 Witness 노드 구축을 방지해야 합니다.
+</td>
+</tr>
+</table>
 </div>
 <div class="paragraph">
 <p>적절한 인벤토리 검색을 위해 점보 프레임을 활성화해야 합니다. 인벤토리에 노드가 없거나 일부 노드만 표시되는 경우 NetApp HCI 노드에 사용되는 스위치 포트(모든 SFP+/SFP28 인터페이스)가 점보 프레임으로 구성되어 있는지 확인합니다.</p>
