@@ -35,13 +35,13 @@ NetApp HCI 1.10은 컴퓨팅 노드의 기본 구축 VMK 및 vmnic 구성 설정
 
 
 
-== 스토리지 노드 펌웨어 업데이트
+=== 스토리지 노드 펌웨어 업데이트
 
 NetApp HCI 1.10에는 스토리지 노드의 펌웨어 업데이트가 포함되어 있습니다. link:rn_relatedrn.html#storage-firmware["자세한 정보"].
 
 
 
-== 컴퓨팅 노드 펌웨어 업데이트
+=== 컴퓨팅 노드 펌웨어 업데이트
 
 NetApp HCI 1.10에는 컴퓨팅 노드의 펌웨어 업데이트가 포함되어 있습니다. link:rn_relatedrn.html#compute-firmware["자세한 정보"].
 
