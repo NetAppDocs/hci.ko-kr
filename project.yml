@@ -83,6 +83,8 @@ sidebar:
       url: "/docs/hci_prereqs_protection_domains.html"
     - title: 노드 2개 스토리지 클러스터의 노드 리소스 요구 사항
       url: "/docs/hci_prereqs_witness_nodes.html"
+    - title: 배포 구성 제한
+      url: "/docs/hci_prereqs_deployment_configuration_restriction.html"
   - title: NetApp HCI를 시작하십시오
     entries:
     - title: NetApp HCI 설치 및 구축 개요
@@ -261,7 +263,7 @@ sidebar:
       url: "/docs/task_hcc_activeiq.html"
     - title: 문제 해결을 위해 로그를 수집합니다
       url: "/docs/task_hcc_collectlogs.html"
-  - title: NetApp HCI 시스템 버전 1.9 또는 1.9P1을(를) 업그레이드합니다
+  - title: NetApp HCI 시스템 버전 1.10을 업그레이드합니다
     entries:
     - title: 업그레이드 순서 개요
       url: "/docs/concept_hci_upgrade_overview.html"
@@ -269,8 +271,6 @@ sidebar:
       entries:
       - title: 관리 서비스를 업데이트합니다
         url: "/docs/task_hcc_update_management_services.html"
-      - title: 최신 HealthTools로 업그레이드하십시오
-        url: "/docs/task_upgrade_element_latest_healthtools.html"
       - title: 스토리지를 업그레이드하기 전에 Element 스토리지 상태 점검을 실행합니다
         url: "/docs/task_hcc_upgrade_element_prechecks.html"
       - title: Element 소프트웨어 업그레이드

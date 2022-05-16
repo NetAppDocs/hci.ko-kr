@@ -1,0 +1,27 @@
+---
+sidebar: sidebar 
+permalink: docs/hci_prereqs_deployment_configuration_restriction.html 
+summary: 배포 구성 제한에 대해 자세히 알아보십시오. 
+keywords: netapp, hci, deployment, restriction, configuration, nde, compute, node, storage 
+---
+= 배포 구성 제한
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+:keywords: netapp, hci, element, Witness Node
+
+
+[role="lead"]
+VMware vSphere 버전, 컴퓨팅 노드 유형 및 스토리지 노드 수에 따라 NetApp 구축 엔진에서 특정 구성이 제한됩니다. 제한된 구성은 H610C 또는 H615C 컴퓨팅 노드 및 2개 또는 3개의 스토리지 노드를 사용하는 VMware vSphere 7.0에 적용됩니다. 제한된 구성을 진행하려면 vSphere 6.7과 같은 다른 vSphere 버전을 선택하거나 구성에 최소 4개의 스토리지 노드가 있어 Witness 노드 구축을 방지해야 합니다.
+
+있다면 link:task_nde_select_inventory.html["Inventory * 페이지에서 제한된 구성을 선택합니다"] 배포 중에 다른 유효한 구성 옵션과 함께 오류 메시지가 나타납니다.
+
+[discrete]
+== 자세한 내용을 확인하십시오
+
+* https://www.netapp.com/hybrid-cloud/hci-documentation/["NetApp HCI 리소스 페이지를 참조하십시오"^]
+* https://docs.netapp.com/us-en/vcp/index.html["vCenter Server용 NetApp Element 플러그인"^]
+
