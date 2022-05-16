@@ -35,6 +35,18 @@ NetApp HCI 1.10은 컴퓨팅 노드의 기본 구축 VMK 및 vmnic 구성 설정
 
 
 
+== 스토리지 노드 펌웨어 업데이트
+
+NetApp HCI 1.10에는 스토리지 노드의 펌웨어 업데이트가 포함되어 있습니다. link:rn_relatedrn.html#storage-firmware["자세한 정보"].
+
+
+
+== 컴퓨팅 노드 펌웨어 업데이트
+
+NetApp HCI 1.10에는 컴퓨팅 노드의 펌웨어 업데이트가 포함되어 있습니다. link:rn_relatedrn.html#compute-firmware["자세한 정보"].
+
+
+
 === vCenter Server 4.9 가용성을 위한 NetApp Element 플러그인
 
 vCenter Server 4.9용 NetApp Element 플러그인은 관리 노드 12.5 및 NetApp HCI 1.10 릴리즈 외부에서 사용할 수 있습니다. 플러그인을 업그레이드하려면 의 지침을 따릅니다 link:concept_hci_upgrade_overview.html["NetApp HCI 업그레이드"] 문서화:
