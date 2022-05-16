@@ -6077,7 +6077,6 @@
   <block id="2914d2e1549f2ef461f9b040823e6218" category="list-text">관리 서비스를 2.20.69 이상으로 업데이트했습니다.</block>
   <block id="311e83625ce0c896e7a3f811f3ac48c2" category="list-text">스토리지 클러스터에서 Element 12.3 이상이 실행되고 있습니다.</block>
   <block id="fa74c37a30199ebd12f7aa7320d0cc0f" category="inline-link">NetApp HCI 1.9 및 1.9P1</block>
-  <block id="b1943b2045cf1614e825d3581d335512" category="list-text"><block ref="b1943b2045cf1614e825d3581d335512" category="inline-link-rx"></block></block>
   <block id="6c529facc953c911e43fb9725bdef1f8" category="list-text">* H610S 노드의 업데이트된 베이스보드 관리 컨트롤러(BMC) *: H610S 노드의 BMC 버전을 업그레이드했습니다. 을 참조하십시오 <block ref="f04f9a521fc4fd678cdbd3d698415a24" category="inline-link-macro-rx"></block>.</block>
   <block id="477832301b5ab810e59d16b6d6cf05dc" category="paragraph">이러한 구성 요소에는 관리 서비스, NetApp 하이브리드 클라우드 제어, Element 소프트웨어, 관리 노드, 컴퓨팅 펌웨어, 컴퓨팅 드라이버, vCenter Server용 Element Plug-in입니다</block>
   <block id="abad8a22ec62bb4befaee820afb760ef" category="inline-link-macro">HealthTools를 사용하여 Element 12.3으로 업그레이드하십시오</block>
@@ -6118,4 +6117,5 @@
   <block id="2af95608d9fd504ee8d4e0f92619eb96" category="list-text">에 대한 지침을 사용하여 추가 네트워크 어댑터를 구성했습니다(필요한 경우) <block ref="be46399bf51a96ee544de66528d12203" category="inline-link-macro-rx"></block>.</block>
   <block id="73f0b06b075dc2c13caded9ae137e4cf" category="admonition">이전에 관리 노드에서 SSH 기능을 해제한 경우 를 수행해야 합니다 <block ref="5b81c87a44b075e9194cc26f66c2b99f" category="inline-link-macro-rx"></block> 복구된 관리 노드에서 SSH 기능을 통해 제공됩니다 <block ref="6bb28df38aa0844e287b2e23fc581879" category="inline-link-macro-rx"></block> 는 기본적으로 관리 노드에서 사용하도록 설정됩니다.</block>
   <block id="1c0d3ba5e7a44f6ae998504b246b1227" category="admonition">Element 12.5부터는 NetApp HealthTools에서 Element 소프트웨어 업그레이드가 더 이상 지원되지 않습니다. Element 11.0 또는 11.1을 실행 중인 경우 먼저 해야 합니다 <block ref="44a31a9a881af2f85b504df3b697bf3f" category="inline-link-macro-rx"></block> 그리고 NetApp 하이브리드 클라우드 제어를 사용하여 Element 12.5로 업그레이드하십시오.</block>
+  <block id="349ff6a47f89283c2d4f778d3823c091" category="list-text"><block ref="349ff6a47f89283c2d4f778d3823c091" category="inline-link-rx"></block></block>
 </blocks>
