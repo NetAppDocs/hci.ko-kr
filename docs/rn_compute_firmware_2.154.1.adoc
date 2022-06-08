@@ -1,0 +1,104 @@
+---
+sidebar: sidebar 
+permalink: docs/rn_compute_firmware_2.154.1.html 
+summary: NetApp HCI 노드에 다운로드하여 적용할 수 있는 펌웨어 패키지의 릴리즈 노트에 대한 링크를 제공합니다. 
+keywords: netapp, hci, compute firmware 
+---
+= Compute Firmware Bundle 2.154.1 릴리스 정보
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
+:keywords: hci, release notes, vcp, element, management services, firmware
+
+
+[role="lead"]
+다운로드 가능한 컴퓨팅 노드 펌웨어 패키지에는 지원되는 모든 NetApp HCI 컴퓨팅 노드에 대한 최신 BIOS 및 BMC 기능 향상, 버그 수정 및 하드웨어 지원이 포함되어 있습니다.
+
+
+NOTE: NetApp 하이브리드 클라우드 제어에는 최신 관리 서비스 번들이 필요합니다. 컴퓨팅 노드의 펌웨어를 버전 2.154.1로 업그레이드하기 전에 최신 관리 서비스 번들로 업그레이드해야 합니다. 컴퓨팅 노드의 펌웨어를 버전 2.154.1로 업그레이드하려면 관리 서비스 2.20이 필요합니다.
+
+
+
+== 새로운 기능
+
+버전 2.154.1에는 일반적인 버그 수정이 포함되어 있습니다.
+
+
+
+=== 펌웨어 구성 요소가 업데이트되었습니다
+
+이 펌웨어 패키지에는 업데이트된 버전이 굵은 글꼴로 표시된 하드웨어 구성 요소에 대한 다음 펌웨어 버전이 포함되어 있습니다.
+
+|===
+| 구성 요소 | H300E, H500E, H700E | H410C | H610C | H615C 
+
+
+| BIOS | NAT3.4 | NATP3.10 | 2007년 3월 | B12.CO 
+
+
+| BMC | 6.98.00 | 6.71.20 | 2007년 4월 4일 | 4.72.07 
+
+
+| NIC/Mellanox | * 14.29.1016 * | * 14.29.1016 * | * 14.29.1016 * | * 14.29.1016 * 
+|===
+
+
+=== Mellanox NIC 펌웨어 드라이버 호환성
+
+업데이트된 Mellanox 펌웨어 버전 14.29.1016에는 다음과 같이 VMware ESXi 드라이버의 최소 버전이 필요합니다.
+
+* * ESXi 7.0 *: 버전 4.21.71.1
+* * ESXi 6.7 *: 버전 4.17.71.1
+* * ESXi 6.5 *: 버전 4.16.71.1
+
+
+
+NOTE: 버전 2.154.1로 업그레이드하기 전에 현재 ESXi 드라이버 버전을 확인하십시오. 드라이버가 최신 버전이 아니면 먼저 드라이버를 업그레이드하십시오. 그런 다음 컴퓨팅 노드에 대해 컴퓨팅 펌웨어를 버전 2.154.1로 업그레이드합니다. 를 방문하십시오 link:task_hcc_upgrade_compute_node_drivers.html["컴퓨팅 노드 드라이버를 업데이트합니다"^] ESXi 드라이버를 포함하는 컴퓨팅 노드 드라이버를 업데이트하는 방법은 를 참조하십시오.
+
+호스트 OS를 수동으로 설치 또는 업그레이드할 때 NetApp은 이러한 OS에 대한 드라이버 및 펌웨어를 제어할 수 없습니다.
+
+
+
+== Compute Firmware Bundle 2.154.1을 다운로드합니다
+
+컴퓨팅 펌웨어 번들을 다운로드하려면 다음을 수행하십시오.
+
+. 로 이동합니다 https://mysupport.netapp.com/site/products/all/details/netapp-hci/downloads-tab["NetApp HCI 다운로드 페이지"^].
+. 드롭다운 목록에서 * Compute_Firmware_Bundle * 을 선택합니다.
+. Go * 를 클릭합니다.
+
+
+를 방문하십시오 link:task_hcc_upgrade_compute_node_firmware.html#use-the-baseboard-management-controller-bmc-user-interface-ui["컴퓨팅 노드 펌웨어를 업데이트합니다"^] 컴퓨팅 노드 펌웨어 업데이트에 대한 지침은 를 참조하십시오.
+
+
+
+== 해결된 알려진 문제입니다
+
+를 참조하십시오 https://mysupport.netapp.com/site/bugs-online/product["버그 온라인 도구"^] 해결된 문제 및 새로운 문제에 대한 자세한 내용은 를 참조하십시오.
+
+
+
+=== BOL 도구 액세스
+
+. 로 이동합니다  https://mysupport.netapp.com/site/bugs-online/product["BOL 도구"^] 드롭다운 목록에서 * Element Software * 를 선택합니다.
++
+image::bol_dashboard.png[스토리지 펌웨어 번들 릴리스 정보]
+
+. 키워드 검색 필드에 "Compute Firmware Bundle"을 입력하고 * New Search * 를 클릭합니다.
++
+image::compute_firmware_bundle_choice.png[스토리지 펌웨어 번들 릴리스 정보]
+
+. 해결되었거나 열려 있는 버그 목록이 표시됩니다. 다음과 같이 결과를 더욱 세분화할 수 있습니다.
++
+image::bol_list_bugs_found.png[스토리지 펌웨어 번들 릴리스 정보]
+
+
+
+[discrete]
+== 자세한 내용을 확인하십시오
+
+* https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Firmware_and_driver_versions_in_NetApp_HCI_and_NetApp_Element_software["NetApp HCI 및 NetApp Element 소프트웨어의 펌웨어 및 드라이버 버전"^]
+

@@ -2768,11 +2768,9 @@
   <block id="3aa4b17575032362b7124d4aeb9c09f1" category="inline-link">NetApp Element 소프트웨어 12.0.1 릴리스 정보</block>
   <block id="49cbef4a1c4e82dba59d5c67759bce8e" category="list-text"><block ref="49cbef4a1c4e82dba59d5c67759bce8e" category="inline-link-rx"></block></block>
   <block id="1cace3c036a290ab8ee91dddebd361d0" category="inline-link">NetApp Element 소프트웨어 12.0 릴리스 정보</block>
-  <block id="4530ac947ab244332016237ecd5be386" category="list-text"><block ref="4530ac947ab244332016237ecd5be386" category="inline-link-rx"></block></block>
   <block id="c238b8c4c43e1a2c0a7fa4b0128df200" category="inline-link">NetApp Element 소프트웨어 11.8 릴리스 정보</block>
   <block id="cd4b0abd6f1976f7d6b641eb6432cebc" category="list-text"><block ref="cd4b0abd6f1976f7d6b641eb6432cebc" category="inline-link-rx"></block></block>
   <block id="de0f0c49b842adda3c5183c2ee2304e8" category="inline-link">NetApp Element 소프트웨어 11.7 릴리스 정보</block>
-  <block id="c16491ff91ceba0f9e002a099673aaaa" category="list-text"><block ref="c16491ff91ceba0f9e002a099673aaaa" category="inline-link-rx"></block></block>
   <block id="a287e6799739729404ccb132fbbb1739" category="inline-link">NetApp Element 소프트웨어 11.5.1 릴리스 정보</block>
   <block id="84f9569ec486aa9adfb1b73d2a0e3c9f" category="list-text"><block ref="84f9569ec486aa9adfb1b73d2a0e3c9f" category="inline-link-rx"></block></block>
   <block id="87043baf81d739284bd0146e19728ce7" category="inline-link">NetApp Element 소프트웨어 11.3P1 릴리스 정보</block>
@@ -3107,18 +3105,6 @@
   <block id="f71a4c12dcb50499d5053c0b98873237" category="list-text"><block ref="f71a4c12dcb50499d5053c0b98873237" category="inline-link-macro-rx"></block></block>
   <block id="9fb45d65282cc3f96e819596e5e394dd" category="inline-link-macro">관리 서비스 공지 2.18.91(VCP 4.7.10)</block>
   <block id="f69014f6080d5a2f562899c09650901c" category="list-text"><block ref="f69014f6080d5a2f562899c09650901c" category="inline-link-macro-rx"></block></block>
-  <block id="4dc58eed88195e2dee9ef97cb0900fcc" category="inline-link-macro">관리 서비스 공지 2.17.56(VCP 4.6.32)</block>
-  <block id="1989e0779940cbcf0c65f9cf43d47818" category="list-text"><block ref="1989e0779940cbcf0c65f9cf43d47818" category="inline-link-macro-rx"></block></block>
-  <block id="2916cda094e8e99dde87d679e5faf4af" category="inline-link-macro">관리 서비스 공지 2.17.52(VCP 4.6.29)</block>
-  <block id="617dfeaa943c584c80f6893ede302f73" category="list-text"><block ref="617dfeaa943c584c80f6893ede302f73" category="inline-link-macro-rx"></block></block>
-  <block id="3e7b640ad20b44c0dc8fac94c0950302" category="inline-link-macro">관리 서비스 공지 2.16(VCP 4.6.29)</block>
-  <block id="5209993fc11774e9d9b0846e8aa63841" category="list-text"><block ref="5209993fc11774e9d9b0846e8aa63841" category="inline-link-macro-rx"></block></block>
-  <block id="d4771ef289c9be15770d7434653c2259" category="inline-link-macro">관리 서비스 공지 2.14(VCP 4.5.42)</block>
-  <block id="366d8e5be621e86d29d0b195a08e2f61" category="list-text"><block ref="366d8e5be621e86d29d0b195a08e2f61" category="inline-link-macro-rx"></block></block>
-  <block id="8905ab1c0ad30471bfb792d567577041" category="inline-link-macro">관리 서비스 참고 사항 2.13(VCP 4.5.42)</block>
-  <block id="fd999dd89e89cb1746ef798211092cf3" category="list-text"><block ref="fd999dd89e89cb1746ef798211092cf3" category="inline-link-macro-rx"></block></block>
-  <block id="d3fd8f720b6d6e4fea8273c72a7bbcc7" category="inline-link-macro">관리 서비스 공지 2.11(VCP 4.4.72)</block>
-  <block id="f050f7b6ab1083e601d67bc20dda05f3" category="list-text"><block ref="f050f7b6ab1083e601d67bc20dda05f3" category="inline-link-macro-rx"></block></block>
   <block id="df65f5c1d0a5896f87e664b9add16f32" category="summary">NetApp HCI의 DNS 및 시간 표시 요구 사항에 대해 알아보십시오.</block>
   <block id="a37125410851f68e5cc89a60c957a863" category="paragraph">구축하기 전에 NetApp HCI 시스템에 대한 DNS(Domain Name System) 레코드를 준비하고 NTP 서버 정보를 수집해야 합니다. NetApp HCI를 성공적으로 구축하려면 올바른 DNS 항목이 있는 DNS 서버와 NTP 서버가 필요합니다.</block>
   <block id="24f2891c7e9fdb24ca996d92b73e6a39" category="paragraph">NetApp HCI를 배포하기 전에 다음 DNS 및 시간 서버를 준비해야 합니다.</block>
@@ -5894,7 +5880,6 @@
   <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">통지 파일은 NetApp 소프트웨어에 사용된 타사의 저작권 및 라이센스에 대한 정보를 제공합니다.</block>
-  <block id="5e98629f8afe2eee1c27355eb45a80e0" category="paragraph">vCenter 플러그인 아이콘이 표시되지 않으면 를 참조하십시오 <block ref="ab9b282dbdbe327f4195d1f5d71c406f" category="inline-link-macro-rx"></block> 플러그인 문제 해결에 대한 문서</block>
   <block id="f6a63a9052785a40e6a7b718acb627b9" category="list-text">* 관리 서비스 *: 최신 관리 서비스 번들(2.11 이상)으로 업데이트되었습니다.</block>
   <block id="2ce38f720dba5ff083bfe1933d11eacc" category="list-text">* 관리 노드 *: 관리 노드 11.3 이상을 실행하고 있습니다.</block>
   <block id="a141fe1c6179ed3e09aa6043ad364ac6" category="list-text">* Element 소프트웨어 *: 스토리지 클러스터에서 NetApp Element 소프트웨어 11.3 이상이 실행 중입니다.</block>
@@ -5949,7 +5934,6 @@
   <block id="651784e7a6ddc6534201a6e8d1fbf248" category="paragraph">vCenter Server용 NetApp Element 플러그인이 등록된 기존 vSphere 환경의 경우 플러그인 서비스가 포함된 관리 서비스 패키지를 먼저 업데이트한 후 플러그인 등록을 업데이트할 수 있습니다.</block>
   <block id="fe7edd9e3b4efc71766ba03d23b51c44" category="list-text">VMware vCenter Server 4.9, 4.8, 4.7, 4.6, 4.5 또는 4.4용 Element 플러그인으로 업그레이드하려는 경우</block>
   <block id="8eeabd6de4a231c731b82c27ee25bbdb" category="admonition">이 플러그인은 VMware vCenter Server 4.6, 4.7 및 4.8용 Element Plug-in용 VMware vCenter Server 6.5와 호환되지 않습니다.</block>
-  <block id="f31daff1bed8bc4fec4119d69f3093d9" category="paragraph">VMware vCenter Server 6.7U1을 사용하여 VCP 4.8 이상으로 업그레이드한 후 스토리지 클러스터가 나열되지 않거나 NetApp Element 구성의 * 클러스터 * 및 * QoSSIOC 설정 * 섹션에 서버 오류가 나타나는 경우 을 참조하십시오 <block ref="ccd6ffc15d371ab994b0e9dff04cb8c2" category="inline-link-macro-rx"></block> 이러한 오류 문제 해결에 대한 문서.</block>
   <block id="54aa7f2dcdc54ac5abd932a5b6c8b3d7" category="list-text">* 업그레이드 프로세스 시간 *: 업그레이드를 수행하기에 충분한 시간을 예약했습니다. Element 소프트웨어 12.5로 업그레이드할 때 업그레이드 프로세스 시간은 현재 Element 소프트웨어 버전 및 펌웨어 업데이트에 따라 달라집니다.</block>
   <block id="778b8320a31f425d9021c72ba59dd8bd" category="cell">스토리지 노드</block>
   <block id="c4303966c5d95835840cedbb4010f17d" category="cell">최신 Element 소프트웨어 버전</block>
@@ -6028,8 +6012,6 @@
   <block id="f8e8ebc61e5eb8b12488dfac5a827259" category="list-text"><block ref="6a881248d046a90f573e41d5ebe1362e" category="inline-link-rx"></block> _신규 _</block>
   <block id="9de5606ae9b23ff6651244b85bd5dae8" category="list-text"><block ref="9de5606ae9b23ff6651244b85bd5dae8" category="inline-link-rx"></block></block>
   <block id="e2b4747c263485de7011e8018c523cdd" category="list-text"><block ref="779aeeb0a67ee84cae70c2361654111d" category="inline-link-rx"></block> _신규 _</block>
-  <block id="cb6823679c925abe1a3f3ca07396e866" category="list-text"><block ref="97107deca957b5e4a6b53d3c09cc1c16" category="inline-link-macro-rx"></block> _신규 _</block>
-  <block id="04796d249df9edf8061eee03c29d96f4" category="list-text"><block ref="67a13cf9dcb3321b59f28def3726ce13" category="inline-link-macro-rx"></block> _신규 _</block>
   <block id="fe2bcf6f89f4e1eec12e45df5946ee12" category="admonition">요소 12.3.1부터 하위 단계(a)에서 (e)까지 자동으로 수행됩니다. 관리 노드 12.3.1 이상의 경우 로 이동합니다 <block ref="e7aead760c231b389589c93842d555c1" category="inline-xref-macro-rx"></block> 를 눌러 시간 동기화 구성을 완료합니다.</block>
   <block id="90c2dc9b8e4f7b029c80f8c7488a4b58" category="paragraph">관리 노드를 버전 12.3.x에서 관리 노드 12.5로 업그레이드할 수 있습니다</block>
   <block id="2ee9526aa61dc0808ea0ccf6ccfa2412" category="paragraph">스토리지 클러스터에서 Element 소프트웨어를 업그레이드하는 데 관리 노드 운영 체제를 더 이상 업그레이드할 필요가 없습니다. NetApp 하이브리드 클라우드 제어를 사용하여 관리 서비스를 최신 버전으로 간단히 업그레이드하여 Element 업그레이드를 수행할 수 있습니다. 보안 문제 해결과 같은 다른 이유로 관리 노드 운영 체제를 업그레이드하려면 시나리오에 따라 관리 노드 업그레이드 절차를 따르십시오.</block>
@@ -6119,4 +6101,54 @@
   <block id="df8bcceb7ddee511e9494f0afd8c95a7" category="list-text">재부팅 중에 * F11 * 을 눌러 부팅 옵션을 선택하고 컴퓨팅 펌웨어 번들을 로드합니다. 부팅 메뉴가 표시되기 전에 F11 키를 여러 번 눌러야 할 수 있습니다.</block>
   <block id="b56a80b47ffbf4eda21aa52a14a1c0d9" category="paragraph">이 단계는 노드가 독립 실행형인지 또는 클러스터의 일부인지에 따라 다릅니다. 이 절차는 약 25분 정도 소요되며, 노드 전원 끄기, 컴퓨팅 펌웨어 번들 업로드, 디바이스 플래싱, 업그레이드 후 노드 전원 켜기 등이 포함됩니다.</block>
   <block id="94accfc9ce60fbdbc6b912533ff89998" category="list-text">재부팅 중에 * F11 * 을 눌러 부팅 옵션을 선택하고 컴퓨팅 펌웨어 번들을 로드합니다.</block>
+  <block id="4489a95481ba0e8e951ca2cdc4403b89" category="list-text"><block ref="4489a95481ba0e8e951ca2cdc4403b89" category="inline-link-rx"></block></block>
+  <block id="b7fe022e3d13a1a7248fb1583851f437" category="inline-link">NetApp Element 소프트웨어 11.8.2 릴리스 정보</block>
+  <block id="96a6137975cbcfe6dbff95b85cf1b6bf" category="list-text"><block ref="5ed2b0be7714cf9bfe94c6d0660549bb" category="inline-link-rx"></block> _신규 _</block>
+  <block id="0f0e809fbd346b6319776f0b02355216" category="inline-link">NetApp Element 소프트웨어 11.8.1 릴리스 정보</block>
+  <block id="6ae2e484807ab9e500e1e9aa73aa6354" category="list-text"><block ref="6ae2e484807ab9e500e1e9aa73aa6354" category="inline-link-rx"></block></block>
+  <block id="7941eda6d75aeac7fd5d3f88cb08cb39" category="list-text"><block ref="7941eda6d75aeac7fd5d3f88cb08cb39" category="inline-link-rx"></block></block>
+  <block id="e7c54ed43221b67b988af5312c783bb4" category="inline-link-macro">Compute Firmware Bundle 2.154.1 릴리스 정보</block>
+  <block id="1ede45b15f29951945dbf9a93aff5d13" category="list-text"><block ref="da7af753dc484a3dd141f979cd511421" category="inline-link-macro-rx"></block> _신규 _</block>
+  <block id="97107deca957b5e4a6b53d3c09cc1c16" category="list-text"><block ref="97107deca957b5e4a6b53d3c09cc1c16" category="inline-link-macro-rx"></block></block>
+  <block id="f73f11dc118d0773193fe38ff975e133" category="inline-link-macro">스토리지 펌웨어 번들 2.150 릴리스 정보</block>
+  <block id="9b85276bde33152eca1f76222abdb811" category="list-text"><block ref="dd9a6aa21d9f1f41ef6fc5f7516fd509" category="inline-link-macro-rx"></block> _신규 _</block>
+  <block id="67a13cf9dcb3321b59f28def3726ce13" category="list-text"><block ref="67a13cf9dcb3321b59f28def3726ce13" category="inline-link-macro-rx"></block></block>
+  <block id="7ab1151c4498ab191b7470333595b532" category="admonition">vCenter 플러그인 아이콘이 표시되지 않으면 를 참조하십시오 <block ref="ab9b282dbdbe327f4195d1f5d71c406f" category="inline-link-macro-rx"></block> 플러그인 문제 해결에 대한 문서 VMware vCenter Server 6.7U1을 사용하여 VCP 4.8 이상으로 업그레이드한 후 스토리지 클러스터가 나열되지 않거나 NetApp Element 구성의 * 클러스터 * 및 * QoSSIOC 설정 * 섹션에 서버 오류가 나타나는 경우 을 참조하십시오 <block ref="ccd6ffc15d371ab994b0e9dff04cb8c2" category="inline-link-macro-rx"></block> 이러한 오류 문제 해결에 대한 문서.</block>
+  <block id="2ce86d9c954f97c282bf8eed5bf20807" category="paragraph">스토리지 펌웨어 번들 버전 2.150에는 중요한 버그 수정이 포함되어 있습니다. 의 지침에 따라 스토리지 펌웨어를 업그레이드할 수 있습니다 <block ref="7b278358318478c3f88cee9434341a35" category="inline-link-macro-rx"></block>.</block>
+  <block id="3e94ced9564aa4fd2c0b54fde5c1108f" category="paragraph">이 펌웨어 패키지에는 하드웨어 구성 요소에 대한 다음 펌웨어 버전이 포함되어 있습니다.</block>
+  <block id="9671fe0cd1cee15ffc6e623894e0c90c" category="cell">3B11</block>
+  <block id="d7d76e22f94a7f97f91de8b48bb8e450" category="cell">3.94.07</block>
+  <block id="bca66716b9ca2d13a4c28be69b276777" category="cell">3.3</block>
+  <block id="0150391f6be250d4938acbe27c8a6334" category="cell">EDA5602Q</block>
+  <block id="d2a3d6fbce3a3051dfc130e0011c1e3f" category="cell">EDA5900Q</block>
+  <block id="fd6f31936af2e04f06eeb0526b85d107" category="cell">PM9A3, SED</block>
+  <block id="f9eaf28d7f6afbf4436dc40e7bcd160d" category="cell">GDC5502Q</block>
+  <block id="4919b2e69242d2c21c7f28f1ba86db29" category="cell">PE8010, SED</block>
+  <block id="37ac0290be70b74cc8f652c94b244484" category="cell">11092A10</block>
+  <block id="8e70a489b4770b5e0761a6fc215c6fec" category="cell">PE8010, N-SED</block>
+  <block id="223b1fa9e807b6e3241516bda5bf6d35" category="cell">110B2A10</block>
+  <block id="1ad071257f715e496a87659f9a2669a6" category="cell">NAT3.4</block>
+  <block id="ddfac71abd839b54517b13500ce7ecbf" category="cell">6.98.00</block>
+  <block id="8a80462f5d95f3e749a944e16740bc37" category="cell">HXT7A04Q</block>
+  <block id="a3f866670127939ba6ddb0e8c20fa97e" category="admonition">스토리지 펌웨어 번들 2.146 이후로 페이로드 업데이트가 없습니다.</block>
+  <block id="c04379119f71302691848047a912bf77" category="paragraph">다운로드 가능한 컴퓨팅 노드 펌웨어 패키지에는 지원되는 모든 NetApp HCI 컴퓨팅 노드에 대한 최신 BIOS 및 BMC 기능 향상, 버그 수정 및 하드웨어 지원이 포함되어 있습니다.</block>
+  <block id="378aaff6867e23f7925def4480926513" category="admonition">NetApp 하이브리드 클라우드 제어에는 최신 관리 서비스 번들이 필요합니다. 컴퓨팅 노드의 펌웨어를 버전 2.154.1로 업그레이드하기 전에 최신 관리 서비스 번들로 업그레이드해야 합니다. 컴퓨팅 노드의 펌웨어를 버전 2.154.1로 업그레이드하려면 관리 서비스 2.20이 필요합니다.</block>
+  <block id="5746efe5d0d96d6572f432c534c7beca" category="paragraph">버전 2.154.1에는 일반적인 버그 수정이 포함되어 있습니다.</block>
+  <block id="bdbab1d48a4851cccf015292b45adbf8" category="cell">NATP3.10</block>
+  <block id="4ec7d13445d466c69ee100663627dc2c" category="cell">2007년 3월</block>
+  <block id="ebe24792adc96d87b6e6b9654b5d7528" category="cell">B12.CO</block>
+  <block id="06256e5582720eda745869273808e24a" category="cell">2007년 4월 4일</block>
+  <block id="b37301451c2b79b500bfd38628f1abeb" category="cell">4.72.07</block>
+  <block id="f7c4262c3c6a1e993d139e2fe33eef0e" category="cell">* 14.29.1016 *</block>
+  <block id="8305ff7d6a08337f4cea8d86d8b1f7f4" category="paragraph">업데이트된 Mellanox 펌웨어 버전 14.29.1016에는 다음과 같이 VMware ESXi 드라이버의 최소 버전이 필요합니다.</block>
+  <block id="ae543af4a45ea963a2ebf8c216e994ee" category="list-text">* ESXi 7.0 *: 버전 4.21.71.1</block>
+  <block id="49a3c987bd11c2c62328caa9569895b0" category="list-text">* ESXi 6.7 *: 버전 4.17.71.1</block>
+  <block id="e3c8775ae388ad911a24c3ded5ffd470" category="list-text">* ESXi 6.5 *: 버전 4.16.71.1</block>
+  <block id="417a2d61c56d02cbdeab31e1cdfcde74" category="admonition">버전 2.154.1로 업그레이드하기 전에 현재 ESXi 드라이버 버전을 확인하십시오. 드라이버가 최신 버전이 아니면 먼저 드라이버를 업그레이드하십시오. 그런 다음 컴퓨팅 노드에 대해 컴퓨팅 펌웨어를 버전 2.154.1로 업그레이드합니다. 를 방문하십시오 <block ref="325436a4e666ed53574c87eb30870a4b" category="inline-link-macro-rx"></block> ESXi 드라이버를 포함하는 컴퓨팅 노드 드라이버를 업데이트하는 방법은 를 참조하십시오.</block>
+  <block id="9a6c5a1f43def2114175181a7990cd49" category="paragraph">호스트 OS를 수동으로 설치 또는 업그레이드할 때 NetApp은 이러한 OS에 대한 드라이버 및 펌웨어를 제어할 수 없습니다.</block>
+  <block id="e678afceed55b1dcc8ebe2ece545090a" category="section-title">Compute Firmware Bundle 2.154.1을 다운로드합니다</block>
+  <block id="831b7fafcb48c5cdc3232392066936d8" category="inline-link-macro">스토리지 펌웨어 번들 2.150에 대한 고지 사항</block>
+  <block id="ce22f95c04c4b1b4db9fa2b54e703681" category="list-text"><block ref="ce22f95c04c4b1b4db9fa2b54e703681" category="inline-link-macro-rx"></block></block>
+  <block id="45bcc1809d993bf4834cacf8a3723536" category="inline-link-macro">Compute Firmware Bundle 2.154.1에 대한 고지 사항</block>
+  <block id="85c8fe6ae514fde647235db86ba4c0a4" category="list-text"><block ref="85c8fe6ae514fde647235db86ba4c0a4" category="inline-link-macro-rx"></block></block>
 </blocks>

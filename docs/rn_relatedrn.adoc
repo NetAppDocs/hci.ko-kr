@@ -43,9 +43,11 @@ NOTE: NetApp Support 사이트 자격 증명을 사용하여 로그인하라는 
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2877210["NetApp Element 소프트웨어 12.2.1 릴리스 정보"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2873789["NetApp Element 소프트웨어 12.2 릴리스 정보"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2877208["NetApp Element 소프트웨어 12.0.1 릴리스 정보"^]
-* https://library.netapp.com/ecm/ecm_download_file/ECMLP2865022["NetApp Element 소프트웨어 12.0 릴리스 정보"]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2865022["NetApp Element 소프트웨어 12.0 릴리스 정보"^]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2880259["NetApp Element 소프트웨어 11.8.2 릴리스 정보"^] _신규 _
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2877206["NetApp Element 소프트웨어 11.8.1 릴리스 정보"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2864256["NetApp Element 소프트웨어 11.8 릴리스 정보"^]
-* https://library.netapp.com/ecm/ecm_download_file/ECMLP2861225["NetApp Element 소프트웨어 11.7 릴리스 정보"]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2861225["NetApp Element 소프트웨어 11.7 릴리스 정보"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2863854["NetApp Element 소프트웨어 11.5.1 릴리스 정보"^]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2859857["NetApp Element 소프트웨어 11.3P1 릴리스 정보"^]
 
@@ -74,7 +76,8 @@ NOTE: NetApp Support 사이트 자격 증명을 사용하여 로그인하라는 
 
 == 컴퓨팅 펌웨어
 
-* link:rn_compute_firmware_2.146.html["컴퓨팅 펌웨어 번들 2.146 릴리스 정보"] _신규 _
+* link:rn_compute_firmware_2.154.1.html["Compute Firmware Bundle 2.154.1 릴리스 정보"] _신규 _
+* link:rn_compute_firmware_2.146.html["컴퓨팅 펌웨어 번들 2.146 릴리스 정보"]
 * link:rn_compute_firmware_2.76.html["컴퓨팅 펌웨어 번들 2.76 릴리스 정보"]
 * link:rn_compute_firmware_2.27.html["컴퓨팅 펌웨어 번들 2.27 릴리스 정보"]
 * link:rn_firmware_12.2.109.html["컴퓨팅 펌웨어 번들 12.2.109 릴리스 정보"]
@@ -84,7 +87,8 @@ NOTE: NetApp Support 사이트 자격 증명을 사용하여 로그인하라는 
 
 == 스토리지 펌웨어
 
-* link:rn_storage_firmware_2.146.html["스토리지 펌웨어 번들 2.146 릴리스 정보"] _신규 _
+* link:rn_storage_firmware_2.150.html["스토리지 펌웨어 번들 2.150 릴리스 정보"] _신규 _
+* link:rn_storage_firmware_2.146.html["스토리지 펌웨어 번들 2.146 릴리스 정보"]
 * link:rn_storage_firmware_2.99.2.html["스토리지 펌웨어 번들 2.99.2 릴리스 정보"]
 * link:rn_storage_firmware_2.76.html["스토리지 펌웨어 번들 2.76 릴리스 정보"]
 * link:rn_storage_firmware_2.27.html["스토리지 펌웨어 번들 2.27 릴리스 정보"]
