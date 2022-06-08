@@ -277,35 +277,27 @@
     </div>
   </div>
   <div class="n-property-bar__toolbar">
-    <!-- Start Language Selector --><div id="ie-i18n" class="n-property-bar__lang-selector">
-      <div id="ie-i18n-menu">
-      <span class="ie-i18n-lang">한국어</span>
-        <button class="ie-i18n-icon-container" type="button">
+    <!-- Start Language Selector --><div id="language-dropdown" class="custom-dropdown custom-dropdown-lang">
+      <div class="custom-dropdown-select custom-dropdown-select-lang">
+      <span class="lang-name">한국어</span>
           <svg class="n-globe__icon" aria-labelledby="title">
             <title>globe</title>
             <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/ko-kr/hci/common/svg/sprite.svg#globe"></use>
           </svg>
         </button>
       </div>
-      <div id="n-property-navigation-bar__menu--language-selector" class="ie-i18n-results-container n-menu n-menu--v3 n-menu--is-active" style="display: none;">
-        <div class="n-language-selector-menu">
-          <ul class="n-menu__list">
-            <li class="n-menu__list-column">
-              <ul class="n-menu__list"><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/us-en/hci/docs/task_vcp_upgrade_plugin.html" class="n-menu__header-text"><span translate="no" class="notranslate">English</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ja-jp/hci/docs/task_vcp_upgrade_plugin.html" class="n-menu__header-text"><span translate="no" class="notranslate">日本語</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/ko-kr/hci/docs/task_vcp_upgrade_plugin.html" class="n-menu__header-text"><span translate="no" class="notranslate">한국어</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-cn/hci/docs/task_vcp_upgrade_plugin.html" class="n-menu__header-text"><span translate="no" class="notranslate">简体中文</span></a>
-                </li><li class="n-menu__list-item n-menu__list-item--level-1">
-                  <a href="https://docs.netapp.com/zh-tw/hci/docs/task_vcp_upgrade_plugin.html" class="n-menu__header-text"><span translate="no" class="notranslate">繁體中文</span></a>
-                </li></ul>
-            </li>
-          </ul>
-        </div>
-      </div>
+
+      <ul class="custom-dropdown-menu"><li>
+          <a href="https://docs.netapp.com/ko-kr/hci/docs/task_vcp_upgrade_plugin.html" target="_self"><span translate="no" class="notranslate">한국어</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/us-en/hci/docs/task_vcp_upgrade_plugin.html" target="_self"><span translate="no" class="notranslate">English</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/ja-jp/hci/docs/task_vcp_upgrade_plugin.html" target="_self"><span translate="no" class="notranslate">日本語</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-cn/hci/docs/task_vcp_upgrade_plugin.html" target="_self"><span translate="no" class="notranslate">简体中文</span></a>
+        </li><li>
+          <a href="https://docs.netapp.com/zh-tw/hci/docs/task_vcp_upgrade_plugin.html" target="_self"><span translate="no" class="notranslate">繁體中文</span></a>
+        </li></ul>
     </div><!-- End Language Selector -->
 
     <div class="n-property-bar__cta"></div>
@@ -1361,7 +1353,7 @@
     $("#toggleContainerPdf").toggle('display');
     $(".n-pdf-body-container .zip-pdf-link-container").toggle('display');
   });
-</script><div class="sidebar-nav-container">
+</script><div class="sidebar-nav-container" id="mysidebardiv">
   <ul id="mysidebar" class="nav"><li class=" "><a class="na-navbar-padding" href="/ko-kr/hci/index.html">
         NetApp HCI 문서
       </a></li><li class=" "><a class="na-navbar-padding" href="https://docs.netapp.com/us-en/hci-solutions/index.html">
@@ -1807,7 +1799,7 @@
 <p class="page-details">
   
     
-    <time datetime="2022-05-16 14:16:11 +0000">05/16/2022</time>
+    <time datetime="2022-06-08 19:04:37 +0000">06/08/2022</time>
     
   
 
@@ -1989,12 +1981,7 @@ HTTP 또는 HTTPS 서버(다크 사이트)를 사용 중이거나 ZIP 파일 이
 <img src="/us-en/hci/images/note.svg" alt="참고">
 </td>
 <td class="content">
-<div class="paragraph">
-<p>vCenter 플러그인 아이콘이 표시되지 않으면 를 참조하십시오 <a href="https://docs.netapp.com/us-en/vcp/vcp_reference_troubleshoot_vcp.html#plug-in-registration-successful-but-icons-do-not-appear-in-web-client" target="_blank" rel="noopener">"vCenter Server용 Element 플러그인"</a> 플러그인 문제 해결에 대한 문서</p>
-</div>
-<div class="paragraph">
-<p>VMware vCenter Server 6.7U1을 사용하여 VCP 4.8 이상으로 업그레이드한 후 스토리지 클러스터가 나열되지 않거나 NetApp Element 구성의 * 클러스터 * 및 * QoSSIOC 설정 * 섹션에 서버 오류가 나타나는 경우 을 참조하십시오 <a href="https://docs.netapp.com/us-en/vcp/vcp_reference_troubleshoot_vcp.html#errors-after-vcp-4-8-upgrade-with-vmware-vcenter-server-6-7u1" target="_blank" rel="noopener">"vCenter Server용 Element 플러그인"</a> 이러한 오류 문제 해결에 대한 문서.</p>
-</div>
+vCenter 플러그인 아이콘이 표시되지 않으면 를 참조하십시오 <a href="https://docs.netapp.com/us-en/vcp/vcp_reference_troubleshoot_vcp.html#plug-in-registration-successful-but-icons-do-not-appear-in-web-client" target="_blank" rel="noopener">"vCenter Server용 Element 플러그인"</a> 플러그인 문제 해결에 대한 문서 VMware vCenter Server 6.7U1을 사용하여 VCP 4.8 이상으로 업그레이드한 후 스토리지 클러스터가 나열되지 않거나 NetApp Element 구성의 * 클러스터 * 및 * QoSSIOC 설정 * 섹션에 서버 오류가 나타나는 경우 을 참조하십시오 <a href="https://docs.netapp.com/us-en/vcp/vcp_reference_troubleshoot_vcp.html#errors-after-vcp-4-8-upgrade-with-vmware-vcenter-server-6-7u1" target="_blank" rel="noopener">"vCenter Server용 Element 플러그인"</a> 이러한 오류 문제 해결에 대한 문서.
 </td>
 </tr>
 </table>
@@ -2183,4 +2170,5 @@ vCenter 플러그인에는 온라인 도움말 콘텐츠가 포함되어 있습�
     </script>
     <script src='/ko-kr/hci/js/www-ntap.js'></script>
     <script src='/ko-kr/hci/js/tabbed-blocks.js'></script>
+    <script src='/ko-kr/hci/js/sidebar.js'></script>
   </body></html>
