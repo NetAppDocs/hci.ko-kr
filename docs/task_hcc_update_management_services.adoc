@@ -5,7 +5,12 @@ summary: NetApp HCI 시스템 업그레이드의 일부로 관리 서비스를 �
 keywords: netapp, hci, on premise, cluster, management services 
 ---
 = 관리 서비스를 업데이트합니다
+:hardbreaks:
 :allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
 
 
 [role="lead"]
@@ -90,6 +95,9 @@ NOTE: 설치가 인터넷에 액세스할 수 없는 경우 현재 소프트웨�
 +
 .. 페이지의 지침에 따라 관리 서비스 업그레이드 패키지를 다운로드하여 컴퓨터에 저장합니다.
 .. 저장한 패키지를 찾아 업로드하려면 * 찾아보기 * 를 선택합니다.
++
+패키지를 업로드하면 업그레이드가 자동으로 시작됩니다.
+
 
 
 

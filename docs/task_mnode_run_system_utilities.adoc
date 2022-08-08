@@ -5,7 +5,12 @@ summary: 클러스터 지원 번들을 생성 또는 삭제하거나, 노드 구
 keywords: netapp, element, management node ui, mnode ui, system utilities 
 ---
 = 관리 노드에서 시스템 유틸리티를 실행합니다
+:hardbreaks:
 :allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
 
 
 [role="lead"]

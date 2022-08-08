@@ -5,7 +5,12 @@ summary: REST API UI를 사용하여 vCenter 관리 노드 컨트롤러를 편�
 keywords: netapp, mnode, management node, rest api, hci 
 ---
 = 기존 컨트롤러 자산을 보거나 편집합니다
+:hardbreaks:
 :allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
 
 
 [role="lead"]

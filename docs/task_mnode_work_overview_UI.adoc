@@ -5,7 +5,12 @@ summary: '관리 노드 UI 사용 (https://<mNodeIP>:442)[], 네트워크 및 �
 keywords: 'netapp, management node ui, mnode ui, :442, element' 
 ---
 = 관리 노드 UI 개요
+:hardbreaks:
 :allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ../media/
 
 
 [role="lead"]
