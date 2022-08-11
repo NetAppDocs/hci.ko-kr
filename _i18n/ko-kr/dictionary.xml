@@ -6157,4 +6157,6 @@
   <block id="c887aa2abefbdf59345793bdbe530aa6" category="list-text">랙에서 결함이 있는 노드를 물리적으로 분리합니다. 이 단계는 사용 중인 스토리지 노드의 유형에 따라 다릅니다. 을 참조하십시오 <block ref="22268cae5c79b327558b5acefb524b62" category="inline-link-macro-rx"></block> 및 <block ref="04e6f25ecadf1d5213318ff0863162b7" category="inline-link-macro-rx"></block>.</block>
   <block id="6b488f4677081a24e52d30be5ea2fe98" category="list-text">NetApp 하이브리드 클라우드 제어를 사용하여 새로 추가한 스토리지 노드를 구성합니다. 을 참조하십시오 <block ref="f2feaea5d9b29c0df76acac116f3553b" category="inline-link-macro-rx"></block>.</block>
   <block id="82b3f7ae87bb09e10a73ba2a67846c4f" category="list-text"><block ref="82b3f7ae87bb09e10a73ba2a67846c4f" category="inline-link-macro-rx"></block></block>
+  <block id="728e6fd8c429fa825a7f232711ea7ed8" category="section-title">지원되는 버전의 VMware vSphere 업데이트</block>
+  <block id="eb08a40eb36c998c44f480fa50a74b2a" category="paragraph">NetApp HCI 1.10을 사용하면 VMware vSphere 7.0을 구축 및 확장할 수 있습니다.</block>
 </blocks>
