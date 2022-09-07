@@ -1011,7 +1011,6 @@
   <block id="328ec503408d578ee5972945b2b06ae0" category="list-text">페이지 하단의 * 저장 * 을 클릭합니다.</block>
   <block id="8a563489c25cf0ebc17cc030bb6ca496" category="list-text">기본 IPMI 암호가 있는 다른 NetApp HCI H610C, H615C 또는 H610S 노드에 대해 이 절차를 반복합니다.</block>
   <block id="642b57ae61fbf875dba06df638def96a" category="inline-link">NetApp SolidFire Active IQ 문서</block>
-  <block id="5fab97a8101ee7e9dd22a0c1807b267e" category="list-text"><block ref="5fab97a8101ee7e9dd22a0c1807b267e" category="inline-link-rx"></block></block>
   <block id="ffa2ecb710121015ae335d81e883c4da" category="summary">NetApp HCI의 네트워크 구성 옵션에 대해 알아보십시오.</block>
   <block id="a425e959030f14e120d4567a5500f254" category="paragraph">NetApp HCI는 다양한 네트워크 케이블 연결 및 VLAN 구성을 활용할 수 있습니다. 성공적인 배포를 위해 네트워크 구성을 계획하는 것이 중요합니다.</block>
   <block id="97ebdabed91340601136f34cbf029d7d" category="section-title">필요한 네트워크 세그먼트입니다</block>
@@ -4155,13 +4154,9 @@
   <block id="7cee4fcf0150b764f614b9c92d93488e" category="list-text">Active IQ 보기 * 를 선택합니다.</block>
   <block id="fa07ce8e9de64ab1ca55cc6d3b85cea5" category="inline-link-macro">SolidFire Active IQ 대시보드</block>
   <block id="ee9ec48ab8dae93963c5b5c07f420ed4" category="paragraph">를 클릭합니다 <block ref="095a58fb83e7246b6e79a66a96e0f27d" category="inline-link-macro-rx"></block> 나타납니다.</block>
-  <block id="63b0ea6672e4ac0cdbfd353e47a99673" category="list-text">SolidFire Active IQ에 대한 자세한 내용을 보려면 대시보드에서 오른쪽 상단의 메뉴 아이콘을 클릭하고 * Documentation * 을 클릭합니다.</block>
   <block id="18c94039f6a9a2bf969e0ddcad135957" category="list-text">SolidFire Active IQ 인터페이스에서 NetApp HCI 컴퓨팅 및 스토리지 노드가 Active IQ에 원격 측정을 올바르게 보고하는지 확인합니다.</block>
-  <block id="2eca3789874739b2e107592e70e89570" category="list-text">NetApp HCI를 둘 이상 설치한 경우 * 클러스터 선택 * 을 클릭하고 목록에서 클러스터를 선택합니다.</block>
-  <block id="f782d1135644961264a9464e713c708c" category="list-text">왼쪽 탐색 창에서 * 노드 * 를 클릭합니다.</block>
   <block id="dd227545ce9014ef2f4c9d23fa80efc1" category="list-text">목록에 노드가 없는 경우 NetApp Support에 문의하십시오.</block>
   <block id="5438dea440e60cb95336002d251f0b29" category="admonition">스토리지 및 컴퓨팅 리소스의 수를 보려면 HCC(하이브리드 클라우드 제어) 대시보드를 확인하십시오. 을 참조하십시오 <block ref="7a163f57b183cb5fbbaf136afcd39704" category="inline-link-macro-rx"></block>.</block>
-  <block id="a433b823eb4cdcee96d4dfcff5931643" category="list-text"><block ref="a433b823eb4cdcee96d4dfcff5931643" category="inline-link-rx"></block></block>
   <block id="5790561c8766bdfa450f5782bf99cc31" category="summary">NetApp HCI에 Rancher를 설치한 후 최적의 복원력을 위해 VM 배치를 구성하는 방법에 대해 알아보십시오.</block>
   <block id="601df7bdf217f94745db21d8691eede5" category="paragraph">NetApp HCI에 Rancher를 설치한 후 최적의 복원력을 위해 가상 시스템 배치를 구성하는 방법에 대해 알아보십시오.</block>
   <block id="0a0cb5e9735b98293e4077a08b7c885e" category="paragraph">다음과 같은 측면에서 복원력을 고려할 수 있습니다.</block>
@@ -6097,7 +6092,6 @@
   <block id="afb54c94a5e9aef322532eabe176c2d4" category="admonition">에 대해 자세히 알아보십시오 <block ref="8a1a0a32384afdd6d93db2e7c4f512ad" category="inline-link-macro-rx"></block>.</block>
   <block id="be14526a26059bab9604a4dc5056ca86" category="list-text">vCenter Server * 용 * NetApp Element 플러그인은 vSphere UI(사용자 인터페이스)와 통합된 웹 기반 툴입니다. 이 플러그인은 VMware vSphere를 위한 확장 가능하고 사용자 친화적인 인터페이스로 * NetApp Element 소프트웨어 * 를 실행하는 스토리지 클러스터를 관리하고 모니터링할 수 있습니다. 이 플러그인은 Element UI 대신 사용할 수 있습니다. 플러그인 사용자 인터페이스를 사용하여 클러스터를 검색 및 구성하고, 클러스터 용량의 스토리지를 관리, 모니터링 및 할당하여 데이터 저장소 및 가상 데이터 저장소(가상 볼륨용)를 구성할 수 있습니다. 클러스터는 호스트 및 관리자에게 가상 IP 주소로 표시되는 단일 로컬 그룹으로 네트워크에 표시됩니다. 또한 다양한 작업을 수행하는 동안 발생할 수 있는 이벤트에 대한 오류 및 경고 메시지를 포함하여 실시간 보고를 통해 클러스터 활동을 모니터링할 수 있습니다.</block>
   <block id="2f071adefcac0181be5f4b8cd9a5ca38" category="admonition">에 대해 자세히 알아보십시오<block ref="2bff74e0d72e73a3a1bf993744683a85" category="inline-link-rx"></block>.</block>
-  <block id="69f62275c49d78f7ceac9db3f0497d6e" category="admonition">에 대해 자세히 알아보십시오 <block ref="694d6bc2c166b8de5e6f59269ef5415e" category="inline-link-macro-rx"></block>.</block>
   <block id="9c6922841435a46a2edccbe5bdc3b9a6" category="cell">노드별 UI에서 네트워크 및 클러스터 설정에 액세스하고 시스템 테스트 및 유틸리티를 활용합니다. <block ref="3560bb302b5b977f25884bdb1a7dc5d9" category="inline-link-macro-rx"></block>.</block>
   <block id="6185d522566bca6babef053c2bc1f53d" category="list-text">* 카탈로그 *: 카탈로그는 GitHub 리포지토리 또는 배포 준비가 완료된 애플리케이션으로 채워진 Helm Chart 리포지토리입니다. Rancher는 Helm 차트 카탈로그를 사용하여 애플리케이션을 반복적으로 쉽게 배포할 수 있는 기능을 제공합니다. Rancher는 두 가지 유형의 카탈로그(기본 제공 글로벌 카탈로그 및 사용자 지정 카탈로그)를 포함합니다. Trident는 카탈로그로 배포됩니다. 을 참조하십시오<block ref="ba870d4de503a3f035878d62b86bb946" category="inline-link-rx"></block>.</block>
   <block id="499c79030e29f88105a315c240050806" category="paragraph">을 참조하십시오 <block ref="502a349939ea68203db76329f0b74f74" category="inline-link-rx"></block>.</block>
@@ -6159,4 +6153,13 @@
   <block id="82b3f7ae87bb09e10a73ba2a67846c4f" category="list-text"><block ref="82b3f7ae87bb09e10a73ba2a67846c4f" category="inline-link-macro-rx"></block></block>
   <block id="728e6fd8c429fa825a7f232711ea7ed8" category="section-title">지원되는 버전의 VMware vSphere 업데이트</block>
   <block id="eb08a40eb36c998c44f480fa50a74b2a" category="paragraph">NetApp HCI 1.10을 사용하면 VMware vSphere 7.0을 구축 및 확장할 수 있습니다.</block>
+  <block id="d70c282924b717571aef1cee7fb90bda" category="list-text"><block ref="d70c282924b717571aef1cee7fb90bda" category="inline-link-rx"></block></block>
+  <block id="fff53faaacf5caf81205af3a5996a9cc" category="inline-link">NetApp SolidFire Active IQ 문서</block>
+  <block id="dbc20c2595760ee5c4db75a5e0f52262" category="list-text"><block ref="dbc20c2595760ee5c4db75a5e0f52262" category="inline-link-rx"></block></block>
+  <block id="7cd6919345e02170fb7bcf1b4005cd3c" category="admonition">에 대해 자세히 알아보십시오 <block ref="ddf1a582dfb1bd56c32c521fd7c1f8e3" category="inline-link-macro-rx"></block>.</block>
+  <block id="e41f733ab7b14b59356c114dc4bde28a" category="list-text">대시보드 에서 오른쪽 위에 있는 메뉴를 선택합니다.</block>
+  <block id="5d7560eb59ba019f88b76ae3bf8580a7" category="inline-link">SolidFire Active IQ 문서</block>
+  <block id="8656c1812e255a290a0e3fb243bf9237" category="list-text">SolidFire Active IQ에 대한 자세한 내용은 를 참조하십시오<block ref="605461d6a442322fca0bcd236d381ac0" category="inline-link-rx"></block>.</block>
+  <block id="5de7b59e7468f72110ca5bd9b20f7d50" category="paragraph">오른쪽 상단의 메뉴 아이콘을 선택하고 * Documentation * 을 선택하여 대시보드에서 SolidFire Active IQ 설명서에 액세스할 수도 있습니다.</block>
+  <block id="b742a27bbb38b6f0482e473afd7caf8e" category="list-text">NetApp HCI를 둘 이상 설치한 경우 * 클러스터 선택 * 을 선택하고 목록에서 클러스터를 선택합니다.</block>
 </blocks>
