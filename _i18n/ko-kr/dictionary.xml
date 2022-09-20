@@ -3018,7 +3018,6 @@
   <block id="502293ff6f825a4e5ab5a89252e4762e" category="list-text">가상 데스크톱 인프라(VDI)에서 vGPU 지원 데스크톱을 사용하는 경우 NVIDIA vGPU 소프트웨어용 VMware Horizon View를 구성합니다.</block>
   <block id="f77963c528aa19e59cf9f7c9d5b4a19d" category="summary">NetApp HCI 시스템 업그레이드의 일부로 컴퓨팅 노드 드라이버를 업그레이드합니다.</block>
   <block id="0c13e0dd6ebaa11c814ce3c5b29ab7f1" category="paragraph">모든 H 시리즈 컴퓨팅 노드에 대해 VMware Update Manager를 사용하여 노드에 사용된 드라이버를 업데이트할 수 있습니다.</block>
-  <block id="bab93f378f6cea1ed1024018548e066c" category="inline-link">이 NetApp KB 문서를 참조하십시오</block>
   <block id="cae4b286c77e42f24641d126e94e3848" category="paragraph">이러한 업데이트 작업 중 하나만 한 번에 수행합니다.</block>
   <block id="7f1cb6f883abc23a81f6db00c067e34f" category="paragraph">컴퓨팅 펌웨어 업그레이드를 시도하기 전에 현재 ESXi 드라이버 버전을 확인해야 합니다. 드라이버가 최신 버전이 아니면 먼저 드라이버를 업그레이드하십시오. 그런 다음 컴퓨팅 노드의 컴퓨팅 펌웨어를 업그레이드합니다.</block>
   <block id="3e79f2f4eea24dddb8f0e1d175482fea" category="inline-link">NetApp HCI 소프트웨어 다운로드</block>
@@ -5641,7 +5640,6 @@
   <block id="f7658c00205041bd6da6d27dbaa7fe7b" category="summary">NetApp HCI 시스템 업그레이드의 일부로 관리 노드를 업그레이드합니다.</block>
   <block id="303c7d52b5c18e714947ecd4996594a2" category="inline-link">관리 노드 ISO</block>
   <block id="b8e3af673664eb79ebe128d1f309bdd6" category="list-text">REST API UI에서 * POST/services/reconfigure-auth * 를 선택합니다.</block>
-  <block id="de3741b094be24deccfc553754ce0a3a" category="paragraph">의 하드웨어 펌웨어 및 드라이버 매트릭스를 참조하십시오<block ref="69b1d186a6529d94f61dae13551aa3aa" category="inline-link-rx"></block> (로그인 필요).</block>
   <block id="477a3e44a347d971185a2c3a5140588e" category="list-text">로 이동합니다<block ref="d4caed46ff739416e1ca7149df2744c7" category="inline-link-rx"></block> 페이지를 방문하여 올바른 버전의 NetApp HCI에 대한 다운로드 링크를 선택합니다.</block>
   <block id="1288b4af7d9b295a0901b8b5e9b2de64" category="list-text">Remediate * 를 선택하고 새로 생성된 호스트 기준선을 선택합니다. 기준에 포함된 드라이버가 선택되었는지 확인합니다.</block>
   <block id="ecd715524a148d3d6e20b711f37ce2c3" category="list-text">마법사의 * Ready to Complete * 페이지로 이동한 후 * Finish * 를 선택합니다.</block>
@@ -5755,8 +5753,6 @@
   <block id="e795a437c10bf5f507140024b096bd0e" category="list-text">CVE-2020-15436</block>
   <block id="bfbc343f663cd48849da8b3b6240a9c0" category="list-text">CVE-2020-29372</block>
   <block id="c7faa307a21de68e6b2b579eb4dd6238" category="list-text"><block ref="c7faa307a21de68e6b2b579eb4dd6238" category="inline-link-macro-rx"></block></block>
-  <block id="17a3f3fcb25f60a1e4c1a40f1e7eace3" category="list-text">VMware ESXi 7.0의 경우 NetApp H610C, H615C, H410C 및 Hx00E 컴퓨팅 노드 및 빌드-인 시스템 구성 요소에 필요한 모든 드라이버가 표준 VMware ESXi 7.0 설치 ISO 이미지에 포함되어 있습니다. VMware ESXi 7.0(및 업데이트)을 실행하는 NetApp HCI 컴퓨팅 노드에 대해 추가 또는 업데이트된 드라이버가 필요하지 않습니다.</block>
-  <block id="3df9942375d4c2463d762d41ec77a6e1" category="list-text">VMware ESXi 6.x의 경우 다음 단계를 수행하여 드라이버 오프라인 번들 파일을 가져옵니다.</block>
   <block id="772251791cdb07bc2fc3967b8243ac21" category="list-text">업데이트 * 탭을 선택합니다.</block>
   <block id="633d466e4a34f3db8d313150633fe669" category="list-text">파일에서 * 업로드 * 를 선택합니다.</block>
   <block id="0965e8793c3a408e2c948a5aa3f43df7" category="list-text">이전에 다운로드한 오프라인 번들을 찾아 * import * 를 선택합니다.</block>
@@ -6367,4 +6363,19 @@
   <block id="7f6c7867ac3c62c136dad288b3e3298e" category="paragraph">^1^ 하드웨어의 펌웨어 및 드라이버 펌웨어의 전체 매트릭스는 을 참조하십시오<block ref="70c4c9f03a0e1a210c8e6bdafdb7db30" category="inline-link-rx"></block>.</block>
   <block id="d8288c4d481f3eb3a21b3ee9d3d34f3e" category="list-text">* 유효한 업그레이드 경로 *: 업그레이드하려는 Element 버전에 대한 업그레이드 경로 정보를 확인했으며 업그레이드 경로가 유효한지 확인했습니다. 을 참조하십시오<block ref="2980f5bfbc85d7c14e3d7a2c57af53b5" category="inline-link-rx"></block></block>
   <block id="3c22f77849e3b66d2e0c9c63419afb53" category="admonition">하드웨어의 펌웨어 및 드라이버 펌웨어의 전체 매트릭스는 을 참조하십시오<block ref="70c4c9f03a0e1a210c8e6bdafdb7db30" category="inline-link-rx"></block>.</block>
+  <block id="9671b9c99a15fe8beaa959d54510f7e0" category="paragraph">* VMware ESXi 드라이버 버전 *</block>
+  <block id="1aa66ef3a8e34a7a538960a80d2e1e31" category="cell">ESXi</block>
+  <block id="48cf24486d9a8e65a142b25682f19949" category="cell">드라이버</block>
+  <block id="01deebfa87b938c89ecb3dcb4effcbe2" category="cell">7.0</block>
+  <block id="4f467eda35ff78e59bbdb4e520ef904c" category="cell">4.19.71.101 4.19.71.1</block>
+  <block id="e5f63614505322239ff5a403089bbab7" category="cell">7.0 업데이트 1</block>
+  <block id="e3115a7b25952e2b6ea2fb2bf9cca3b3" category="cell">7.0 업데이트 2</block>
+  <block id="1391518963f261b2531840ce43ab39d4" category="cell">4.21.71.101 4.21.71.1</block>
+  <block id="ccf0280076b3ef40ee8b72dbd3470d53" category="cell">7.0 업데이트 3</block>
+  <block id="c3e22f2ae1ddef844509890f97faa80b" category="cell">6.7</block>
+  <block id="f884cc5c56f9c9a8d4d61568ff64db9c" category="cell">6.5</block>
+  <block id="391bb6060127038cc328796fa4f0b3c5" category="inline-link-macro">VMware vSphere 다운로드</block>
+  <block id="f3d906055e8465bbb09581a2798127ae" category="admonition">7.0, 7.0 U1, 7.0 U2 및 7.0 U3용 드라이버는 에서 사용할 수 있습니다 <block ref="2d30eb2542d74a72bd10b13092aa6d1f" category="inline-link-macro-rx"></block> 페이지.</block>
+  <block id="ac4ea0116877e7d9fa4a0111b67b92f1" category="paragraph">하드웨어 펌웨어 및 드라이버 매트릭스를 참조하십시오<block ref="70c4c9f03a0e1a210c8e6bdafdb7db30" category="inline-link-rx"></block>.</block>
+  <block id="6099f1a8115acef9b6c8b5715b669041" category="paragraph">VMware ESXi 6.x 및 7.0 ~ 7.0 U3의 경우 다음 단계를 수행하여 드라이버 오프라인 번들 파일을 가져옵니다.</block>
 </blocks>
