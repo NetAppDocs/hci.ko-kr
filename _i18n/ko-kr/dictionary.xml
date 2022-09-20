@@ -1125,7 +1125,6 @@
   <block id="c4d41483c4ebb2063097b14712424742" category="doc">Element 소프트웨어 업그레이드</block>
   <block id="af97413bfe0fcaebbe8c8bbf7a552c1e" category="list-text">* 관리자 권한 *: 업그레이드를 수행할 수 있는 스토리지 클러스터 관리자 권한이 있습니다.</block>
   <block id="992d266839a579e9b62b9fbb2193d3bf" category="inline-link">NetApp KB: NetApp Element 소프트웨어를 실행하는 스토리지 클러스터의 업그레이드 매트릭스입니다</block>
-  <block id="1f530b0c76d9de4275104c651b6d5411" category="list-text">* 유효한 업그레이드 경로 *: 업그레이드하려는 Element 버전에 대한 업그레이드 경로 정보를 확인했으며 업그레이드 경로가 유효한지 확인했습니다.<block ref="b87eae6ace29db9b17ab7b20ed6745f5" category="inline-link-rx"></block></block>
   <block id="f12957e444375fe5047af820df02fd1a" category="list-text">* 시스템 시간 동기화 *: 모든 노드의 시스템 시간이 동기화되고 스토리지 클러스터 및 노드에 대해 NTP가 올바르게 구성되었는지 확인했습니다. 각 노드는 시간편중과 관련된 해결되지 않은 클러스터 장애가 없는 노드별 웹 UI('https://[IP address]:442')에서 DNS 이름 서버로 구성되어야 합니다.</block>
   <block id="7288066bab95a3c45011203ce6806721" category="inline-link-macro">네트워크 포트</block>
   <block id="dfa30feec8b64a244b445bfd33b6271a" category="list-text">* 시스템 포트 *: 업그레이드에 NetApp 하이브리드 클라우드 제어를 사용하는 경우 필요한 포트가 열려 있는지 확인했습니다. 을 참조하십시오 <block ref="580a730e8363f1cd8dbb520150bdd1d9" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
@@ -1140,7 +1139,6 @@
   <block id="a544a5293c147dec832e983a6fbad504" category="paragraph">NetApp 하이브리드 클라우드 제어 UI를 사용하여 스토리지 클러스터를 업그레이드할 수 있습니다.</block>
   <block id="358a3ff6d008d52e4a816f3c9f4d8d5f" category="inline-link">NetApp HCI 스토리지 클러스터용 NetApp HCI 소프트웨어 패키지</block>
   <block id="dd76252ea7a50def2a98f218cb1505b4" category="inline-link">KB 문서를 참조하십시오</block>
-  <block id="2882996895673f16b2fcf0cabfb994f1" category="admonition">NetApp 하이브리드 클라우드 제어를 사용하여 스토리지 클러스터를 업그레이드하는 동안 발생할 수 있는 문제와 그 해결 방법은 을 참조하십시오<block ref="385c83615df1d77fbf0bae3f06fabb3d" category="inline-link-rx"></block>.</block>
   <block id="d64a6336a39c9f27c33956f187d79c87" category="list-text">NetApp 하이브리드 클라우드 제어에 스토리지 클러스터 관리자 자격 증명을 제공하여 로그인하십시오.</block>
   <block id="8d2b20731c568a1d9a02267e5d20edb7" category="list-text">업그레이드 * 페이지에서 * 스토리지 * 를 선택합니다.</block>
   <block id="eced5161fd4b5a5d98480da44ccabc87" category="paragraph">Storage * 탭에는 설치에 포함된 스토리지 클러스터가 나열됩니다. NetApp Hybrid Cloud Control에서 클러스터에 액세스할 수 없는 경우 * 업그레이드 * 페이지에 표시되지 않습니다.</block>
@@ -5648,7 +5646,6 @@
   <block id="1288b4af7d9b295a0901b8b5e9b2de64" category="list-text">Remediate * 를 선택하고 새로 생성된 호스트 기준선을 선택합니다. 기준에 포함된 드라이버가 선택되었는지 확인합니다.</block>
   <block id="ecd715524a148d3d6e20b711f37ce2c3" category="list-text">마법사의 * Ready to Complete * 페이지로 이동한 후 * Finish * 를 선택합니다.</block>
   <block id="0f1940d8b9e51abf4381f9e406fda543" category="summary">NetApp HCI 시스템 업그레이드의 일환으로 스토리지 노드와 연결된 펌웨어를 업그레이드합니다.</block>
-  <block id="13c2b42759130af4400c46b2b928dc26" category="admonition">하드웨어에 대한 펌웨어 및 드라이버 펌웨어의 전체 매트릭스를 보려면 다음을 참조하십시오<block ref="919d0da258d2c9346bfb11f078cfd474" category="inline-link-rx"></block> (로그인 필요).</block>
   <block id="fc6261a1be6f27091e994d8c8b075b29" category="summary">NetApp HCI 시스템 업그레이드의 일부로 vCenter Server용 Element 플러그인을 업그레이드할 수 있습니다.</block>
   <block id="1e1e7dd8551842ca8c6e4ac3c35cb249" category="admonition">플러그인은 HTML5 vSphere Web Client의 버전 6.7 U2 빌드 13007421 및 업데이트 2a 이전에 릴리스된 기타 6.7 U2 빌드(빌드 13643870)와 호환되지 않습니다. 지원되는 vSphere 버전에 대한 자세한 내용은 의 릴리즈 노트를 참조하십시오<block ref="52a3661120ba33cd100cafc9c9d568e0" category="inline-link-rx"></block>.</block>
   <block id="c60238cb58d95b456566853e62db1d18" category="list-text">* vCenter Server *: vCenter 플러그인 버전 4.x가 vCenter Server에 등록됩니다. 등록 유틸리티('https://[management node IP]:9443')에서 * 등록 상태 * 를 선택하고 필수 필드를 입력한 다음 * 상태 확인 * 을 선택하여 vCenter 플러그인이 이미 등록되어 있는지, 현재 설치의 버전 번호를 확인합니다.</block>
@@ -5862,7 +5859,6 @@
   <block id="a0fc274442d4c69dfe575d357ce015e2" category="cell">40분에서 70분</block>
   <block id="9b2b1e8f398acbac5493461c590118f6" category="inline-link">전체 노드 종료 및 전원 차단을 수행합니다</block>
   <block id="2233d6c0637a0dd985141fefd60451a0" category="cell">130-160분 정도 소요됩니다<block ref="b75cb1417453c96f34f9e695ad57b88f" category="inline-link-rx"></block> 각 H610S 노드에 대해 적용됩니다.</block>
-  <block id="6ed1151a1c81c87309cd82c96457f044" category="paragraph">^1^ 하드웨어의 펌웨어 및 드라이버 펌웨어의 전체 매트릭스는 이 부분을 참조하십시오<block ref="919d0da258d2c9346bfb11f078cfd474" category="inline-link-rx"></block> (로그인 필요).</block>
   <block id="0fe84530e14d6cb77f51c3d2cc85aa18" category="paragraph">^2^ 펌웨어를 업데이트하는 데 시간이 오래 걸리는 쓰기 IOPS 로드가 많은 클러스터를 결합할 경우 데이터 동기화 시간이 증가합니다.</block>
   <block id="53f59c169b2bb48ac0b8253252a06467" category="list-text">를 클릭합니다 <block ref="72c4f5351976259ad654b85496cb20be" category="inline-xref-macro-rx"></block> NetApp HCI 버전 1.10의 새로운 기능 및 업데이트에 대해 설명합니다.</block>
   <block id="2a0ce9a56c6130320cccb8a7f34ec593" category="list-text">를 클릭합니다 <block ref="18a6515b1da0f2a2d89c5832cee91752" category="inline-xref-macro-rx"></block> 섹션 에서는 Element 12.5의 새로운 기능 및 업데이트에 대해 설명합니다.</block>
@@ -6367,4 +6363,8 @@
   <block id="b757850bdb41a8f86215fd4d7394eeb9" category="paragraph">NetApp HCI 스토리지 노드의 NetApp HCI 및 펌웨어 버전에 대해 지원되는 펌웨어 및 ESXi 드라이버 버전.</block>
   <block id="bf44a0123ec45362af49b3862557cdd8" category="paragraph"><block ref="f4e8c07388940da9080e74e50960909d" category="inline-link-macro-rx"></block>* H610S * H410S</block>
   <block id="a82f3d9d22bfe1382d03945f3377eb65" category="paragraph"><block ref="4fe99558e9030b1914f3007a88f2f74d" category="inline-link-macro-rx"></block>* H615C * H610C * H410C * H300E/H500E/H700E</block>
+  <block id="4b8861a11346d673205d074f862db70a" category="inline-link">지원되는 펌웨어 및 ESXi 드라이버 버전</block>
+  <block id="7f6c7867ac3c62c136dad288b3e3298e" category="paragraph">^1^ 하드웨어의 펌웨어 및 드라이버 펌웨어의 전체 매트릭스는 을 참조하십시오<block ref="70c4c9f03a0e1a210c8e6bdafdb7db30" category="inline-link-rx"></block>.</block>
+  <block id="d8288c4d481f3eb3a21b3ee9d3d34f3e" category="list-text">* 유효한 업그레이드 경로 *: 업그레이드하려는 Element 버전에 대한 업그레이드 경로 정보를 확인했으며 업그레이드 경로가 유효한지 확인했습니다. 을 참조하십시오<block ref="2980f5bfbc85d7c14e3d7a2c57af53b5" category="inline-link-rx"></block></block>
+  <block id="3c22f77849e3b66d2e0c9c63419afb53" category="admonition">하드웨어의 펌웨어 및 드라이버 펌웨어의 전체 매트릭스는 을 참조하십시오<block ref="70c4c9f03a0e1a210c8e6bdafdb7db30" category="inline-link-rx"></block>.</block>
 </blocks>

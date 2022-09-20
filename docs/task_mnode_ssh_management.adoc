@@ -32,13 +32,13 @@ REST API를 사용하여 관리 노드(mNode)에서 SSH 기능의 상태를 비�
 
 
 .옵션
-* <<Disable or enable the SSH capability on the management node using NetApp Hybrid Cloud Control UI>>
+*  or enable the SSH capability on the management node using NetApp Hybrid Cloud Control UI
 
 
 다음 작업 중 하나를 수행할 수 있습니다 link:task_mnode_api_get_authorizationtouse.html["인증"]:
 
-* <<Disable or enable the SSH capability on the management node using APIs>>
-* <<Determine status of the SSH capability on the management node using APIs>>
+*  or enable the SSH capability on the management node using APIs
+*  status of the SSH capability on the management node using APIs
 
 
 

@@ -44,9 +44,9 @@ NOTE: EULA에 동의하면 향후 모든 업데이트에 대해 기록되고 자
 
 NetApp 하이브리드 클라우드 제어 UI 또는 관리 노드 REST API를 사용하여 관리 서비스를 업데이트할 수 있습니다.
 
-* <<Update management services using Hybrid Cloud Control>> (권장 방법)
-* <<Update management services using the management node API>>
-* <<Update management services using the management node API for dark sites>>
+*  management services using Hybrid Cloud Control (권장 방법)
+*  management services using the management node API
+*  management services using the management node API for dark sites
 
 
 
