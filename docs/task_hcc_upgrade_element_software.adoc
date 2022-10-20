@@ -12,7 +12,7 @@ keywords: netapp, hci, cluster, element, H610S upgrade, hcc
 NetApp Element 소프트웨어를 업그레이드하려면 NetApp 하이브리드 클라우드 제어 UI 또는 REST API를 사용할 수 있습니다. 노드 추가 및 제거, 드라이브 추가 및 제거, 이니시에이터, 볼륨 액세스 그룹 및 가상 네트워크와 관련된 명령 등 Element 소프트웨어를 업그레이드하는 동안 특정 작업이 표시되지 않습니다.
 
 
-NOTE: Element 12.5부터는 NetApp HealthTools에서 Element 소프트웨어 업그레이드가 더 이상 지원되지 않습니다. Element 11.0 또는 11.1을 실행 중인 경우 먼저 해야 합니다 link:https://docs.netapp.com/us-en/hci19/docs/task_hcc_upgrade_element_software.html#upgrade-element-software-at-connected-sites-using-healthtools["HealthTools를 사용하여 Element 12.3으로 업그레이드하십시오"^] 그리고 NetApp 하이브리드 클라우드 제어를 사용하여 Element 12.5 이상으로 업그레이드하십시오.
+NOTE: Element 12.5부터는 NetApp HealthTools에서 Element 소프트웨어 업그레이드가 더 이상 지원되지 않습니다. Element 11.0 또는 11.1을 실행 중인 경우 먼저 해야 합니다 link:https://docs.netapp.com/us-en/hci19/docs/task_hcc_upgrade_element_software.html#upgrade-element-software-at-connected-sites-using-healthtools["HealthTools를 사용하여 Element 12.3으로 업그레이드하십시오"^] 그리고 NetApp 하이브리드 클라우드 제어를 사용하여 Element 12.5로 업그레이드하십시오.
 
 .무엇을 &#8217;필요로 할거야
 * * 관리자 권한 *: 업그레이드를 수행할 수 있는 스토리지 클러스터 관리자 권한이 있습니다.
@@ -24,11 +24,11 @@ NOTE: Element 12.5부터는 NetApp HealthTools에서 Element 소프트웨어 업
 
 
 
-IMPORTANT: Element 소프트웨어를 버전 12.5 이상으로 업그레이드하기 전에 최신 관리 서비스 번들로 업그레이드해야 합니다. Element 소프트웨어를 버전 12.5 이상으로 업데이트하는 경우 계속하려면 관리 서비스 2.21.61 이상이 필요합니다.
+IMPORTANT: Element 소프트웨어를 버전 12.5로 업그레이드하기 전에 최신 관리 서비스 번들로 업그레이드해야 합니다. Element 소프트웨어를 버전 12.5로 업데이트하는 경우 계속하려면 관리 서비스 2.20.69 이상이 필요합니다.
 
 * * 클러스터 상태 *: 클러스터를 업그레이드할 준비가 되었는지 확인했습니다. 을 참조하십시오 link:task_hcc_upgrade_element_prechecks.html["스토리지를 업그레이드하기 전에 Element 스토리지 상태 점검을 실행합니다"].
 * * H610S 노드의 업데이트된 베이스보드 관리 컨트롤러(BMC) *: H610S 노드의 BMC 버전을 업그레이드했습니다. 를 참조하십시오 link:rn_H610S_BMC_3.84.07.html["릴리스 정보 및 업그레이드 지침"].
-* * 업그레이드 프로세스 시간 *: 업그레이드를 수행하기에 충분한 시간을 예약했습니다. Element 소프트웨어 12.5 이상으로 업그레이드할 경우 업그레이드 프로세스 시간은 현재 Element 소프트웨어 버전 및 펌웨어 업데이트에 따라 달라집니다.
+* * 업그레이드 프로세스 시간 *: 업그레이드를 수행하기에 충분한 시간을 예약했습니다. Element 소프트웨어 12.5로 업그레이드할 때 업그레이드 프로세스 시간은 현재 Element 소프트웨어 버전 및 펌웨어 업데이트에 따라 달라집니다.
 +
 [cols="20,20,20,20,20"]
 |===
@@ -44,7 +44,7 @@ IMPORTANT: Element 소프트웨어를 버전 12.5 이상으로 업그레이드�
 | H610S | 11.7 및 이전 버전 | 90분 | 40분에서 70분 | 130-160분 정도 소요됩니다 https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/H_Series/NetApp_H610S_storage_node_power_off_and_on_procedure["전체 노드 종료 및 전원 차단을 수행합니다"^] 각 H610S 노드에 대해 적용됩니다. 
 |===
 +
-^1^ 하드웨어의 펌웨어 및 드라이버 펌웨어의 전체 매트릭스는 을 참조하십시오 link:firmware_driver_versions.html["NetApp HCI용 펌웨어 및 ESXi 드라이버 버전과 NetApp HCI 스토리지 노드의 펌웨어 버전이 지원됩니다"].
+^1^ 하드웨어의 펌웨어 및 드라이버 펌웨어의 전체 매트릭스는 을 참조하십시오 https://docs.netapp.com/us-en/hci/docs/firmware_driver_versions.html["지원되는 펌웨어 및 ESXi 드라이버 버전"^].
 
 +
 ^2^ 펌웨어를 업데이트하는 데 시간이 오래 걸리는 쓰기 IOPS 로드가 많은 클러스터를 결합할 경우 데이터 동기화 시간이 증가합니다.
@@ -75,7 +75,7 @@ NOTE: EULA에 동의하면 향후 모든 업데이트에 대해 기록되고 자
 
 
 
-IMPORTANT: H610S 시리즈 노드를 Element 12.5 이상으로 업그레이드하는 경우 노드에서 11.8 이전의 Element 소프트웨어 버전을 실행하는 경우 이 단계에서 추가 업그레이드 단계를 수행해야 합니다 https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/H_Series/NetApp_H610S_storage_node_power_off_and_on_procedure["KB 문서를 참조하십시오"^] 각 스토리지 노드에 대해 Element 11.8 이상을 실행하는 경우 추가 업그레이드 단계가 필요하지 않습니다.
+IMPORTANT: H610S 시리즈 노드를 Element 12.5로 업그레이드하고 노드가 11.8 이전의 Element 소프트웨어 버전을 실행 중인 경우 이 단계에서 추가 업그레이드 단계를 수행해야 합니다 https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/H_Series/NetApp_H610S_storage_node_power_off_and_on_procedure["KB 문서를 참조하십시오"^] 각 스토리지 노드에 대해 Element 11.8 이상을 실행하는 경우 추가 업그레이드 단계가 필요하지 않습니다.
 
 
 

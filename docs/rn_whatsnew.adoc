@@ -18,9 +18,6 @@ keywords: netapp, hci, element, new, whatsnew
 [role="lead"]
 NetApp은 새로운 기능, 개선 사항 및 버그 수정을 제공하기 위해 NetApp HCI을 정기적으로 업데이트합니다. NetApp HCI 1.10에는 스토리지 클러스터의 Element 소프트웨어 12.5가 포함되어 있습니다.
 
-
-NOTE: Element 소프트웨어 12.7은 최신 릴리즈이며 보안 및 시스템 구성 요소 업데이트, 운영 개선 사항 및 해결된 문제를 포함합니다. https://docs.netapp.com/us-en/element-software/concepts/concept_rn_whats_new_element.html["Element 12.7의 새로운 기능에 대해 자세히 알아보십시오"^].
-
 * 를 클릭합니다  HCI 1.10 NetApp HCI 버전 1.10의 새로운 기능 및 업데이트에 대해 설명합니다.
 * 를 클릭합니다  software 12.5 섹션 에서는 Element 12.5의 새로운 기능 및 업데이트에 대해 설명합니다.
 

@@ -42,8 +42,7 @@ Trident 카탈로그는 NetApp HCI의 Rancher에 제공되며 사용자 클러�
 
 자세한 내용은 를 참조하십시오 https://netapp-trident.readthedocs.io/en/stable-v20.10/introduction.html["Trident 문서"^].
 
-
-
+[discrete]
 == 자세한 내용을 확인하십시오
 
 * https://rancher.com/docs/rancher/v2.x/en/overview/architecture/["아키텍처에 대한 Rancher 문서"^]
