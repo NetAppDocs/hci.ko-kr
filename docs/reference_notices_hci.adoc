@@ -51,11 +51,16 @@ https://www.netapp.com/us/legal/privacypolicy/index.aspx[]
 
 통지 파일은 NetApp 소프트웨어에 사용된 타사의 저작권 및 라이센스에 대한 정보를 제공합니다.
 
+* link:../media/NetApp_HCI_1.11_notice.pdf["NetApp HCI 1.11에 대한 고지 사항"^]
+* link:../media/Element_Software_12.7.pdf["Element 소프트웨어 12.7에 대한 고지 사항"^]
+* link:../media/Ember_OS_12.7.pdf["Ember OS 12.7에 대한 고지 사항"^]
+* link:../media/mNode_12.7.pdf["관리 노드 12.7에 대한 고지 사항"^]
 * link:../media/NetApp_HCI_1.10_notice.pdf["NetApp HCI 1.10에 대한 고지 사항"^]
 * link:../media/Element_Software_12.5.pdf["Element 소프트웨어 12.5에 대한 고지 사항"^]
 * link:../media/SolidFire_eSDS_12.5.pdf["NetApp SolidFire 엔터프라이즈 SDS 12.5에 대한 고지 사항"^]
 * link:../media/mNode_12.5.pdf["관리 노드 12.5에 대한 고지 사항"^]
 * link:../media/ansible-products-notice.pdf["컴퓨팅 업그레이드를 위한 Ansible 역할에 대한 고지 사항"^]
+* link:../media/storage_firmware_bundle_2.164.0_notices.pdf["스토리지 펌웨어 번들 2.164에 대한 고지 사항"^]
 * link:../media/storage_firmware_bundle_2.150_notices.pdf["스토리지 펌웨어 번들 2.150에 대한 고지 사항"^]
 * link:../media/compute_firmware_bundle_2.154.4_notices.pdf["Compute Firmware Bundle 2.154.4에 대한 고지 사항"^]
 * link:../media/storage_firmware_bundle_2.146_notices.pdf["스토리지 펌웨어 번들 2.146에 대한 고지 사항"^]
