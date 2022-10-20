@@ -28,7 +28,8 @@ NOTE: vSphere 인벤토리 구성에서 폴더를 사용하여 vCenter 데이터
 
 새 vCenter Server를 설치하는 경우 네트워크 구성 중에 vSphere 표준 스위치 또는 VDS(vSphere Distributed Switch)를 설치할 수 있습니다. VDS를 사용하면 NetApp HCI 배포 후 가상 컴퓨터 네트워크 구성을 중앙에서 간편하게 관리할 수 있습니다. NetApp HCI의 클라우드 데이터 서비스 기능을 사용하려면 VDS가 필요합니다. vSphere 표준 스위치는 클라우드 데이터 서비스에 대해 지원되지 않습니다.
 
-[discrete]
+
+
 == 자세한 내용을 확인하십시오
 
 * https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Firmware_and_driver_versions_in_NetApp_HCI_and_NetApp_Element_software["NetApp HCI 및 NetApp Element 소프트웨어의 펌웨어 및 드라이버 버전"^]

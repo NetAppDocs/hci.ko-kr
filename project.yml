@@ -304,39 +304,7 @@ sidebar:
     - title: 클러스터를 확장한 후 Witness 노드를 제거합니다
       url: "/docs/task_hci_removewn.html"
   - title: NetApp HCI에서 Rancher를 사용합니다
-    entries:
-    - title: NetApp HCI의 Rancher 개요
-      url: "/docs/concept_rancher_product_overview.html"
-    - title: 개념
-      url: "/docs/concept_rancher_concepts.html"
-    - title: NetApp HCI의 Rancher에 대한 요구 사항
-      url: "/docs/rancher_prereqs_overview.html"
-    - title: NetApp HCI에 Rancher 구축
-      url: "/docs/task_rancher_deploy.html"
-    - title: 구축 후 작업
-      entries:
-      - title: 구축 후 작업 개요
-        url: "/docs/concept_rancher_post_deployment_overview.html"
-      - title: Rancher 지원 패리티를 확인합니다
-        url: "/docs/task_rancher_ensure_rancher_support_parity.html"
-      - title: Rancher VM 복구 성능 향상
-        url: "/docs/task_rancher_config_anti_affinity.html"
-      - title: 모니터링을 구성합니다
-        url: "/docs/task_rancher_enable_monitoring.html"
-      - title: Trident를 설치합니다
-        url: "/docs/task_rancher_trident.html"
-      - title: 사용자 클러스터에 대한 Trident 지원을 활성화합니다
-        url: "/docs/task_trident_configure_networking.html"
-    - title: 사용자 클러스터 및 애플리케이션 배포
-      url: "/docs/task_rancher_deploy_user_clusters.html"
-    - title: NetApp HCI에서 Rancher를 관리합니다
-      url: "/docs/task_rancher_manage.html"
-    - title: NetApp HCI의 Rancher 모니터링
-      url: "/docs/task_rancher_monitor.html"
-    - title: NetApp HCI에서 Rancher를 업그레이드합니다
-      url: "/docs/task_rancher_upgrades.html"
-    - title: NetApp HCI에서 목장 설치를 제거합니다
-      url: "/docs/task_rancher_remove_deployment.html"
+    url: "/docs/concept_rancher_index.html"
   - title: H 시리즈 하드웨어 유지 관리
     entries:
     - title: H 시리즈 하드웨어 유지 관리 개요
@@ -401,8 +369,6 @@ homepage:
       url: "/docs/task_mnode_work_overview.html"
     - title: vCenter Server용 NetApp Element 플러그인을 사용합니다
       url: https://docs.netapp.com/us-en/vcp/index.html
-    - title: Rancher를 사용합니다
-      url: "/docs/concept_rancher_product_overview.html"
     - title: NetApp HCI 를 확장합니다
       url: "/docs/concept_hcc_expandoverview.html"
     - title: NetApp HCI를 업그레이드합니다

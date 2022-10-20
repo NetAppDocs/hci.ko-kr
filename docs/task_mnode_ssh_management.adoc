@@ -16,7 +16,7 @@ keywords: netapp, mnode, management node, ssh, disable, enable, rest api, hybrid
 [role="lead"]
 REST API를 사용하여 관리 노드(mNode)에서 SSH 기능의 상태를 비활성화하거나 재설정하거나 확인할 수 있습니다. SSH 기능을 통해 제공됩니다 link:task_mnode_enable_remote_support_connections.html["NetApp RST(Remote Support Tunnel) 세션 액세스"] 관리 서비스 2.18 이상을 실행하는 관리 노드에서 기본적으로 이 비활성화됩니다.
 
-관리 서비스 2.20부터는 NetApp 하이브리드 클라우드 제어 UI를 사용하여 관리 노드에서 SSH 기능을 사용하거나 사용하지 않도록 설정할 수 있습니다.
+관리 서비스 2.20.69부터 NetApp 하이브리드 클라우드 제어 UI를 사용하여 관리 노드에서 SSH 기능을 활성화 및 비활성화할 수 있습니다.
 
 .무엇을 &#8217;필요로 할거야
 * * NetApp Hybrid Cloud Control 권한 *: 관리자로서의 권한이 있습니다.
@@ -25,7 +25,7 @@ REST API를 사용하여 관리 노드(mNode)에서 SSH 기능의 상태를 비�
 * * 관리 노드 *: 버전 11.3 이상을 실행하는 관리 노드를 배포했습니다.
 * * 관리 서비스 업데이트 *:
 +
-** NetApp 하이브리드 클라우드 제어 UI를 사용하려면 를 업데이트했습니다 https://mysupport.netapp.com/site/products/all/details/mgmtservices/downloads-tab["관리 서비스 번들"^] 2.20 버전으로.
+** NetApp 하이브리드 클라우드 제어 UI를 사용하려면 를 업데이트했습니다 https://mysupport.netapp.com/site/products/all/details/mgmtservices/downloads-tab["관리 서비스 번들"^] 2.20.69 버전 이상
 ** REST API UI를 사용하려면 를 업데이트했습니다 https://mysupport.netapp.com/site/products/all/details/mgmtservices/downloads-tab["관리 서비스 번들"^] 2.17 버전으로.
 
 
