@@ -6367,7 +6367,6 @@
   <block id="46e87a91de6f38f3b1344d05a59270dd" category="inline-link">NetApp HCI 1.9 설명서</block>
   <block id="fc55c296a158a74f2203216a080cac11" category="paragraph">관리 서비스 2.21.61부터 기존 Rancher 구축 환경에서는 Rancher가 더 이상 지원되지 않습니다. 관리 서비스 2.21.61로 업그레이드하는 경우 NetApp 하이브리드 클라우드 제어를 사용하여 기존 구축을 위한 목장을 관리, 모니터링 또는 업그레이드하거나 NetApp HCI 시스템에서 새로운 구축을 수행할 수 없습니다. 이미 NetApp HCI 시스템에 Rancher를 구축한 상태에서 관리 서비스 2.20.69 이하를 실행 중인 경우 를 사용하여 Rancher를 관리, 모니터링 및 업그레이드할 수 있습니다<block ref="366a8df179e5c8339fa05bf5fe38a812" category="inline-link-rx"></block>.</block>
   <block id="2c2631f50f8a871f30b75888dfbcea96" category="inline-link-macro">관리 서비스 공지 2.21.61(VMware vCenter Server용 NetApp Element 플러그인 4.10.12)</block>
-  <block id="5a4d1edee05c62a7171ceb8c43afb590" category="list-text"><block ref="5a4d1edee05c62a7171ceb8c43afb590" category="inline-link-macro-rx"></block></block>
   <block id="d6802e127914e53f73aa2f2db8cb5e44" category="paragraph">관리 서비스 2.20.69부터 NetApp 하이브리드 클라우드 제어 UI 또는 API를 사용하여 관리 서비스를 업그레이드하기 전에 최종 사용자 라이센스 계약(EULA)에 동의해야 합니다.</block>
   <block id="29bba7cbe3dac4ea58cab61272150fe8" category="paragraph">관리 노드를 버전 12.3.x 이상에서 관리 노드 12.5 이상으로 업그레이드할 수 있습니다.</block>
   <block id="4ff70a8151851ab1e82db6f0eed42808" category="list-text"><block ref="810c9a492c31390e08f0e76e7c298785" category="inline-xref-macro-rx"></block></block>
@@ -6383,4 +6382,5 @@
   <block id="edb046160eb6ed03c39de5860e72e509" category="list-text">* 최종 사용자 라이센스 계약(EULA) *: 관리 서비스 2.20.69부터 NetApp 하이브리드 클라우드 제어 UI 또는 API를 사용하여 목장 배포를 업그레이드하기 전에 EULA에 동의하고 저장해야 합니다.</block>
   <block id="54c78d15a850ddddfc9da22742280908" category="list-text">* 최종 사용자 라이센스 계약(EULA) *: 관리 서비스 2.20.69부터 NetApp 하이브리드 클라우드 제어 UI 또는 API를 사용하여 Element 스토리지 상태 점검을 실행하기 전에 EULA에 동의하고 저장해야 합니다.</block>
   <block id="b1dc794dd924da27c3e3280ab948e305" category="list-text">* 최종 사용자 라이센스 계약(EULA) *: 관리 서비스 2.20.69부터 NetApp 하이브리드 클라우드 제어 UI 또는 API를 사용하여 컴퓨팅 노드 상태 점검을 실행하기 전에 EULA에 동의하고 저장해야 합니다.</block>
+  <block id="19675be2a917a2efeeead44ff5060fe2" category="list-text"><block ref="19675be2a917a2efeeead44ff5060fe2" category="inline-link-macro-rx"></block></block>
 </blocks>
