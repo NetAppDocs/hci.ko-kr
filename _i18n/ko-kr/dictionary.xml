@@ -5942,7 +5942,6 @@
   <block id="94accfc9ce60fbdbc6b912533ff89998" category="list-text">재부팅 중에 * F11 * 을 눌러 부팅 옵션을 선택하고 컴퓨팅 펌웨어 번들을 로드합니다.</block>
   <block id="4489a95481ba0e8e951ca2cdc4403b89" category="list-text"><block ref="4489a95481ba0e8e951ca2cdc4403b89" category="inline-link-rx"></block></block>
   <block id="b7fe022e3d13a1a7248fb1583851f437" category="inline-link">NetApp Element 소프트웨어 11.8.2 릴리스 정보</block>
-  <block id="96a6137975cbcfe6dbff95b85cf1b6bf" category="list-text"><block ref="5ed2b0be7714cf9bfe94c6d0660549bb" category="inline-link-rx"></block> _신규 _</block>
   <block id="0f0e809fbd346b6319776f0b02355216" category="inline-link">NetApp Element 소프트웨어 11.8.1 릴리스 정보</block>
   <block id="6ae2e484807ab9e500e1e9aa73aa6354" category="list-text"><block ref="6ae2e484807ab9e500e1e9aa73aa6354" category="inline-link-rx"></block></block>
   <block id="7941eda6d75aeac7fd5d3f88cb08cb39" category="list-text"><block ref="7941eda6d75aeac7fd5d3f88cb08cb39" category="inline-link-rx"></block></block>
@@ -5985,7 +5984,6 @@
   <block id="831b7fafcb48c5cdc3232392066936d8" category="inline-link-macro">스토리지 펌웨어 번들 2.150에 대한 고지 사항</block>
   <block id="ce22f95c04c4b1b4db9fa2b54e703681" category="list-text"><block ref="ce22f95c04c4b1b4db9fa2b54e703681" category="inline-link-macro-rx"></block></block>
   <block id="c6b05958d5d84e06da847e5e05b865f8" category="inline-link-macro">컴퓨팅 펌웨어 번들 2.154.4 릴리스 정보</block>
-  <block id="4249bb54f0106bb7ec8845d90f3f6dc3" category="list-text"><block ref="75dde1dc17bd100ca4331fd989a91f97" category="inline-link-macro-rx"></block> _신규 _</block>
   <block id="a4f57cecae9cc51dbe0e706f0c125ec9" category="paragraph">스토리지 펌웨어 번들 버전 2.150에는 H410S(PE-14168)에 대한 중요 버그 수정이 포함되어 있습니다. 을 참조하십시오<block ref="864249002c2349e2873390db3f84414f" category="inline-link-rx"></block> 를 참조하십시오. 의 지침에 따라 스토리지 펌웨어를 업그레이드할 수 있습니다 <block ref="7b278358318478c3f88cee9434341a35" category="inline-link-macro-rx"></block>.</block>
   <block id="04435ca341320fdf8ae3f7ed2b34efab" category="admonition">NetApp 하이브리드 클라우드 제어에는 최신 관리 서비스 번들이 필요합니다. 컴퓨팅 노드의 펌웨어를 버전 2.154.4로 업그레이드하기 전에 최신 관리 서비스 번들로 업그레이드해야 합니다. 컴퓨팅 노드의 펌웨어를 버전 2.154.4로 업그레이드하려면 관리 서비스 2.20이 필요합니다.</block>
   <block id="1c1dee2a250a78c000e763a2c9f3c413" category="paragraph">버전 2.154.4에는 일반적인 버그 수정이 포함되어 있습니다.</block>
@@ -6383,4 +6381,6 @@
   <block id="54c78d15a850ddddfc9da22742280908" category="list-text">* 최종 사용자 라이센스 계약(EULA) *: 관리 서비스 2.20.69부터 NetApp 하이브리드 클라우드 제어 UI 또는 API를 사용하여 Element 스토리지 상태 점검을 실행하기 전에 EULA에 동의하고 저장해야 합니다.</block>
   <block id="b1dc794dd924da27c3e3280ab948e305" category="list-text">* 최종 사용자 라이센스 계약(EULA) *: 관리 서비스 2.20.69부터 NetApp 하이브리드 클라우드 제어 UI 또는 API를 사용하여 컴퓨팅 노드 상태 점검을 실행하기 전에 EULA에 동의하고 저장해야 합니다.</block>
   <block id="19675be2a917a2efeeead44ff5060fe2" category="list-text"><block ref="19675be2a917a2efeeead44ff5060fe2" category="inline-link-macro-rx"></block></block>
+  <block id="5ed2b0be7714cf9bfe94c6d0660549bb" category="list-text"><block ref="5ed2b0be7714cf9bfe94c6d0660549bb" category="inline-link-rx"></block></block>
+  <block id="75dde1dc17bd100ca4331fd989a91f97" category="list-text"><block ref="75dde1dc17bd100ca4331fd989a91f97" category="inline-link-macro-rx"></block></block>
 </blocks>
