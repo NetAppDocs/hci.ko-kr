@@ -6005,7 +6005,6 @@
   <block id="e7c54ed43221b67b988af5312c783bb4" category="inline-link-macro">Compute Firmware Bundle 2.154.1 릴리스 정보</block>
   <block id="97107deca957b5e4a6b53d3c09cc1c16" category="list-text"><block ref="97107deca957b5e4a6b53d3c09cc1c16" category="inline-link-macro-rx"></block></block>
   <block id="f73f11dc118d0773193fe38ff975e133" category="inline-link-macro">스토리지 펌웨어 번들 2.150 릴리스 정보</block>
-  <block id="9b85276bde33152eca1f76222abdb811" category="list-text"><block ref="dd9a6aa21d9f1f41ef6fc5f7516fd509" category="inline-link-macro-rx"></block> _신규 _</block>
   <block id="67a13cf9dcb3321b59f28def3726ce13" category="list-text"><block ref="67a13cf9dcb3321b59f28def3726ce13" category="inline-link-macro-rx"></block></block>
   <block id="3e94ced9564aa4fd2c0b54fde5c1108f" category="paragraph">이 펌웨어 패키지에는 하드웨어 구성 요소에 대한 다음 펌웨어 버전이 포함되어 있습니다.</block>
   <block id="9671fe0cd1cee15ffc6e623894e0c90c" category="cell">3B11</block>
@@ -6352,8 +6351,6 @@
   <block id="005dfb275b378d65280cf215810f8dbd" category="cell">부팅 장치 MTFDDAV240TCB1AR</block>
   <block id="5b1d1e4dbc8cd8e4ec110c7e700e056f" category="section-title">H300E/H500E/H700E</block>
   <block id="f0f15f2c98a9ba8013c265fbf2b1874f" category="paragraph">* 모델 번호(제품군 부분): * H300E/H500E/H700E</block>
-  <block id="d71c6945136972f4e9c1f9b42747c72a" category="inline-link-macro">지원되는 펌웨어 및 드라이버 버전</block>
-  <block id="e3e84763de81500e88546de11ec81383" category="list-text"><block ref="6f4efb8bfcfdab5c2740503a6ae823b5" category="inline-link-macro-rx"></block> _신규 _</block>
   <block id="a61d8a4fcaa8b59b1d8f1d63aada7783" category="summary">NetApp HCI 및 NetApp Element 소프트웨어에서 지원되는 펌웨어 및 드라이버 버전</block>
   <block id="2e697d89104c46a74e44aa847695f3f8" category="doc">NetApp HCI 스토리지 노드의 NetApp HCI 및 펌웨어 버전에 대해 지원되는 펌웨어 및 ESXi 드라이버 버전</block>
   <block id="b757850bdb41a8f86215fd4d7394eeb9" category="paragraph">NetApp HCI 스토리지 노드의 NetApp HCI 및 펌웨어 버전에 대해 지원되는 펌웨어 및 ESXi 드라이버 버전.</block>
@@ -6378,4 +6375,16 @@
   <block id="f3d906055e8465bbb09581a2798127ae" category="admonition">7.0, 7.0 U1, 7.0 U2 및 7.0 U3용 드라이버는 에서 사용할 수 있습니다 <block ref="2d30eb2542d74a72bd10b13092aa6d1f" category="inline-link-macro-rx"></block> 페이지.</block>
   <block id="ac4ea0116877e7d9fa4a0111b67b92f1" category="paragraph">하드웨어 펌웨어 및 드라이버 매트릭스를 참조하십시오<block ref="70c4c9f03a0e1a210c8e6bdafdb7db30" category="inline-link-rx"></block>.</block>
   <block id="6099f1a8115acef9b6c8b5715b669041" category="paragraph">VMware ESXi 6.x 및 7.0 ~ 7.0 U3의 경우 다음 단계를 수행하여 드라이버 오프라인 번들 파일을 가져옵니다.</block>
+  <block id="e5f0019a70375a2e883b7840f439118a" category="list-text"><block ref="732713df3c4c58fb19fab37e747f6f0d" category="inline-link-macro-rx"></block> _신규 _</block>
+  <block id="eb66a5e31d8328246fdb5497ed40a7a4" category="inline-link-macro">스토리지 펌웨어 번들 2.164.0 릴리스 정보</block>
+  <block id="fddb0d91393a6472f9894a9e10c5d3b5" category="list-text"><block ref="05897b3b8549d60a9bbb1bea2303559b" category="inline-link-macro-rx"></block> _신규 _</block>
+  <block id="dd9a6aa21d9f1f41ef6fc5f7516fd509" category="list-text"><block ref="dd9a6aa21d9f1f41ef6fc5f7516fd509" category="inline-link-macro-rx"></block></block>
+  <block id="1e27fffa2cb3a38bf6c4f19753e5c750" category="paragraph">Element 12.0 및 관리 서비스 버전 2.14부터 NetApp 하이브리드 클라우드 제어 UI 및 REST API를 사용하여 스토리지 노드에서 펌웨어 전용 업그레이드를 수행할 수 있습니다. 이 절차에서는 Element 소프트웨어를 업그레이드하지 않으며 주요 Element 릴리스 외부에서 스토리지 펌웨어를 업그레이드할 수 있습니다.</block>
+  <block id="ab9c2528be862fe9060ba417c0e4592c" category="paragraph">스토리지 펌웨어 번들 버전 2.164.0에는 NIC, Mellanox CX5 16.32.1010 및 PM9A3 드라이브용 펌웨어 업데이트가 포함되어 있습니다.</block>
+  <block id="c58131f683a01fe377feac2a274a453c" category="cell">NIC, Mellanox CX4</block>
+  <block id="5b9e54957990854773d289415ff737c6" category="cell">NIC, Mellanox CX5</block>
+  <block id="abb927a2f22181a1c8e40f36a8ae13f5" category="cell">* 16.32.1010 *</block>
+  <block id="7c5ccf80b07d1effc359d2dbc6b965e3" category="cell">GDC5602Q *</block>
+  <block id="32e2e1f8da88327e0f6733fff723309a" category="admonition">다음 표에는 SF38410, SFG19210, SF9605 및 SF4805용 스토리지 펌웨어 번들 릴리스에서 지원되는 구성 요소 펌웨어 버전이 나와 있습니다. 그러나 이러한 구성 요소 펌웨어는 스토리지 펌웨어 번들을 통해 업데이트할 수 없습니다.</block>
+  <block id="2a7341cae34c31f19bf7e5068a68845a" category="list-text">로 이동합니다<block ref="864249002c2349e2873390db3f84414f" category="inline-link-rx"></block> 드롭다운 목록에서 * Element Software * 를 선택합니다.</block>
 </blocks>
