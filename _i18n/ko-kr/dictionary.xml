@@ -4478,7 +4478,6 @@
   <block id="2bfb7d51aea637d48bf5bca4afcb46a1" category="list-text">vCenter 관리자로 vSphere Web Client에 로그인합니다. vSphere Web Client에 이미 로그인한 경우 먼저 로그아웃하고 2-3분 정도 기다린 다음 다시 로그인해야 합니다.</block>
   <block id="f523905d48a1db956815565365a5a6ad" category="admonition">이 작업을 수행하면 새 데이터베이스가 생성되고 vSphere Web Client에서 설치가 완료됩니다.</block>
   <block id="9b572df8237d34b7c32142ac15f1325f" category="list-text">vSphere Web Client에서 작업 모니터에서 완료된 다음 작업을 찾아 설치가 완료되었는지 확인합니다. "Download plug-in" 및 "ploy plug-in".</block>
-  <block id="c4676996d8b51da422f5ab619c54ae01" category="list-text">NetApp Element 구성 및 관리 확장 지점이 vSphere 웹 클라이언트의 * Shortcuts * 탭과 측면 패널에 나타나는지 확인합니다.</block>
   <block id="a0abd6db969f497b63a29f8fbd1771df" category="inline-link-macro">vCenter Server용 Element 플러그인</block>
   <block id="b9e50e6a339819ad9d12906b29e978ca" category="list-text">플러그인의 * NetApp Element 구성 * 확장 지점의 * 정보 * 탭에서 버전 변경을 확인합니다.</block>
   <block id="a2b39afbde860c9c0fc759f3772e2dd2" category="paragraph">최신 버전의 다음 버전 세부 정보 또는 세부 정보가 표시됩니다.</block>
@@ -6431,4 +6430,7 @@
   <block id="307d07425c54bb4aa0778a14487a9a93" category="list-text">vCenter Server 4.10 이전 버전용 NetApp Element 플러그인을 사용하여 를 사용하여 다른 vCenter Server의 클러스터 리소스를 관리합니다<block ref="b9ce345290cb228a35dd424c40eebf37" category="inline-link-rx"></block> 로컬 스토리지 클러스터로만 제한됩니다.</block>
   <block id="ec78c54d60054bc44ae2e26c00313bdb" category="list-text">관리 서비스 2.22.7에는 원격 플러그인이 포함된 VMware vCenter Server 5.0용 NetApp Element 플러그인이 포함되어 있습니다. Element 플러그인을 사용하는 경우, 로컬 플러그인 지원을 제거하는 VMware 지침을 준수하도록 버전 5.0으로 업그레이드해야 합니다.<block ref="3eff1b8505d27ff6caa23fbbb1b7b25c" category="inline-link-rx"></block>. 플러그인을 사용하지 않는 경우 선택적 업그레이드입니다.</block>
   <block id="9db4acd10c15ec173e6516c347342e25" category="admonition">컨트롤러 하위 자산을 추가하려면 vCenter에서 새로운 NetApp HCC 역할을 생성해야 합니다. 이러한 새로운 NetApp HCC 역할은 관리 노드 서비스 뷰를 NetApp 전용 자산으로 제한합니다. 을 참조하십시오 <block ref="8fe5279440ee3c239e840ed9b8e10ddd" category="inline-link-macro-rx"></block>.</block>
+  <block id="d471727ba1fb423986701d5307906d08" category="list-text">플러그인 확장 지점이 vSphere Web Client의 * Shortcuts * 탭과 측면 패널에 나타나는지 확인합니다.</block>
+  <block id="290b380ec7760347344e9055b68f217d" category="paragraph">vCenter Server 5.0용 Element 플러그인부터 NetApp Element 원격 플러그인 확장 포인트:</block>
+  <block id="7491d78d51f3545fc9fe30d2249bc196" category="paragraph">vCenter Server 4.10 이전 버전용 Element 플러그인, NetApp Element 구성 및 관리 확장 지점:</block>
 </blocks>

@@ -138,15 +138,15 @@ NOTE: HTTP 또는 HTTPS 서버(다크 사이트)를 사용 중이거나 ZIP 파�
 NOTE: 이 작업을 수행하면 새 데이터베이스가 생성되고 vSphere Web Client에서 설치가 완료됩니다.
 
 . vSphere Web Client에서 작업 모니터에서 완료된 다음 작업을 찾아 설치가 완료되었는지 확인합니다. "Download plug-in" 및 "ploy plug-in".
-. NetApp Element 구성 및 관리 확장 지점이 vSphere 웹 클라이언트의 * Shortcuts * 탭과 측면 패널에 나타나는지 확인합니다.
+. 플러그인 확장 지점이 vSphere Web Client의 * Shortcuts * 탭과 측면 패널에 나타나는지 확인합니다.
 +
-vCenter Server 5:0용 Element 플러그인으로 시작:
+vCenter Server 5.0용 Element 플러그인부터 NetApp Element 원격 플러그인 확장 포인트:
 
 +
 image::vcp_remote_plugin_icons_home_page.png[에는 Element Plug-in 5.10 이상의 업그레이드 또는 설치 후 플러그인 확장 지점이 나와 있습니다]
 
 +
-vCenter Server 4.10 이전 버전용 Element 플러그인:
+vCenter Server 4.10 이전 버전용 Element 플러그인, NetApp Element 구성 및 관리 확장 지점:
 
 +
 image::vcp_shortcuts_page_accessing_plugin.png[에는 Element Plug-in 4.10 이전 버전에 대한 업그레이드 또는 설치 성공 후의 플러그인 확장 지점이 나와 있습니다]
