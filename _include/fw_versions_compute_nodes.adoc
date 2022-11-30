@@ -1,20 +1,7 @@
----
-sidebar: sidebar 
-permalink: docs/fw_compute_nodes.html 
-keywords: documentation, earlier, previous, versions 
-summary: 컴퓨팅 노드에 대해 지원되는 펌웨어 및 드라이버 버전 
----
-= 컴퓨팅 노드
-:hardbreaks:
+= H615C
 :allow-uri-read: 
-:nofooter: 
-:icons: font
-:linkattrs: 
-:imagesdir: ../media/
-:keywords: hci, earlier, documentation, versions
 
 
-[role="lead"]
 NetApp HCI 컴퓨팅 노드에 대해 지원되는 펌웨어 및 ESXi 드라이버 버전
 
 * 

@@ -1,20 +1,7 @@
----
-sidebar: sidebar 
-permalink: docs/fw_storage_nodes.html 
-keywords: documentation, earlier, previous, versions 
-summary: 스토리지 노드에 대해 지원되는 펌웨어 및 드라이버 버전입니다. 
----
-= 스토리지 노드
-:hardbreaks:
+= H610S
 :allow-uri-read: 
-:nofooter: 
-:icons: font
-:linkattrs: 
-:imagesdir: ../media/
-:keywords: hci, earlier, documentation, versions
 
 
-[role="lead"]
 H 시리즈 및 SolidFire 스토리지 노드에 대해 지원되는 펌웨어 버전입니다.
 
 * 
