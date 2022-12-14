@@ -16,10 +16,11 @@ keywords: netapp, hci, on premise, cluster, management node, mNode, upgrade, 10,
 
 NOTE: 관리 노드 12.2 이전 버전 업그레이드에 대한 정보가 필요한 경우 를 참조하십시오 https://docs.netapp.com/us-en/hci19/docs/task_hcc_upgrade_management_node.html["NetApp HCI 1.9 관리 노드 업그레이드 설명서"^].
 
+.업그레이드 옵션
 다음 옵션 중 하나를 선택합니다.
 
-*  a management node to version 12.5 or later from version 12.3.x or later
-*  authentication using the management node REST API
+* <<관리 노드를 버전 12.3.x 이상에서 버전 12.5 이상으로 업그레이드합니다>>
+* <<관리 노드 REST API를 사용하여 인증을 재구성합니다>>
 +
 관리 서비스 버전(1) 및 (2) 요소 스토리지 버전을 * 순차적으로 * 업데이트하고 * 기존 관리 노드를 * 유지하려면 이 옵션을 선택하십시오.
 
@@ -37,7 +38,7 @@ NOTE: 관리 서비스를 Element 스토리지 뒤에 순차적으로 업데이�
 
 NOTE: Element 12.5 이상의 관리 노드는 선택적 업그레이드입니다. 기존 배포에는 필요하지 않습니다.
 
-.무엇을 &#8217;필요로 할거야
+.필요한 것
 * 관리 노드 VM의 RAM은 24GB입니다.
 * 업그레이드하려는 관리 노드는 버전 12.0이며 IPv4 네트워킹을 사용합니다. 관리 노드 버전 12.5 이상은 IPv6를 지원하지 않습니다.
 +
