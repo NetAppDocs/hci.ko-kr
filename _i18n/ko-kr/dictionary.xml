@@ -28,11 +28,7 @@
   <block id="7f89ab7caf46679f148781ae0236ae02" category="paragraph">클러스터에서 FIPS 140-2 운영 모드를 활성화하면 클러스터는 NetApp CSM(Cryptographic Security Module)을 활성화하고 HTTPS를 통해 NetApp Element UI 및 API에 연결되는 모든 통신에 FIPS 140-2 Level 1 인증 암호화를 사용합니다. FIPS 140-2 HTTPS 암호화를 사용하려면 "EnableFeature" Element API와 함께 "FIPS" 매개 변수를 사용합니다. FIPS 호환 하드웨어가 있는 스토리지 클러스터에서 "FipsDrives" 매개 변수가 있는 "EnableFeature" Element API를 사용하여 유휴 데이터에 대해 FIPS 드라이브 암호화를 설정할 수도 있습니다.</block>
   <block id="d640d68c0a9a05863d67fe4c94138264" category="inline-link">FIPS 드라이브를 지원하는 클러스터 생성</block>
   <block id="1c337717d6208a12caf7e07e628a39f2" category="inline-link">EnableFeature 요소 API입니다</block>
-  <block id="8211faa645efca9f476617d0cf044b3b" category="doc">NetApp HCI의 Rancher 개요</block>
-  <block id="c713fd86796be3114956ca58ac1200bd" category="admonition">Rancher 지원은 NetApp Support Edge 계약에 포함되지 않습니다. 옵션은 NetApp 세일즈 담당자 또는 리셀러에게 문의하십시오. NetApp에서 Rancher Support를 구입하면 지침이 포함된 이메일이 전송됩니다.</block>
   <block id="9c83e144e5481ac6766f4055e566594d" category="floating-title">자세한 내용을 확인하십시오</block>
-  <block id="9e478628fa694f82e9fea112dfd76711" category="inline-link">아키텍처에 대한 Rancher 문서</block>
-  <block id="2efdfe14eb05d4ba8b751f047bafaaa5" category="list-text"><block ref="2efdfe14eb05d4ba8b751f047bafaaa5" category="inline-link-rx"></block></block>
   <block id="c93817bbfc3fab71f5f7ca740a11c847" category="inline-link">NetApp HCI 리소스 페이지를 참조하십시오</block>
   <block id="bc218e71c18c2f809dffb10d3bc2a6e8" category="list-text"><block ref="bc218e71c18c2f809dffb10d3bc2a6e8" category="inline-link-rx"></block></block>
   <block id="186461da4c90b9011585c5e37a2275e2" category="summary">NetApp HCI 구축 요구사항에 대해 알아보십시오.</block>
@@ -435,17 +431,6 @@
   <block id="b25ed61ac80076a1236ec6c52426771e" category="paragraph">성공 시 API는 빈 응답을 반환합니다.</block>
   <block id="2fdd6774a60746eeb0a39a6f6bc68fbb" category="inline-link-macro">권한 있는 클러스터</block>
   <block id="97a049f6152e1da1ebe5c3abfd41d769" category="list-text"><block ref="97a049f6152e1da1ebe5c3abfd41d769" category="inline-link-macro-rx"></block></block>
-  <block id="647e16f66554f636cd0b5856dbc0d30b" category="summary">Rancher를 구축한 후 Rancher UI를 사용하여 Kubernetes 사용자 클러스터를 생성할 수 있습니다.</block>
-  <block id="4fe28b5e264a9cae95fe218091fda5ee" category="doc">사용자 클러스터를 생성합니다</block>
-  <block id="281011a597f3978859eb88d0e442fe82" category="paragraph">Rancher를 구축한 후 Rancher UI를 사용하여 Kubernetes 사용자 클러스터를 생성할 수 있습니다. 다양한 Kubernetes 공급자(예: Google Kubernetes Engine)에서 호스팅하는 클러스터를 생성하거나, RKE(Rancher's Kubernetes installer)인 Rancher Kubernetes Engine을 생성할 수 있습니다.</block>
-  <block id="30d78027baa4ea8d4913ee529be4bfd0" category="inline-link">Rancher 문서</block>
-  <block id="7183a84f8c3c10ea14c0963f0814e0b8" category="admonition">클러스터 생성 요구 사항에 대한 자세한 내용은 를 참조하십시오<block ref="88c775be6750386c87da6e3ce6d28732" category="inline-link-rx"></block>.</block>
-  <block id="0e2b19d9e14abb795d1ffe432243f25d" category="list-text">NetApp HCI에 Rancher를 설치했습니다.</block>
-  <block id="96acfd2f5960a8ebc43ea27af65e4f25" category="list-text">필요한 고정 IP 주소가 있습니다. 각 사용자 클러스터에는 3개의 정적 IP 주소가 필요합니다.</block>
-  <block id="deebab2c662e1b25eb3d473889da8c24" category="list-text">에 나와 있는 요구 사항을 숙지합니다<block ref="88c775be6750386c87da6e3ce6d28732" category="inline-link-rx"></block>.</block>
-  <block id="a1a20e48c6b33d54067bc9f82be85325" category="list-text">NetApp Hybrid Cloud Control에서 Rancher 구축 후 제공된 URL을 선택합니다.</block>
-  <block id="4eca7112a8ddccdb8eea23dc6752cfbc" category="list-text">Rancher UI에서 사용자 클러스터를 생성합니다.</block>
-  <block id="64d112be0af3c89e55d039ab4e700a94" category="inline-link">Rancher용 Kubernetes 용어</block>
   <block id="451ea6f06481d8471ac166075c39c8cd" category="summary">관리 노드(mNode)를 사용하여 시스템 서비스를 사용하고, 클러스터 자산 및 설정을 관리하고, 시스템 테스트 및 유틸리티를 실행하고, 시스템 모니터링을 위한 Active IQ를 구성하고, 문제 해결을 위해 NetApp 지원 액세스를 설정할 수 있습니다.</block>
   <block id="f721f1533adf835d2617ea3e7084ab4c" category="doc">관리 노드 개요</block>
   <block id="e9065488ba04db892848ac25fd8592aa" category="admonition">모범 사례로서, 하나의 관리 노드만 하나의 VMware vCenter 인스턴스와 연결하고 여러 관리 노드에서 동일한 스토리지 및 컴퓨팅 리소스 또는 vCenter 인스턴스를 정의하지 않는 것이 좋습니다.</block>
@@ -739,8 +724,6 @@
   <block id="9cea15d48c9b5a9632827b358396e207" category="doc">NetApp HCI의 새로운 기능</block>
   <block id="44b0209ace608ab3332e7d7917cfc3c2" category="inline-link">NetApp 하이브리드 클라우드 제어 및 관리 서비스 릴리즈 노트</block>
   <block id="8c62a8856619185a333cdec6cc116a79" category="list-text"><block ref="8c62a8856619185a333cdec6cc116a79" category="inline-link-rx"></block></block>
-  <block id="311f4aa48c89c4e8754b8d93a8d5c0d5" category="inline-link">NetApp HCI 및 NetApp Element 소프트웨어용 펌웨어 및 드라이버 버전</block>
-  <block id="8c47ac98e3f72388d0a7fb3d375c0441" category="list-text"><block ref="8c47ac98e3f72388d0a7fb3d375c0441" category="inline-link-rx"></block></block>
   <block id="81a98ff8027ae63cb194d5c2051a720c" category="summary">NetApp HCI 네트워크 구성 옵션 A에 대해 알아보십시오</block>
   <block id="ba94a232ffcb3269296e4704d5ee3514" category="paragraph">NetApp HCI는 다양한 네트워크 케이블 연결 및 VLAN 구성을 활용할 수 있습니다. 첫 번째 구성인 옵션 A에서는 각 컴퓨팅 노드에 대해 2개의 네트워크 케이블을 사용합니다.</block>
   <block id="d22f3561a8511117e3224bc405c9381d" category="section-title">구성 옵션 A: 컴퓨팅 노드에 대한 케이블 2개</block>
@@ -863,9 +846,6 @@
   <block id="a3e16aa4ac1698b65d6005fa91bd3492" category="inline-link-macro">NetApp 하이브리드 클라우드 제어 UI</block>
   <block id="a885de4e6e46ef7a6c6b7ec0524a0f21" category="paragraph">2개의 스토리지 노드에서 3개의 스토리지 노드로 확장하면 노드 및 드라이브 장애가 발생할 경우 자동 복구가 가능하지만 추가 용량은 제공되지 않습니다. 을 사용하여 를 확장할 수 있습니다 <block ref="c9283f0c090697a273d480df89a17f56" category="inline-link-macro-rx"></block>. 2노드 클러스터에서 3노드 클러스터로 확장할 경우 용량이 고립될 수 있습니다(참조) <block ref="96f8d2b76b31af31fd87fbd8b636d167" category="inline-xref-macro-rx"></block>)를 클릭합니다. UI 마법사는 설치 전에 고립된 용량에 대한 경고를 표시합니다. 스토리지 노드 장애 시 앙상블 쿼럼을 유지할 수 있는 단일 Witness Node를 사용할 수 있으며, 두 번째 Witness Node는 대기 상태로 유지됩니다. 3노드 스토리지 클러스터를 4노드 클러스터로 확장하면 용량과 성능이 향상됩니다. 4노드 클러스터에서는 Witness 노드가 더 이상 클러스터 쿼럼을 형성하지 않아도 됩니다. 최대 64개의 컴퓨팅 노드와 40개의 스토리지 노드로 확장할 수 있습니다.</block>
   <block id="1886c33029d6a5f67a53baeb16356d18" category="inline-link">NetApp HCI 2노드 스토리지 클러스터 | TR-4823</block>
-  <block id="65e6adcff1000b03a078e05d54c700f1" category="summary">NetApp HCI 구축 후 Rancher를 통한 모니터링 구성 방법에 대해 알아보십시오.</block>
-  <block id="729e3399d869de5540bc06d71a6bcf81" category="doc">모니터링을 활성화합니다</block>
-  <block id="aad6cd40798f943aaf25e268a77af03c" category="paragraph">NetApp HCI에 Rancher를 구축한 후 설치 또는 업그레이드 중에 NetApp HCI 스토리지 모니터링(SolidFire All-Flash 스토리지 및 NetApp HCI용) 및 NetApp HCI 컴퓨팅 모니터링(Active IQ 전용)을 아직 설정하지 않은 경우 설정할 수 있습니다.</block>
   <block id="bdfb39867dffbc06698f3cbba2891fce" category="inline-link-macro">Active IQ 및 NetApp HCI 모니터링을 활성화합니다</block>
   <block id="728b9f30c45d9b5490bc14eac2e5a7ee" category="summary">REST API UI를 사용하여 vCenter 관리 노드 컨트롤러를 편집할 수 있습니다.</block>
   <block id="13a12eaece4fc3e5cb8a8919844ca623" category="doc">기존 컨트롤러 자산을 보거나 편집합니다</block>
@@ -1203,30 +1183,6 @@
   <block id="1f240d24d777104809b987ee84a5d843" category="summary">하이브리드 클라우드 제어 대시보드에서 알림에 응답할 수 있습니다.</block>
   <block id="46ad5a3a2173706ab10902a4810729ce" category="doc">하이브리드 클라우드 제어 대시보드의 알림에 응답</block>
   <block id="bfc5232cd54db21b7879b3adc6550835" category="paragraph">하이브리드 클라우드 제어 대시보드에서 경고를 확인하고 신속하게 대응할 수 있습니다.</block>
-  <block id="fb0dc3afb0cd76839a33bce88aca90ab" category="summary">Rancher VM에 대한 반유사성 규칙을 구성하여 호스트 복원력을 지원하는 방법에 대해 알아보십시오.</block>
-  <block id="7cbd1eff19cdbaa29c89553dc167314d" category="doc">Rancher VM 복구 성능 향상</block>
-  <block id="1816422ae322aac270c22277d2d73314" category="paragraph">NetApp HCI에 Rancher를 구축한 후에는 vSphere 환경에 Rancher 환경을 호스팅하는 가상 머신으로 3개의 새로운 노드가 포함됩니다. Rancher 웹 UI는 각 노드에서 사용할 수 있습니다. 완벽한 복구 성능을 위해 해당 가상 디스크와 함께 세 개의 가상 시스템은 전원 주기 및 장애 조치와 같은 이벤트가 발생한 후 서로 다른 물리적 호스트에 상주해야 합니다.</block>
-  <block id="caba5f1180480863ba21ac9b6f9af133" category="paragraph">각 VM과 해당 리소스가 다른 물리적 호스트에 유지되도록 VMware vSphere DRS(Distributed Resource Scheduler) 반유사성 규칙을 생성할 수 있습니다. 이 기능은 NetApp HCI 구축 환경의 Rancher의 일부로 자동화되지 않습니다.</block>
-  <block id="f12702d50ce18a2d66f79b938aae7ec0" category="paragraph">DRS 반유사성 규칙을 구성하는 방법에 대한 지침은 다음 VMware 설명서 리소스를 참조하십시오.</block>
-  <block id="41e08ba66f98045d039e9d5e7201099c" category="inline-link">VM 반선호도 규칙을 생성합니다</block>
-  <block id="83f1331eb7a42b38646006abc2dee529" category="inline-link">vSphere HA 및 DRS 선호도 규칙</block>
-  <block id="c7bc15401e60cafe10794d83f9b6cd85" category="summary">NetApp HCI에 Rancher를 설치한 후 수행해야 할 작업에 대해 알아보십시오.</block>
-  <block id="9b7bb36b310f8ee8e2e028e42b095b77" category="doc">Rancher on NetApp HCI 개념</block>
-  <block id="46d2eed8ffa3441771a3cebe7d1f1a05" category="paragraph">NetApp HCI의 Rancher와 관련된 기본 개념을 알아봅니다.</block>
-  <block id="e2fb643ff693958331473dfe3fcd9263" category="list-text">* Rancher 서버 * 또는 * Control plane *: rancher Control Plane(Rancher Control Plane), _ Rancher Server _ 라고도 함, 개발 및 운영 팀에서 사용하는 Kubernetes 클러스터를 프로비저닝, 관리 및 모니터링합니다.</block>
-  <block id="e31d2b60da791c899f94bb4cb73679ca" category="inline-link">카탈로그에 대한 Rancher 문서</block>
-  <block id="46f00c1f2b2f504fa180b6a0a8549857" category="list-text">* 관리 클러스터 *: NetApp HCI의 Rancher는 Rancher 관리 클러스터에 3개의 가상 시스템을 구축하며, Rancher, 하이브리드 클라우드 제어 및 vCenter 플러그인을 사용할 수 있습니다. 관리 클러스터 가상 머신은 Rancher 서버, RKE(Rancher Kubernetes Engine) 및 Linux OS를 호스팅합니다.</block>
-  <block id="b469059473293c3804d2330f46b0ff4c" category="list-text">* 사용자 클러스터 *: 이러한 다운스트림 Kubernetes 클러스터는 사용자의 앱 및 서비스를 실행합니다. Kubernetes의 Rancher 설치 시 관리 클러스터는 사용자 클러스터와 별개여야 합니다. Rancher 사용자가 Rancher에서 배포하거나 Rancher로 가져오는 모든 클러스터는 사용자 클러스터로 간주됩니다.</block>
-  <block id="10f7387c33a67c92542de362d9246058" category="list-text">* Rancher 노드 템플릿 *: 하이브리드 클라우드 제어는 Rancher 노드 템플릿을 사용하여 구축을 더 간단하게 만듭니다.</block>
-  <block id="c0f5988a355d70bc72528826b19d4c26" category="inline-link">노드 템플릿에 대한 Rancher 문서</block>
-  <block id="20fb03d5b7e1bdf31a9e4e7a5186cdaa" category="section-title">Trident 소프트웨어 및 영구 스토리지 개념</block>
-  <block id="d80da136ed74275246f9bb62bcb18fd5" category="paragraph">Kubernetes 네이티브 애플리케이션인 Trident는 Kubernetes 클러스터 내에서 직접 실행됩니다. Trident를 사용하면 Kubernetes 사용자(예: 개발자, 데이터 과학자, Kubernetes 관리자)가 이미 익숙한 표준 Kubernetes 형식으로 영구 스토리지 볼륨을 생성, 관리 및 상호 작용할 수 있습니다. Trident를 사용하면 NetApp 솔루션을 Kubernetes 클러스터에서 영구 볼륨의 주장을 충족할 수 있습니다.</block>
-  <block id="34082ca8b85231a5ceadeca185de3f43" category="paragraph">Rancher를 사용하면 영구 볼륨을 사용할 수 있습니다. 영구 볼륨은 특정 POD와 독립적으로 존재하고 수명이 다할 때까지 유지됩니다. Trident를 사용하여 영구 PVC(Volume Claim)를 관리하면 액세스 중인 스토리지의 하위 수준 구현 세부 사항에서 Pod를 생성하는 개발자를 격리할 수 있습니다.</block>
-  <block id="140884f15a39b9fb66370d34b5d2da10" category="paragraph">컨테이너화된 애플리케이션에서 영구 볼륨 클레임(PVC) 요청을 실행할 경우, Trident는 NetApp HCI의 NetApp Element 소프트웨어 스토리지 계층에 대해 요청된 매개 변수에 따라 스토리지를 동적으로 프로비저닝합니다.</block>
-  <block id="f0ffe5389e0877edf8755ea82e7f1779" category="paragraph">Trident 카탈로그는 NetApp HCI의 Rancher에 제공되며 사용자 클러스터에서 실행됩니다. NetApp HCI 구현에서 Rancher의 일부로 Rancher 카탈로그에서 Trident 설치 프로그램을 기본적으로 사용할 수 있습니다. 이 카탈로그를 포함하면 사용자 클러스터에 대한 Trident 구축을 간소화할 수 있습니다.</block>
-  <block id="fb083b9e2b00271809e7c5daaeed4034" category="inline-link-macro">NetApp HCI에 Rancher가 있는 Trident를 설치합니다</block>
-  <block id="245992ff42ba518324a42fc0a5a5c00e" category="paragraph">을 참조하십시오 <block ref="e699403e446949a61b34fc895e0cd096" category="inline-link-macro-rx"></block>.</block>
-  <block id="40ef3fb23e015d9b4b46a16fa50f10d3" category="inline-link">Trident 문서</block>
   <block id="249c15328bd4cf976c941d1cf52d673d" category="summary">CPU 장애, 기타 마더보드 문제 또는 전원이 켜지지 않는 경우 컴퓨팅 노드를 교체해야 합니다. 이 지침은 H410C 노드에 적용됩니다. NetApp HCI 부트스트랩 OS 버전 1.6P1 이상을 실행하는 H410C 컴퓨팅 노드가 있는 경우 메모리 DIMM에 장애가 발생할 경우 노드를 교체할 필요가 없으며 장애가 발생한 DIMM만 교체해야 합니다. 노드의 DIMM에 장애가 발생하지 않은 경우 교체 노드에서 사용할 수 있습니다.</block>
   <block id="5f3cb5162c9a9751c213a3d0a39bdf22" category="admonition">교체 노드의 NetApp HCI 부트스트랩 OS 버전은 NetApp HCI 설치의 나머지 컴퓨팅 노드와 동일해야 합니다.</block>
   <block id="ca95c8f5204e5a242f4884f897492da4" category="list-text">컴퓨팅 노드를 교체해야 한다고 확인했습니다.</block>
@@ -1733,15 +1689,6 @@
   <block id="4cd8c6f2ca2d71ce6f13ed31e9a39688" category="list-text">사용자 클러스터의 나머지 각 노드에 대해 4-6단계를 반복합니다.</block>
   <block id="2c5a6204b49b501a8fe81c23e0d83ba6" category="list-text">사용자 클러스터의 각 노드에 대해 네트워크를 재구성한 경우 Trident를 사용하는 사용자 클러스터에 애플리케이션을 배포할 수 있습니다.</block>
   <block id="423e5cc40b28eed3cd77ce735d4589e1" category="doc">구축 후 작업 개요</block>
-  <block id="2762edb7d4f681b6a17dff45c92924ab" category="paragraph">NetApp HCI에 Rancher를 구축한 후에는 구축 후 작업을 계속해야 합니다.</block>
-  <block id="61e71dfc6deba947f13bdfb371c1367a" category="inline-link-macro">Rancher 지원 패리티를 확인합니다</block>
-  <block id="c543ef56d9d045884c703917c22c41af" category="list-text"><block ref="c543ef56d9d045884c703917c22c41af" category="inline-link-macro-rx"></block></block>
-  <block id="aa8b0edee32f62a4e1890e3696545c25" category="list-text"><block ref="aa8b0edee32f62a4e1890e3696545c25" category="inline-link-macro-rx"></block></block>
-  <block id="fce2ba134f81ebea42078bede4cbea80" category="inline-link-macro">모니터링을 구성합니다</block>
-  <block id="bfa008d4db0f1fb52ec22703ccc0e890" category="list-text"><block ref="bfa008d4db0f1fb52ec22703ccc0e890" category="inline-link-macro-rx"></block></block>
-  <block id="b8b9eab8c1ed7b79387652490f5724ec" category="inline-link-macro">Trident를 설치합니다</block>
-  <block id="659e3d1abdbb701a520e342e48fbb8b3" category="list-text"><block ref="659e3d1abdbb701a520e342e48fbb8b3" category="inline-link-macro-rx"></block></block>
-  <block id="20b7eb4c8716c434ebac083926d84626" category="list-text"><block ref="20b7eb4c8716c434ebac083926d84626" category="inline-link-macro-rx"></block></block>
   <block id="cb41a10c3ad1c89de8c68f4308811042" category="summary">NetApp HCI Witness 노드 요구 사항에 대해 알아보십시오.</block>
   <block id="8b2deb2ee0646b01bfac86564456e1c2" category="paragraph">NetApp HCI는 2개의 스토리지 노드와 2개의 컴퓨팅 노드의 최소 설치 크기를 지원합니다. 2노드 또는 3노드 스토리지 클러스터를 사용하여 NetApp HCI를 설치하는 경우 NetApp HCI Witness 노드 및 해당 VM(가상 머신) 리소스 요구 사항을 알아야 합니다.</block>
   <block id="06f435b9eb45ffebbfd7844fe4d7d4d8" category="paragraph">스토리지 클러스터에서 두 개 또는 세 개의 노드를 사용하는 경우 각 스토리지 클러스터와 함께 Witness 노드 쌍도 구축합니다. 감시 노드의 VM 리소스 요구 사항은 다음과 같습니다.</block>
@@ -1844,16 +1791,6 @@
   <block id="24f117be35e0ca10b59e4d0db320a4f9" category="paragraph">vSphere * 시작 을 선택하여 NetApp HCI 사용을 시작합니다.</block>
   <block id="7032b7e788cc02e52558dcba551bafcb" category="list-text">vSphere 6.7을 사용하는 NetApp HCI 설치의 경우 이 링크를 클릭하면 HTML5 vSphere 웹 인터페이스가 실행됩니다. vSphere 6.5를 사용한 설치의 경우 이 링크를 클릭하면 Adobe Flash vSphere 웹 인터페이스가 실행됩니다.</block>
   <block id="292182cb4e9d829383f0987a0f5b5db1" category="list-text">NDE는 스토리지 2개 또는 스토리지 노드 3개 구성에서 Witness 노드가 컴퓨팅 노드에서 로컬 데이터 저장소를 사용하도록 구성합니다. 따라서 vSphere Client에 두 개의 * 데이터 저장소 사용량이 disk * 경고에 표시됩니다. 계속하려면 각 경고에서 * 녹색으로 재설정 * 링크를 선택하십시오.</block>
-  <block id="1ec694429830f2bfceb3f33883c0409c" category="summary">NetApp HCI에 Rancher를 구축한 후에는 사용자 클러스터를 설정하고 해당 클러스터에 애플리케이션을 추가할 수 있습니다.</block>
-  <block id="602d96c7ede8c3dc0247f58aa01ea001" category="doc">사용자 클러스터 및 애플리케이션 배포</block>
-  <block id="b20dacbc4fe1b1600ba289ffa6be3d8c" category="section-title">사용자 클러스터 구축</block>
-  <block id="088f2225be7630de7bb024bb63149cd2" category="paragraph">그런 다음, 개발 및 운영 팀에서 다른 라처 구축과 마찬가지로 앱을 구축할 수 있는 Kubernetes 사용자 클러스터를 구축할 수 있습니다.</block>
-  <block id="f7e374f64d520b4e1b3e20da4479cc75" category="list-text">Rancher 구축 종료 시 제공된 URL을 사용하여 Rancher UI에 액세스합니다.</block>
-  <block id="6de5ea620854d6ef00f0472c2627c0de" category="inline-link">워크로드 구축</block>
-  <block id="d8bf91c01a11c7eb2d2b9f401ecfaf66" category="inline-link">Rancher에서 Kubernetes 클러스터 설정</block>
-  <block id="930925e67b4f31f371692edcf5e02312" category="section-title">사용자 클러스터에 애플리케이션 배포</block>
-  <block id="c7ba6659ee3453e072a20d61ffa3ee7e" category="paragraph">다른 Rancher 구축과 마찬가지로, Kubernetes 클러스터에 애플리케이션을 추가합니다.</block>
-  <block id="002edcf32ae0a52094dea43914490912" category="inline-link">클러스터 전반에 애플리케이션 배포</block>
   <block id="be03f79fc587170366cede6d4134dfb1" category="summary">시스템 FQDN 웹 UI 액세스를 구성, 제거 및 해결하는 방법에 대해 알아봅니다.</block>
   <block id="94db4abd5a2fea199024f9d7355490bd" category="paragraph">Element 소프트웨어가 포함된 NetApp HCI 12.2 이상을 사용하면 FQDN(정규화된 도메인 이름)을 사용하여 스토리지 클러스터 웹 인터페이스에 액세스할 수 있습니다. FQDN을 사용하여 Element 웹 UI, 노드별 UI 또는 관리 노드 UI와 같은 웹 사용자 인터페이스에 액세스하려면 먼저 스토리지 클러스터 설정을 추가하여 클러스터에서 사용되는 FQDN을 식별해야 합니다.</block>
   <block id="e93b12b8c33d9327e4e273fb49ae1eea" category="paragraph">이제 FQDN(정규화된 도메인 이름)을 사용하여 스토리지 클러스터 웹 인터페이스에 액세스할 수 있습니다. FQDN을 사용하여 Element 웹 UI, 노드별 UI 또는 관리 노드 UI와 같은 웹 사용자 인터페이스에 액세스하려면 먼저 스토리지 클러스터 설정을 추가하여 클러스터에서 사용되는 FQDN을 식별해야 합니다. 이를 통해 클러스터는 로그인 세션을 적절하게 리디렉션하고 다중 요소 인증을 위한 키 관리자 및 ID 공급자와 같은 외부 서비스와의 통합을 향상시킬 수 있습니다.</block>
@@ -3022,70 +2959,6 @@
   <block id="7de1d9d84b91ac769eb6aa6ed365c3c4" category="list-text">IP 주소만 사용하여 새로운 vSphere 설치를 통해 NetApp HCI를 구축하는 경우 vCenter에 대한 새 DNS 레코드를 생성할 필요가 없습니다.</block>
   <block id="cef30eda4c0b7af9b31a5d98cc9a55e8" category="list-text">시간 표시를 위해 NetApp HCI에 유효한 NTP 서버가 필요합니다. 환경에 공용 시간 서버가 없는 경우 공용 시간 서버를 사용할 수 있습니다.</block>
   <block id="37aa99a448ecdc70dac167f71e6faaac" category="list-text">모든 스토리지 및 컴퓨팅 노드 클록이 서로 동기화되어 있고 NetApp HCI에 로그인하는 데 사용하는 디바이스의 클록이 NetApp HCI 노드와 동기화되어 있는지 확인합니다.</block>
-  <block id="5532c6e8d75844327b5edc690cbae5c1" category="summary">NetApp HCI 설치 시 성공적으로 목장을 설치하기 위한 요구 사항에 대해 알아보십시오.</block>
-  <block id="d202289742d17f7ee5292dbdc580c12f" category="doc">NetApp HCI의 Rancher에 대한 요구 사항</block>
-  <block id="d18495ea55e4fc04be659f9f7654cfeb" category="paragraph">NetApp HCI에 Rancher를 설치하기 전에 환경 및 NetApp HCI 시스템이 이러한 요구 사항을 충족하는지 확인하십시오.</block>
-  <block id="3ce2bef2cfe4dfb79b63805a94d94455" category="inline-link-macro">NetApp HCI에서 목장 설치를 제거합니다</block>
-  <block id="90ab3e774415f0dcefd1c9d338cdbd38" category="section-title">노드 요구 사항</block>
-  <block id="f8f561fc5b9d026f2ae554e149c70761" category="list-text">NetApp HCI 시스템에 컴퓨팅 노드가 3개 이상 있는지 확인합니다. 이 노드는 전체 복원력을 위해 필요합니다. NetApp HCI의 Rancher는 스토리지 전용 구성에서 지원되지 않습니다.</block>
-  <block id="1c775ac4e1eb07330d8e02239a97851e" category="list-text">NetApp HCI 구축 시 Rancher에 사용할 데이터 저장소의 사용 가능한 공간이 60GB 이상인지 확인합니다.</block>
-  <block id="8fd967b78ccb361d1c1f8a242538e631" category="list-text">NetApp HCI 클러스터에서 관리 서비스 버전 2.17 이상이 실행되고 있는지 확인합니다.</block>
-  <block id="2e0b8d072e1de4ee478380363f57b355" category="section-title">노드 세부 정보</block>
-  <block id="951ab8c224557fce211ae2722923de5c" category="paragraph">NetApp HCI의 Rancher는 3노드 관리 클러스터를 구축합니다.</block>
-  <block id="a894a1c771c3346a7542b360b3189472" category="paragraph">모든 노드의 특징은 다음과 같습니다.</block>
-  <block id="6b434693316483f128337cdcf1e78768" category="cell">RAM(GB)</block>
-  <block id="4529448db618b1e651bf3f0393b652fb" category="cell">디스크(GB)</block>
-  <block id="c9f0f895fb98ab9159f51fd0297e236d" category="cell">8</block>
-  <block id="98f13708210194c475687be6106a3b84" category="cell">20</block>
-  <block id="bdd8837c5f5666c1f37ec05326aa385f" category="section-title">네트워크 요구 사항</block>
-  <block id="cfe67dd759ec292a8e9dcf3898f1ebe0" category="list-text">NetApp HCI 관리 클러스터에 Rancher를 구축할 네트워크가 관리 노드 관리 네트워크로 연결되는 경로를 가지고 있는지 확인합니다.</block>
-  <block id="d65a3c7c73745cbfda3d6240008a8e3b" category="list-text">NetApp HCI의 Rancher는 컨트롤 플레인(Rancher 서버) 및 사용자 클러스터에 대해 DHCP 주소를 지원하지만 프로덕션 환경에 정적 IP 주소를 사용하는 것이 좋습니다. 운영 환경에 배포하는 경우 필요한 정적 IP 주소를 할당했는지 확인합니다.</block>
-  <block id="dd5830bc858985a80fd55f24d880c367" category="list-text">Rancher 서버에는 3개의 정적 IP 주소가 필요합니다.</block>
-  <block id="c8852ab393955c6490edd683effed703" category="list-text">각 사용자 클러스터에는 클러스터의 노드만큼 많은 정적 IP 주소가 필요합니다. 예를 들어, 4개의 노드가 있는 사용자 클러스터에는 4개의 정적 IP 주소가 필요합니다.</block>
-  <block id="6482690d58a3ce99daffc8c9e749e188" category="list-text">Rancher 컨트롤 플레인 또는 사용자 클러스터에 대해 DHCP 주소 지정을 사용하려는 경우 DHCP 임대 기간이 최소 24시간인지 확인합니다.</block>
-  <block id="ca2d4d52502e2c68a5ab10a7dfee5a72" category="list-text">NetApp HCI의 Rancher에 대한 인터넷 액세스를 활성화하기 위해 HTTP 프록시를 사용해야 하는 경우 관리 노드에 대한 사전 배포 변경을 수행해야 합니다. SSH를 사용하여 관리 노드에 로그인하고 에 따릅니다<block ref="43ab747d974a0561608b35356d6b5482" category="inline-link-rx"></block> Docker에 대한 프록시 설정을 수동으로 업데이트하려면 Docker 설명서를 참조하십시오.</block>
-  <block id="d8f7fbee495dc94a54282ca497b38b0c" category="list-text">배포 중에 프록시 서버를 활성화하고 구성하는 경우 다음과 같은 IP 주소 범위 및 도메인이 Rancher 서버 nocProxy 설정에 자동으로 추가됩니다.</block>
-  <block id="387be85ed1524b84d0605fab6ab99a21" category="list-text">관리 노드가 DNS를 사용하여 IP 주소에 대한 호스트 이름 '&lt;Any IP address&gt;.nip.io'를 확인할 수 있는지 확인합니다. 배포 중에 사용되는 DNS 공급자입니다. 관리 노드가 이 URL을 확인할 수 없으면 배포가 실패합니다.</block>
-  <block id="5e46fc6ced2f99a38968e9ac85a0a8cd" category="list-text">필요한 각 정적 IP 주소에 대해 DNS 레코드를 설정했는지 확인합니다.</block>
-  <block id="3d065b1064b64a83258ea086e540e24c" category="section-title">VMware vSphere 요구 사항</block>
-  <block id="63b85c608c2034c828efadd0a0f6de0d" category="list-text">사용 중인 VMware vSphere 인스턴스가 버전 6.5, 6.7 또는 7.0인지 확인합니다.</block>
-  <block id="5d6ffa49e809cebbd1b40d378382cef8" category="list-text">vSphere 표준 스위치(VSS) 네트워킹 구성을 사용할 수 있지만, 그렇게 할 경우, Rancher VM에 사용되는 가상 스위치와 물리적 호스트가 일반 VM에 대해 보장하는 것과 동일한 방식으로 동일한 포트 그룹에 모두 액세스할 수 있는지 확인하십시오.</block>
-  <block id="bbe19407c7eae60b683129c569b8bf2a" category="section-title">구축 고려 사항</block>
-  <block id="c9d36779289fd65739a9602767bea548" category="paragraph">다음 고려 사항을 검토할 수 있습니다.</block>
-  <block id="85ba80ebfec3b36f46fa91c2da8801e0" category="list-text">구축 유형</block>
-  <block id="811df4f2222b474831d0729d37981ae9" category="list-text">데모 배포</block>
-  <block id="5d1b507574b37de234ceaf10fb41886f" category="list-text">운영 구축</block>
-  <block id="7e1ec8f165209a950133dcbbbb370102" category="list-text">Rancher FQDN</block>
-  <block id="42d7f11b605dd889bb7685ff9f69001a" category="admonition">NetApp HCI의 Rancher는 일부 유형의 네트워크 로드 밸런싱을 구성하지 않는 한 노드 장애에 대한 복원력이 없습니다. 간단한 솔루션으로 Rancher 서버에 예약된 세 개의 정적 IP 주소에 대해 라운드 로빈 DNS 항목을 생성합니다. 이러한 DNS 항목은 구축이 완료되면 Rancher 웹 UI를 제공하는 Rancher 서버 호스트에 액세스하는 데 사용할 Rancher 서버 FQDN으로 확인되어야 합니다.</block>
-  <block id="290b7bfb38f6f8cfeb3ef8b9e8bb857c" category="paragraph">다음과 같은 방법으로 NetApp HCI에 Rancher를 구축할 수 있습니다.</block>
-  <block id="5e7c6745478b902dabdd2ae842a2ead7" category="list-text">* 데모 배포 *: 대상 배포 환경에서 DHCP를 사용할 수 있고 NetApp HCI 기능을 기반으로 Rancher를 시연하려는 경우 DHCP 배포가 가장 적합합니다.</block>
-  <block id="930bc87dea1e90011d62dbf2c01aa2de" category="paragraph">이 구축 모델에서는 관리 클러스터의 3개 노드 각각에서 Rancher UI에 액세스할 수 있습니다.</block>
-  <block id="56d4818114d35d0e9d908ec192205e85" category="paragraph">조직에서 DHCP를 사용하지 않는 경우에도 배포 전에 할당된 네 개의 고정 IP 주소를 사용하여 이 작업을 수행할 수 있습니다. 이는 프로덕션 배포에 대해 수행할 수 있는 것과 비슷합니다.</block>
-  <block id="ba27bf842baf1551341dc65f57864a03" category="list-text">* 프로덕션 배포 *: 대상 배포 환경에서 DHCP를 사용할 수 없거나 프로덕션 배포의 경우 배포 전 작업이 약간 더 필요합니다. 첫 번째 단계는 3개의 연속 IP 주소를 얻는 것입니다. 배포 중에 첫 번째 를 입력합니다.</block>
-  <block id="e8f706afb30c333aa54417697f3d2e50" category="paragraph">운영 환경에 L4 로드 밸런싱 또는 라운드 로빈 DNS 구성을 사용하는 것이 좋습니다. 이 경우 네 번째 IP 주소와 DNS 구성에 별도의 항목이 필요합니다.</block>
-  <block id="2fa91d4f9c97b61702d9e98d8bbc1e4a" category="list-text">* L4 로드 밸런싱 *: 이 기술은 nginx와 같은 애플리케이션을 호스팅하는 가상 머신 또는 컨테이너가 관리 클러스터의 3개 노드에 요청을 분산하도록 구성된 기술입니다.</block>
-  <block id="9bc3e553696928d8c41bbf87b30c3d64" category="list-text">* 라운드 로빈 DNS *: 관리 클러스터를 구성하는 세 호스트 간에 요청을 회전하는 DNS 시스템에서 단일 호스트 이름을 구성하는 기술입니다.</block>
-  <block id="8c08887d302672e057ebca43d69bbbfa" category="paragraph">설치를 완료하려면 설치 완료 후 Rancher UI가 제공되는 호스트의 FQDN(정규화된 도메인 이름)을 포함하는 Rancher URL을 할당해야 합니다.</block>
-  <block id="64ede50cfa29c041a4333b9a3770a25f" category="paragraph">모든 경우 브라우저에서 https 프로토콜(포트 443)을 통해 Rancher UI에 액세스할 수 있습니다.</block>
-  <block id="5162841982f8544c0eeb5fa5e5bd13e7" category="paragraph">운영 배포에는 관리 클러스터 노드 전체에 걸쳐 로드 밸런싱을 수행하도록 구성된 FQDN이 필요합니다. FQDN 및 로드 밸런싱을 사용하지 않으면 환경의 복원력이 없으며 데모 환경에만 적합합니다.</block>
-  <block id="a60e89da505f30c30d2c3905deeb6331" category="section-title">필수 포트</block>
-  <block id="2a0bbdb7fd7e7c40b4329bd7b65e0169" category="paragraph">공식 * Rancher Nodes * 섹션의 "RKE의 Rancher Server Node용 포트" 섹션에 있는 포트 목록이 있는지 확인합니다<block ref="090711aa00cd3a26771fc9eebc6c3e35" category="inline-link-rx"></block> Rancher 서버를 실행 중인 노드와 방화벽 구성에서 열립니다.</block>
-  <block id="aa0efc5a9f5b0ab58a228c257b8d6e73" category="section-title">필요한 URL입니다</block>
-  <block id="8ffdb46d17db172f0b32297bc6b47b66" category="paragraph">Rancher 컨트롤 플레인이 있는 호스트에서 다음 URL을 액세스할 수 있어야 합니다.</block>
-  <block id="cc489321beea3fef2cf8dddbdb0449d7" category="cell"><block ref="cc489321beea3fef2cf8dddbdb0449d7" category="inline-link-rx"></block></block>
-  <block id="27b235783d3b1511f3a05914bba0aefc" category="cell">Kubernetes 통합</block>
-  <block id="7640b735800fb573294e3721e5e4c26c" category="cell"><block ref="7640b735800fb573294e3721e5e4c26c" category="inline-link-rx"></block></block>
-  <block id="058dd5b5aefdef3779a7bb0949d73299" category="cell">Rancher 소프트웨어 다운로드</block>
-  <block id="cb52a14aeda870d7aeedddff3c9398b7" category="cell"><block ref="cb52a14aeda870d7aeedddff3c9398b7" category="inline-link-rx"></block></block>
-  <block id="4a82a5443e1436f7bb40570b65ccc129" category="cell">난수 생성을 위한 Ubuntu 엔트로피 서비스</block>
-  <block id="fee5d54d24df8b982c563a601e36681b" category="cell"><block ref="fee5d54d24df8b982c563a601e36681b" category="inline-link-rx"></block></block>
-  <block id="2b5905577a3340ff7ea3971b774d9ef6" category="cell">VMware 게스트 추가</block>
-  <block id="b6e0a0e9517086d22f7a580a9c4243ca" category="cell"><block ref="b6e0a0e9517086d22f7a580a9c4243ca" category="inline-link-rx"></block></block>
-  <block id="e13e3d40c9630b344027c17326435949" category="cell">Docker Ubuntu GPG 공개 키</block>
-  <block id="3d37b66329b9261329273dd9d0fc9742" category="cell"><block ref="3d37b66329b9261329273dd9d0fc9742" category="inline-link-rx"></block></block>
-  <block id="f23afc7d77043a40f0b5b1e01a940eb6" category="cell">Docker 다운로드 링크</block>
-  <block id="939085619eb0ae46b4cc41c488483967" category="cell"><block ref="939085619eb0ae46b4cc41c488483967" category="inline-link-rx"></block></block>
-  <block id="4a86ebf360b1a8f81fa11efe200cc636" category="cell">NetApp 하이브리드 클라우드 제어를 위한 Docker Hub 를 참조하십시오</block>
   <block id="95354607013474f8df935e1d60dac05d" category="admonition">Element 소프트웨어 버전 12.0을 실행하는 H610S 스토리지 노드의 경우 스토리지 펌웨어 번들 2.27로 업그레이드하기 전에 D-패치 SUST-909를 적용해야 합니다. 업그레이드하기 전에 NetApp Support에서 D-패치를 받으려면 먼저 NetApp Support에 문의하십시오.</block>
   <block id="bedc681918a3dad446ad93d7cca9b145" category="paragraph">스토리지 펌웨어 번들 버전 2.27에는 보안 취약점 수정을 비롯한 다양한 버그 수정 및 새로운 기능이 포함되어 있습니다. 의 지침에 따라 스토리지 펌웨어를 업그레이드할 수 있습니다 <block ref="7b278358318478c3f88cee9434341a35" category="inline-link-macro-rx"></block>.</block>
   <block id="3ee7e6c6d03619f28acdf8b1bd67d27c" category="cell">Dell R630</block>
@@ -3138,11 +3011,6 @@
   <block id="0d0363aca7b13dac473777bbffdc6dfc" category="list-text">CVE-2019-19447, CVE-2019-19767, CVE-2019-10220</block>
   <block id="95dc0391ce7b396d7dd5622284e8fc3e" category="section-title">알려진 문제</block>
   <block id="9bf1d13b1eb42cc94b0a13c290a0dca1" category="paragraph">이 릴리스에는 알려진 문제가 없습니다.</block>
-  <block id="9301959015fcd4fd07a22d67bff8b08d" category="summary">NetApp HCI에 Rancher를 설치한 후 로드 밸런싱을 구성하는 방법에 대해 알아보십시오.</block>
-  <block id="999511c3c86f8eaef2679ab0fd8b43a5" category="doc">로드 밸런싱을 구성합니다</block>
-  <block id="c9aa1445bb9586d749456d091f0cb97e" category="paragraph">NetApp HCI에 Rancher를 설치한 후 로드 밸런싱을 구성하는 방법에 대해 알아보십시오. NetApp HCI의 Rancher에 대한 로드 밸런싱에는 관리 클러스터가 포함됩니다.</block>
-  <block id="048c5186fab0a3dbcb198829f81fc851" category="paragraph">운영 워크로드의 경우 Rancher URL 값에 대해 라운드 로빈 DNS 또는 L4 로드 밸런서와 같은 기술을 고려해야 합니다. 이러한 기술 중 하나가 Rancher UI에 대한 액세스를 분산시키고 가장 뛰어난 복원력을 제공합니다.</block>
-  <block id="8905b00e950e35009cb1c7f629755863" category="paragraph">L4 로드 밸런싱은 애플리케이션을 호스팅하는 가상 머신 또는 컨테이너가 관리 클러스터의 3개 노드에 요청을 분산하도록 구성된 기법입니다.</block>
   <block id="b681d8f929be47f38bb9e10e568d51db" category="summary">구축을 위한 NetApp HCI 노드 호환성 요구 사항에 대해 알아보십시오.</block>
   <block id="58f085fa950ff6e745ebd11efc2e27ca" category="doc">인벤토리 선택 및 노드 호환성</block>
   <block id="3347cc02f3a802fde799552d85cde469" category="paragraph">구축 시 노드를 선택할 때는 동일한 구축 환경에서 결합할 수 있는 노드 구성에 몇 가지 제한 사항이 적용됩니다.</block>
@@ -3299,64 +3167,6 @@
   <block id="41a0a3c2d231a1f0d2d4f2bd4a6d6e32" category="cell">(선택 사항) vCenter 플러그인 QoSSIOC 서비스.</block>
   <block id="c24f4c5eef7ec01c46e003a9296c8645" category="cell">8444)를 참조하십시오</block>
   <block id="3caf6e628fa02cf87cb239fac5724085" category="cell">vCenter VASA 공급자 액세스(VVOL만 해당)</block>
-  <block id="7f3b622424e8f9729d8e5a393a7680c1" category="doc">NetApp HCI에 Rancher 구축</block>
-  <block id="c5e36f8eabaaead031b057acc32e5736" category="paragraph">NetApp HCI 환경에서 Rancher를 사용하려면 먼저 NetApp HCI에 Rancher를 구축해야 합니다.</block>
-  <block id="5da8513c5ceea22f3d11612e6d669f54" category="inline-link-macro">NetApp HCI의 Rancher에 대한 요구 사항</block>
-  <block id="0268034483ceb7fef2b37edff0d3c5d6" category="admonition">구축을 시작하기 전에 데이터 저장소의 사용 가능한 공간 및 기타 공간을 확인해야 합니다 <block ref="0f3ff3fa94926d14d00ec4c1d971e4ba" category="inline-link-macro-rx"></block>.</block>
-  <block id="487324d4536d7ebcac64ea746387f47b" category="section-title">NetApp HCI에 Rancher를 구축하면 어떻게 됩니까?</block>
-  <block id="1fb1918534fb4625b5e9840ae10b1a06" category="paragraph">배포에는 다음 단계가 포함되며, 각 단계는 더 자세히 설명됩니다.</block>
-  <block id="b36bb3862ba384cb11cc6dd61944d8c8" category="list-text">NetApp 하이브리드 클라우드 제어를 사용하여 구축을 시작하십시오.</block>
-  <block id="7d0f93deb21a0d0a7e352fb6927a0c1b" category="list-text">Rancher 배포는 3개의 가상 시스템을 포함하는 관리 클러스터를 생성합니다.</block>
-  <block id="33648668a0c68c30968b6eb667c1052e" category="paragraph">각 가상 머신에는 Control Plane 및 Worker에 대한 모든 Kubernetes 역할이 할당됩니다. 즉, 각 노드에서 Rancher UI를 사용할 수 있습니다.</block>
-  <block id="0dab1f97df9e0ce392445d8a09baa42a" category="list-text">Rancher의 NetApp HCI 노드 템플릿을 사용하여 Rancher Control Plane(또는 _Rancher Server_)도 설치됩니다. Rancher Control Plane은 NetApp HCI 인프라를 구축하는 데 사용된 NetApp 구축 엔진에 사용되는 구성과 자동으로 연동됩니다.</block>
-  <block id="94b17b0931ee8097201e38cbcf0b8545" category="list-text">구축 후에는 NetApp HCI 기반의 Rancher 구축에 NetApp 지원을 등록할 수 있는 옵션을 제공하는 NetApp 이메일 을 받게 됩니다.</block>
-  <block id="09785d13d17a7e680226519e3f7b03d8" category="list-text">그런 다음, 개발 및 운영 팀에서 모든 Rancher 구축과 마찬가지로 사용자 클러스터를 구축할 수 있습니다.</block>
-  <block id="7310aa3448f858eb0ccdae553808c4a3" category="section-title">NetApp HCI에 Rancher를 구축하는 단계</block>
-  <block id="add0bdfadd7e3b0834216b85a3fe3ebf" category="list-text"><block ref="021f3523b690ac5a23a049d2063a30c4" category="inline-xref-macro-rx"></block></block>
-  <block id="e88f47dc973665dfd8894a8163ac874c" category="list-text"><block ref="25f2e168e26f38c0f2f12aac930bc055" category="inline-xref-macro-rx"></block></block>
-  <block id="57ced46cb474fe27b777ae0fa2f87427" category="list-text"><block ref="bca82a5c16879442723dfa012ea48de9" category="inline-xref-macro-rx"></block></block>
-  <block id="02c9c0f23e51b8fa01a183d8a28f7be1" category="section-title">NetApp 하이브리드 클라우드 제어에 액세스</block>
-  <block id="c90fc057996e7813e2c2d7284092b246" category="paragraph">구축을 시작하려면 NetApp 하이브리드 클라우드 제어에 액세스하십시오.</block>
-  <block id="73a4cf300ef93df251f267b4eb4b8109" category="list-text">하이브리드 클라우드 제어에서 탐색 모음 왼쪽 아래에 있는 * Rancher * 아이콘을 클릭합니다.</block>
-  <block id="3542f74f39536cba293ba9b957ea29d1" category="image-alt">NetApp 하이브리드 클라우드 제어 대시보드 및 목장 아이콘</block>
-  <block id="3d89aa38424590c43adbaa712d73444e" category="paragraph">팝업 창에 Rancher 시작 메시지가 표시됩니다.</block>
-  <block id="6d750a8c22ae4cb041314a35b7d3eb98" category="image-alt">Rancher 시작 이미지</block>
-  <block id="db1b140376c6443104cac68b0abf7838" category="list-text">Rancher * 배포 를 클릭합니다.</block>
-  <block id="2b35efdcb41d294af12c832adcc971ae" category="paragraph">Rancher UI가 나타납니다.</block>
-  <block id="5565efb63f30ab2bf9cf14682bc63af6" category="image-alt">Rancher 배포 페이지</block>
-  <block id="bcddafd45995462be87118577259749d" category="paragraph">vCenter 자격 증명은 NetApp Deployment Engine 설치를 기반으로 수집됩니다.</block>
-  <block id="a0f2d6e17d1ed31838b00dd027976028" category="list-text">vCenter 리소스 * 정보를 입력합니다. 일부 필드는 다음에 설명되어 있습니다.</block>
-  <block id="674cf0db8503e8561d9c33a8b3441de9" category="list-text">* 데이터 센터 *: 데이터 센터를 선택합니다. 데이터 센터를 선택하면 다른 모든 필드는 미리 입력되지만 변경할 수 있습니다.</block>
-  <block id="9e6aeb20d552eb52f48661655350e373" category="list-text">* 데이터 저장소 *: NetApp HCI 스토리지 노드에서 데이터 저장소를 선택합니다. 이 데이터 저장소는 복구 성능이 뛰어나며 모든 VMware 호스트에서 액세스할 수 있어야 합니다. 호스트 중 하나에서만 액세스할 수 있는 로컬 데이터 저장소를 선택하지 마십시오.</block>
-  <block id="eb9edd9e4495c85030d2bccb46f93fb0" category="list-text">* 관리 네트워크 *: 사용자 클러스터를 호스팅할 관리 스테이션과 가상 머신 네트워크에서 액세스할 수 있어야 합니다.</block>
-  <block id="7233774133fa6e06ba9f07d853dd9074" category="list-text">배포 설정 * 정보 입력:</block>
-  <block id="d8253ecb2b1cebb7e728a4bd0dd0fdee" category="list-text">* DNS 서버 *: 선택 사항. 로드 밸런싱을 사용하는 경우 내부 DNS 서버 정보를 입력합니다.</block>
-  <block id="4bbfb635e2840053ab98ec1648cc4fd5" category="list-text">* Rancher Server FQDN *: 노드 장애 중에도 Rancher Server를 계속 사용할 수 있도록 DNS 서버가 Rancher Server 클러스터 노드에 할당된 IP 주소로 확인할 수 있는 FQDN(정규화된 도메인 이름)을 제공합니다. "https" 접두사가 있는 이 FQDN은 Rancher 구현에 액세스하는 데 사용할 Rancher URL이 됩니다.</block>
-  <block id="90fe893e70cd1360ad6ef981c462227f" category="paragraph">도메인 이름이 제공되지 않으면 와일드카드 DNS가 대신 사용되며 배포가 완료된 후 제공된 URL 중 하나를 사용하여 Rancher 서버에 액세스할 수 있습니다.</block>
-  <block id="53db7136f5132e9fff23eda47b428f36" category="list-text">고급 설정 * 정보 입력:</block>
-  <block id="870bf6a0be7ca318021fecdc054f9039" category="list-text">정적 IP 주소 할당 *: 정적 IP 주소 지정을 사용하는 경우 세 개의 IPv4 주소에 대해 각 관리 클러스터 가상 머신에 하나씩 차례로 시작 IP 주소를 제공합니다. NetApp HCI 기반의 Rancher는 3개의 관리 클러스터 가상 시스템을 구축합니다.</block>
-  <block id="764c32019202cd8135ea005a4604fac9" category="list-text">* 프록시 서버 구성 *:</block>
-  <block id="d998fbd86d4b42bf32a0067aa76a7e50" category="list-text">Rancher 최종 사용자 사용권 계약 확인란을 검토하고 선택합니다.</block>
-  <block id="b942eefa3f05652b2ba84a488c56cd6a" category="list-text">Rancher 소프트웨어에 대한 정보를 확인하려면 확인란을 검토하고 선택합니다.</block>
-  <block id="630ecc37093c078a691a0c95080f0fb3" category="list-text">배포 * 를 클릭합니다.</block>
-  <block id="09b1ef440dc9814b56c03ca0f48fa92d" category="paragraph">막대는 배포 진행률을 나타냅니다.</block>
-  <block id="77f5be726a980cf37bdc3392ee00b99a" category="admonition">목장 배치에는 약 15분이 소요될 수 있습니다.</block>
-  <block id="7d00b25d49c208c7497113c8a99a4dc0" category="paragraph">구축이 완료되면 Rancher는 완료 관련 메시지를 표시하고 Rancher URL을 제공합니다.</block>
-  <block id="046f0a663efcda8167e84062d9694df2" category="image-alt">Rancher 배포 완료 및 URL</block>
-  <block id="6d461635879b4b337e8c5b27f6323b44" category="list-text">구축 종료 시 표시되는 Rancher URL을 기록합니다. 이 URL을 사용하여 Rancher UI에 액세스할 수 있습니다.</block>
-  <block id="f4ad5fe6377e47eb0f1d3efd91917e13" category="section-title">vCenter Server를 사용하여 구축을 확인합니다</block>
-  <block id="6c8f5781f8959d00ff258798ba1d4a06" category="paragraph">vSphere Client에서 3개의 가상 머신이 포함된 Rancher 관리 클러스터를 볼 수 있습니다.</block>
-  <block id="6d5e0d8752a1244db9529c72a9402187" category="admonition">구축을 완료한 후에는 Rancher 서버 가상 머신 클러스터의 구성을 수정하거나 가상 머신을 제거하지 마십시오. NetApp HCI의 Rancher는 RKE 관리 클러스터 구성을 사용하여 정상적으로 작동합니다.</block>
-  <block id="b9464af806df275ebc4d01f5023e78f3" category="paragraph">배포 후 다음을 수행할 수 있습니다.</block>
-  <block id="9ce36cf8bc97284a665ac4d465211731" category="inline-link-macro">구축 후 작업 완료</block>
-  <block id="0d15f5317410136724749d58832233cd" category="list-text"><block ref="0d15f5317410136724749d58832233cd" category="inline-link-macro-rx"></block></block>
-  <block id="e699403e446949a61b34fc895e0cd096" category="list-text"><block ref="e699403e446949a61b34fc895e0cd096" category="inline-link-macro-rx"></block></block>
-  <block id="50488dc9ca0f950ef434f471ee1a1ea1" category="list-text"><block ref="50488dc9ca0f950ef434f471ee1a1ea1" category="inline-link-macro-rx"></block></block>
-  <block id="c73d8b49478fbc5a0081278bba3fb338" category="inline-link-macro">NetApp HCI에서 Rancher를 관리합니다</block>
-  <block id="a8d78fc8303b6d61ea41eafdef248a47" category="list-text"><block ref="a8d78fc8303b6d61ea41eafdef248a47" category="inline-link-macro-rx"></block></block>
-  <block id="6278dd89bb92f73312cbf2054d93c376" category="inline-link-macro">NetApp HCI의 Rancher 모니터링</block>
-  <block id="d02a7642ad872d8357ae09eaeff5fb70" category="list-text"><block ref="d02a7642ad872d8357ae09eaeff5fb70" category="inline-link-macro-rx"></block></block>
-  <block id="71ad76db061a5d9fefe0c32bc31810c1" category="inline-link">Rancher 배포 문제 해결</block>
   <block id="474c6800f0719d621f24fc2682a27460" category="summary">관리 노드(mNode) API를 사용하여 시스템 서비스를 업그레이드하고, 클러스터 자산 및 설정을 관리하고, 시스템 테스트 및 유틸리티를 실행하고, 시스템 모니터링을 위해 Active IQ를 구성하고, 문제 해결을 위해 NetApp 지원 SSH 액세스를 활성화 또는 비활성화할 수 있습니다.</block>
   <block id="f092926fa32883d124eb34471b6d25b2" category="paragraph">내장된 REST API UI('https://&lt;ManagementNodeIP&gt;/mnode` 사용하여 프록시 서버 구성, 서비스 수준 업데이트 또는 자산 관리 등 관리 노드 서비스와 관련된 API를 실행하거나 이해할 수 있습니다.</block>
   <block id="79ed200d3fdf33f90ac7bacae1bcd0b9" category="paragraph">REST API로 수행할 수 있는 작업:</block>
@@ -3387,12 +3197,6 @@
   <block id="a1cea245b8c0c135f94686cb958182c1" category="list-text">CVE-2019-1010022, CVE-2019-9169, CVE-2017-15804, CVE-2018-11236, CVE-2017-15670, CVE-2019-1010023, CVE-2015-8982, CVE-2015-8983, CVE-2017-16997, CVE-2019-20838,</block>
   <block id="7d90f1467b98485e9cf2b2fb83702c8d" category="list-text">CVE-2017-1000408, CVE-2017-1000409, CVE-2018-1000001, CVE-2018-19591, CVE-2009-5155, CVE-2018-20796, CVE-2016-3706, CVE-2020-1752, CVE-2019-1010024, CVE-2019-1010025,</block>
   <block id="cf261c3577b4324bcb29a13a2bf54a6f" category="list-text">CVE-2017-15671, CVE-2015-8985, CVE-2016-4429, CVE-2016-10739, CVE-2018-6485, CVE-2020-10029, CVE-2020-14155</block>
-  <block id="52263821f1de62891c085e4b6cd3e67c" category="summary">NetApp HCI에 Rancher를 설치한 후 완료한 작업에 대해 알아보십시오.</block>
-  <block id="f0f4a39e28b4ed1b4a2fd317f8bbae7c" category="doc">NetApp HCI의 Rancher를 위한 구축 후 작업 완료</block>
-  <block id="f27801207bee2ae9e29fa4ce2382b3a9" category="paragraph">NetApp HCI에 Rancher를 구축한 후에는 성공적인 구현을 위해 구축 후 작업을 완료해야 합니다.</block>
-  <block id="097cafc9a0288257b88063b097123f95" category="list-text"><block ref="097cafc9a0288257b88063b097123f95" category="inline-link-macro-rx"></block></block>
-  <block id="367e93552960b0b7853ed2a7913cf75a" category="inline-link-macro">복원력을 구성합니다</block>
-  <block id="98b5e630c4b49d96673dfb787a6b52d9" category="list-text"><block ref="98b5e630c4b49d96673dfb787a6b52d9" category="inline-link-macro-rx"></block></block>
   <block id="675d896ff4fd6c84e6b48f1bb67de9f8" category="summary">볼륨을 생성하고 해당 볼륨을 지정된 계정에 연결하는 방법에 대해 알아보십시오.</block>
   <block id="ab25945de4e1b322e51d67719ecd58e1" category="doc">NetApp 하이브리드 클라우드 제어를 사용하여 볼륨 생성 및 관리</block>
   <block id="3827185ea08dc72170f30a87035c52fb" category="paragraph">볼륨을 생성하고 해당 볼륨을 지정된 계정에 연결할 수 있습니다. 볼륨과 계정을 연결하면 iSCSI 초기자 및 CHAP 자격 증명을 통해 계정에 볼륨에 액세스할 수 있습니다.</block>
@@ -4117,32 +3921,6 @@
   <block id="18c94039f6a9a2bf969e0ddcad135957" category="list-text">SolidFire Active IQ 인터페이스에서 NetApp HCI 컴퓨팅 및 스토리지 노드가 Active IQ에 원격 측정을 올바르게 보고하는지 확인합니다.</block>
   <block id="dd227545ce9014ef2f4c9d23fa80efc1" category="list-text">목록에 노드가 없는 경우 NetApp Support에 문의하십시오.</block>
   <block id="5438dea440e60cb95336002d251f0b29" category="admonition">스토리지 및 컴퓨팅 리소스의 수를 보려면 HCC(하이브리드 클라우드 제어) 대시보드를 확인하십시오. 을 참조하십시오 <block ref="7a163f57b183cb5fbbaf136afcd39704" category="inline-link-macro-rx"></block>.</block>
-  <block id="5790561c8766bdfa450f5782bf99cc31" category="summary">NetApp HCI에 Rancher를 설치한 후 최적의 복원력을 위해 VM 배치를 구성하는 방법에 대해 알아보십시오.</block>
-  <block id="601df7bdf217f94745db21d8691eede5" category="paragraph">NetApp HCI에 Rancher를 설치한 후 최적의 복원력을 위해 가상 시스템 배치를 구성하는 방법에 대해 알아보십시오.</block>
-  <block id="0a0cb5e9735b98293e4077a08b7c885e" category="paragraph">다음과 같은 측면에서 복원력을 고려할 수 있습니다.</block>
-  <block id="cd0a7553973c36874cfb1b0fb6494c54" category="list-text">로드 밸런싱 또는 라운드 로빈 프록시를 구성하는 경우 관리 클러스터가 복구 성능을 제공합니다.</block>
-  <block id="b9d4c1f1b0ddbc0093c4e515843776a7" category="list-text">사용자 클러스터의 경우 사용자 클러스터를 구성하는 방법에 따라 복원력을 설정할 수 있습니다.</block>
-  <block id="26970fbb3ed65d1f3145c7f705874131" category="summary">NetApp HCI에서 Rancher를 모니터링하는 방법에 대해 알아보십시오.</block>
-  <block id="a282a2ecd8d8b032df1602b6d6bfc2f4" category="doc">NetApp HCI 구현에 대한 Rancher를 모니터링합니다</block>
-  <block id="f29ace858b3a3a7be14330f073b42235" category="paragraph">Rancher 서버, 관리 클러스터 및 기타 세부 정보를 모니터링하는 방법은 여러 가지가 있습니다.</block>
-  <block id="593f52e571df0ab61f6211b57e2ab8da" category="list-text">NetApp 하이브리드 클라우드 제어</block>
-  <block id="a2c23f214bc0e41b42b00e116b599cdb" category="list-text">Rancher UI</block>
-  <block id="9b2dd5f36ee111b85cbdd29e104e3e55" category="list-text">NetApp Active IQ를 참조하십시오</block>
-  <block id="4a5003b5a14bf1cdb6d6ea04403b7f87" category="section-title">NetApp 하이브리드 클라우드 제어를 사용하여 Rancher 모니터링</block>
-  <block id="b5b5409bb010eedb637dd0c39fa70d27" category="paragraph">NetApp Hybrid Cloud Control을 사용하면 Rancher URL 및 Rancher 서버 클러스터 상태를 볼 수 있습니다. Rancher가 실행 중인 노드를 모니터링할 수도 있습니다.</block>
-  <block id="3d7e04bf0d4addc0329486f7be80e9e0" category="list-text">Element 스토리지 클러스터 관리자 자격 증명을 제공하여 NetApp 하이브리드 클라우드 제어에 로그인합니다.</block>
-  <block id="cea7cde213deb7206c7dd3fa9747be1f" category="list-text">대시보드에서 오른쪽 위 옵션 아이콘을 클릭하고 * 구성 * 을 선택합니다.</block>
-  <block id="854244edd4994fb0cc18aed42ab9a855" category="image-alt">Rancher 구성 페이지</block>
-  <block id="13eca9f4d08bbbfc225ef21f431c4b0a" category="list-text">노드 정보를 보려면 하이브리드 클라우드 제어 대시보드에서 스토리지 클러스터의 이름을 확장하고 * 노드 * 를 클릭합니다.</block>
-  <block id="4dd805dc4086cdd6eb0ba38e2287ea3a" category="section-title">Rancher UI를 사용하여 Rancher를 모니터링합니다</block>
-  <block id="971513afceb1f4109b676dd765ce8780" category="paragraph">Rancher UI를 사용하면 NetApp HCI 관리 클러스터 및 사용자 클러스터의 Rancher에 대한 정보를 확인할 수 있습니다.</block>
-  <block id="788d89959ce2b7d8a53516afb1ec30c1" category="admonition">Rancher UI에서는 관리 클러스터를 "로컬 클러스터"라고 합니다.</block>
-  <block id="fc5f9f675ea2c8f52d6eba7d183d3b21" category="inline-link">Rancher v2.5에서 모니터링</block>
-  <block id="cb7be35dc06b88ecaf2448424de19c04" category="section-title">NetApp Active IQ를 사용하여 Rancher 모니터링</block>
-  <block id="1b7b4164c920ad52a2757fc2eb1f54dd" category="paragraph">NetApp Active IQ를 사용하면 설치 정보, 노드, 클러스터, 상태, 네임스페이스 정보 등과 같은 Rancher 원격 측정을 볼 수 있습니다. 있습니다.</block>
-  <block id="fd94f5de9314aeeb79fbbce95c76a515" category="list-text">오른쪽 상단 메뉴에서 * NetApp Active IQ * 를 선택합니다.</block>
-  <block id="eaf20e040245b6ec73bd8268613fc43c" category="section-title">vCenter Server를 사용하여 Rancher를 모니터링합니다</block>
-  <block id="77bdc785d9dab0917f6a0b8e4f7c435f" category="paragraph">vCenter Server를 사용하여 Rancher 가상 머신을 모니터링할 수 있습니다.</block>
   <block id="158f6a1d36f1b909e5a2856681ce6f42" category="summary">REST API UI에서 관리 서비스에 API를 사용하려면 먼저 권한을 부여해야 합니다.</block>
   <block id="b1ccc7e57db400d23b97089b6c6526f6" category="paragraph">REST API UI에서 관리 서비스에 API를 사용하려면 먼저 권한을 부여해야 합니다. 이 작업은 액세스 토큰을 획득하여 수행합니다.</block>
   <block id="cfd36706a21e1cd945173240273ee5f8" category="paragraph">토큰을 얻으려면 클러스터 관리자 자격 증명과 클라이언트 ID를 제공해야 합니다. 각 토큰은 약 10분 동안 지속됩니다. 토큰이 만료되면 새 액세스 토큰을 다시 승인할 수 있습니다.</block>
@@ -4355,25 +4133,6 @@
   <block id="30bf48918e558b2df1d38f79b26a1ba6" category="paragraph">각 노드가 1개 및 1개의 사용자 지정 보호 도메인과 연결되는 사용자 지정 보호 도메인 레이아웃을 정의할 수 있습니다. 기본적으로 각 노드는 동일한 기본 사용자 지정 보호 도메인에 할당됩니다.</block>
   <block id="980179142e595d55f1d5d1281611417d" category="section-title">이중 Helix 고가용성</block>
   <block id="53ec645d7f176e7648a168024a6c6662" category="paragraph">이중 Helix 데이터 보호는 시스템 내 모든 드라이브에 두 개 이상의 중복 데이터 복사본을 배포하는 복제 방법입니다. “RAID-less” 접근 방식을 통해 시스템은 스토리지 시스템의 모든 레벨에서 동시에 여러 건의 장애를 흡수하고 신속하게 복구할 수 있습니다.</block>
-  <block id="e493b0087ae0c25c5f3fdb33ebe4b524" category="summary">NetApp HCI에 Rancher를 설치한 후 Trident를 설치하는 방법에 대해 알아보십시오. Trident를 사용하면 익숙한 표준 Kubernetes 형식으로 영구 스토리지 볼륨을 생성, 관리 및 상호 작용할 수 있습니다.</block>
-  <block id="7897a8f898a641b61ec2d7521c14e598" category="paragraph">NetApp HCI에 Rancher를 설치한 후 Trident를 설치하는 방법에 대해 알아보십시오. Trident는 Docker 및 Kubernetes와 통합된 스토리지 오케스트레이터뿐만 아니라 Red Hat OpenShift, Rancher, IBM Cloud Private과 같은 기술을 기반으로 구축된 플랫폼입니다. Trident의 목표는 애플리케이션을 위해 스토리지의 프로비저닝, 연결, 소비를 투명하게 만드는 것입니다. Trident는 NetApp에서 관리하며 완벽한 지원이 제공되는 오픈 소스 프로젝트입니다. Trident를 사용하면 익숙한 표준 Kubernetes 형식으로 영구 스토리지 볼륨을 생성, 관리 및 상호 작용할 수 있습니다.</block>
-  <block id="b15ad636ad40907a2ca34ffebb86ae28" category="admonition">Trident에 대한 자세한 내용은 를 참조하십시오<block ref="9488620c3498c6d0bb53483131890d10" category="inline-link-rx"></block>.</block>
-  <block id="a16e80cd53753228460383e2bf367729" category="list-text">사용자 클러스터를 구축했습니다.</block>
-  <block id="50d3b12130e56c1873ce3b4fbad32bbc" category="list-text">Rancher UI에서 사용자 클러스터의 프로젝트를 선택합니다.</block>
-  <block id="5054f5b17e3bf02d8eba619579e55f24" category="admonition">프로젝트 및 네임스페이스에 대한 자세한 내용은 를 참조하십시오<block ref="2a0c99e5a4166290159375f4999d96b8" category="inline-link-rx"></block>.</block>
-  <block id="25c6103728551568c71fecb7269c7e5a" category="list-text">앱 * 을 선택하고 * 시작 * 을 선택합니다.</block>
-  <block id="7b4fbe070a4cf05945c7d1d84fc8a370" category="image-alt">에는 Trident 설치 프로그램을 실행하기 위한 탐색이 나와 있습니다.</block>
-  <block id="dee3524805f2daab1f94fad50063730c" category="list-text">Catalog * 페이지에서 Trident 설치 프로그램을 선택합니다.</block>
-  <block id="384dabcfd215329a80ac9f4d922c11ac" category="image-alt">Rancher의 카탈로그 페이지에 있는 Trident 설치 프로그램</block>
-  <block id="5c97f5d07cd2639b98490f73ec5bd7ef" category="list-text">구성 옵션 * 화살표를 선택하고 자격 증명 및 스토리지 구성 정보를 입력합니다.</block>
-  <block id="81009053d337418c3280749fb5d9d5ed" category="image-alt">에는 Trident에 입력해야 하는 스토리지 구성 정보가 나와 있습니다.</block>
-  <block id="2dad51bcd20d5b17efbbd1b0192af080" category="admonition">기본 스토리지 테넌트는 NetApp HCI입니다. 이 값은 변경할 수 있습니다. 백엔드 이름을 변경할 수도 있습니다. 그러나 기본 스토리지 드라이버 값(* solidfire-SAN * )은 변경하지 마십시오.</block>
-  <block id="f11fba0be5b425a887b4b8c7acf9ab56" category="list-text">시작 * 을 선택합니다.</block>
-  <block id="b25162c263ca64453894714379db8460" category="paragraph">그러면 * 트리덴트 * 네임스페이스에 Trident 워크로드가 설치됩니다.</block>
-  <block id="3dc71b8d2baf43fdef2f5b148fe7c2b9" category="list-text">리소스 &gt; 워크로드 * 를 선택하고 * 트리덴트 * 네임스페이스에 다음 구성 요소가 포함되어 있는지 확인합니다.</block>
-  <block id="38d9d4c41f5caa3e7799e0f202c4533f" category="image-alt">에는 Trident 네임스페이스 구성 요소가 나와 있습니다.</block>
-  <block id="143bb69db0e7f26088a643e4a6bc8699" category="list-text">(선택 사항) 사용자 클러스터에 대해 * 스토리지 * 를 선택하여 영구 볼륨에 사용할 수 있는 스토리지 클래스를 표시합니다.</block>
-  <block id="7fcffc52acd1ce39368840a35c19d7a8" category="admonition">세 가지 스토리지 클래스는 * solidfire-gold *, * solidfire-silver *, * solidfire-bronze * 입니다. 기본 * 열 아래에 있는 아이콘을 선택하여 이러한 스토리지 클래스 중 하나를 기본값으로 만들 수 있습니다.</block>
   <block id="a9c05b4ccc90c8637b70c363ad271480" category="summary">NetApp HCI 네트워크 구성 옵션 B에 대해 알아보십시오</block>
   <block id="0611fb52106ee8f7804bfcd78f7838db" category="paragraph">NetApp HCI는 다양한 네트워크 케이블 연결 및 VLAN 구성을 활용할 수 있습니다. 첫 번째 구성인 옵션 B는 각 컴퓨팅 노드에 대해 6개의 네트워크 케이블을 사용합니다.</block>
   <block id="42495054b66e3c4f16a888eec964008d" category="section-title">구성 옵션 B: 컴퓨팅 노드용 케이블 6개</block>
@@ -4790,14 +4549,6 @@
   <block id="a0087b707bcfca0d10961d341e832986" category="list-text">새로 고침 설명 드롭다운 목록에서 * True * 를 선택합니다.</block>
   <block id="029f285370f34ef0be0106f7a6ef80e3" category="list-text">응답이 HTTP 200인지 확인합니다.</block>
   <block id="9c0a8dc1286f35f796fa9e5c11f79e86" category="list-text">vCenter의 계정 잠금 메시지가 사라질 때까지 약 15분 정도 기다립니다.</block>
-  <block id="7ec16a581bd05504813a058819a10df8" category="summary">NetApp HCI에서 Rancher를 관리하는 방법에 대해 알아보십시오.</block>
-  <block id="9ca21fe81a57cfb93619b0cc1bd5781c" category="paragraph">NetApp HCI에 Rancher를 구축한 후 Rancher 서버 클러스터 URL 및 상태를 볼 수 있습니다. Rancher 서버를 삭제할 수도 있습니다.</block>
-  <block id="79221351a1980457abaf161f7a11e6af" category="section-title">Rancher 서버 클러스터 URL 및 상태를 확인합니다</block>
-  <block id="d45b0ad0d7550d2d1a1e2f82b53c5fe3" category="paragraph">Rancher 서버 클러스터 URL을 식별하고 서버 상태를 확인할 수 있습니다.</block>
-  <block id="2200d510e8c5f5ad9c50b3eda02d3004" category="list-text">대시보드에서 오른쪽 위 옵션 아이콘을 선택하고 * 구성 * 을 선택합니다.</block>
-  <block id="97dfaa5c0f68fc1aadde69740e8e0d88" category="paragraph">Rancher Server Clusters 페이지에는 배포된 Rancher 서버 클러스터 목록, 연결된 URL 및 상태가 표시됩니다.</block>
-  <block id="6e8ed183d32acca51cc491b8f9adaa46" category="inline-link-macro">Rancher를 제거합니다</block>
-  <block id="291bb035491491240cccac88cbd990bd" category="list-text"><block ref="291bb035491491240cccac88cbd990bd" category="inline-link-macro-rx"></block></block>
   <block id="d958fb044d8feae55f93b59463c556d1" category="summary">NetApp HCI를 사용하는 경우 추가 라이센스가 필요할 수 있습니다.</block>
   <block id="744a9670101f98285789f9ed0a7e9c04" category="doc">NetApp HCI 라이센스</block>
   <block id="73a34c0ceb2b0096d5f8a9007050fbd6" category="paragraph">NetApp HCI를 사용하는 경우 사용 중인 항목에 따라 추가 라이센스가 필요할 수 있습니다.</block>
@@ -4838,25 +4589,7 @@
   <block id="13004d9ad6d187899e4c8b913c50f2cf" category="list-text">* 2 케이블 옵션 *: 2개의 연결된 포트에 관리, 가상 시스템 및 스토리지 트래픽을 결합하는 2개의 케이블 옵션 이 케이블링 옵션은 VDS가 필요하며 자동으로 활성화됩니다. 구축 후 vSphere Enterprise Plus 라이센스를 적용할 준비가 되어 있어야 합니다.</block>
   <block id="5c562dc8940c1926534320d7954ae6ee" category="list-text">일부 케이블 연결 옵션은 여러 유형의 노드 하드웨어에 대한 다중 후면 패널 보기를 표시합니다. 후면 패널 보기를 순환하여 특정 노드 모델 및 케이블 연결 옵션에 대한 네트워크 케이블을 연결하는 방법을 확인합니다.</block>
   <block id="a8b6dee16fc90fd95888b26871a0a869" category="list-text">완료되면 * 계속 * 을 클릭합니다.</block>
-  <block id="0a13f81a8c28eff02ecfbcd59702e048" category="summary">NetApp HCI 구축 시 Rancher 설치를 제거하여 다시 배포하는 방법에 대해 알아봅니다.</block>
-  <block id="01b8d76a05424c5a48cc7fe45bbdc046" category="paragraph">잘못된 정보(예: 잘못된 Rancher 서버 FQDN)로 NetApp HCI에 Rancher를 실수로 배포하는 경우 설치를 제거한 후 다시 배포해야 합니다. 다음 단계에 따라 NetApp HCI 인스턴스에서 Rancher 설치를 제거합니다.</block>
-  <block id="b92d7a4a5be32cf1401dd0a8279c1b50" category="paragraph">이 작업은 사용자 클러스터를 삭제하지 않습니다.</block>
-  <block id="f18c8be3e8e4e5d24084b8bd03712c4a" category="admonition">사용자 클러스터를 보존할 수 있습니다. 이러한 데이터를 보존하면 나중에 다른 Rancher 구현으로 마이그레이션할 수 있습니다. 사용자 클러스터를 삭제하려면 먼저 Rancher 서버를 삭제하기 전에 사용자 클러스터를 삭제해야 합니다. 그렇지 않으면 Rancher 서버를 삭제한 후 사용자 클러스터를 삭제하는 것이 더 어렵습니다.</block>
-  <block id="7803155f9118273a9de77723047763f6" category="list-text"><block ref="4d623ac50cac9ba4597fc83a81f80303" category="inline-xref-macro-rx"></block> (권장)</block>
-  <block id="10bc8f50bd2a6218b05cca8f249f412e" category="list-text"><block ref="8e1964f3e0cd20ec7f11eb1f07b6f171" category="inline-xref-macro-rx"></block></block>
-  <block id="42d022f0df9a20de9981ed6e945e669a" category="section-title">NetApp 하이브리드 클라우드 제어를 사용하여 NetApp HCI에서 Rancher 제거</block>
-  <block id="4e05136943ec458646b34a11a676d9e3" category="paragraph">NetApp 하이브리드 클라우드 제어 웹 UI를 사용하여 Rancher 서버를 호스팅하기 위해 구축하는 동안 설정된 3개의 가상 머신을 제거할 수 있습니다.</block>
-  <block id="304d17f3ca1fa6d017251e7742842239" category="list-text">Rancher Server Clusters * 창에서 * Configure Rancher Server Clusters * 를 클릭합니다.</block>
-  <block id="80bf412a598b521e865c2b5528b46e7e" category="list-text">제거해야 하는 Rancher 설치에 대한 * Actions * 메뉴를 선택합니다.</block>
-  <block id="d69e2e498ca49cff54bcfe528f206ba2" category="admonition">삭제 * 를 클릭하면 NetApp HCI 관리 클러스터의 Rancher가 즉시 제거됩니다.</block>
-  <block id="0f024621e0673f1f4e657983682d6e72" category="list-text">삭제 * 를 선택합니다.</block>
-  <block id="f74214d8c590939b207f6b9d28be697e" category="section-title">REST API를 사용하여 NetApp HCI에서 Rancher를 제거합니다</block>
-  <block id="e8be3c05b7fc19713d93cc42713bf53e" category="paragraph">NetApp 하이브리드 클라우드 제어 REST API를 사용하여 배포 중에 설정된 3개의 가상 머신을 제거하여 Rancher 서버를 호스팅할 수 있습니다.</block>
-  <block id="ba8ea8256e0d2a7abdebea804532ee37" category="list-text">관리 노드의 IP 주소를 입력한 후 '/k8sdeployer/api/' 입력:</block>
   <block id="7ce879a83084e2f5abc828a6a0fbf51c" category="list-text">값이 아직 선택되지 않은 경우 유형 드롭다운 목록에서 * Request body * 를 선택합니다.</block>
-  <block id="57b1c457f38ba78753cb87decf2e8d6e" category="list-text">POST/Destroy * 를 클릭합니다.</block>
-  <block id="8db289a0b3d19342318145981cd7e0a7" category="list-text">요청 본문 텍스트 상자에 Rancher 서버 FQDN을 'serverURL' 값으로 입력합니다.</block>
-  <block id="02b4e566163750b5c0d71a3e8231faa8" category="paragraph">몇 분 후 vSphere Client의 호스트 및 클러스터 목록에 Rancher 서버 가상 머신이 더 이상 표시되지 않아야 합니다. 제거 후 NetApp 하이브리드 클라우드 제어를 사용하여 NetApp HCI에 Rancher를 재배포할 수 있습니다.</block>
   <block id="c2b84ecb666aacd04ee573fd0e391592" category="summary">클라우드 서비스가 지원되는 각 NetApp HCI 시스템은 NetApp Cloud Central 계정에 연결됩니다.</block>
   <block id="dbdd6377389228728e6ab594c50ad011" category="doc">사용자 계정</block>
   <block id="aff3c7b36ff15eea0f8fb7b38926555f" category="paragraph">시스템의 스토리지 리소스에 액세스하려면 사용자 계정을 설정해야 합니다.</block>
@@ -5027,9 +4760,6 @@
   <block id="469d7f183f29ad292b8937af8903b1dc" category="list-text"><block ref="469d7f183f29ad292b8937af8903b1dc" category="inline-link-macro-rx"></block></block>
   <block id="7e5784de66821e5068bc24c9a5c6d1d6" category="inline-link">사용자 계정 작업</block>
   <block id="9197cc48c8ddd2d400f10cc220189fb2" category="list-text"><block ref="9197cc48c8ddd2d400f10cc220189fb2" category="inline-link-rx"></block></block>
-  <block id="cd01b577211626f40fb00014ea3e0fcd" category="summary">Rancher에 사용 중인 라이센스가 구입한 것과 일치하는지 확인하십시오.</block>
-  <block id="76a1a114dd85548ee517a8189832850d" category="paragraph">NetApp HCI에 Rancher를 구축한 후에는 구입한 Rancher 지원 코어 수가 Rancher 관리 VM 및 사용자 클러스터에 사용 중인 CPU 코어 수와 일치하는지 확인해야 합니다.</block>
-  <block id="b823f176b294e16e1fa857ec3ef1c067" category="paragraph">NetApp HCI 컴퓨팅 리소스의 일부에 대해서만 Rancher 지원을 구입한 경우 NetApp HCI 및 관리되는 사용자 클러스터의 Rancher가 Rancher 지원을 구입한 호스트에서만 실행되도록 VMware vSphere에서 조치를 취해야 합니다. 컴퓨팅 워크로드를 특정 호스트에 제한하는 방법에 대한 자세한 내용은 VMware vSphere 설명서를 참조하십시오.</block>
   <block id="4890b06e0bef2ccd30ddebf19fa9e652" category="summary">REST API를 사용하여 관리 ndoe에서 실행 중인 서비스에서 로그를 검색할 수 있습니다.</block>
   <block id="7eada9b3aeba75afea1bb6e56efd98a1" category="paragraph">REST API를 사용하여 관리 노드에서 실행 중인 서비스에서 로그를 검색할 수 있습니다. 모든 공용 서비스에서 로그를 풀거나 특정 서비스를 지정하고 쿼리 매개 변수를 사용하여 반환 결과를 더 잘 정의할 수 있습니다.</block>
   <block id="fe5314e1f2b52008d7c6c1dc49232535" category="list-text">값이 아직 채워지지 않은 경우 클라이언트 ID를 mnode-client로 입력합니다.</block>
@@ -5123,64 +4853,6 @@
   <block id="65102c5055fadf434d3ac16f330e2b45" category="list-text"><block ref="65102c5055fadf434d3ac16f330e2b45" category="inline-link-rx"></block></block>
   <block id="664201cfc1ee6ed25a90ecc4a544c8b4" category="inline-link">NetApp HCI 1.8 및 이전 버전</block>
   <block id="f53dca4485e79543df019ec4f0ebb5ea" category="list-text"><block ref="f53dca4485e79543df019ec4f0ebb5ea" category="inline-link-rx"></block></block>
-  <block id="9e5edd6ddd42c15545ab7c5457536fc9" category="summary">NetApp 하이브리드 클라우드 제어를 사용하여 이전에 HCC를 사용하여 설치한 NetApp HCI에 Rancher 구축의 구성요소를 업그레이드할 수 있습니다.</block>
-  <block id="83aa521c83b4751d53e539f91cc56b3f" category="doc">NetApp HCI에서 Rancher를 업그레이드합니다</block>
-  <block id="c2935e354cbf0893e983038cfbaf6e9f" category="paragraph">Rancher 소프트웨어를 업그레이드하려면 NetApp HCC(하이브리드 클라우드 제어) UI 또는 REST API를 사용할 수 있습니다. HCC는 Rancher 서버, RKE(Rancher Kubernetes Engine) 및 관리 클러스터의 노드 OS(보안 업데이트용)를 비롯한 Rancher 구축 구성 요소를 업그레이드하는 간편한 버튼 프로세스를 제공합니다. 또는 API를 사용하여 업그레이드를 자동화할 수도 있습니다.</block>
-  <block id="0b2d8b6ff87d29566fb56d20870a7943" category="paragraph">업그레이드는 누적 패키지 대신 구성 요소에서 사용할 수 있습니다. 따라서 Ubuntu OS와 같은 일부 구성 요소 업그레이드를 보다 빠른 속도로 이용할 수 있습니다. 업그레이드는 Rancher Server가 구축된 관리 클러스터와 Rancher 서버 인스턴스에만 영향을 미칩니다. 관리 클러스터 노드의 Ubuntu OS로의 업그레이드는 중요한 보안 패치에만 사용되며 운영 체제를 업그레이드하지 않습니다. NetApp 하이브리드 클라우드 제어에서 사용자 클러스터를 업그레이드할 수 없습니다.</block>
-  <block id="fa6526605ff956fa699802ea347526ff" category="admonition">Rancher 기능을 사용하려면 최신 관리 서비스 번들 2.17 이상으로 업그레이드해야 합니다.</block>
-  <block id="ab0a7321d296fe5e16313845b6e86f0d" category="list-text">* 시스템 포트 *: 업그레이드에 NetApp 하이브리드 클라우드 제어를 사용하는 경우 필요한 포트가 열려 있는지 확인했습니다. 을 참조하십시오 <block ref="2b8d9142e89de477f0f719fb06286d84" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
-  <block id="69639530f6f543c75958d80c8a23f7bc" category="paragraph">다음 업그레이드 프로세스 중 하나를 선택합니다.</block>
-  <block id="9e618518a7acfbe695c481345087d7ab" category="list-text"><block ref="8d85d0eab3300aa3b4c83383333d291f" category="inline-xref-macro-rx"></block></block>
-  <block id="a2e344ad0778d1af4ecc859cc11bf478" category="list-text"><block ref="4bf4c6160c669fd3806156a3dcc1e18c" category="inline-xref-macro-rx"></block></block>
-  <block id="68d763246564d97deb6d9e6834b6a304" category="section-title">NetApp 하이브리드 클라우드 제어 UI를 사용하여 목장 구축 업그레이드</block>
-  <block id="d7dc890bb3442962800013399f5a7e71" category="paragraph">NetApp 하이브리드 클라우드 제어 UI를 사용하여 Rancher 구현에서 다음 구성 요소를 업그레이드할 수 있습니다.</block>
-  <block id="cf8e086cb5fc107cc4ad3c42620f20ff" category="list-text">Rancher 서버</block>
-  <block id="8c95b632875261344eb6365459feffd0" category="list-text">RKE(Rancher Kubernetes Engine)</block>
-  <block id="1d030a18a75d44dea0e4a64258039610" category="list-text">노드 OS 보안 업데이트</block>
-  <block id="23e8c7a5cfc59ec2486fd909623ef4a0" category="list-text">인터넷 연결이 양호합니다. 다크 사이트 업그레이드(외부 연결이 없는 사이트의 업그레이드)는 사용할 수 없습니다.</block>
-  <block id="db33fd96528dfb58a15d36d7a038a68d" category="list-text">업그레이드 * 페이지에서 * Rancher * 를 선택합니다.</block>
-  <block id="24060e857a140319f18d7a6b87a29195" category="list-text">업그레이드하려는 소프트웨어의 * 작업 * 메뉴를 선택합니다.</block>
-  <block id="18db31c43ff6716da2b8b71c5cb9b083" category="list-text">Rancher 서버 또는 RKE 업그레이드용 * 업그레이드 * 또는 노드 OS 보안 업데이트용 * 업그레이드 * 를 선택합니다.</block>
-  <block id="8bf44033b60032e8b862cff17cc0b055" category="admonition">노드 OS의 경우 보안 패치에 대한 무인 업그레이드가 매일 실행되지만 노드가 자동으로 재부팅되지는 않습니다. 업그레이드를 적용하면 보안 업데이트를 적용하기 위해 각 노드를 다시 부팅하게 됩니다.</block>
-  <block id="24dcb59f57bd4201260a61cb680b1fbc" category="paragraph">구성 요소 업그레이드가 성공했음을 나타내는 배너가 나타납니다. NetApp 하이브리드 클라우드 제어 UI에 업데이트된 버전 번호가 표시되기까지 최대 2분이 걸릴 수 있습니다.</block>
-  <block id="cbf8837cacaa8ae9e294164aa0d8f353" category="section-title">NetApp 하이브리드 클라우드 제어 API를 사용하여 목장 구축 업그레이드</block>
-  <block id="e123baaae5959ab30d46fe11a749ccf9" category="paragraph">API를 사용하여 Rancher 구축 시 다음 구성 요소를 업그레이드할 수 있습니다.</block>
-  <block id="1de93b4f08eee1c85ff21a3246d1ecc9" category="list-text">노드 OS(보안 업데이트용)</block>
-  <block id="59d9ac3a8be60692bfd2d83e71185800" category="paragraph">선택한 자동화 툴을 사용하여 관리 노드에서 사용할 수 있는 API 또는 REST API UI를 실행할 수 있습니다.</block>
-  <block id="b2d342781e5eb6c0d132f4049a269bfc" category="list-text"><block ref="9801627f33638888d6691289d4f41f3f" category="inline-xref-macro-rx"></block></block>
-  <block id="bd0ab26a1942668f349fc50f75fce99c" category="list-text"><block ref="c1e4d313368d9007a7513e78fb8b6598" category="inline-xref-macro-rx"></block></block>
-  <block id="7d1fe0c90ec59fb67d282729cb6d232f" category="list-text"><block ref="26470bc474ffedd4c6facab2cfc04f9b" category="inline-xref-macro-rx"></block></block>
-  <block id="6af62aec1ec1632d48358c364882e6a2" category="section-title">Rancher 서버를 업그레이드합니다</block>
-  <block id="99c3af29fb477a2e2f9f24ab4b6f5ce7" category="list-text">목록 업그레이드 버전 요청 시작:</block>
-  <block id="c50b72b45b1056c58b4a36a9830d91ef" category="list-text">이전 명령의 작업 ID를 사용하여 작업 상태를 얻고 응답에서 최신 버전 번호를 복사합니다.</block>
-  <block id="9df9a0d8b4631e538f89f68b44b0f85c" category="list-text">Rancher 서버 업그레이드 요청 시작:</block>
-  <block id="1168cf0849098b691306026239f91215" category="list-text">업그레이드 명령 응답에서 작업 ID를 사용하여 작업 상태 가져오기:</block>
-  <block id="25776be1d2e5d55b2bc05e71c0e2bdae" category="list-text">최신 업그레이드 패키지를 확인합니다.</block>
-  <block id="ea4da863a729624bbe764b4921a8aa6e" category="list-text">REST API UI에서 * POST/upgrade/rancher-versions * 를 실행합니다.</block>
-  <block id="d12bc9f6ce67dcfbca2165a20c71a35f" category="list-text">응답에서 작업 ID를 복사합니다.</block>
-  <block id="2430a0b20635a3c3427236afc5345f37" category="list-text">이전 단계의 작업 ID로 * get/taskid/{taskID} * 를 실행합니다.</block>
-  <block id="047879c0b552f6d629579015262b1389" category="list-text">/taskh./{taskID} * 응답에서 업그레이드에 사용할 최신 버전 번호를 복사합니다.</block>
-  <block id="19e68b947dc6a6966a7002c09aa88668" category="list-text">Rancher Server 업그레이드 실행:</block>
-  <block id="cedac1b5cae79fe3e48638fde8699793" category="list-text">REST API UI에서 이전 단계의 최신 버전 번호를 사용하여 * Put/upgradesth./ranchebsateName/ {version} * 을 실행합니다.</block>
-  <block id="c6d2919620c22e645fdb08582f69da3a" category="paragraph">PercentComplete가 100을 나타내고, result가 업그레이드된 버전 번호를 나타내면 업그레이드가 성공적으로 완료된 것입니다.</block>
-  <block id="fe63721c221acd784ba03bc12f98dcbb" category="section-title">RKE를 업그레이드합니다</block>
-  <block id="0ee97c7580aa123a06a324274f8121cc" category="list-text">RKE 업그레이드 요청을 시작합니다</block>
-  <block id="b257ebbce53793aadfc99ea056bc00c9" category="list-text">REST API UI에서 * POST/upgrade/RKE-Versions * 를 실행합니다.</block>
-  <block id="3578e664a30ce418bdf5fcb267a8f8a8" category="list-text">RKE 업그레이드를 실행합니다.</block>
-  <block id="7c89b0066666056920dfb368652cfda0" category="list-text">REST API UI에서 이전 단계의 최신 버전 번호로 * PUT/UPGRADE/RKE/{version} * 를 실행합니다.</block>
-  <block id="8d432d66818cea4922f09d9d8dc5a215" category="list-text">응답에서 작업 ID를 복사합니다.</block>
-  <block id="8cbb61ee635762dcdf6e18872b00f0eb" category="section-title">노드 OS 보안 업데이트를 적용합니다</block>
-  <block id="7da02e27305521fd99a9d14cc60bf756" category="list-text">업그레이드 확인 요청 시작:</block>
-  <block id="90a78730eaf1094e6294b74cba304e1d" category="list-text">이전 명령에서 작업 ID를 사용하여 작업 상태를 확인하고 응답에서 최신 버전 번호를 사용할 수 있는지 확인합니다.</block>
-  <block id="8733fba67d247adfd271aaaf467408d3" category="list-text">노드 업데이트 적용:</block>
-  <block id="5f941341e5a26f058a04e00db31f862b" category="admonition">노드 OS의 경우 보안 패치에 대한 무인 업그레이드가 매일 실행되지만 노드가 자동으로 재부팅되지는 않습니다. 업그레이드를 적용하면 보안 업데이트를 적용하기 위해 각 노드를 순서대로 재부팅합니다.</block>
-  <block id="07c5c3b5dda586207b33d806206b9105" category="list-text">업그레이드 "applyNodeUpdates" 응답에서 작업 ID를 사용하여 작업 상태 가져오기:</block>
-  <block id="bfb2e24160b4b9bb6a508b1670c71d48" category="list-text">업그레이드 패키지를 사용할 수 있는지 확인합니다.</block>
-  <block id="239d5cf64d01401e455025f7658ca8dd" category="list-text">REST API UI에서 * GET/UPGRADE/CheckNodeUpdates * 를 실행합니다.</block>
-  <block id="cbd8d6aa0cb34f0b6319bbd7405593fa" category="list-text">/taskh./{taskID} * 응답에서 현재 노드에 적용된 버전보다 최신 버전 번호가 있는지 확인합니다.</block>
-  <block id="0c1b4c35fbb7cb91cdc6c8e80e4069e8" category="list-text">노드 OS 업그레이드 적용:</block>
-  <block id="14f06c631f2b46db62265e16689f5de0" category="list-text">REST API UI에서 * POST/upgrade/applyNodeUpdates * 를 실행합니다.</block>
-  <block id="495a77927689f5e0cb0a71d7b73ee6b7" category="list-text">/taskh./{taskID} * 응답에서 업그레이드가 적용되었는지 확인합니다.</block>
   <block id="2b5d58c91a4b50243155aae14553fb0d" category="summary">NetApp 하이브리드 클라우드 제어에 로그인할 수 있습니다.</block>
   <block id="57d8e6fe9e071c8c0f01c53443204d96" category="doc">NetApp HCI 하이브리드 클라우드 제어에 액세스</block>
   <block id="a9b6b84fe88dcede0d1dfac73d68f620" category="paragraph">NetApp 하이브리드 클라우드 제어를 통해 NetApp HCI를 관리할 수 있습니다.</block>
@@ -5565,7 +5237,6 @@
   <block id="493dbf808140d6e440e6d71d077c313b" category="cell"><block ref="493dbf808140d6e440e6d71d077c313b" category="inline-link-rx"></block></block>
   <block id="a5b37844a6e9e768f0ce85640b2581b5" category="summary">NetApp HCI 시스템 업그레이드의 일부로 NetApp Element 소프트웨어에 대한 상태 점검을 실행해야 합니다.</block>
   <block id="735339172aeec7b940204188ab8289fb" category="list-text">* 컴퓨팅 드라이버 *: 컴퓨팅 노드 드라이버를 업그레이드했습니다. 컴퓨팅 노드 드라이버가 새 펌웨어와 호환되지 않으면 업그레이드가 시작되지 않습니다. 를 참조하십시오<block ref="2b761b14db6e131ceb5a9ee87e5e085a" category="inline-link-rx"></block> 드라이버 및 펌웨어 호환성 정보를 확인하고 최신 버전을 확인하십시오 <block ref="8e52b55ffa3dd99e7231384e5c6e0fa1" category="inline-link-macro-rx"></block> 최신 펌웨어 및 드라이버 세부 정보를 제공합니다.</block>
-  <block id="b24f3db75077a578765967e0b8ffa295" category="admonition">하드웨어의 펌웨어 및 드라이버 펌웨어의 전체 매트릭스는 을 참조하십시오<block ref="54a79ab153742147d13ffd4ac16bf6ba" category="inline-link-rx"></block> (로그인 필요).</block>
   <block id="a6c551bfacbff9bc6d510d240a1f729e" category="list-text">BIOS 부트 순서 *: 부트 목록에 'USB CD/DVD'가 표시되도록 각 노드의 BIOS 설정에서 부트 순서를 수동으로 변경합니다. 자세한 내용은 다음을 참조하십시오 <block ref="40fb6836e33e97dd94fb747393132791" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="8cbab0daf89fd647357f115f87cafa08" category="admonition">상태 점검을 실행하고 펌웨어 업그레이드를 진행하기 전에 ESXi 호스트를 잠금 모드에서 해제해야 합니다. 을 참조하십시오 <block ref="413633461dfba42d2895a891a0754971" category="inline-link-macro-rx"></block> 및 <block ref="3763c4992ac43c28a18a921e7668037d" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="ad658e59cd09feeecf6b238e019458b8" category="paragraph">업그레이드 시작 * 을 선택하면 창에 실패한 상태 검사가 표시됩니다(있는 경우).</block>
@@ -5871,7 +5542,6 @@
   <block id="fb9099604c3233c77b3c8b5487c99eb3" category="list-text">이 단계에서 추가 업그레이드 단계를 완료합니다<block ref="f89d7bc8c94108aeb49b4fdeac4ce106" category="inline-link-rx"></block> 각 노드에 대해.</block>
   <block id="8a349ff2c81cf34e4da016aa1dd77e97" category="admonition">요소 12.3.1부터 하위 단계(a)에서 (e)까지 자동으로 수행됩니다. 관리 노드 12.3.1 이상의 경우 로 이동합니다 <block ref="745b7d927b75ef73b131f4d1b2da0731" category="inline-xref-macro-rx"></block> 를 눌러 시간 동기화 구성을 완료합니다.</block>
   <block id="2fa7dfb88e1cb5cf745edc36604f73fd" category="paragraph">NetApp 하이브리드 클라우드 제어 UI 또는 NetApp 하이브리드 클라우드 제어 API를 사용하여 상태 점검을 실행할 수 있습니다.</block>
-  <block id="7d25e05d224fca2eb306788617dd64c8" category="admonition">잘못된 정보(예: 잘못된 Rancher 서버 FQDN)로 NetApp HCI에 Rancher를 실수로 배포하는 경우, Rancher 서버를 제거하고 다시 배포하지 않고도 배포를 수정할 수 없습니다. NetApp HCI 인스턴스에서 Rancher를 제거한 다음 NetApp 하이브리드 클라우드 제어 UI에서 NetApp HCI에 Rancher를 재배포해야 합니다. 을 참조하십시오 <block ref="3121dc1b9111bb157a7a952ee2ca3268" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="d4197debfb75901bf599a0905cf94d87" category="paragraph">NetApp HCI를 배포한 후 기본 네트워킹 구성을 제한적으로 변경할 수 있습니다. 그러나 원활한 운영과 올바른 네트워크 감지를 위해 특정 요구 사항을 충족해야 합니다. 이러한 요구사항을 충족하지 않을 경우 예기치 않은 동작이 발생하여 컴퓨팅 및 스토리지 리소스가 확장되지 않을 수 있습니다.</block>
   <block id="01a00843c7e4c6ef84440322c10dcdbe" category="paragraph">H300E, H500E, H700E, H410C, H610C, H615C 컴퓨팅 노드와 H615C 계산 노드에서 NetApp HCI는 노드의 기존 컴퓨팅 클러스터가 다음 요구 사항을 충족해야 합니다.</block>
   <block id="0bd0d9905d24a664c9ae98f0146d69ec" category="list-text">최소 4개의 VMK 인터페이스</block>
@@ -5982,12 +5652,8 @@
   <block id="9d3d776c7146d1b002c55948105f2248" category="list-text"><block ref="9d3d776c7146d1b002c55948105f2248" category="inline-link-macro-rx"></block></block>
   <block id="e9ddfae2256b1bb9c9a0f68ff44e48e4" category="inline-link-macro">관리 서비스 공지 2.18.91(vCenter Server 4.7.10용 NetApp Element 플러그인)</block>
   <block id="06b9516dcd92ed07013c1b7a7a44c596" category="list-text"><block ref="06b9516dcd92ed07013c1b7a7a44c596" category="inline-link-macro-rx"></block></block>
-  <block id="757ee5041dab5c44f2d1327cd0f760ae" category="list-text"><block ref="757ee5041dab5c44f2d1327cd0f760ae" category="inline-link-rx"></block></block>
   <block id="101f6b845f71c73ac7fbf4922f825d17" category="list-text">추가 분석 및 기록 컨텍스트를 보려면 을 참조하십시오<block ref="44afd1f3ef2498687a919e55190bfc2d" category="inline-link-rx"></block>.</block>
   <block id="ab330582aba37a305404f73f3ea56abd" category="list-text">컴퓨팅 정보에 대한 자세한 내용은 을 참조하십시오<block ref="f1f077cd29c39ed6d4c812cbd32dffd4" category="inline-link-rx"></block>.</block>
-  <block id="d2c221d3761cc05e7a4101aee7b6ba01" category="list-text">을 참조하십시오<block ref="8ed5ec599c1540524106641c1878ee26" category="inline-link-rx"></block>.</block>
-  <block id="921561ec262e185544490434633fed0f" category="list-text"><block ref="921561ec262e185544490434633fed0f" category="inline-link-rx"></block></block>
-  <block id="752e3c55fe31911c926d43b2b70671b4" category="list-text"><block ref="752e3c55fe31911c926d43b2b70671b4" category="inline-link-rx"></block></block>
   <block id="30b6cbdd36bc8a9bb8ba940717869b5f" category="paragraph">NetApp Element 소프트웨어는 를 지원합니다 <block ref="a55edd10823e56dc1fbd8507c9763168" category="inline-link-macro-rx"></block> 최적의 데이터 가용성을 위해 스토리지 노드의 데이터 레이아웃을 최적화합니다. 이 기능을 사용하려면 스토리지 안정성을 최적화할 수 있도록 세 개 이상의 NetApp H-Series 섀시에 걸쳐 스토리지 용량을 균등하게 분산해야 합니다. 이 시나리오에서는 스토리지 클러스터가 자동으로 보호 도메인을 설정합니다.</block>
   <block id="afde714080ac1fe221a69ff664991df5" category="admonition">드라이브를 한 번에 모두 추가하면 운영 중단이 발생할 수 있습니다. 드라이브 추가 및 제거와 관련된 모범 사례는 를 참조하십시오<block ref="e5a621cb9e241baa7c2d331f853e65e6" category="inline-link-rx"></block> (로그인 필요).</block>
   <block id="0d4b8eddcdeb5a25195c2e6412a8f38e" category="list-text">이 절차를 시작하기 전에 NetApp Support에 문의하여 교체 부품을 받아야 합니다. 교체 설치 시 지원이 제공됩니다. 아직 연락 하지 않은 경우 에 문의하십시오<block ref="98d845834ac9e1a9127f330339ecea9b" category="inline-link-rx"></block>.</block>
@@ -6006,25 +5672,12 @@
   <block id="be14526a26059bab9604a4dc5056ca86" category="list-text">vCenter Server * 용 * NetApp Element 플러그인은 vSphere UI(사용자 인터페이스)와 통합된 웹 기반 툴입니다. 이 플러그인은 VMware vSphere를 위한 확장 가능하고 사용자 친화적인 인터페이스로 * NetApp Element 소프트웨어 * 를 실행하는 스토리지 클러스터를 관리하고 모니터링할 수 있습니다. 이 플러그인은 Element UI 대신 사용할 수 있습니다. 플러그인 사용자 인터페이스를 사용하여 클러스터를 검색 및 구성하고, 클러스터 용량의 스토리지를 관리, 모니터링 및 할당하여 데이터 저장소 및 가상 데이터 저장소(가상 볼륨용)를 구성할 수 있습니다. 클러스터는 호스트 및 관리자에게 가상 IP 주소로 표시되는 단일 로컬 그룹으로 네트워크에 표시됩니다. 또한 다양한 작업을 수행하는 동안 발생할 수 있는 이벤트에 대한 오류 및 경고 메시지를 포함하여 실시간 보고를 통해 클러스터 활동을 모니터링할 수 있습니다.</block>
   <block id="2f071adefcac0181be5f4b8cd9a5ca38" category="admonition">에 대해 자세히 알아보십시오<block ref="2bff74e0d72e73a3a1bf993744683a85" category="inline-link-rx"></block>.</block>
   <block id="9c6922841435a46a2edccbe5bdc3b9a6" category="cell">노드별 UI에서 네트워크 및 클러스터 설정에 액세스하고 시스템 테스트 및 유틸리티를 활용합니다. <block ref="3560bb302b5b977f25884bdb1a7dc5d9" category="inline-link-macro-rx"></block>.</block>
-  <block id="6185d522566bca6babef053c2bc1f53d" category="list-text">* 카탈로그 *: 카탈로그는 GitHub 리포지토리 또는 배포 준비가 완료된 애플리케이션으로 채워진 Helm Chart 리포지토리입니다. Rancher는 Helm 차트 카탈로그를 사용하여 애플리케이션을 반복적으로 쉽게 배포할 수 있는 기능을 제공합니다. Rancher는 두 가지 유형의 카탈로그(기본 제공 글로벌 카탈로그 및 사용자 지정 카탈로그)를 포함합니다. Trident는 카탈로그로 배포됩니다. 을 참조하십시오<block ref="ba870d4de503a3f035878d62b86bb946" category="inline-link-rx"></block>.</block>
-  <block id="499c79030e29f88105a315c240050806" category="paragraph">을 참조하십시오 <block ref="502a349939ea68203db76329f0b74f74" category="inline-link-rx"></block>.</block>
-  <block id="b8ab206de7473fae6f35c2f16c0992e0" category="paragraph">자세한 내용은 를 참조하십시오<block ref="9488620c3498c6d0bb53483131890d10" category="inline-link-rx"></block>.</block>
-  <block id="3f67e5faa8d61856d62fd3bf38d1d1f0" category="list-text">사용자 클러스터를 생성합니다. 에 대한 Rancher 설명서를 참조하십시오<block ref="de37c412eaa4ed32c09885b710770c8d" category="inline-link-rx"></block>.</block>
-  <block id="ab3b64f6fb89cdcf991607729d1d2e6b" category="list-text">NetApp HCI의 Rancher에 사용자 클러스터 프로비저닝 에 대한 Rancher 설명서를 참조하십시오<block ref="8f23a5a737100faa947353c1709144ae" category="inline-link-rx"></block>.</block>
-  <block id="0dfc151b6b432582cded32c687420bb1" category="paragraph">에 대한 Rancher 설명서를 참조하십시오<block ref="24f6419d6880471b27f9717bc8197f35" category="inline-link-rx"></block>.</block>
-  <block id="92818ce684886b2ba72d43c127697474" category="paragraph"><block ref="92818ce684886b2ba72d43c127697474" category="inline-link-rx"></block></block>
-  <block id="8ef345d1b0a160d3aad5657a5cfe2f28" category="paragraph"><block ref="8ef345d1b0a160d3aad5657a5cfe2f28" category="inline-link-rx"></block></block>
   <block id="f4221abc2b58236d6dcf5b616d55c40b" category="admonition">버전 2.146으로 업그레이드하기 전에 현재 ESXi 드라이버 버전을 확인하십시오. 드라이버가 최신 버전이 아니면 먼저 드라이버를 업그레이드하십시오. 그런 다음 컴퓨팅 노드에 대해 컴퓨팅 펌웨어를 버전 2.146으로 업그레이드합니다. 를 방문하십시오 <block ref="ba79adf2a648aae596ba5c5e0a50002c" category="inline-link-macro-rx"></block> ESXi 드라이버를 포함하는 컴퓨팅 노드 드라이버를 업데이트하는 방법은 를 참조하십시오.</block>
   <block id="8ed393a166c484f88b83cce5f801e297" category="paragraph">를 방문하십시오 <block ref="c16fc6148bdf6b83594dbef1823a9c1c" category="inline-link-macro-rx"></block> 컴퓨팅 노드 펌웨어 업데이트에 대한 지침은 를 참조하십시오.</block>
   <block id="1425f95bd9d84293120d76eaa5bc3f60" category="admonition">Element 소프트웨어 버전 12.0을 실행하는 H610S 스토리지 노드의 경우 스토리지 펌웨어 번들 2.27로 업그레이드하기 전에 D-패치 SUST-909를 적용해야 합니다. 업그레이드하기 전에 NetApp Support에서 D-패치를 받으려면 먼저 NetApp Support에 문의하십시오. 을 참조하십시오 <block ref="d088a1f4d001e2296c444d0510f58474" category="inline-link-macro-rx"></block>.</block>
   <block id="e242edb20d19e966685dc82f8968dab4" category="list-text">* H610S 노드의 업데이트된 베이스보드 관리 컨트롤러(BMC) *: H610S 노드의 BMC 버전을 업그레이드했습니다. 을 참조하십시오 <block ref="03b6e6df0597f52053c340579d50c0c6" category="inline-link-macro-rx"></block>.</block>
-  <block id="e33f4a72a3e17778955364a9a2a89392" category="list-text">Trident를 위한 사용자 클러스터 네트워크를 구성했습니다. 을 참조하십시오 <block ref="20b7eb4c8716c434ebac083926d84626" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
-  <block id="7798ea29a535b3406dded336a5ad3aba" category="list-text">Trident를 위한 작업 노드 준비에 필요한 필수 필수 단계를 완료했습니다. 를 참조하십시오<block ref="0709800eb8cf192160203401eaaf8586" category="inline-link-rx"></block>.</block>
-  <block id="225967e69a2329ba771d5a7a43ea4e07" category="paragraph">Trident 설치 프로그램 카탈로그는 NetApp 하이브리드 클라우드 제어를 사용하여 Rancher 설치의 일부로 설치됩니다. 이 작업에서는 설치 관리자 카탈로그를 사용하여 Trident를 설치 및 구성합니다. Rancher 설치의 일부로 NetApp이 노드 템플릿을 제공합니다. NetApp에서 제공하는 노드 템플릿을 사용하지 않고 RHEL 또는 CentOS에서 프로비저닝하려는 경우 추가 요구사항이 있을 수 있습니다. 작업자 노드를 RHEL 또는 CentOS로 변경할 경우 몇 가지 필수 구성 요소를 충족해야 합니다. 를 참조하십시오<block ref="0709800eb8cf192160203401eaaf8586" category="inline-link-rx"></block>.</block>
-  <block id="ec60b1fc169f63d74fb4b22710d4770a" category="admonition">열리는 페이지에서 * 상세 설명 * 화살표를 선택하여 Trident 앱에 대해 자세히 알아보고 에 대한 링크를 찾을 수도 있습니다<block ref="9488620c3498c6d0bb53483131890d10" category="inline-link-rx"></block>.</block>
   <block id="3120ce0d00a4b86a5ba12e93a4c31f79" category="paragraph">을 참조하십시오<block ref="40cbf9d1e7027c2bcb6695a5a1c05717" category="inline-link-rx"></block></block>
   <block id="818bec8299e4b608cc96a66549bf940d" category="list-text">* 펌웨어 업그레이드를 위한 준비 및 사전 요구 사항 *: 의 지침에 따라 NetApp HCI 설치를 펌웨어 업그레이드 준비가 되어 있어야 합니다 <block ref="032fdaf1008d9c5b1594091e01fa6a40" category="inline-link-macro-rx"></block>.</block>
-  <block id="6a1963c30f9c0d2c687641bd503fbc60" category="paragraph">모니터링을 활성화하는 방법에 대한 지침은 을(를) 참조하십시오 <block ref="f0c3d1a05db024d7d19e48b5f5584b1b" category="inline-link-macro-rx"></block>.</block>
   <block id="ca7f01a5bb3b461515e89a0d37b4bfdb" category="admonition">버전 2.154.4로 업그레이드하기 전에 현재 ESXi 드라이버 버전을 확인하십시오. 드라이버가 최신 버전이 아니면 먼저 드라이버를 업그레이드하십시오. 그런 다음 컴퓨팅 노드에 대해 컴퓨팅 펌웨어를 버전 2.154.4로 업그레이드합니다. 를 방문하십시오 <block ref="ba79adf2a648aae596ba5c5e0a50002c" category="inline-link-macro-rx"></block> ESXi 드라이버를 포함하는 컴퓨팅 노드 드라이버를 업데이트하는 방법은 를 참조하십시오.</block>
   <block id="a9003fbd8d635ea82e36a99b75403340" category="paragraph">여러 노드 시스템과 2노드 또는 3노드 클러스터와 연결된 NetApp HCI Witness 노드의 스토리지 정보를 볼 수 있습니다. If(경우 <block ref="3eaaa26badaf5c2948e63a436f8a303b" category="inline-link-macro-rx"></block> 할당되면 특정 노드에 할당된 보호 도메인을 확인할 수 있습니다.</block>
   <block id="9e7f85792d512cae6438c01093dd8f13" category="admonition">버전 2.27로 업그레이드하기 전에 현재 ESXi 드라이버 버전을 확인하십시오. 드라이버가 최신 버전이 아니면 먼저 드라이버를 업그레이드하십시오. 그런 다음 컴퓨팅 노드에서 컴퓨팅 펌웨어를 버전 2.27로 업그레이드하십시오. 를 방문하십시오 <block ref="ba79adf2a648aae596ba5c5e0a50002c" category="inline-link-macro-rx"></block> ESXi 드라이버를 포함하는 컴퓨팅 노드 드라이버를 업데이트하는 방법은 를 참조하십시오.</block>
@@ -6038,7 +5691,6 @@
   <block id="5e98629f8afe2eee1c27355eb45a80e0" category="paragraph">vCenter 플러그인 아이콘이 표시되지 않으면 를 참조하십시오 <block ref="ab9b282dbdbe327f4195d1f5d71c406f" category="inline-link-macro-rx"></block> 플러그인 문제 해결에 대한 문서</block>
   <block id="726e3510e2c172eed6861f3e6d271360" category="paragraph">VMware vCenter Server 6.7U1을 사용하여 vCenter Server 4.8 이상용 NetApp Element 플러그인으로 업그레이드한 후 스토리지 클러스터가 나열되지 않거나 NetApp Element 구성의 * 클러스터 * 및 * QoSSIOC 설정 * 섹션에 서버 오류가 나타나는 경우 을 참조하십시오 <block ref="c907b125bbc711015f83b735f4697e97" category="inline-link-macro-rx"></block> 이러한 오류 문제 해결에 대한 문서.</block>
   <block id="c36b368af7c827d8bb3a4d8c46e97a75" category="admonition">버전 2.76.10으로 업그레이드하기 전에 현재 ESXi 드라이버 버전을 확인하십시오. 드라이버가 최신 버전이 아니면 먼저 드라이버를 업그레이드하십시오. 그런 다음 컴퓨팅 노드에서 컴퓨팅 펌웨어를 버전 2.99로 업그레이드합니다. 를 방문하십시오 <block ref="ba79adf2a648aae596ba5c5e0a50002c" category="inline-link-macro-rx"></block> ESXi 드라이버를 포함하는 컴퓨팅 노드 드라이버를 업데이트하는 방법은 를 참조하십시오.</block>
-  <block id="7ea876a6c1e6e26458a429794b25cdb3" category="list-text"><block ref="7ea876a6c1e6e26458a429794b25cdb3" category="inline-link-rx"></block></block>
   <block id="c70e7fb85a0bbb75d626cb1d7966ab03" category="admonition">2노드 스토리지 클러스터를 4개 이상의 노드로 확장한 경우 스토리지 클러스터에서 이전에 사용한 Witness 노드 쌍은 vSphere에서 대기 가상 머신으로 계속 표시됩니다. 새로 확장된 스토리지 클러스터는 이러한 스토리지 클러스터를 사용하지 않으므로 VM 리소스를 회수하려는 경우 <block ref="b068a43ec0931fd63c3030d857c1d3cb" category="inline-link-macro-rx"></block> Witness Node 가상 머신</block>
   <block id="82fd08126fae06d6277e6d275f22adee" category="list-text">자세한 내용 및 기타 지원되는 구성은 를 참조하십시오<block ref="6bea819619d5f9270163ce0543e87e1e" category="inline-link-rx"></block> 및<block ref="a72ae021af8843b5883c31a3cf48fdbb" category="inline-link-rx"></block>.</block>
   <block id="d921f4dac25eaa654020043661ebf1d8" category="paragraph">자세한 내용은 을 참조하십시오 <block ref="aadf487819eba2c7633cf481d9cde909" category="inline-link-macro-rx"></block>.</block>
@@ -6270,8 +5922,6 @@
   <block id="5b1d1e4dbc8cd8e4ec110c7e700e056f" category="section-title">H300E/H500E/H700E</block>
   <block id="f0f15f2c98a9ba8013c265fbf2b1874f" category="paragraph">* 모델 번호(제품군 부분): * H300E/H500E/H700E</block>
   <block id="a61d8a4fcaa8b59b1d8f1d63aada7783" category="summary">NetApp HCI 및 NetApp Element 소프트웨어에서 지원되는 펌웨어 및 드라이버 버전</block>
-  <block id="2e697d89104c46a74e44aa847695f3f8" category="doc">NetApp HCI 스토리지 노드의 NetApp HCI 및 펌웨어 버전에 대해 지원되는 펌웨어 및 ESXi 드라이버 버전</block>
-  <block id="b757850bdb41a8f86215fd4d7394eeb9" category="paragraph">NetApp HCI 스토리지 노드의 NetApp HCI 및 펌웨어 버전에 대해 지원되는 펌웨어 및 ESXi 드라이버 버전.</block>
   <block id="bf44a0123ec45362af49b3862557cdd8" category="paragraph"><block ref="f4e8c07388940da9080e74e50960909d" category="inline-link-macro-rx"></block>* H610S * H410S</block>
   <block id="a82f3d9d22bfe1382d03945f3377eb65" category="paragraph"><block ref="4fe99558e9030b1914f3007a88f2f74d" category="inline-link-macro-rx"></block>* H615C * H610C * H410C * H300E/H500E/H700E</block>
   <block id="4b8861a11346d673205d074f862db70a" category="inline-link">지원되는 펌웨어 및 ESXi 드라이버 버전</block>
@@ -6289,7 +5939,6 @@
   <block id="f884cc5c56f9c9a8d4d61568ff64db9c" category="cell">6.5</block>
   <block id="391bb6060127038cc328796fa4f0b3c5" category="inline-link-macro">VMware vSphere 다운로드</block>
   <block id="f3d906055e8465bbb09581a2798127ae" category="admonition">7.0, 7.0 U1, 7.0 U2 및 7.0 U3용 드라이버는 에서 사용할 수 있습니다 <block ref="2d30eb2542d74a72bd10b13092aa6d1f" category="inline-link-macro-rx"></block> 페이지.</block>
-  <block id="ac4ea0116877e7d9fa4a0111b67b92f1" category="paragraph">하드웨어 펌웨어 및 드라이버 매트릭스를 참조하십시오<block ref="70c4c9f03a0e1a210c8e6bdafdb7db30" category="inline-link-rx"></block>.</block>
   <block id="6099f1a8115acef9b6c8b5715b669041" category="paragraph">VMware ESXi 6.x 및 7.0 ~ 7.0 U3의 경우 다음 단계를 수행하여 드라이버 오프라인 번들 파일을 가져옵니다.</block>
   <block id="e5f0019a70375a2e883b7840f439118a" category="list-text"><block ref="732713df3c4c58fb19fab37e747f6f0d" category="inline-link-macro-rx"></block> _신규 _</block>
   <block id="eb66a5e31d8328246fdb5497ed40a7a4" category="inline-link-macro">스토리지 펌웨어 번들 2.164.0 릴리스 정보</block>
@@ -6321,7 +5970,6 @@
   <block id="742443519c431a58e3020342bebdad42" category="list-text">NetApp 하이브리드 클라우드 제어 UI를 사용하려면 를 업데이트했습니다<block ref="f6e495ec9a99fcd5692d41358780e884" category="inline-link-rx"></block> 2.20.69 버전 이상</block>
   <block id="de04396568b4d068ad633b9f6d71127c" category="admonition">Element 12.5부터는 NetApp HealthTools에서 Element 소프트웨어 업그레이드가 더 이상 지원되지 않습니다. Element 11.0 또는 11.1을 실행 중인 경우 먼저 해야 합니다 <block ref="44a31a9a881af2f85b504df3b697bf3f" category="inline-link-macro-rx"></block> 그리고 NetApp 하이브리드 클라우드 제어를 사용하여 Element 12.5 이상으로 업그레이드하십시오.</block>
   <block id="4b1a9ce7f7fbe6c6a81ef1238b7e421a" category="list-text">에 대해 충분한 시간을 예약했습니다 <block ref="cff6d63ff47747e8e31df90baa037fdf" category="inline-link-macro-rx"></block> 및 <block ref="64ca0a1c0466cb0bbd500939e8f353f3" category="inline-link-macro-rx"></block> 업그레이드. Element 소프트웨어 12.5 이상으로 업그레이드할 경우 업그레이드 프로세스 시간은 Element 소프트웨어 버전 및 펌웨어 업데이트에 따라 달라집니다.</block>
-  <block id="1dc5194bddfa2cc1355dc4c77a729d38" category="admonition">하드웨어의 펌웨어 및 드라이버 펌웨어의 전체 매트릭스는 을 참조하십시오 <block ref="80776e776c76da1f21e9e612d2679ddd" category="inline-link-macro-rx"></block>.</block>
   <block id="2394ff28a38b482ef2918be4c8e7540c" category="list-text">* 최종 사용자 라이센스 계약(EULA) *: 관리 서비스 2.20.69부터 NetApp 하이브리드 클라우드 제어 UI 또는 API를 사용하여 스토리지 펌웨어를 업그레이드하기 전에 EULA에 동의하고 저장해야 합니다.</block>
   <block id="7ef561ec74f917ecad309d4001bff056" category="admonition">Element 소프트웨어를 버전 12.5 이상으로 업그레이드하기 전에 최신 관리 서비스 번들로 업그레이드해야 합니다. Element 소프트웨어를 버전 12.5 이상으로 업데이트하는 경우 계속하려면 관리 서비스 2.21.61 이상이 필요합니다.</block>
   <block id="62449609bcf95f48fbdbae6dddedcc19" category="list-text">* 최종 사용자 라이센스 계약(EULA) *: 관리 서비스 2.20.69부터 NetApp 하이브리드 클라우드 제어 UI 또는 API를 사용하여 Element 소프트웨어를 업그레이드하기 전에 EULA에 동의하고 저장해야 합니다.</block>
@@ -6350,7 +5998,6 @@
   <block id="5d8cb69408d9a6773459aa0a397a3003" category="list-text">관리 노드에서 REST API UI를 엽니다.</block>
   <block id="4eed3af07414f10fffdba8a7ff51ca36" category="list-text">관리 서비스 시작 2.21.61:</block>
   <block id="880c70977a68b1ec897e498bb11c7021" category="list-text">관리 서비스 2.20.69 이전:</block>
-  <block id="edb046160eb6ed03c39de5860e72e509" category="list-text">* 최종 사용자 라이센스 계약(EULA) *: 관리 서비스 2.20.69부터 NetApp 하이브리드 클라우드 제어 UI 또는 API를 사용하여 목장 배포를 업그레이드하기 전에 EULA에 동의하고 저장해야 합니다.</block>
   <block id="54c78d15a850ddddfc9da22742280908" category="list-text">* 최종 사용자 라이센스 계약(EULA) *: 관리 서비스 2.20.69부터 NetApp 하이브리드 클라우드 제어 UI 또는 API를 사용하여 Element 스토리지 상태 점검을 실행하기 전에 EULA에 동의하고 저장해야 합니다.</block>
   <block id="b1dc794dd924da27c3e3280ab948e305" category="list-text">* 최종 사용자 라이센스 계약(EULA) *: 관리 서비스 2.20.69부터 NetApp 하이브리드 클라우드 제어 UI 또는 API를 사용하여 컴퓨팅 노드 상태 점검을 실행하기 전에 EULA에 동의하고 저장해야 합니다.</block>
   <block id="19675be2a917a2efeeead44ff5060fe2" category="list-text"><block ref="19675be2a917a2efeeead44ff5060fe2" category="inline-link-macro-rx"></block></block>
@@ -6456,6 +6103,13 @@
   <block id="df5820ca7f238b48987ff74db1271e4a" category="paragraph-title">업데이트 옵션</block>
   <block id="d0ce6a73cc0e7aedcf58ba0e0c96c737" category="paragraph-title">일반적인 문제 해결</block>
   <block id="2de79e7b8c77e4847d6bcd5a8ee879ce" category="section-title">[[SF_Nodes]] SF38410, SF19210, SF9605 및 SF4805</block>
-  <block id="58eaebf972358f1cf03d386a4ade1a0f" category="section-title">다음 단계</block>
   <block id="18526b4be693f8e5ed12fb2721f65eea" category="section-title">[[sys_upgrade_seq]] 시스템 업그레이드 순서</block>
+  <block id="434d6ddb975683e537a15ac85b3f571d" category="inline-link-macro">NetApp HCI 스토리지 노드의 NetApp HCI 및 펌웨어 버전에 대해 지원되는 펌웨어 및 ESXi 드라이버 버전</block>
+  <block id="16b9f71cefad997cad5ec24fbb7a4db1" category="list-text"><block ref="16b9f71cefad997cad5ec24fbb7a4db1" category="inline-link-macro-rx"></block></block>
+  <block id="6563446976572a0b32d68f15a2be569f" category="paragraph">NetApp HCI 스토리지 노드의 NetApp HCI 및 펌웨어 버전에 대해 지원되는 펌웨어 및 ESXi 드라이버 버전.</block>
+  <block id="99fb5cb075d1550b2052133c142d5726" category="inline-link-macro">지원되는 펌웨어 및 ESXi 드라이버 버전</block>
+  <block id="25d337a3a47a3f167e1c18f0472e2f97" category="paragraph">하드웨어 펌웨어 및 드라이버 매트릭스를 참조하십시오 <block ref="913963bf89b539ef788a8e09cb649658" category="inline-link-macro-rx"></block>.</block>
+  <block id="43e34bcd62fca2ef36509ec2613974a0" category="admonition">하드웨어의 펌웨어 및 드라이버 펌웨어의 전체 매트릭스는 을 참조하십시오 <block ref="913963bf89b539ef788a8e09cb649658" category="inline-link-macro-rx"></block>.</block>
+  <block id="12b23b4c09d649df7ce5a85073a16761" category="inline-link-macro">NetApp HCI 스토리지 노드에 대해 지원되는 펌웨어 버전입니다</block>
+  <block id="70e945411317a488defaf4452814955d" category="admonition">하드웨어의 펌웨어 및 드라이버 펌웨어의 전체 매트릭스는 을 참조하십시오 <block ref="5044654178b92d05d74ce63fd089f27a" category="inline-link-macro-rx"></block>.</block>
 </blocks>

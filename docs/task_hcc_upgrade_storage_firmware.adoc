@@ -33,7 +33,7 @@ IMPORTANT: iDRAC/BIOS 펌웨어를 업데이트하려면 NetApp 지원 에 문�
 
 
 
-NOTE: 하드웨어의 펌웨어 및 드라이버 펌웨어의 전체 매트릭스는 을 참조하십시오 link:firmware_driver_versions.html["NetApp HCI용 펌웨어 및 ESXi 드라이버 버전과 NetApp HCI 스토리지 노드의 펌웨어 버전이 지원됩니다"].
+NOTE: 하드웨어의 펌웨어 및 드라이버 펌웨어의 전체 매트릭스는 을 참조하십시오 link:firmware_driver_versions.html["NetApp HCI 스토리지 노드에 대해 지원되는 펌웨어 버전입니다"].
 
 [[storage-firmware-upgrade]]
 * * 업그레이드 프로세스 시간 *: 업그레이드를 수행하기에 충분한 시간을 예약했습니다. Element 소프트웨어 12.5 이상으로 업그레이드할 경우 업그레이드 프로세스 시간은 현재 Element 소프트웨어 버전 및 펌웨어 업데이트에 따라 달라집니다.

@@ -132,5 +132,5 @@ Element 12.5를 사용하면 Ansible을 사용하여 전체 스토리지 클러�
 * https://docs.netapp.com/us-en/vcp/index.html["vCenter Server용 NetApp Element 플러그인"^]
 * https://www.netapp.com/us/documentation/hci.aspx["NetApp HCI 리소스 페이지를 참조하십시오"^]
 * https://docs.netapp.com/us-en/element-software/index.html["SolidFire 및 Element 소프트웨어 설명서"^]
-* https://kb.netapp.com/Advice_and_Troubleshooting/Hybrid_Cloud_Infrastructure/NetApp_HCI/Firmware_and_driver_versions_in_NetApp_HCI_and_NetApp_Element_software["NetApp HCI 및 NetApp Element 소프트웨어용 펌웨어 및 드라이버 버전"^]
+* link:firmware_driver_versions.html["NetApp HCI 스토리지 노드의 NetApp HCI 및 펌웨어 버전에 대해 지원되는 펌웨어 및 ESXi 드라이버 버전"]
 
