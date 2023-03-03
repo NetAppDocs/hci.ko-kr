@@ -25,7 +25,7 @@ VMware vSphere Web Client 8.0 및 7.0에서 컴퓨팅 노드의 하드웨어 태
 image:../media/hw_tag_70.PNG["시스템 테이블의 스크린 샷"]
 
 . 태그*의 값을 복사하여 저장합니다.
-. xref:task_mnode_add_assets.adoc[컴퓨팅 및 컨트롤러 자산을 관리 노드에 추가합니다]...
+. xref:task_mnode_add_assets.adoc[컴퓨팅 및 컨트롤러 자산을 관리 노드에 추가합니다].
 
 
 --
