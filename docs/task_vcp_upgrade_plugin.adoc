@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: docs/task_vcp_upgrade_plugin.html 
 summary: NetApp HCI 시스템 업그레이드의 일부로 vCenter Server용 Element 플러그인을 업그레이드할 수 있습니다. 
-keywords: netapp, vcp, vCenter plug-in, upgrade, 4.4, 4.5, 4.6, 4.7, 4.8, 4.9, 4.10, 5.0 
+keywords: netapp, vcp, vCenter plug-in, upgrade, 4.4, 4.5, 4.6, 4.7, 4.8, 4.9, 4.10, 5.0, 5.1 
 ---
 = vCenter Server용 Element 플러그인을 업그레이드합니다
 :hardbreaks:
@@ -21,15 +21,15 @@ VMware vCenter Server용 NetApp Element 플러그인이 등록된 기존 vSphere
 이 업그레이드 절차에서는 다음 업그레이드 시나리오에 대해 설명합니다.
 
 
-NOTE: 관리 서비스 2.22.7에는 원격 플러그인이 포함된 vCenter Server 5.0용 NetApp Element 플러그인이 포함되어 있습니다. Element 플러그인을 사용하는 경우, 로컬 플러그인 지원을 제거하는 VMware 지침을 준수하도록 버전 5.0으로 업그레이드해야 합니다. https://kb.vmware.com/s/article/87880["자세한 정보"^]. 플러그인을 사용하지 않는 경우 선택적 업그레이드입니다.
+NOTE: 관리 서비스 2.22.7에는 원격 플러그인이 포함된 vCenter Server 5.0용 Element 플러그인이 포함되어 있습니다. Element 플러그인을 사용하는 경우 관리 서비스 2.22.7 이상으로 업그레이드하여 로컬 플러그인 지원을 제거하는 VMware 지침을 준수해야 합니다. https://kb.vmware.com/s/article/87880["자세한 정보"^].
 
 [role="tabbed-block"]
 ====
 .vCenter 5.0 이상용 Element 플러그인
 --
-vCenter Server 5.0용 Element Plug-in 부터는 이 업그레이드 절차에 다음과 같은 업그레이드 시나리오가 포함됩니다.
+이 업그레이드 절차에서는 다음 업그레이드 시나리오에 대해 설명합니다.
 
-* vCenter Server 5.0용 Element 플러그인으로 업그레이드하려는 경우
+* vCenter Server 5.0 또는 5.1용 Element 플러그인으로 업그레이드하려고 합니다.
 * 8.0 또는 7.0 HTML5 vSphere Web Client로 업그레이드하는 중입니다.
 +
 
@@ -38,12 +38,12 @@ IMPORTANT: vCenter 5.0 이상의 Element 플러그인은 vCenter Server 6.7 및 
 
 
 
-NOTE: Element Plug-in for vCenter Server 4.x에서 5.0으로 업그레이드하면 vCenter 인스턴스에서 원격 플러그인으로 데이터를 복사할 수 없기 때문에 플러그인으로 이미 구성된 클러스터가 손실됩니다. 원격 플러그인에 클러스터를 다시 추가해야 합니다. 이 작업은 로컬 플러그인에서 원격 플러그인으로 업그레이드할 때 한 번 수행하는 작업입니다.
+NOTE: Element Plug-in for vCenter Server 4.x에서 5.x로 업그레이드하면 vCenter 인스턴스에서 원격 플러그인으로 데이터를 복사할 수 없기 때문에 플러그인으로 이미 구성된 클러스터가 손실됩니다. 원격 플러그인에 클러스터를 다시 추가해야 합니다. 이 작업은 로컬 플러그인에서 원격 플러그인으로 업그레이드할 때 한 번 수행하는 작업입니다.
 
 --
 .vCenter 4.10 이전 버전용 Element 플러그인
 --
-vCenter Server 4.10 이전 버전용 Element Plug-in의 경우 이 업그레이드 절차에 다음과 같은 업그레이드 시나리오가 포함됩니다.
+이 업그레이드 절차에서는 다음 업그레이드 시나리오에 대해 설명합니다.
 
 * vCenter Server 4.10, 4.9, 4.8, 4.7, 4.6 용 Element 플러그인으로 업그레이드하려는 경우 4.5 또는 4.4.
 * 7.0, 6.7 또는 6.5 HTML5 vSphere Web Client로 업그레이드하는 중입니다.
@@ -91,7 +91,7 @@ image::vcp_registration_utility_ui_qossioc.png[에서는 플러그인의 등록 
 
 . vCenter 플러그인 등록 * 을 선택합니다.
 +
-** vCenter Server 5.0용 Element Plug-in에 대한 vCenter 플러그인 등록 페이지:
+** vCenter Server 5.x용 Element 플러그인에 대한 vCenter 플러그인 등록 페이지:
 +
 image::vcp_remote_plugin_registration_ui.png[에서는 원격 플러그인의 등록 유틸리티 UI를 보여 줍니다]
 
@@ -165,8 +165,8 @@ VMware vCenter Server 6.7U1을 사용하여 vCenter Server 4.8 이상용 NetApp 
 
 [listing]
 ----
-NetApp Element Plug-in Version: 5.0
-NetApp Element Plug-in Build Number: 37
+NetApp Element Plug-in Version: 5.1
+NetApp Element Plug-in Build Number: 12
 
 ----
 
