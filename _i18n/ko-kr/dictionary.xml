@@ -5964,7 +5964,6 @@
   <block id="a9fc1ab89aaaf4e529a9e4251a8b3b33" category="list-text"><block ref="a9fc1ab89aaaf4e529a9e4251a8b3b33" category="inline-link-rx"></block></block>
   <block id="af5fe52fe204cf15311c07d5bf36b9a1" category="paragraph">vCenter Server 4.x용 Element 플러그인을 사용하면 VMware vCenter Server 7.0 Update 3으로 업그레이드할 때 플러그인을 구축할 수 없습니다. Spring Framework 4를 사용하여 이 문제를 해결하려면 을 참조하십시오<block ref="770c119932f7fa962a47dc0795db1af6" category="inline-link-rx"></block>.</block>
   <block id="9b50fd8de96fcf38bc35a026df14fbc4" category="paragraph">VMware vCenter Server용 NetApp Element 플러그인이 등록된 기존 vSphere 환경의 경우 플러그인 서비스가 포함된 관리 서비스 패키지를 먼저 업데이트한 후 플러그인 등록을 업데이트할 수 있습니다.</block>
-  <block id="56f4bca23bb3dd45148dc7171511b7e5" category="paragraph">이 업그레이드 절차에서는 다음 업그레이드 시나리오에 대해 설명합니다.</block>
   <block id="04e630ae5e9700f09b6ca3715246283d" category="open-title">vCenter 5.0 이상용 Element 플러그인</block>
   <block id="61517793d4523320c7cd75e303ad36ff" category="list-text">8.0 또는 7.0 HTML5 vSphere Web Client로 업그레이드하는 중입니다.</block>
   <block id="787e0e54cc17d9dd6bbd7cf4c4fbc14d" category="admonition">vCenter 5.0 이상의 Element 플러그인은 vCenter Server 6.7 및 6.5와 호환되지 않습니다.</block>
@@ -6077,7 +6076,6 @@
   <block id="8157d1d3bb72f3ce50b0672f12f201dd" category="list-text">저장한 패키지를 찾아 업로드하려면 찾아보기 를 선택합니다.</block>
   <block id="4ac581155f2c6a4a3a056078e2b122a1" category="list-text">관리 노드에서 REST API UI를 엽니다.</block>
   <block id="badb045d93b6de2fe8d2a1a664b92d6f" category="paragraph">이 업그레이드 절차에서는 다음 업그레이드 시나리오에 대해 설명합니다.</block>
-  <block id="0c6a507d40e276c8d0426facc36aaeca" category="list-text">vCenter Server 5.0 또는 5.1용 Element 플러그인으로 업그레이드하려고 합니다.</block>
   <block id="609cfd925544c2aaccb703dcb95eed4d" category="admonition">Element Plug-in for vCenter Server 4.x에서 5.x로 업그레이드하면 vCenter 인스턴스에서 원격 플러그인으로 데이터를 복사할 수 없기 때문에 플러그인으로 이미 구성된 클러스터가 손실됩니다. 원격 플러그인에 클러스터를 다시 추가해야 합니다. 이 작업은 로컬 플러그인에서 원격 플러그인으로 업그레이드할 때 한 번 수행하는 작업입니다.</block>
   <block id="4edf62fd94cfb84b727afbee52aa8128" category="list-text">vCenter Server 5.x용 Element 플러그인에 대한 vCenter 플러그인 등록 페이지:</block>
   <block id="04bac97a16b610a555c29c398dc04860" category="paragraph">Storage * 탭에는 설치에 포함된 스토리지 클러스터가 나열됩니다. NetApp Hybrid Cloud Control에서 클러스터에 액세스할 수 없는 경우 * 업그레이드 * 페이지에 표시되지 않습니다. Element 12.0 이상을 실행하는 클러스터가 있는 경우 이러한 클러스터에 대해 현재 펌웨어 번들 버전이 나열됩니다. 단일 클러스터의 노드가 서로 다른 펌웨어 버전을 가지고 있거나 업그레이드가 진행되는 동안 * Current Firmware Bundle Version * (현재 펌웨어 번들 버전 *) 열에 * Multiple * (다중 *)이 표시됩니다. 여러 * 를 선택하여 * 노드 * 페이지로 이동하여 펌웨어 버전을 비교할 수 있습니다. 모든 클러스터가 12.0 이전 버전의 Element를 실행하는 경우 펌웨어 번들 버전 번호에 대한 정보가 표시되지 않습니다. 이 정보는 * 노드 * 페이지에서도 사용할 수 있습니다. 을 참조하십시오 <block ref="4d8bfbcb84a29a1601595359b67752e6" category="inline-link-macro-rx"></block>.</block>
@@ -6103,4 +6101,5 @@
   <block id="e3b4df69e2fe4e8545e5e0240eada6a2" category="list-text"><block ref="e3b4df69e2fe4e8545e5e0240eada6a2" category="inline-link-rx"></block></block>
   <block id="631923a687ff82d68973d99b95597b47" category="inline-link">SolidFire 및 요소 리소스 페이지입니다</block>
   <block id="238c5b123e3473c57e2925edccb205c2" category="list-text"><block ref="238c5b123e3473c57e2925edccb205c2" category="inline-link-rx"></block></block>
+  <block id="3a2bbd221f9a6d667af34b16ef1c1a32" category="list-text">vCenter Server 5.1 또는 5.0용 Element 플러그인으로 업그레이드하려고 합니다.</block>
 </blocks>
