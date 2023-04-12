@@ -6102,4 +6102,16 @@
   <block id="631923a687ff82d68973d99b95597b47" category="inline-link">SolidFire 및 요소 리소스 페이지입니다</block>
   <block id="238c5b123e3473c57e2925edccb205c2" category="list-text"><block ref="238c5b123e3473c57e2925edccb205c2" category="inline-link-rx"></block></block>
   <block id="3a2bbd221f9a6d667af34b16ef1c1a32" category="list-text">vCenter Server 5.1 또는 5.0용 Element 플러그인으로 업그레이드하려고 합니다.</block>
+  <block id="8ce84b11df4b07d7aa9bb1fd260b434f" category="inline-link-macro">컴퓨팅 펌웨어 번들 2.174.0 릴리스 정보</block>
+  <block id="5b0fda3cebcf8a643f1180cab01f12da" category="list-text"><block ref="1a4479b2e3ec8fc20906c13b738e7820" category="inline-link-macro-rx"></block> _신규 _</block>
+  <block id="69bac05cf2ab747a8ac20a157b6363b6" category="admonition">NetApp 하이브리드 클라우드 제어에는 최신 관리 서비스 번들이 필요합니다. 컴퓨팅 노드의 펌웨어를 버전 2.174.0으로 업그레이드하기 전에 최신 관리 서비스 번들로 업그레이드해야 합니다. 컴퓨팅 노드의 펌웨어를 버전 2.174.0으로 업그레이드하려면 관리 서비스 2.20이 필요합니다.</block>
+  <block id="78810bf1f4f592e0de1616224eda921a" category="paragraph">버전 2.174.0에는 일반적인 버그 수정이 포함되어 있습니다.</block>
+  <block id="2dac99af4ba8d6920084f83699b5757d" category="cell">* 07.02.00 *</block>
+  <block id="0054b05feeebac288bc28bf8d6a9d248" category="admonition">버전 2.174.0으로 업그레이드하기 전에 현재 ESXi 드라이버 버전을 확인해야 합니다. 드라이버가 최신 버전이 아니면 먼저 드라이버를 업그레이드하십시오. 그런 다음 컴퓨팅 노드에서 컴퓨팅 펌웨어를 버전 2.174.0으로 업그레이드합니다. 를 방문하십시오 <block ref="ba79adf2a648aae596ba5c5e0a50002c" category="inline-link-macro-rx"></block> ESXi 드라이버를 포함하는 컴퓨팅 노드 드라이버를 업데이트하는 방법은 를 참조하십시오.</block>
+  <block id="72538e8fdaa12e28f9171c0b783493e7" category="section-title">Compute Firmware Bundle 2.174.0을 다운로드합니다</block>
+  <block id="b7f798a9967001ca08ab89776c0966fc" category="list-text">Go * 를 선택합니다.</block>
+  <block id="bb9f34e8741cf096f686b7632f900879" category="list-text">로 이동합니다<block ref="e26f094ec200dc78420831e36f6f3bb7" category="inline-link-rx"></block> 드롭다운 목록에서 * Element Software * 를 선택합니다.</block>
+  <block id="53edb91d1e6b34073e6e243ed47db12d" category="list-text">키워드 검색 필드에 "Compute Firmware Bundle"을 입력하고 * New Search * 를 선택합니다.</block>
+  <block id="dfa721c0f57e3559aa22a411a4ad2fb0" category="inline-link-macro">Compute Firmware Bundle 2.174.0에 대한 고지 사항</block>
+  <block id="4d34470d64d9d2f569cd7f9c561a9343" category="list-text"><block ref="4d34470d64d9d2f569cd7f9c561a9343" category="inline-link-macro-rx"></block></block>
 </blocks>
