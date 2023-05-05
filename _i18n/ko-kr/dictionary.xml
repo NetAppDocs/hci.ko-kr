@@ -800,7 +800,6 @@
   <block id="5a5285cbae65a3a4e6d2325887861e01" category="inline-link-macro">Ansible을 사용하여 컴퓨팅 펌웨어 업그레이드를 자동화하십시오</block>
   <block id="7cb9171d2e41fd487907a91fb38fae31" category="list-text"><block ref="9c1d2a43cd65a3c0eacb2a0469676bce" category="inline-link-macro-rx"></block> 또는 <block ref="ea7bc6be827f510faa492af963f76183" category="inline-link-macro-rx"></block>.</block>
   <block id="0c44c4e22a7e5a446ab9db51be083194" category="inline-link">NetApp SolidFire All-Flash 스토리지 시스템을 업그레이드하십시오</block>
-  <block id="0a9bb27e26601025f1f2f83ed531e6f2" category="list-text"><block ref="0a9bb27e26601025f1f2f83ed531e6f2" category="inline-link-rx"></block></block>
   <block id="c22d54980e737e20937f0c5ba6b6861f" category="summary">NetApp HCI 구축 중에 VMware vSphere를 구성하는 방법을 알아보십시오.</block>
   <block id="8dbca53f09cf9420f0d8b70c6ea8bbf4" category="doc">새로운 VMware vSphere 환경을 구성합니다</block>
   <block id="4f19202a32506ccdd6c5876f1e97fb13" category="paragraph">vSphere에서 사용해야 하는 네트워크 정보를 제공하여 NetApp HCI 설치 프로세스의 일부로 새로운 vSphere 환경을 구축할 수 있습니다. IP 주소를 사용하여 vSphere를 구성하는 경우 설치 후 주소를 변경할 수 없습니다.</block>
@@ -1061,7 +1060,6 @@
   <block id="7f874a6debff4d8e3670b59ddfdf3bd0" category="inline-link-macro">2노드 클러스터의 스토리지 노드를 교체합니다</block>
   <block id="c94f753aa1baf797e0eea49696404564" category="inline-link">_TR-4820: NetApp HCI 네트워킹 빠른 계획 가이드 _</block>
   <block id="42f1d5fbe05e1bdd25e119b9262b7dbd" category="list-text"><block ref="42f1d5fbe05e1bdd25e119b9262b7dbd" category="inline-link-rx"></block></block>
-  <block id="1f9e8829ba3f07efa25b77f1eb0d6c07" category="inline-link">NetApp 구성 어드바이저</block>
   <block id="00415b6fb565410eea76dc891605762c" category="summary">H 시리즈 컴퓨팅 노드의 경우 NetApp은 BMC, BIOS, NIC와 같은 하드웨어 구성 요소의 펌웨어 업그레이드 자동화를 지원하는 Ansible 역할을 제공합니다.</block>
   <block id="eacf1eb0cf3662016ce47146687bec73" category="doc">Ansible을 사용하여 컴퓨팅 노드 펌웨어의 업그레이드 자동화</block>
   <block id="14427a22f723384059c45e3e1e6b5fcd" category="paragraph">NetApp 하이브리드 클라우드 제어의 워크플로우를 사용하여 NetApp HCI, BIOS, NIC와 같은 구성요소의 펌웨어를 포함하여 컴퓨팅 노드에서 시스템 펌웨어를 업데이트할 수 있습니다. 대규모 컴퓨팅 클러스터를 설치할 경우 Ansible을 사용하여 전체 클러스터의 롤링 업그레이드를 수행하여 워크플로우를 자동화할 수 있습니다.</block>
@@ -2699,7 +2697,6 @@
   <block id="6f5983880dad4e85e696acaacf3a185b" category="paragraph">설치 또는 업그레이드 중에 활성화된 영구 볼륨 기능은 할당된 클러스터의 이름에 NetApp-HCI 사전 할당 기능을 사용하여 여러 볼륨을 자동으로 생성합니다. 이러한 볼륨은 Element 소프트웨어 기반 볼륨과 마찬가지로 기본 설정 및 설치에 따라 Element 소프트웨어 웹 UI, vCenter Server용 NetApp Element 플러그인 또는 API를 사용하여 볼 수 있습니다. 복구에 사용할 수 있는 현재 구성 데이터를 유지하려면 관리 노드에 대한 iSCSI 연결을 통해 영구 볼륨이 가동되어 실행 중이어야 합니다.</block>
   <block id="055a5661c230e542ad2a37a3d951d4fd" category="admonition">설치 또는 업그레이드 중에 관리 서비스와 연결된 영구 볼륨이 생성되고 새 계정에 할당됩니다. 영구 볼륨을 사용하는 경우 볼륨이나 연결된 계정을 수정하거나 삭제하지 마십시오</block>
   <block id="e2439a8512b353f75391ba9c346bc84d" category="inline-link-macro">볼륨 관리</block>
-  <block id="9e69e35241eb196e84b4b8c5230c84b9" category="list-text"><block ref="9e69e35241eb196e84b4b8c5230c84b9" category="inline-link-macro-rx"></block></block>
   <block id="17486c877c1be358549c349bb034eda1" category="paragraph">NetApp HCI에 사용하는 스위치는 성공적인 배포를 위해 특정 구성이 필요합니다. 사용자 환경에 다음 각 요구 사항을 구현하는 방법에 대한 자세한 내용은 스위치 설명서를 참조하십시오.</block>
   <block id="630c5bd4739aa20a3330119d3c5903dc" category="paragraph">NetApp HCI 배포에는 다음 트래픽 유형에 대해 하나씩 최소 3개의 네트워크 세그먼트가 필요합니다.</block>
   <block id="d86030abdf90a0e463f815e6366bf38e" category="list-text">마이그레이션 했습니다</block>
@@ -3168,7 +3165,6 @@
   <block id="c9676e9b030c94e7e828a060b343f3db" category="list-text"><block ref="c9676e9b030c94e7e828a060b343f3db" category="inline-link-macro-rx"></block></block>
   <block id="a5790b06c6321c773eca064d8f8b323a" category="inline-link-macro">관리 서비스에서 로그를 가져오는 중입니다</block>
   <block id="b8ce529cfc2b9255a783e211ddb57996" category="list-text"><block ref="b8ce529cfc2b9255a783e211ddb57996" category="inline-link-macro-rx"></block></block>
-  <block id="d422fe7cf0f32ce6c7b8426538c06795" category="list-text"><block ref="d422fe7cf0f32ce6c7b8426538c06795" category="inline-link-macro-rx"></block></block>
   <block id="5fdb538f00d44b4e663cc26d707fee0d" category="doc">컴퓨팅 펌웨어 번들 2.76.10 릴리스 정보</block>
   <block id="6d87ab8a4146897fc42c7206f9a8e527" category="paragraph">버전 2.76.10에는 일반적인 버그 수정이 포함되어 있습니다.</block>
   <block id="0f24412e4ffe8570e662187ede29e938" category="cell">NATP3.9</block>
@@ -3755,7 +3751,6 @@
   <block id="85dcef363aee58216fb5391e1fe35922" category="list-text"><block ref="85dcef363aee58216fb5391e1fe35922" category="inline-link-rx"></block></block>
   <block id="da3eb0bd8c882a21931739ac39ce915a" category="inline-link">vCenter Server용 NetApp Element 플러그인 설명서</block>
   <block id="412377cf78b07a27c835e112fdfa7507" category="list-text"><block ref="412377cf78b07a27c835e112fdfa7507" category="inline-link-rx"></block></block>
-  <block id="d1ba909955f7a2392ac07c215865424a" category="list-text"><block ref="8eb8242e05dec3c7873bd909a6d9def7" category="inline-link-rx"></block> 5.8.1 이상의 네트워크 유효성 검사 도구</block>
   <block id="99a4ec91179b80fd1b6cead13251456a" category="summary">CPU, 마더보드 또는 전원이 켜지지 않는 경우와 관련된 컴퓨팅 노드 장애를 복구하려면 섀시를 교체해야 합니다. NetApp HCI 부트스트랩 OS 버전 1.6 이상을 실행하는 H610C 컴퓨팅 노드의 DIMM에 결함이 있는 경우 DIMM을 교체할 수 있으며 섀시를 교체할 필요가 없습니다. H615C 노드의 경우 DIMM에 장애가 발생할 경우 섀시를 교체할 필요가 없으며 장애가 발생한 DIMM만 교체할 수 있습니다.</block>
   <block id="75d325ab74cfada9b103a38f5c856d3e" category="admonition">H610C 및 H615C의 경우 노드와 섀시가 별도의 구성 요소가 아니기 때문에 "노드" 및 "섀시"라는 용어가 상호 교환하여 사용됩니다.</block>
   <block id="c75441b3cca2c155de3eee605d34aeb4" category="list-text">노드에 장애가 있는지 확인했습니다.</block>
@@ -4715,7 +4710,6 @@
   <block id="a4da6a7298a51c03437fe8215d4cd7dc" category="admonition">관리 서비스와 연결된 영구 볼륨은 설치 또는 업그레이드 중에 새 계정에 할당됩니다. 영구 볼륨을 사용하는 경우 볼륨이나 연결된 계정을 수정하거나 삭제하지 마십시오. 이러한 계정을 삭제하면 관리 노드를 사용할 수 없게 될 수 있습니다.</block>
   <block id="b12641981b1007fecfaf498bd16ae5d5" category="list-text">테이블의 * Actions * 열에서 계정 메뉴를 확장하고 * Delete * 를 선택합니다.</block>
   <block id="1326a41ad4b26f3395b0f54dd9172b2b" category="inline-link-macro">어카운트에 대해 알아보십시오</block>
-  <block id="469d7f183f29ad292b8937af8903b1dc" category="list-text"><block ref="469d7f183f29ad292b8937af8903b1dc" category="inline-link-macro-rx"></block></block>
   <block id="7e5784de66821e5068bc24c9a5c6d1d6" category="inline-link">사용자 계정 작업</block>
   <block id="9197cc48c8ddd2d400f10cc220189fb2" category="list-text"><block ref="9197cc48c8ddd2d400f10cc220189fb2" category="inline-link-rx"></block></block>
   <block id="4890b06e0bef2ccd30ddebf19fa9e652" category="summary">REST API를 사용하여 관리 ndoe에서 실행 중인 서비스에서 로그를 검색할 수 있습니다.</block>
@@ -4926,7 +4920,6 @@
   <block id="eddbea64540d3f03b2661d8ecd4ac2a7" category="list-text">SetProtectionDomainLayout - 사용자 지정 보호 도메인을 각 노드에 할당할 수 있습니다.</block>
   <block id="03540783615c6f29364ad461ea3aa641" category="paragraph">맞춤형 보호 도메인 사용에 대한 자세한 내용은 NetApp 지원에 문의하십시오.</block>
   <block id="afc48abd77915d4342bb6d52750ca477" category="inline-link-macro">Element API를 사용하여 스토리지를 관리합니다</block>
-  <block id="8e078db9f02bd406ca631ba2825dd629" category="paragraph"><block ref="8e078db9f02bd406ca631ba2825dd629" category="inline-link-macro-rx"></block></block>
   <block id="d1cfb55513d453a2cf4188067d2cf218" category="paragraph">REST API를 사용하여 관리 노드(mNode)에서 SSH 기능의 상태를 비활성화하거나 재설정하거나 확인할 수 있습니다. SSH 기능을 통해 제공됩니다 <block ref="6bb28df38aa0844e287b2e23fc581879" category="inline-link-macro-rx"></block> 관리 서비스 2.18 이상을 실행하는 관리 노드에서 기본적으로 이 비활성화됩니다.</block>
   <block id="4a8504402e610045f6f515076b209af8" category="list-text">* Element 소프트웨어 *: 클러스터에서 NetApp Element 소프트웨어 11.3 이상이 실행 중입니다.</block>
   <block id="4dcaf58a1a6fd3555d9626cfadc42510" category="inline-link-macro">인증</block>
@@ -6117,4 +6110,9 @@
   <block id="bc2a79198b157bed1c1eaa43da985e00" category="cell">* 컴퓨팅 펌웨어 번들 2.174.0 *</block>
   <block id="def5f641ad1584ffe19a578902c863ee" category="cell">2023년 4월 12일</block>
   <block id="0b67b64b71fa04f23305e691b81ba252" category="cell">07.02.00</block>
+  <block id="ba3433b658d56109d8826f49ee0a8064" category="list-text"><block ref="ba3433b658d56109d8826f49ee0a8064" category="inline-link-rx"></block></block>
+  <block id="d5147898f653b5500d1ba07c4204c743" category="list-text"><block ref="9d6606ad3ff5278801234da0e6746362" category="inline-link-rx"></block> 5.8.1 이상의 네트워크 유효성 검사 도구</block>
+  <block id="c411aac8cf32395c454762934e85315b" category="list-text"><block ref="c411aac8cf32395c454762934e85315b" category="inline-link-macro-rx"></block></block>
+  <block id="3f8636b2ed4be15cc908d52557ffc327" category="list-text"><block ref="3f8636b2ed4be15cc908d52557ffc327" category="inline-link-macro-rx"></block></block>
+  <block id="78997922bf48b612914b49bc22e40752" category="paragraph"><block ref="78997922bf48b612914b49bc22e40752" category="inline-link-rx"></block></block>
 </blocks>
