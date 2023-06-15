@@ -93,7 +93,8 @@ NOTE: NetApp Support 사이트 자격 증명을 사용하여 로그인하라는 
 
 == 스토리지 펌웨어
 
-* link:rn_storage_firmware_2.164.0.html["스토리지 펌웨어 번들 2.164.0 릴리스 정보"] _신규 _
+* link:rn_storage_firmware_2.175.0.html["스토리지 펌웨어 번들 2.175.0 릴리스 정보"] _신규 _
+* link:rn_storage_firmware_2.164.0.html["스토리지 펌웨어 번들 2.164.0 릴리스 정보"]
 * link:rn_storage_firmware_2.150.html["스토리지 펌웨어 번들 2.150 릴리스 정보"]
 * link:rn_storage_firmware_2.146.html["스토리지 펌웨어 번들 2.146 릴리스 정보"]
 * link:rn_storage_firmware_2.99.2.html["스토리지 펌웨어 번들 2.99.2 릴리스 정보"]
