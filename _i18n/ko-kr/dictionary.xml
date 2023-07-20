@@ -73,7 +73,6 @@
   <block id="4d41fb1211aa5ce58e5235fb983f1a15" category="list-text">NetApp 하이브리드 클라우드 제어에 NetApp HCI 스토리지 클러스터 관리자 자격 증명을 제공하여 로그인하십시오.</block>
   <block id="9b6c54a62f57f89342aae003cf762345" category="list-text">인터페이스의 오른쪽 위 모서리에 있는 * Expand * (확장 *)를 클릭합니다.</block>
   <block id="c279fa7b9df4852c4e23caa58f534561" category="paragraph">브라우저에서 NetApp 배포 엔진이 열립니다.</block>
-  <block id="053ab309f18a77ef5149424304d1c86d" category="list-text">NetApp HCI 스토리지 클러스터 관리자 자격 증명을 제공하여 NetApp Deployment Engine에 로그인합니다.</block>
   <block id="9c949590f3665d51de542591b1677bea" category="list-text">시작 * 페이지에서 * 예 * 를 클릭하고 * 계속 * 을 클릭합니다.</block>
   <block id="81ca71999d078ea8378ca36814ab29e3" category="list-text">최종 사용자 라이센스 * 페이지에서 VMware 최종 사용자 라이센스 계약을 읽고 * 동의함 * 을 클릭하여 약관에 동의하고 * 계속 * 을 클릭합니다.</block>
   <block id="736a8559e93194c56ffc906d359a1fcc" category="list-text">vCenter * 페이지에서 다음 단계를 완료합니다.</block>
@@ -5845,8 +5844,6 @@
   <block id="5b1d1e4dbc8cd8e4ec110c7e700e056f" category="section-title">H300E/H500E/H700E</block>
   <block id="f0f15f2c98a9ba8013c265fbf2b1874f" category="paragraph">* 모델 번호(제품군 부분): * H300E/H500E/H700E</block>
   <block id="a61d8a4fcaa8b59b1d8f1d63aada7783" category="summary">NetApp HCI 및 NetApp Element 소프트웨어에서 지원되는 펌웨어 및 드라이버 버전</block>
-  <block id="bf44a0123ec45362af49b3862557cdd8" category="paragraph"><block ref="f4e8c07388940da9080e74e50960909d" category="inline-link-macro-rx"></block>* H610S * H410S</block>
-  <block id="a82f3d9d22bfe1382d03945f3377eb65" category="paragraph"><block ref="4fe99558e9030b1914f3007a88f2f74d" category="inline-link-macro-rx"></block>* H615C * H610C * H410C * H300E/H500E/H700E</block>
   <block id="4b8861a11346d673205d074f862db70a" category="inline-link">지원되는 펌웨어 및 ESXi 드라이버 버전</block>
   <block id="d8288c4d481f3eb3a21b3ee9d3d34f3e" category="list-text">* 유효한 업그레이드 경로 *: 업그레이드하려는 Element 버전에 대한 업그레이드 경로 정보를 확인했으며 업그레이드 경로가 유효한지 확인했습니다. 을 참조하십시오<block ref="2980f5bfbc85d7c14e3d7a2c57af53b5" category="inline-link-rx"></block></block>
   <block id="9671b9c99a15fe8beaa959d54510f7e0" category="paragraph">* VMware ESXi 드라이버 버전 *</block>
@@ -6179,4 +6176,8 @@
   <block id="022beb4c9e2bdbe9e3398445a4fad6b2" category="cell">2023/15/2023</block>
   <block id="804066a6a5042090a2a0b25c55f38e72" category="cell">3.5</block>
   <block id="489901e715cade6fe0efc7e21e194576" category="cell">2.17</block>
+  <block id="d44403a904c0446f29d8bc5c2ed4770e" category="list-text">로컬 NetApp HCI 스토리지 클러스터 관리자 자격 증명을 제공하여 NetApp 배포 엔진에 로그인합니다.</block>
+  <block id="60099f97c4a82ba2ee2d4a4d593b844b" category="admonition">Lightweight Directory Access Protocol 자격 증명을 사용하여 로그인할 수 없습니다.</block>
+  <block id="f4e8c07388940da9080e74e50960909d" category="paragraph"><block ref="f4e8c07388940da9080e74e50960909d" category="inline-link-macro-rx"></block></block>
+  <block id="4fe99558e9030b1914f3007a88f2f74d" category="paragraph"><block ref="4fe99558e9030b1914f3007a88f2f74d" category="inline-link-macro-rx"></block></block>
 </blocks>
