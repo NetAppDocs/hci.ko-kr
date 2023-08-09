@@ -1686,7 +1686,6 @@
   <block id="f308e6ca453d47a2876df6eae740d8f8" category="cell">디스크 크기입니다</block>
   <block id="a8eb35236338fefbad16baa7af1c75ba" category="cell">67GB</block>
   <block id="845f62e2611daf20a77cdbef343a155b" category="paragraph">NetApp HCI는 2노드 또는 3노드 스토리지 클러스터에서 특정 스토리지 노드 모델만 지원합니다. 자세한 내용은 사용 중인 NetApp HCI 버전에 대한 릴리즈 노트를 참조하십시오.</block>
-  <block id="2c9355f24d4fb92e48ff0624b5165e70" category="paragraph">* 모범 사례: * Witness Node VM을 구성하여 컴퓨팅 노드의 로컬 데이터 저장소(NDE에 의해 기본 설정)를 사용하고, SolidFire 스토리지 볼륨과 같은 공유 스토리지에서는 이를 구성하지 마십시오. VM이 자동으로 마이그레이션되지 않도록 하려면 Witness Node VM의 DRS(Distributed Resource Scheduler) 자동화 수준을 * Disabled * 로 설정합니다. 이렇게 하면 Witness Node가 동일한 컴퓨팅 노드에서 실행되고 HA(Non-High Availability) 쌍 구성이 발생하지 않습니다.</block>
   <block id="6c92285fa6d3e827b198d120ea3ac674" category="inline-link-macro">여기</block>
   <block id="edc66b1482b45fd0e89fdbe4ba094191" category="admonition">NetApp HCI 설치 프로세스에서 Witness 노드를 설치하면 VMware vCenter에 VM 템플릿이 저장되며, Witness 노드가 실수로 제거, 손실 또는 손상된 경우 이를 다시 배포하는 데 사용할 수 있습니다. Witness Node를 호스팅하던 장애가 발생한 컴퓨팅 노드를 교체해야 하는 경우 이 템플릿을 사용하여 Witness Node를 재구축할 수도 있습니다. 자세한 내용은 2노드 및 3노드 스토리지 클러스터를 위한 * 재구축 Witness 노드 * 섹션을 참조하십시오 <block ref="0deb95019659c8847f806617fd301765" category="inline-link-macro-rx"></block>.</block>
   <block id="0e93badeabe261c69b6984cdc67bfc5d" category="summary">이니시에이터에 대한 정보와 이러한 이니시에이터를 사용하여 볼륨 액세스 그룹의 스토리지에 대한 액세스를 허용하는 방법에 대해 알아봅니다.</block>
@@ -5334,15 +5333,11 @@
   <block id="8c79dbfa1dd86948b37af21a8d7639d5" category="list-text">올바른 VM 네트워크를 VM에 다시 할당합니다.</block>
   <block id="85708c896a2da121ac4eee4307002bd9" category="admonition">MTU가 1500바이트 미만인 IP를 할당하는 DHCP를 사용하면 관리 노드 네트워크를 구성하거나 관리 노드 UI를 사용할 수 없습니다.</block>
   <block id="6016a2b341113bf496b719905398ecd2" category="section-title">저작권</block>
-  <block id="09e95b77ffe81fe465a83ba99efad5c8" category="paragraph"><block ref="09e95b77ffe81fe465a83ba99efad5c8" category="inline-link-rx"></block></block>
   <block id="126a02652da6de02962cf1b654fd6376" category="section-title">상표</block>
   <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp, NetApp 로고, NetApp 상표 페이지에 나열된 마크는 NetApp Inc.의 상표입니다. 기타 회사 및 제품 이름은 해당 소유자의 상표일 수 있습니다.</block>
-  <block id="7aa531e9acfe2b98e34d2c92fe9846ff" category="paragraph"><block ref="7aa531e9acfe2b98e34d2c92fe9846ff" category="inline-link-rx"></block></block>
   <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">특허</block>
   <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">NetApp 소유 특허 목록은 다음 사이트에서 확인할 수 있습니다.</block>
-  <block id="d7f1fbcf9ce4e42f705add574d262b2c" category="paragraph"><block ref="d7f1fbcf9ce4e42f705add574d262b2c" category="inline-link-rx"></block></block>
   <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">개인 정보 보호 정책</block>
-  <block id="fc248f74f5e36542f7f5627b8610e9a3" category="paragraph"><block ref="fc248f74f5e36542f7f5627b8610e9a3" category="inline-link-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">오픈 소스</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">통지 파일은 NetApp 소프트웨어에 사용된 타사의 저작권 및 라이센스에 대한 정보를 제공합니다.</block>
   <block id="f6a63a9052785a40e6a7b718acb627b9" category="list-text">* 관리 서비스 *: 최신 관리 서비스 번들(2.11 이상)으로 업데이트되었습니다.</block>
@@ -6180,4 +6175,13 @@
   <block id="60099f97c4a82ba2ee2d4a4d593b844b" category="admonition">Lightweight Directory Access Protocol 자격 증명을 사용하여 로그인할 수 없습니다.</block>
   <block id="f4e8c07388940da9080e74e50960909d" category="paragraph"><block ref="f4e8c07388940da9080e74e50960909d" category="inline-link-macro-rx"></block></block>
   <block id="4fe99558e9030b1914f3007a88f2f74d" category="paragraph"><block ref="4fe99558e9030b1914f3007a88f2f74d" category="inline-link-macro-rx"></block></block>
+  <block id="e74b413ef024dbf7c56a0e2cfe306bd8" category="paragraph">* 요구 사항 *: 컴퓨팅 노드에 대해 로컬 데이터 저장소(NDE에 의해 기본적으로 설정됨)를 사용하도록 Witness Node VM을 구성합니다. SolidFire 스토리지 볼륨과 같은 공유 스토리지에는 구성하지 않아야 합니다. VM이 자동으로 마이그레이션되지 않도록 하려면 Witness Node VM에 대한 DRS(Distributed Resource Scheduler) 자동화 수준을 * Disabled * 로 설정합니다. 이렇게 하면 Witness Node가 동일한 컴퓨팅 노드에서 실행되고 HA(Non-High Availability) 쌍 구성이 발생하지 않습니다.</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
 </blocks>
