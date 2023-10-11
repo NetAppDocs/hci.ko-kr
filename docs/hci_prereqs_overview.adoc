@@ -30,6 +30,7 @@ NetApp HCI 하드웨어를 수령하기 전에 NetApp 프로페셔널 서비스�
 * link:hci_prereqs_environmental.html["환경 요구 사항"]
 * link:hci_prereqs_protection_domains.html["보호 도메인"]
 * link:hci_prereqs_witness_nodes.html["노드 2개 스토리지 클러스터의 노드 리소스 요구 사항"]
+* link:hci_prereqs_deployment_configuration_restriction.html["배포 구성 제한"]
 
 
 [discrete]
