@@ -3045,13 +3045,11 @@
   <block id="3379bef00914284ba2f330a1811714a0" category="list-text">CVE-2020-0535, CVE-2020-0536, CVE-2020-0545, CVE-2020-0540, CVE-2020-0566, CVE-2020-0539, CVE-2020-0586, CVE-2020-0594</block>
   <block id="96a5b4941f5db6f63efa8b549d880c25" category="list-text">CVE-2020-0595, CVE-2020-0596, CVE-2020-8674, CVE-2020-0597 CVE-2020-0543 CVE-2020-0548, CVE-2020-0549</block>
   <block id="8838c26820c2bdc7ab11f616de8739d6" category="summary">NetApp HCI에서 사용하는 TCP 및 UDP 포트입니다.</block>
-  <block id="ba05be2241c302ce19b7534dcd611775" category="paragraph">시스템을 원격으로 관리하고, 데이터 센터 외부의 클라이언트가 리소스에 연결하도록 하고, 내부 서비스가 제대로 작동할 수 있도록 데이터 센터의 에지 방화벽을 통해 다음 포트를 허용해야 할 수 있습니다. 시스템 사용 방법에 따라 이러한 포트, URL 또는 IP 주소 중 일부가 필요하지 않을 수 있습니다. 달리 명시되지 않는 한 모든 포트는 TCP입니다.</block>
   <block id="15a1051d03ca55ab79226f44fa683bbe" category="paragraph">표에 사용되는 약어는 다음과 같습니다.</block>
   <block id="60175d30ed8f8459b2f835b923bb4ee5" category="list-text">MIP: 관리 IP 주소, 노드별 주소</block>
   <block id="b41c14a062a4854e04d459016f1eae73" category="list-text">SIP: 스토리지 IP 주소, 노드당 주소</block>
   <block id="416d6ad49d8853217a6bb321dc6df5aa" category="list-text">MVIP: 관리 가상 IP 주소입니다</block>
   <block id="c51558c5b0e3376ab979005c0eadcc9e" category="list-text">SVIP: 스토리지 가상 IP 주소입니다</block>
-  <block id="96d2b8e68e9f540a05073cf66ebfb8fb" category="paragraph">달리 명시되지 않은 한 테이블의 모든 포트는 TCP입니다.</block>
   <block id="f31bbdd1b3e85bccd652680e16935819" category="cell">출처</block>
   <block id="12007e1d59f4d09c87dbe2c438256244" category="cell">목적지</block>
   <block id="60aaf44d4b562252c04db7f98497e9aa" category="cell">포트</block>
@@ -6188,4 +6186,6 @@
   <block id="410ecb079e286058eeb2bc6b56d9379c" category="list-text"><block ref="410ecb079e286058eeb2bc6b56d9379c" category="inline-link-rx"></block></block>
   <block id="732713df3c4c58fb19fab37e747f6f0d" category="list-text"><block ref="732713df3c4c58fb19fab37e747f6f0d" category="inline-link-macro-rx"></block></block>
   <block id="890975e7736a237c513f38124344fb84" category="list-text"><block ref="890975e7736a237c513f38124344fb84" category="inline-link-macro-rx"></block></block>
+  <block id="7149d03eb62017e7cc5192a67ff56c1c" category="paragraph">데이터 센터의 에지 방화벽을 통해 다음 포트를 허용하여 시스템을 원격으로 관리하고, 데이터 센터 외부의 클라이언트가 리소스에 연결하도록 허용하고, 내부 서비스가 제대로 작동할 수 있도록 해야 할 수 있습니다. 시스템 사용 방법에 따라 이러한 포트, URL 또는 IP 주소 중 일부가 필요하지 않을 수 있습니다.</block>
+  <block id="331d6d490990c63b2cee0dc04fe2589b" category="paragraph">달리 명시되지 않는 한 모든 포트는 TCP이며, 모든 TCP 포트는 NetApp 지원 서버, 관리 노드 및 Element 소프트웨어를 실행하는 노드 간의 3방향 핸드셰이크 통신을 지원해야 합니다. 예를 들어 관리 노드 소스의 호스트는 TCP 포트 443을 통해 스토리지 클러스터 MVIP 대상의 호스트와 통신하고 대상 호스트는 아무 포트나 통해 소스 호스트로 다시 통신합니다.</block>
 </blocks>
