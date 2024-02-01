@@ -1462,19 +1462,6 @@
   <block id="aaeb8011e825f6e35c3a11da3b06ae8e" category="list-text">공장 출하시 기본값 * 을 선택하고 * 현재 설정 제거 를 선택한 다음 사용자 기본값을 admin/admin * 라디오 버튼으로 설정합니다.</block>
   <block id="f77361b272ce81d8275727f7b1a756a8" category="list-text">Restore * 를 선택합니다.</block>
   <block id="51cb13d5d7f53d14e1177bc7209fd917" category="list-text">로그아웃한 다음 다시 로그인하여 자격 증명이 변경되었는지 확인합니다.</block>
-  <block id="4365aa4d62fcaed8a61f5851f7c63acc" category="section-title">노드에서 BMC 펌웨어를 업그레이드합니다</block>
-  <block id="e64e1f5e233bff07158f07da3f6f71dc" category="inline-link-macro">NetApp Support 사이트(로그인 필요)</block>
-  <block id="4cd4d7d72d12ae588ded720ce09eb6be" category="paragraph">컴퓨팅 노드를 교체한 후 펌웨어 버전을 업그레이드해야 할 수 있습니다. 의 드롭다운 메뉴에서 최신 펌웨어 파일을 다운로드할 수 있습니다 <block ref="abee0fa17807b632b354ed0eee4c1a88" category="inline-link-macro-rx"></block>.</block>
-  <block id="2a0625a35fb4af01157e81573ba8eeda" category="list-text">유지 관리 &gt; 펌웨어 업데이트 * 를 선택합니다.</block>
-  <block id="447bf1c51f518d302e2efefb20e4f3e5" category="image-alt">에서는 펌웨어 업데이트에 대한 BMC UI 탐색을 보여 줍니다.</block>
-  <block id="5d3ccc6c1013f8038b1f86a92db0c184" category="list-text">BMC 콘솔 내에서 * Maintenance * 를 선택합니다.</block>
-  <block id="051af6c885ceb71e22b881985fe7c46c" category="image-alt">BMC UI의 유지보수 화면을 표시합니다.</block>
-  <block id="5f60cd8039f9c554b92de593bbb6a0a2" category="list-text">유지관리 탭의 UI 왼쪽에 있는 탐색에서 * 펌웨어 업데이트 * 를 선택하고 * 업데이트 모드 입력 * 을 선택합니다.</block>
-  <block id="67c015407a3660cd7c1736c3cbf43dd0" category="image-alt">BMC UI의 펌웨어 업데이트 화면을 표시합니다.</block>
-  <block id="0356ec6b4d587e5f4d2782c817a2e96b" category="list-text">확인 대화 상자에서 * 예 * 를 선택합니다.</block>
-  <block id="7874642886c22920789477d73255c589" category="list-text">찾아보기 * 를 선택하여 업로드할 펌웨어 이미지를 선택하고 * 펌웨어 업로드 * 를 선택합니다. 노드 근처의 외부 위치에서 펌웨어를 로드하면 로드 시간이 길어되고 시간 초과가 발생할 수 있습니다.</block>
-  <block id="9ca6aab24c6382de412d4fb67990fbb9" category="list-text">구성 검사를 유지하고 * 업그레이드 시작 * 을 선택합니다. 업그레이드는 약 5분 정도 걸립니다. 업로드 시간이 60분을 초과하는 경우 업로드를 취소하고 노드 근처에 있는 로컬 컴퓨터로 파일을 전송합니다. 세션이 시간 초과되면 BMC UI의 펌웨어 업데이트 영역에 다시 로그인하려고 시도하는 동안 많은 경고가 나타날 수 있습니다. 업그레이드를 취소하면 로그인 페이지로 리디렉션됩니다.</block>
-  <block id="fe29f01ceefdfc2a26d419451331a7de" category="list-text">업데이트가 완료되면 * OK * 를 선택하고 노드가 재부팅될 때까지 기다립니다. 업그레이드 후 로그인하고 * 시스템 * 을 선택하여 * 펌웨어 개정 * 버전이 업로드한 버전과 일치하는지 확인합니다.</block>
   <block id="334408f0e511aee8b4f25d23c40c9ff2" category="summary">NetApp HCI 시스템 업그레이드의 일부로 첫 번째 업그레이드를 수행하기 전에 컴퓨팅 노드 상태 점검을 실행해야 합니다.</block>
   <block id="1627e52c42f9bb2ee66537d3c67b82b5" category="paragraph">컴퓨팅 펌웨어를 업그레이드하기 전에 상태 점검을 실행하여 클러스터의 모든 컴퓨팅 노드를 업그레이드할 준비가 되었는지 확인해야 합니다. 컴퓨팅 노드 상태 점검은 하나 이상의 관리되는 NetApp HCI 컴퓨팅 노드의 컴퓨팅 클러스터에서만 실행할 수 있습니다.</block>
   <block id="d843290a4f160eb5d302fe442b7b62f9" category="list-text">관리 노드 11.3 이상을 실행하고 있습니다.</block>
@@ -5069,33 +5056,6 @@
   <block id="b7f7f58ec15cebe706964cdc95d8f5cf" category="sidebar">NetApp HCI에서 Rancher를 사용합니다</block>
   <block id="efaccef33aabd635656b681f92a298ea" category="sidebar">H 시리즈 하드웨어 유지 관리</block>
   <block id="93168a8084b3e838d2932c4734bd234e" category="sidebar">이전 버전</block>
-  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">시작하십시오</block>
-  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">릴리스 정보</block>
-  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">새로운 소식</block>
-  <block id="01064f33f360eefba819bf9542c0486b" category="sidebar">유지보수 하드웨어를 설치합니다</block>
-  <block id="147fc8b7d94adc0dceb5978ab928f776" category="sidebar">H 시리즈 하드웨어 설치</block>
-  <block id="09af8dd99d422c917dcb27847056b045" category="sidebar">H 시리즈 하드웨어 유지 관리</block>
-  <block id="bc2592cdeeae26af69f28b4f6a1c8ca0" category="sidebar">NetApp HCI를 설치합니다</block>
-  <block id="96e1a5a82d70a24f161f0adb6e19ac8d" category="sidebar">설치 및 구축 개요</block>
-  <block id="8a6e336622cf399a6453e4659f2a6147" category="sidebar">NetApp Deployment Engine으로 구축을 시작합니다</block>
-  <block id="a54d0ac20b8277a267fb90e8c0b05032" category="sidebar">배포 후 작업을 수행합니다</block>
-  <block id="cfe80b2a0cabf734adc7b7c1613cfe4f" category="sidebar">NetApp HCI를 사용합니다</block>
-  <block id="930dca22f6f735a61fd8f484808fecb3" category="sidebar">NetApp 하이브리드 클라우드 제어를 사용하여 관리</block>
-  <block id="6cb5dfacb4ee1684b5483221bfcf580c" category="sidebar">vCenter Server용 NetApp Element 플러그인을 사용합니다</block>
-  <block id="d02b5df8c0bf5a555ea650be898817f7" category="sidebar">NetApp HCI 를 확장합니다</block>
-  <block id="748ace58318ab9d82392d680b07e89e6" category="sidebar">NetApp HCI를 업그레이드합니다</block>
-  <block id="f7731734f4507319f744fe2c8158536a" category="sidebar">NetApp HCI 및 Rancher 문제 해결</block>
-  <block id="eeabaf7c41bcd50a6a02694c070dbfb4" category="sidebar">컴퓨팅 노드에서 BMC를 재설정합니다</block>
-  <block id="166868e0f588717c1c62116a03c9b979" category="sidebar">더 많은 기술 자료 문서</block>
-  <block id="2a9dbfa4b74c53d7304fc8b79a1874d3" category="sidebar">해결하세요</block>
-  <block id="fcf140abed196b8eba71c45f21312bce" category="sidebar">NetApp 솔루션</block>
-  <block id="81a123ccab93cd947289b672b0e50348" category="sidebar">데모 자습서</block>
-  <block id="45a52e6c046bce2a0f9f5253cc23fbd6" category="sidebar">NetApp HCI 비디오 라이브러리</block>
-  <block id="9135ac6f13de11d3b4b9f2f98ff9bcb8" category="sidebar">NetApp 학습 서비스</block>
-  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">블로그 커뮤니티</block>
-  <block id="a310588c148d934b9b30c31802d4a30b" category="sidebar">NetApp 커뮤니티</block>
-  <block id="213686afc3803be7caa09348765467fe" category="sidebar">도움을 받을 수 있는 곳</block>
-  <block id="389672366ff11f72a82c5c495b9b5159" category="sidebar">NetApp HCI 1.8 설명서</block>
   <block id="6f4f02cb0bd29a3049ddeee395d21373" category="list-text"><block ref="6f4f02cb0bd29a3049ddeee395d21373" category="inline-link-macro-rx"></block></block>
   <block id="d05f0358394ea81c12e954fa285913b7" category="list-text"><block ref="d05f0358394ea81c12e954fa285913b7" category="inline-link-macro-rx"></block></block>
   <block id="8a522fe0bbb068785db1d7e6a6f8472e" category="list-text"><block ref="8a522fe0bbb068785db1d7e6a6f8472e" category="inline-link-macro-rx"></block></block>
@@ -6190,4 +6150,9 @@
   <block id="4b07d1c342b03364f7120990720b53ef" category="section-title">5단계: 2노드 및 3노드 스토리지 클러스터에 대해 Witness Node를 재구축합니다</block>
   <block id="df0f8acf74958be223bdd3dabcce5038" category="inline-link">업그레이드 패키지 업로드 오류로 인해 SolidFire 및 HCI 업그레이드를 시작할 수 없습니다</block>
   <block id="b9bbae8efe5c0f15ffba3f05d619b861" category="list-text">2023년 11월 5일에 서명 키 인증서(개인 및 공개)가 만료되어 NetApp 하이브리드 클라우드 제어 또는 REST API를 사용하여 구성요소 업그레이드를 시작할 수 없습니다. 이 문제는 기술 자료 문서에 설명되어 있는 해결 방법을 따라 해결할 수 있습니다<block ref="43e83b9864cac922c7475bad0e74a40f" category="inline-link-rx"></block>.</block>
+  <block id="8daa3151587347980e74b151202ea3b6" category="list-text">BMC를 구성합니다. 를 참조하십시오 <block ref="785a710f4c6946c37cc4ffd8e78657df" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
+  <block id="a0701e6fb9d20d52e56b635ed36b87f5" category="inline-link">HCI 및 SolidFire H 시리즈 시스템에서 BMC 웹 UI 액세스를 비활성화하는 방법</block>
+  <block id="6eacafa95777fb1e6eb8520265b58990" category="list-text">NetApp 기술 자료 문서를 참조하십시오<block ref="241ab5b011155d72deeb18c5d431446f" category="inline-link-rx"></block> BMC 웹 액세스를 비활성화해야 하는지 여부를 확인하려면</block>
+  <block id="65c8d097794b4f73719e82bebe86d855" category="section-title">노드의 펌웨어를 업그레이드합니다</block>
+  <block id="08a91b27b8b81bd9d0b64ba51e61dd98" category="paragraph">컴퓨팅 노드를 교체한 후 펌웨어 버전을 업그레이드해야 할 수 있습니다. 을 참조하십시오 <block ref="502434424b58174296cfde9ecff2397f" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
 </blocks>
