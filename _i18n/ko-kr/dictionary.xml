@@ -6158,4 +6158,32 @@
   <block id="bfb37ae14420b32b4119e40e73553257" category="paragraph">플러그인 ZIP에 대한 사용자 지정 URL입니다.</block>
   <block id="8e0d59cc781c5557d1fdc81fdff04d8f" category="paragraph">NetApp Element 원격 플러그인 확장 지점이 나타납니다.</block>
   <block id="5770384eddfc0ac7f73f0f6242a52b50" category="paragraph">NetApp Element 구성 및 관리 확장 지점이 나타납니다.</block>
+  <block id="2ed97f2817053aac98783de2e852f1f7" category="sidebar">NetApp HCI는 하이브리드 클라우드를 위해 확장 가능한 온프레미스 하이퍼 컨버지드 인프라입니다. NetApp HCI 구성 및 관리 문서와 NetApp HCI 솔루션 정보를 사용하여 자세히 알아보십시오. 이 사이트에는 NetApp HCI 1.10에 대한 문서가 포함되어 있습니다.</block>
+  <block id="be11c74c1dd7f307bb80183a90dc2067" category="sidebar">시작하십시오</block>
+  <block id="7d0ee6fed10d3d4e5c9ee496729ab519" category="sidebar">릴리스 정보</block>
+  <block id="33871b6190a8d5adbe8b15282054766c" category="sidebar">새로운 소식</block>
+  <block id="01064f33f360eefba819bf9542c0486b" category="sidebar">하드웨어 설치 및 유지 관리</block>
+  <block id="147fc8b7d94adc0dceb5978ab928f776" category="sidebar">H 시리즈 하드웨어 설치</block>
+  <block id="09af8dd99d422c917dcb27847056b045" category="sidebar">H 시리즈 하드웨어 유지 관리</block>
+  <block id="bc2592cdeeae26af69f28b4f6a1c8ca0" category="sidebar">NetApp HCI를 설치합니다</block>
+  <block id="96e1a5a82d70a24f161f0adb6e19ac8d" category="sidebar">설치 및 구축 개요</block>
+  <block id="8a6e336622cf399a6453e4659f2a6147" category="sidebar">NetApp Deployment Engine으로 구축을 시작합니다</block>
+  <block id="a54d0ac20b8277a267fb90e8c0b05032" category="sidebar">배포 후 작업을 수행합니다</block>
+  <block id="cfe80b2a0cabf734adc7b7c1613cfe4f" category="sidebar">NetApp HCI를 사용합니다</block>
+  <block id="930dca22f6f735a61fd8f484808fecb3" category="sidebar">NetApp 하이브리드 클라우드 제어를 사용하여 관리</block>
+  <block id="6cb5dfacb4ee1684b5483221bfcf580c" category="sidebar">vCenter Server용 NetApp Element 플러그인을 사용합니다</block>
+  <block id="d02b5df8c0bf5a555ea650be898817f7" category="sidebar">NetApp HCI 를 확장합니다</block>
+  <block id="748ace58318ab9d82392d680b07e89e6" category="sidebar">NetApp HCI를 업그레이드합니다</block>
+  <block id="f7731734f4507319f744fe2c8158536a" category="sidebar">NetApp HCI 및 Rancher 문제 해결</block>
+  <block id="eeabaf7c41bcd50a6a02694c070dbfb4" category="sidebar">컴퓨팅 노드에서 BMC를 재설정합니다</block>
+  <block id="166868e0f588717c1c62116a03c9b979" category="sidebar">더 많은 기술 자료 문서</block>
+  <block id="2a9dbfa4b74c53d7304fc8b79a1874d3" category="sidebar">해결하세요</block>
+  <block id="fcf140abed196b8eba71c45f21312bce" category="sidebar">NetApp 솔루션</block>
+  <block id="81a123ccab93cd947289b672b0e50348" category="sidebar">데모 및 자습서</block>
+  <block id="45a52e6c046bce2a0f9f5253cc23fbd6" category="sidebar">NetApp HCI 비디오 라이브러리</block>
+  <block id="9135ac6f13de11d3b4b9f2f98ff9bcb8" category="sidebar">NetApp 학습 서비스</block>
+  <block id="813011e2103649bb71f124adedcc10ea" category="sidebar">블로그 및 커뮤니티</block>
+  <block id="a310588c148d934b9b30c31802d4a30b" category="sidebar">NetApp 커뮤니티</block>
+  <block id="213686afc3803be7caa09348765467fe" category="sidebar">도움을 받을 수 있는 곳</block>
+  <block id="389672366ff11f72a82c5c495b9b5159" category="sidebar">NetApp HCI 1.8 설명서</block>
 </blocks>
