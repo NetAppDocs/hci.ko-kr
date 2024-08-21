@@ -1057,7 +1057,6 @@
   <block id="9345b76867dd96005ed1e404ca6e256f" category="list-text"><block ref="9345b76867dd96005ed1e404ca6e256f" category="inline-link-macro-rx"></block></block>
   <block id="7f874a6debff4d8e3670b59ddfdf3bd0" category="inline-link-macro">2노드 클러스터의 스토리지 노드를 교체합니다</block>
   <block id="c94f753aa1baf797e0eea49696404564" category="inline-link">_TR-4820: NetApp HCI 네트워킹 빠른 계획 가이드 _</block>
-  <block id="42f1d5fbe05e1bdd25e119b9262b7dbd" category="list-text"><block ref="42f1d5fbe05e1bdd25e119b9262b7dbd" category="inline-link-rx"></block></block>
   <block id="00415b6fb565410eea76dc891605762c" category="summary">H 시리즈 컴퓨팅 노드의 경우 NetApp은 BMC, BIOS, NIC와 같은 하드웨어 구성 요소의 펌웨어 업그레이드 자동화를 지원하는 Ansible 역할을 제공합니다.</block>
   <block id="eacf1eb0cf3662016ce47146687bec73" category="doc">Ansible을 사용하여 컴퓨팅 노드 펌웨어의 업그레이드 자동화</block>
   <block id="14427a22f723384059c45e3e1e6b5fcd" category="paragraph">NetApp 하이브리드 클라우드 제어의 워크플로우를 사용하여 NetApp HCI, BIOS, NIC와 같은 구성요소의 펌웨어를 포함하여 컴퓨팅 노드에서 시스템 펌웨어를 업데이트할 수 있습니다. 대규모 컴퓨팅 클러스터를 설치할 경우 Ansible을 사용하여 전체 클러스터의 롤링 업그레이드를 수행하여 워크플로우를 자동화할 수 있습니다.</block>
@@ -3586,7 +3585,6 @@
   <block id="b4c5d7523b472861778f2afd883b2b2b" category="inline-link">QoSSIOC를 활성화합니다</block>
   <block id="e9649f789dba33069d65dd43f646890f" category="list-text"><block ref="ab3ca5933bb57bf5671eabef88a511cb" category="inline-link-rx"></block> 플러그인으로 제어되는 모든 데이터 저장소의 경우</block>
   <block id="c238cdf4d684fe1ceb6e88d6f4b60ebe" category="inline-link">NetApp HCI 2노드 스토리지 클러스터 기술 보고서</block>
-  <block id="6a718d1cc3413213dbf56882de72ccb2" category="list-text"><block ref="6a718d1cc3413213dbf56882de72ccb2" category="inline-link-rx"></block></block>
   <block id="60a877c84f0ee48293a616d3f8e56b1c" category="summary">다음 지침에 따라 NetApp HCI를 설치하고 배포합니다.</block>
   <block id="73dcc51ecb25aa26ad0c174b131f18bc" category="paragraph">다음 지침에 따라 NetApp HCI를 설치하고 배포합니다. 이 지침에는 자세한 내용을 볼 수 있는 링크가 포함되어 있습니다.</block>
   <block id="b1dc298e8bebbcb9f25ab7647e0b2649" category="paragraph">다음은 프로세스에 대한 개요입니다.</block>
@@ -3608,7 +3606,6 @@
   <block id="2fbd4cfd16900b4f22e7f4097fc857d1" category="list-text">설치 전에 _NetApp HCI 설치 검색 워크북_을 사용하여 네트워크를 구성하십시오.</block>
   <block id="886bc05c9156ba9a0ef0e59bbe922cc0" category="inline-link">_NetApp HCI 설치 및 설정 지침 _</block>
   <block id="edeed001a7f09dfe7e394923f01fabcb" category="inline-link">_TR-4823:NetApp HCI 2-노드 스토리지 클러스터 _</block>
-  <block id="800b3008a6000b89c3546a67908cb985" category="list-text">4개의 스토리지 노드보다 작은 NetApp HCI 구성에 대한 자세한 내용은 를 참조하십시오<block ref="1f9877144b35a10963cfdabe34a39b35" category="inline-link-rx"></block>.</block>
   <block id="2ddcd8d0a81226eb8f35042ac6c6e593" category="inline-link-macro">최적의 스토리지 성능을 위해 LCAP를 구성합니다</block>
   <block id="405abbf068b60685bf7c22dc59b5838a" category="list-text">각 스토리지 노드에 사용되는 스위치 포트에 LACP(Link Aggregation Control Protocol)를 구성하는 방법에 대한 자세한 내용은 을 참조하십시오 <block ref="ca38e0bcccdbd590268fcccffc4dab9a" category="inline-link-macro-rx"></block>.</block>
   <block id="192476cda33667b77205e5378299fce7" category="paragraph">이 설정은 모든 트래픽을 두 개의 물리적 중복 포트로 통합하여 케이블 연결을 줄이고 네트워크 구성을 간소화합니다. 이 구성에서는 스토리지, vMotion 및 모든 가상 머신 네트워크 세그먼트가 VLAN 태깅을 사용해야 합니다. 관리 네트워크 세그먼트에서는 네이티브 VLAN 또는 태그가 지정된 VLAN을 사용할 수 있지만, NDE(NetApp Deployment Engine)가 네트워크 리소스를 자동화된 방식으로 할당할 수 있도록 네이티브 VLAN이 기본 모드입니다(Zero Conf).</block>
@@ -3715,7 +3712,6 @@
   <block id="3664bb4df59eca4395d94a7c6384dfc0" category="inline-link-macro">NetApp HCI 설치 및 설정 지침</block>
   <block id="07b021dc180c131c18c2e77e5fa1150f" category="list-text"><block ref="07b021dc180c131c18c2e77e5fa1150f" category="inline-link-macro-rx"></block></block>
   <block id="f62052d22b7c5c8f9a15b0afff504755" category="inline-link">TR-4820: NetApp HCI 네트워킹 빠른 계획 가이드</block>
-  <block id="85dcef363aee58216fb5391e1fe35922" category="list-text"><block ref="85dcef363aee58216fb5391e1fe35922" category="inline-link-rx"></block></block>
   <block id="da3eb0bd8c882a21931739ac39ce915a" category="inline-link">vCenter Server용 NetApp Element 플러그인 설명서</block>
   <block id="412377cf78b07a27c835e112fdfa7507" category="list-text"><block ref="412377cf78b07a27c835e112fdfa7507" category="inline-link-rx"></block></block>
   <block id="99a4ec91179b80fd1b6cead13251456a" category="summary">CPU, 마더보드 또는 전원이 켜지지 않는 경우와 관련된 컴퓨팅 노드 장애를 복구하려면 섀시를 교체해야 합니다. NetApp HCI 부트스트랩 OS 버전 1.6 이상을 실행하는 H610C 컴퓨팅 노드의 DIMM에 결함이 있는 경우 DIMM을 교체할 수 있으며 섀시를 교체할 필요가 없습니다. H615C 노드의 경우 DIMM에 장애가 발생할 경우 섀시를 교체할 필요가 없으며 장애가 발생한 DIMM만 교체할 수 있습니다.</block>
@@ -4007,7 +4003,6 @@
   <block id="99494896be55aff6e412f1ef0dd3ca4c" category="list-text"><block ref="1f3c51825f286c5250086b5376a2ce29" category="inline-xref-macro-rx"></block></block>
   <block id="e56841e919b23e1af6ae192bcf82f545" category="list-text"><block ref="b85ef421159ab16d832d7cee8cebee71" category="inline-xref-macro-rx"></block></block>
   <block id="e73fbad1f8418c19025f40cdb1b36fc8" category="inline-link">TR-4741: NetApp Element 소프트웨어 원격 복제</block>
-  <block id="4295c2c146dffb0e501aa5660faa08a6" category="paragraph">을 참조하십시오<block ref="248edd64302142b459fba4dec31bdb70" category="inline-link-rx"></block>.</block>
   <block id="ff5dd3355a0a16a7f2fc734ab2229851" category="section-title">클러스터 간 동기식 및 비동기식 복제</block>
   <block id="697cef1ff0b4e36164796a8a21f78548" category="paragraph">NetApp Element 소프트웨어를 실행하는 클러스터의 경우 실시간 복제를 통해 볼륨 데이터의 원격 복사본을 신속하게 생성할 수 있습니다.</block>
   <block id="0389e516b3bf2b6b34e9309ede779a02" category="paragraph">스토리지 클러스터를 최대 4개의 다른 스토리지 클러스터와 페어링할 수 있습니다. 장애 조치 및 장애 복구 시나리오를 위해 클러스터 쌍의 클러스터 중 하나에서 볼륨 데이터를 동기 또는 비동기식으로 복제할 수 있습니다.</block>
@@ -4684,7 +4679,6 @@
   <block id="4da92c7240bcf479967105033d357a35" category="summary">NetApp HCI 환경 요구 사항에 대해 알아보십시오.</block>
   <block id="11144d4ff9f1c8879c32b13d1fe55516" category="paragraph">NetApp HCI 설치에 사용되는 랙의 전원이 AC 전원 콘센트에 의해 공급되고 데이터 센터에서 NetApp HCI 설치 크기에 적합한 냉각 기능을 제공하는지 확인하십시오.</block>
   <block id="05a04100a1c10fafc9e93be86bb13553" category="inline-link">데이터시트</block>
-  <block id="6c16ead3b4e36b80345f1e68a56b5630" category="paragraph">NetApp HCI의 각 구성 요소에 대한 자세한 기능은 NetApp HCI를 참조하십시오<block ref="3893914a6d59fe23537d16c9f9b61af3" category="inline-link-rx"></block>.</block>
   <block id="ac54e75ab9caed383d040ca6a1ec8507" category="admonition">H410C 컴퓨팅 노드는 고전압(200~240VAC)에서만 작동합니다. H410C 노드를 기존 NetApp HCI 설치에 추가할 때 전원 요구 사항이 충족되는지 확인해야 합니다.</block>
   <block id="6a06383dae58d38fc5f43108b245ada6" category="summary">스토리지에 추가 NIC를 사용하는 경우 태그가 지정되지 않은 네트워크 인터페이스 또는 태그가 지정된 네트워크 인터페이스를 설정해야 합니다.</block>
   <block id="e951f2b3b1d1d0ed40dad7986c81696d" category="paragraph">스토리지에 추가 NIC를 사용하는 경우 관리 노드에 SSH를 연결하거나 vCenter 콘솔을 사용하여 curl 명령을 실행하여 태그가 지정되거나 태그가 지정되지 않은 네트워크 인터페이스를 설정할 수 있습니다.</block>
@@ -5535,7 +5529,6 @@
   <block id="9e7f85792d512cae6438c01093dd8f13" category="admonition">버전 2.27로 업그레이드하기 전에 현재 ESXi 드라이버 버전을 확인하십시오. 드라이버가 최신 버전이 아니면 먼저 드라이버를 업그레이드하십시오. 그런 다음 컴퓨팅 노드에서 컴퓨팅 펌웨어를 버전 2.27로 업그레이드하십시오. 를 방문하십시오 <block ref="ba79adf2a648aae596ba5c5e0a50002c" category="inline-link-macro-rx"></block> ESXi 드라이버를 포함하는 컴퓨팅 노드 드라이버를 업데이트하는 방법은 를 참조하십시오.</block>
   <block id="2558aa1c4b088a01ebbd23c6a72472a3" category="admonition">에 대해 자세히 알아보십시오 <block ref="0614c1798bfcf6fa1dd2b630cd83d6d6" category="inline-link-macro-rx"></block> 및 <block ref="9f9f24cd869308f40f7cad49c3f42972" category="inline-link-macro-rx"></block>.</block>
   <block id="88b68b205e674e3025849d8b5b19d8d0" category="admonition">2노드 스토리지 클러스터에서는 Witness 노드 장애가 발생할 경우 이중화를 위해 최소 2개의 Witness 노드가 구축됩니다. NetApp HCI 설치 프로세스에서 Witness 노드를 설치하면 VMware vCenter에 VM 템플릿이 저장되며, Witness 노드가 실수로 제거, 손실 또는 손상된 경우 이를 다시 배포하는 데 사용할 수 있습니다. Witness Node를 호스팅하던 장애가 발생한 컴퓨팅 노드를 교체해야 하는 경우 이 템플릿을 사용하여 Witness Node를 재구축할 수도 있습니다. 자세한 내용은 2노드 및 3노드 스토리지 클러스터를 위한 * 재구축 Witness 노드 * 섹션을 참조하십시오 <block ref="29ec30455b40779461eab8434f6212ca" category="inline-link-macro-rx"></block>.</block>
-  <block id="23d36a99e35a6625ac76fe1f034e722a" category="list-text"><block ref="23d36a99e35a6625ac76fe1f034e722a" category="inline-link-rx"></block></block>
   <block id="9919e22324d983d998afd33f187a0a61" category="paragraph">NetApp은 새로운 기능, 개선 사항 및 버그 수정을 제공하기 위해 NetApp HCI을 정기적으로 업데이트합니다. NetApp HCI 1.10에는 스토리지 클러스터의 Element 소프트웨어 12.5가 포함되어 있습니다.</block>
   <block id="f4acceab098d15c508ef563bc36e37fe" category="paragraph">Element 12.5에는 Apache log4j 취약점에 대한 Element 소프트웨어 노출을 종료하는 완화 요소가 포함되어 있습니다. VVOL(가상 볼륨) 기능을 활성화한 NetApp SolidFire 스토리지 클러스터는 Apache log4j 취약점에 노출됩니다. NetApp Element 소프트웨어의 Apache log4j 취약점에 대한 해결 방법에 대한 자세한 내용은 {url-peak} [KB 문서^]를 참조하십시오.</block>
   <block id="89cf55eeb9f34a1a360f23ce53a22331" category="paragraph">패키지를 업로드하면 업그레이드가 자동으로 시작됩니다.</block>
@@ -5544,7 +5537,6 @@
   <block id="726e3510e2c172eed6861f3e6d271360" category="paragraph">VMware vCenter Server 6.7U1을 사용하여 vCenter Server 4.8 이상용 NetApp Element 플러그인으로 업그레이드한 후 스토리지 클러스터가 나열되지 않거나 NetApp Element 구성의 * 클러스터 * 및 * QoSSIOC 설정 * 섹션에 서버 오류가 나타나는 경우 을 참조하십시오 <block ref="c907b125bbc711015f83b735f4697e97" category="inline-link-macro-rx"></block> 이러한 오류 문제 해결에 대한 문서.</block>
   <block id="c36b368af7c827d8bb3a4d8c46e97a75" category="admonition">버전 2.76.10으로 업그레이드하기 전에 현재 ESXi 드라이버 버전을 확인하십시오. 드라이버가 최신 버전이 아니면 먼저 드라이버를 업그레이드하십시오. 그런 다음 컴퓨팅 노드에서 컴퓨팅 펌웨어를 버전 2.99로 업그레이드합니다. 를 방문하십시오 <block ref="ba79adf2a648aae596ba5c5e0a50002c" category="inline-link-macro-rx"></block> ESXi 드라이버를 포함하는 컴퓨팅 노드 드라이버를 업데이트하는 방법은 를 참조하십시오.</block>
   <block id="c70e7fb85a0bbb75d626cb1d7966ab03" category="admonition">2노드 스토리지 클러스터를 4개 이상의 노드로 확장한 경우 스토리지 클러스터에서 이전에 사용한 Witness 노드 쌍은 vSphere에서 대기 가상 머신으로 계속 표시됩니다. 새로 확장된 스토리지 클러스터는 이러한 스토리지 클러스터를 사용하지 않으므로 VM 리소스를 회수하려는 경우 <block ref="b068a43ec0931fd63c3030d857c1d3cb" category="inline-link-macro-rx"></block> Witness Node 가상 머신</block>
-  <block id="82fd08126fae06d6277e6d275f22adee" category="list-text">자세한 내용 및 기타 지원되는 구성은 를 참조하십시오<block ref="6bea819619d5f9270163ce0543e87e1e" category="inline-link-rx"></block> 및<block ref="a72ae021af8843b5883c31a3cf48fdbb" category="inline-link-rx"></block>.</block>
   <block id="d921f4dac25eaa654020043661ebf1d8" category="paragraph">자세한 내용은 을 참조하십시오 <block ref="aadf487819eba2c7633cf481d9cde909" category="inline-link-macro-rx"></block>.</block>
   <block id="dd41e54aa84e335e4ee862a13b5e6a0c" category="paragraph">저장된 암호화 활성화 및 비활성화에 대한 자세한 내용은 를 참조하십시오<block ref="599a70c288c4ec9eda9a2cc053c403eb" category="inline-link-rx"></block> SolidFire 및 요소 문서 센터에서</block>
   <block id="e64faf772063d25cbb0caf6a1bb47d1f" category="paragraph">외부 키 관리 구성에 대한 자세한 내용은 을 참조하십시오<block ref="64b5968354f6f57943cb4a3dfcc320f7" category="inline-link-rx"></block> SolidFire 및 요소 문서 센터에서</block>
@@ -5900,7 +5892,6 @@
   <block id="59f1e3a87c5b329f2a5a951d9bf325f8" category="cell">노드 원격 제어에 대한 HTTPS UI 및 API 액세스</block>
   <block id="1381491a5bb8087f95db0601150c5c28" category="cell">스토리지 노드 BMC/IPMI H410 및 H600 시리즈</block>
   <block id="291dd45cc603b1047e92bf5a13259357" category="cell">RMCP 포트. IPMI 지원 시스템을 관리하는 데 필요합니다.</block>
-  <block id="4fc3110ffa80f16c08c41963de559312" category="admonition">의 컴퓨팅 노드에 대해 ESXi를 업그레이드할 때<block ref="c40679731a13cea0e8ba16410d87ab2b" category="inline-link-rx"></block>, 한 번에 하나의 컴퓨팅 노드만 업그레이드하여 하나의 감시 노드만 일시적으로 사용할 수 없고 클러스터 쿼럼을 유지할 수 있습니다.</block>
   <block id="ed49450e49f19333986b5262b5e1a4d4" category="paragraph">NetApp HCI 컴퓨팅 노드에 대해 지원되는 펌웨어 및 ESXi 드라이버 버전</block>
   <block id="0b50a6dd18dd8aee8ba17d59674440d3" category="paragraph">H 시리즈 및 SolidFire 스토리지 노드에 대해 지원되는 펌웨어 버전입니다.</block>
   <block id="64e18ac9b2149d7132eaef6563caaaf6" category="paragraph">* 모델 번호(제품군 부분): * H610S * 전체 모델 번호: * H610S-1, H610S-1-NE, H610S-2, H610S-2-NE, H610S-4, H610S-4-NE 및 H610S-2F</block>
@@ -6186,4 +6177,13 @@
   <block id="a310588c148d934b9b30c31802d4a30b" category="sidebar">NetApp 커뮤니티</block>
   <block id="213686afc3803be7caa09348765467fe" category="sidebar">도움을 받을 수 있는 곳</block>
   <block id="389672366ff11f72a82c5c495b9b5159" category="sidebar">NetApp HCI 1.8 설명서</block>
+  <block id="de9f9af3b709ace792d8704d5d9b105f" category="list-text"><block ref="de9f9af3b709ace792d8704d5d9b105f" category="inline-link-rx"></block></block>
+  <block id="68f63921fdce687db3c7510ea1f63df3" category="paragraph">을<block ref="5fe7d084aafda4fb5c53715a85948ffe" category="inline-link-rx"></block>참조하십시오.</block>
+  <block id="75f97cab9e9de14d25c05846e421361a" category="paragraph">NetApp HCI의 각 구성 요소에 대한 자세한 기능은 NetApp HCI를<block ref="cf48105a0f3c2479f34bbdfad268bcc0" category="inline-link-rx"></block> 참조하십시오.</block>
+  <block id="5824ec67f2e84250bfcd931d8f2d6a16" category="list-text">자세한 내용과 기타 지원되는 구성은<block ref="be0a1633f05f833fc37598e3b5d7e95e" category="inline-link-rx"></block> 및 를 참조하십시오<block ref="a72ae021af8843b5883c31a3cf48fdbb" category="inline-link-rx"></block>.</block>
+  <block id="8a91fe255efcffde80021047735fd330" category="list-text">4개 미만의 스토리지 노드로 구성된 NetApp HCI 구성에 대한 자세한 내용은 을 참조하십시오.<block ref="54d37355d9369a629af27e51f6998cd4" category="inline-link-rx"></block></block>
+  <block id="1e4bf851d18462d626029f69f75339e4" category="list-text"><block ref="1e4bf851d18462d626029f69f75339e4" category="inline-link-rx"></block></block>
+  <block id="a5f38386dcceecb027de7fd15fcc6aa4" category="list-text"><block ref="a5f38386dcceecb027de7fd15fcc6aa4" category="inline-link-rx"></block></block>
+  <block id="0287de700b52d79d64e09aca72f4850b" category="admonition">에 대한 컴퓨팅 노드용 ESXi를 업그레이드할 때는<block ref="d6b7667dc675e8798d67d09fb8931bb2" category="inline-link-rx"></block> 한 번에 하나의 컴퓨팅 노드만 업그레이드하면 일시적으로 하나의 감시 노드만 사용할 수 있고 클러스터 쿼럼을 유지할 수 있습니다.</block>
+  <block id="a2f9c1250a16a7514c9d6b0865b7bf42" category="list-text"><block ref="a2f9c1250a16a7514c9d6b0865b7bf42" category="inline-link-rx"></block></block>
 </blocks>
