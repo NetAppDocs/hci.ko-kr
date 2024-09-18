@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <blocks>
   <block id="db035ffffac30b1a95fd497625c55167" category="summary">NetApp HCI 구성 및 관리 문서와 NetApp HCI 솔루션 정보를 사용하여 자세히 알아보십시오.</block>
-  <block id="ad0a505756223d68dc11afeae3459351" category="doc">NetApp HCI 문서</block>
   <block id="b1239030c148323ad8a746df026702ec" category="summary">NetApp HCI를 사용하면 업계 표준 보안 프로토콜을 통해 데이터가 보호됩니다.</block>
   <block id="fa8d3f5ab9b8eb61456ae1568b17a911" category="doc">NetApp HCI 보안</block>
   <block id="5534d1602f838f34f2bbcff08bf61218" category="section-title">스토리지 노드의 유휴 데이터 암호화</block>
@@ -6186,4 +6185,5 @@
   <block id="a5f38386dcceecb027de7fd15fcc6aa4" category="list-text"><block ref="a5f38386dcceecb027de7fd15fcc6aa4" category="inline-link-rx"></block></block>
   <block id="0287de700b52d79d64e09aca72f4850b" category="admonition">에 대한 컴퓨팅 노드용 ESXi를 업그레이드할 때는<block ref="d6b7667dc675e8798d67d09fb8931bb2" category="inline-link-rx"></block> 한 번에 하나의 컴퓨팅 노드만 업그레이드하면 일시적으로 하나의 감시 노드만 사용할 수 있고 클러스터 쿼럼을 유지할 수 있습니다.</block>
   <block id="a2f9c1250a16a7514c9d6b0865b7bf42" category="list-text"><block ref="a2f9c1250a16a7514c9d6b0865b7bf42" category="inline-link-rx"></block></block>
+  <block id="71ba5558351e89d8a3a0e99e30d1f750" category="sidebar">NetApp HCI 설명서 1.10</block>
 </blocks>
