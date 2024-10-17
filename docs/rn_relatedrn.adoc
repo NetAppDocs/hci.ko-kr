@@ -81,7 +81,8 @@ NOTE: NetApp Support 사이트 자격 증명을 사용하여 로그인하라는 
 
 == 컴퓨팅 펌웨어
 
-* link:rn_compute_firmware_2.174.0.html["컴퓨팅 펌웨어 번들 2.174.0 릴리스 정보"] _신규 _
+* link:rn_compute_firmware_2.179.0.html["Compute Firmware Bundle 2.179.0 릴리스 정보"] _신규_
+* link:rn_compute_firmware_2.174.0.html["컴퓨팅 펌웨어 번들 2.174.0 릴리스 정보"]
 * link:rn_compute_firmware_2.154.4.html["컴퓨팅 펌웨어 번들 2.154.4 릴리스 정보"]
 * link:rn_compute_firmware_2.146.html["컴퓨팅 펌웨어 번들 2.146 릴리스 정보"]
 * link:rn_compute_firmware_2.76.html["컴퓨팅 펌웨어 번들 2.76 릴리스 정보"]
@@ -94,7 +95,8 @@ NOTE: NetApp Support 사이트 자격 증명을 사용하여 로그인하라는 
 
 == 스토리지 펌웨어
 
-* link:rn_storage_firmware_2.175.0.html["스토리지 펌웨어 번들 2.175.0 릴리스 정보"] _신규 _
+* link:rn_storage_firmware_2.182.0.html["스토리지 펌웨어 번들 2.182.0 릴리스 정보"] _신규_
+* link:rn_storage_firmware_2.175.0.html["스토리지 펌웨어 번들 2.175.0 릴리스 정보"]
 * link:rn_storage_firmware_2.164.0.html["스토리지 펌웨어 번들 2.164.0 릴리스 정보"]
 * link:rn_storage_firmware_2.150.html["스토리지 펌웨어 번들 2.150 릴리스 정보"]
 * link:rn_storage_firmware_2.146.html["스토리지 펌웨어 번들 2.146 릴리스 정보"]
