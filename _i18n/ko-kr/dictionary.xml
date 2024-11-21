@@ -6133,11 +6133,9 @@
   <block id="08a91b27b8b81bd9d0b64ba51e61dd98" category="paragraph">컴퓨팅 노드를 교체한 후 펌웨어 버전을 업그레이드해야 할 수 있습니다. 을 참조하십시오 <block ref="502434424b58174296cfde9ecff2397f" category="inline-link-macro-rx"></block> 를 참조하십시오.</block>
   <block id="939f531b35412529043c2c302552fa24" category="list-text"><block ref="939f531b35412529043c2c302552fa24" category="inline-link-rx"></block></block>
   <block id="d3c4a89052a32dd9783dd119f30d6d47" category="inline-link">vCenter Plug-in 5.3 릴리즈 노트</block>
-  <block id="0c21440ced3ddae10d1eea32870fdf02" category="list-text"><block ref="ce90fd614158a5c7e0a42a5908fa1cd7" category="inline-link-rx"></block> _신규 _</block>
   <block id="6bd87cf3d55c2ead3ab585e965bea4db" category="list-text"><block ref="6bd87cf3d55c2ead3ab585e965bea4db" category="inline-link-rx"></block></block>
   <block id="976b368b923346c8ea4ccc71e72749f5" category="inline-link-macro">관리 서비스 2.25.42 알림(VMware vCenter Server 5.3.9용 NetApp Element 플러그인)</block>
   <block id="f7e890b0a90e234e4df04fc0c6b8c6a7" category="list-text"><block ref="f7e890b0a90e234e4df04fc0c6b8c6a7" category="inline-link-macro-rx"></block></block>
-  <block id="bef71f962ff7a233f3e8439eeb8dac70" category="list-text">vCenter Server 5.3, 5.2, 5.1 또는 5.0용 Element 플러그인으로 업그레이드하려고 합니다.</block>
   <block id="1b72ac6198c042d0bd992d1bb6e9d9bd" category="paragraph">이전에 있었던 관리 노드를 실행하고 있습니다 <block ref="23cc83378d4b0551eef4ac573737e008" category="inline-link-macro-rx"></block> 12.3.x 이상 버전으로.</block>
   <block id="08f9e70df1fc159dfb7400ec9dea96a4" category="paragraph">이전에 있었던 관리 노드를 실행하고 있습니다 <block ref="23cc83378d4b0551eef4ac573737e008" category="inline-link-macro-rx"></block> 11.3 이상 버전으로. vCenter 플러그인 4.4 이상에서는 개별 서비스를 제공하는 모듈식 아키텍처를 갖춘 11.3 이상의 관리 노드가 필요합니다. 관리 노드의 전원은 IP 주소 또는 DHCP 주소가 구성되어 있어야 합니다.</block>
   <block id="98e5a822cb59ab0389d49ffe93acad7a" category="paragraph">vCenter Plug-in Registration 페이지가 나타납니다.</block>
@@ -6229,4 +6227,10 @@
   <block id="2dc3efc642d50fd00d3f873b79e8b213" category="cell">* GDC5A02Q *</block>
   <block id="c94f09ee99212129d406ef397dc89885" category="cell">* 11093A10 *</block>
   <block id="0e6ea2d2094482378f9c9eb3acdf6a9d" category="cell">* 110B3A10 *</block>
+  <block id="6f00c58e2f26b2ef4542eb663cdb651d" category="inline-link-macro">관리 서비스 2.26.30 알림(VMware vCenter Server 5.4.1용 NetApp Element 플러그인)</block>
+  <block id="a6797c051ad351f2872ce5ea539ca689" category="list-text"><block ref="a6797c051ad351f2872ce5ea539ca689" category="inline-link-macro-rx"></block></block>
+  <block id="c4891769f65182d5fc5a37494844c496" category="inline-link">vCenter Plug-in 5.4 릴리즈 노트</block>
+  <block id="230e88f97688d3fb971fe1a76f5b2a13" category="list-text"><block ref="912995e99772bb097b2c7b32940725bb" category="inline-link-rx"></block> _신규_</block>
+  <block id="ce90fd614158a5c7e0a42a5908fa1cd7" category="list-text"><block ref="ce90fd614158a5c7e0a42a5908fa1cd7" category="inline-link-rx"></block></block>
+  <block id="fdbd44871ecf32ab0e37e9d3c077e28a" category="list-text">vCenter Server 5.4, 5.3, 5.2, 5.1 또는 5.0용 Element 플러그인으로 업그레이드하려고 합니다.</block>
 </blocks>
