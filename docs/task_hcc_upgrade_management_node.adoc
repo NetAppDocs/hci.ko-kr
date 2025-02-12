@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: docs/task_hcc_upgrade_management_node.html 
 summary: NetApp HCI 시스템 업그레이드의 일부로 관리 노드를 업그레이드합니다. 
-keywords: netapp, hci, on premise, cluster, management node, mNode, upgrade, 10, 11.0, 11.1, 11.3, 11.5, 11.7, 12.0, 12.2, 12.3, 12.3.1, 12.3.2, 12.3.x, 12.5, 12.7 
+keywords: netapp, hci, on premise, cluster, management node, mNode, upgrade, 10, 11.0, 11.1, 11.3, 11.5, 11.7, 12.0, 12.2, 12.3, 12.3.1, 12.3.2, 12.3.x, 12.5, 12.7, 12.8 
 ---
 = 관리 노드를 업그레이드합니다
 :allow-uri-read: 
@@ -16,8 +16,30 @@ keywords: netapp, hci, on premise, cluster, management node, mNode, upgrade, 10,
 
 NOTE: 관리 노드 12.2 이전 버전 업그레이드에 대한 정보가 필요한 경우 를 참조하십시오 https://docs.netapp.com/us-en/hci19/docs/task_hcc_upgrade_management_node.html["NetApp HCI 1.9 관리 노드 업그레이드 설명서"^].
 
-.업그레이드 옵션
-다음 옵션 중 하나를 선택합니다.
+
+
+== 1단계: 관리 노드에서 VM 하드웨어 버전 업그레이드
+
+기존 관리 노드를 Element 12.8로 전체 업그레이드를 수행하는 경우 업그레이드하기 전에 관리 노드의 VM 하드웨어 버전이 ESXi 6.7(VM 하드웨어 버전 14) 이상과 호환되는지 확인해야 합니다.
+
+
+NOTE: 다음 단계에 따라 Witness 노드에서 VM 하드웨어 버전을 업그레이드할 수도 있습니다.
+
+.단계
+. vCenter 관리자로 vSphere Web Client에 로그인합니다.
+. vSphere Client 메뉴에서 * VMS * 및 * Templates * 를 선택합니다.
+. 가상 머신을 마우스 오른쪽 버튼으로 클릭하고 * 호환성 * > * Upgrade VM Compatibility * 를 선택합니다.
+. 예 * 를 선택합니다.
+. vSphere 환경의 버전에 따라 ESXi 6.7 이상 버전을 선택합니다.
+. OK * 를 선택합니다.
+. 업그레이드가 완료된 후 * vSphere Client Refresh * 를 선택하고 VM 호환성이 원하는 버전인지 확인합니다.
+
+
+
+
+== 2단계: 관리 노드를 Element 12.5 이상으로 업그레이드합니다
+
+다음 업그레이드 옵션 중 하나를 선택합니다.
 
 * <<관리 노드를 버전 12.3.x 이상에서 버전 12.5 이상으로 업그레이드합니다>>
 * <<관리 노드 REST API를 사용하여 인증을 재구성합니다>>
@@ -31,14 +53,14 @@ NOTE: 관리 서비스를 Element 스토리지 뒤에 순차적으로 업데이�
 
 
 
-== 관리 노드를 버전 12.3.x 이상에서 버전 12.5 이상으로 업그레이드합니다
+=== 관리 노드를 버전 12.3.x 이상에서 버전 12.5 이상으로 업그레이드합니다
 
 새 관리 노드 가상 머신을 프로비저닝하지 않고도 관리 노드를 버전 12.3.x 이상에서 버전 12.5 이상으로 업그레이드할 수 있습니다.
 
 
 NOTE: Element 12.5 이상의 관리 노드는 선택적 업그레이드입니다. 기존 배포에는 필요하지 않습니다.
 
-.필요한 것
+.시작하기 전에
 * 관리 노드 VM의 RAM은 24GB입니다.
 * 업그레이드하려는 관리 노드는 버전 12.0이며 IPv4 네트워킹을 사용합니다. 관리 노드 버전 12.5 이상은 IPv6를 지원하지 않습니다.
 +
@@ -124,7 +146,7 @@ IMPORTANT: 이전에 관리 노드에서 SSH 기능을 해제한 경우 를 수�
 
 
 
-== 관리 노드 REST API를 사용하여 인증을 재구성합니다
+=== 관리 노드 REST API를 사용하여 인증을 재구성합니다
 
 (1) 관리 서비스 및 (2) Element 스토리지를 순차적으로 업그레이드한 경우 기존 관리 노드를 유지할 수 있습니다. 다른 업그레이드 순서를 따르는 경우 현재 위치 관리 노드 업그레이드 절차를 참조하십시오.
 
@@ -157,7 +179,8 @@ https://<ManagementNodeIP>/mnode
 
 
 
-[discrete]
+
+
 == 자세한 내용을 확인하십시오
 
 * https://docs.netapp.com/us-en/vcp/index.html["vCenter Server용 NetApp Element 플러그인"^]

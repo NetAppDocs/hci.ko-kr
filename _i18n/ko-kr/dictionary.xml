@@ -1658,7 +1658,6 @@
   <block id="a8eb35236338fefbad16baa7af1c75ba" category="cell">67GB</block>
   <block id="845f62e2611daf20a77cdbef343a155b" category="paragraph">NetApp HCI는 2노드 또는 3노드 스토리지 클러스터에서 특정 스토리지 노드 모델만 지원합니다. 자세한 내용은 사용 중인 NetApp HCI 버전에 대한 릴리즈 노트를 참조하십시오.</block>
   <block id="6c92285fa6d3e827b198d120ea3ac674" category="inline-link-macro">여기</block>
-  <block id="edc66b1482b45fd0e89fdbe4ba094191" category="admonition">NetApp HCI 설치 프로세스에서 Witness 노드를 설치하면 VMware vCenter에 VM 템플릿이 저장되며, Witness 노드가 실수로 제거, 손실 또는 손상된 경우 이를 다시 배포하는 데 사용할 수 있습니다. Witness Node를 호스팅하던 장애가 발생한 컴퓨팅 노드를 교체해야 하는 경우 이 템플릿을 사용하여 Witness Node를 재구축할 수도 있습니다. 자세한 내용은 2노드 및 3노드 스토리지 클러스터를 위한 * 재구축 Witness 노드 * 섹션을 참조하십시오 <block ref="0deb95019659c8847f806617fd301765" category="inline-link-macro-rx"></block>.</block>
   <block id="0e93badeabe261c69b6984cdc67bfc5d" category="summary">이니시에이터에 대한 정보와 이러한 이니시에이터를 사용하여 볼륨 액세스 그룹의 스토리지에 대한 액세스를 허용하는 방법에 대해 알아봅니다.</block>
   <block id="6430db21988dbbdfca7783c89a7710df" category="doc">이니시에이터</block>
   <block id="80d6153382e70910f8e51a18694440a4" category="paragraph">이니시에이터는 외부 클라이언트가 클러스터의 볼륨에 액세스할 수 있도록 하며, 클라이언트와 볼륨 간의 통신을 위한 진입점 역할을 합니다. 스토리지 볼륨에 대한 계정 기반 액세스 대신 CHAP 기반 액세스에 이니시에이터를 사용할 수 있습니다. 볼륨 액세스 그룹에 추가된 단일 이니시에이터는 볼륨 액세스 그룹 구성원이 인증을 요구하지 않고 그룹에 추가된 모든 스토리지 볼륨에 액세스할 수 있도록 합니다. 이니시에이터는 하나의 액세스 그룹에만 속할 수 있습니다.</block>
@@ -2746,7 +2745,6 @@
   <block id="d3ceaee3eba1f3d1dc3dd762d6254a77" category="list-text">컨트롤러 하위 자산을 추가하려면 * POST/ASSET/{ASSET_ID}/CONTROLLER * 를 클릭합니다.</block>
   <block id="4fc766d515cef70e327bbefb8f32007e" category="list-text">클립보드에 복사한 상위 기본 자산 ID를 * asset_id * 필드에 입력합니다.</block>
   <block id="e2e193a380a16845739e1445cfe23fde" category="list-text">유형 'vCenter'와 vCenter 자격 증명을 사용하여 필요한 페이로드 값을 입력합니다.</block>
-  <block id="421226b233bd18f9c1f8d179419a2f39" category="list-text">(NetApp HCI에만 해당) 컴퓨팅 노드 자산을 관리 노드의 알려진 자산에 추가합니다.</block>
   <block id="4b0a80de8336b03c597eb9e339a88503" category="section-title">관리 노드 REST API를 사용하여 인증을 재구성합니다</block>
   <block id="3f171b923ed811e8ed015dcad2a9829a" category="paragraph">(1) 관리 서비스 및 (2) Element 스토리지를 순차적으로 업그레이드한 경우 기존 관리 노드를 유지할 수 있습니다. 다른 업그레이드 순서를 따르는 경우 현재 위치 관리 노드 업그레이드 절차를 참조하십시오.</block>
   <block id="69f5442caf6936145cd4f73e7c83f2a4" category="list-text">Element 스토리지를 업그레이드한 후 관리 서비스를 순차적으로 업데이트했습니다. 설명된 순서대로 업그레이드를 완료하지 않으면 이 절차를 사용하여 인증을 다시 구성할 수 없습니다.</block>
@@ -3762,20 +3760,13 @@
   <block id="7e6093e52119f18464fc862a969c9f6a" category="admonition">IPv6 지원이 필요한 경우 관리 노드 11.1을 사용할 수 있습니다.</block>
   <block id="9385b032418674e92472a8b4a2ae5cdf" category="list-text">(프록시 서버가 있는 관리 노드 12.0 이상) NetApp 하이브리드 클라우드 제어를 관리 서비스 버전 2.16으로 업데이트한 후 프록시 서버를 구성하게 됩니다.</block>
   <block id="0406c3e25004e3d1dddbc367d2c4010f" category="paragraph">Element 12.2 관리 노드는 선택적 업그레이드입니다. 기존 배포에는 필요하지 않습니다.</block>
-  <block id="d65a2ab43bcac7efebde7effc9d142f8" category="list-text"><block ref="4e8e62755aa10b5d2420c05d87c0085a" category="inline-xref-macro-rx"></block></block>
-  <block id="c92609be7302c756d6d918553df475c1" category="list-text"><block ref="d9e86326331a25418b718094ae602c19" category="inline-xref-macro-rx"></block></block>
-  <block id="0267f7e06220d0fa6fb42578b5746da3" category="list-text"><block ref="b41cb2f7bd156a4035cdf9347b89cebe" category="inline-xref-macro-rx"></block></block>
-  <block id="067315cbc6353502fa36a4f8722badbd" category="inline-xref">(NetApp HCI만 해당) 컴퓨팅 노드 자산을 구성합니다</block>
-  <block id="cc41647231a76da233743c53a496e137" category="list-text"><block ref="fab01553c96541ce7ac54638294897d8" category="inline-xref-macro-rx"></block></block>
   <block id="7b4b2bec7b806d58982537647a92deef" category="list-text">최신 릴리스 다운로드 * 를 선택하고 EULA에 동의합니다.</block>
   <block id="4cb04e22051dcc88da6d140ef391aab8" category="list-text">스토리지 어댑터 유형이 LSI Logic Parallel로 설정되어 있습니다</block>
   <block id="1fde8564c11be0856ccf9a21a1d1430c" category="admonition">관리 노드의 기본값은 LSI Logic SAS입니다. New Virtual Machine * 창에서 * 하드웨어 사용자 정의 * &gt; * 가상 하드웨어 * 를 선택하여 스토리지 어댑터 구성을 확인합니다. 필요한 경우 LSI Logic SAS를 * LSI Logic Parallel * 로 변경합니다.</block>
-  <block id="f894cbc944582e1f10fec4bf2a0639f0" category="section-title">관리 노드 admin을 생성하고 네트워크를 구성합니다</block>
   <block id="148f57c4f729acea3c3d95b35553a056" category="list-text">추가할 각 기본 시간 서버에 대해 새 줄을 추가합니다. 기본 시간 서버는 에서 사용할 스토리지 클러스터에서 사용되는 NTP 서버와 같아야 합니다 <block ref="1d132a4516f2aafec8e6c256f33f26a5" category="inline-link-macro-rx"></block>.</block>
   <block id="e7538fbaab3148e24ff8ae41d09df5ce" category="list-text">[[substep_f_install_config_time_sync]] 하이퍼바이저를 통해 호스트와 시간 동기화를 비활성화합니다(VMware의 예).</block>
   <block id="2d80cb22364fea2daaca797ae1d938cb" category="inline-link-macro">설정 명령</block>
   <block id="a482c646f7f8199c69090c0d13cac33b" category="admonition">시간 동기화 구성을 완료한 후에는 NTP를 편집하지 마십시오. NTP는 를 실행할 때 NTP에 영향을 주기 때문입니다 <block ref="418ec8b5cff4068b256dfd7e9fc5ded7" category="inline-link-macro-rx"></block> 관리 노드에서.</block>
-  <block id="627bbdc5a7179606b85a5d6ccb6f65e1" category="section-title">관리 노드를 설정합니다</block>
   <block id="5a808c62f4f9557c4df556d6a230ba7c" category="list-text">관리 노드 setup 명령을 구성하고 실행합니다.</block>
   <block id="fea104dd45bc0e75d821ddd5af2b02d0" category="admonition">명령 이름의 약식 형식은 괄호( )로 되어 있으며 전체 이름으로 대체할 수 있습니다.</block>
   <block id="3f124867257c579e7ba689baed3d4f45" category="list-text">* - -mnode_admin_user(-MU) [username] *: 관리 노드 관리자 계정의 사용자 이름입니다. 관리 노드에 로그인하는 데 사용한 사용자 계정의 사용자 이름일 수 있습니다.</block>
@@ -3799,7 +3790,6 @@
   <block id="aabee241823de4ff993b60d0a196a387" category="list-text">(선택 사항) 각 매개 변수에 대한 추가 정보가 필요한 경우 매개 변수 도움말을 사용합니다.</block>
   <block id="f89c180fd45cb0275c5ee18e59d2b43d" category="list-text">* -- help(-h) *: 각 매개 변수에 대한 정보를 반환합니다. 매개 변수는 초기 구축을 기반으로 필수 또는 선택 사항으로 정의됩니다. 업그레이드 및 재배포 매개 변수 요구 사항은 다를 수 있습니다.</block>
   <block id="79032d0c879c3afbbb570dd870eb09e1" category="list-text">셋업 -mnode 명령을 실행합니다.</block>
-  <block id="7ea2768c656768f853cd68b9066eba0f" category="section-title">컨트롤러 자산을 구성합니다</block>
   <block id="4240350efa82cb4b2d0dcd00f64f496b" category="list-text">설치 ID를 찾습니다.</block>
   <block id="ed4faf2b135a0f2d74eef06f6fd8899e" category="list-text">스토리지 MVIP로 이동하여 로그인합니다. 이 작업을 수행하면 다음 단계에서 인증서가 수락됩니다.</block>
   <block id="4e1983f58c81d12130ee2409db704d73" category="list-text">REST API UI에서 * Get Windows/Installations * 를 선택합니다.</block>
@@ -5793,8 +5783,6 @@
   <block id="6a881248d046a90f573e41d5ebe1362e" category="list-text"><block ref="6a881248d046a90f573e41d5ebe1362e" category="inline-link-rx"></block></block>
   <block id="90e7c2277ee69a3d3ecf30fa1fe61ab1" category="inline-link">vCenter 플러그인 4.10 릴리즈 노트</block>
   <block id="779aeeb0a67ee84cae70c2361654111d" category="list-text"><block ref="779aeeb0a67ee84cae70c2361654111d" category="inline-link-rx"></block></block>
-  <block id="6f0ce5bfc09a3a4d8737b564d5879f31" category="inline-link">Element 12.7의 새로운 기능에 대해 자세히 알아보십시오</block>
-  <block id="f10aa2cb8c994fef24ceca1ee43e4208" category="admonition">Element 소프트웨어 12.7은 최신 릴리즈이며 보안 및 시스템 구성 요소 업데이트, 운영 개선 사항 및 해결된 문제를 포함합니다.<block ref="d071d61ca9198e87abb60c485f07eada" category="inline-link-rx"></block>.</block>
   <block id="e8c9d31781628048fc356dbb3477278c" category="summary">관리 서비스 2.21.61부터 Rancher는 기존 및 신규 Rancher 구축 환경에 더 이상 지원되지 않습니다. 이전 버전의 관리 서비스를 사용하여 Rancher를 계속 관리할 수 있습니다.</block>
   <block id="46e87a91de6f38f3b1344d05a59270dd" category="inline-link">NetApp HCI 1.9 설명서</block>
   <block id="fc55c296a158a74f2203216a080cac11" category="paragraph">관리 서비스 2.21.61부터 기존 Rancher 구축 환경에서는 Rancher가 더 이상 지원되지 않습니다. 관리 서비스 2.21.61로 업그레이드하는 경우 NetApp 하이브리드 클라우드 제어를 사용하여 기존 구축을 위한 목장을 관리, 모니터링 또는 업그레이드하거나 NetApp HCI 시스템에서 새로운 구축을 수행할 수 없습니다. 이미 NetApp HCI 시스템에 Rancher를 구축한 상태에서 관리 서비스 2.20.69 이하를 실행 중인 경우 를 사용하여 Rancher를 관리, 모니터링 및 업그레이드할 수 있습니다<block ref="366a8df179e5c8339fa05bf5fe38a812" category="inline-link-rx"></block>.</block>
@@ -6233,4 +6221,36 @@
   <block id="f0fe2934aa8d8cec985fef2e0c464532" category="list-text"><block ref="f0fe2934aa8d8cec985fef2e0c464532" category="inline-link-macro-rx"></block></block>
   <block id="08c1b18f2bce38d2bceb61af5b8c4c6e" category="list-text"><block ref="08c1b18f2bce38d2bceb61af5b8c4c6e" category="inline-link-macro-rx"></block></block>
   <block id="c1f2aa244c34463b7aea4f2b566f9420" category="list-text"><block ref="c1f2aa244c34463b7aea4f2b566f9420" category="inline-link-macro-rx"></block></block>
+  <block id="9c9a41bc801502e6500c79ea7586ba95" category="inline-link-macro">2노드 및 3노드 스토리지 클러스터에 Witness 노드 재구축</block>
+  <block id="d0f20378e2595fa7956c455387d1bc5a" category="paragraph">NetApp HCI 설치 프로세스에서 Witness 노드를 설치하면 VMware vCenter에 VM 템플릿이 저장되며, Witness 노드가 실수로 제거, 손실 또는 손상된 경우 이를 다시 배포하는 데 사용할 수 있습니다. Witness Node를 호스팅하던 장애가 발생한 컴퓨팅 노드를 교체해야 하는 경우 이 템플릿을 사용하여 Witness Node를 재구축할 수도 있습니다. 자세한 내용은 을 <block ref="6fa44f1a6cd8ce6de51cb02b7ae12cc5" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="3c72afcfca67f187b816a55135a243dd" category="inline-link-macro">VM 하드웨어 버전을 업그레이드합니다</block>
+  <block id="4fff07540e1d83ac9775ec8030cce786" category="paragraph">기존 Witness 노드를 Element 12.8로 전체 업그레이드를 수행하는 경우 업그레이드하기 전에 Witness Node의 VM 하드웨어 버전이 ESXi 6.7(VM 하드웨어 버전 14) 이상과 호환되는지 확인해야 합니다. 을 <block ref="d1fe5954ed8bd3e53eba83ab0658a6e0" category="inline-link-macro-rx"></block>참조하십시오.</block>
+  <block id="6db7dd4182be7a1979ad403111fa8618" category="inline-link">NetApp Element 소프트웨어 12.8 릴리스 정보</block>
+  <block id="7d776811219f8ebb17adecaa976bd578" category="list-text"><block ref="53e04163346326834efd61306c0800b5" category="inline-link-rx"></block> _신규_</block>
+  <block id="a175ee087381806b642bbcfee91690d5" category="inline-link">Element 12.8의 새로운 기능에 대해 자세히 알아보십시오</block>
+  <block id="669c1fb7e11e3bb5ca277eb16b4a55f4" category="admonition">Element 소프트웨어 12.8은 최신 릴리스이며 보안 및 시스템 구성 요소 업데이트, 운영 개선 사항 및 해결된 문제가 포함되어 있습니다.<block ref="4f11681fa65d50fd10f6fc370da0cbe3" category="inline-link-rx"></block>..</block>
+  <block id="b036ebb7aa6b63db449d4df71f28c3cd" category="section-title">1단계: 관리 노드에서 VM 하드웨어 버전 업그레이드</block>
+  <block id="6bdecd9b5d3ab973ac36df911f986fc3" category="paragraph">기존 관리 노드를 Element 12.8로 전체 업그레이드를 수행하는 경우 업그레이드하기 전에 관리 노드의 VM 하드웨어 버전이 ESXi 6.7(VM 하드웨어 버전 14) 이상과 호환되는지 확인해야 합니다.</block>
+  <block id="d334c1e547b1e27eae5f50bf46f786cd" category="admonition">다음 단계에 따라 Witness 노드에서 VM 하드웨어 버전을 업그레이드할 수도 있습니다.</block>
+  <block id="da356a9209429c8cb4f06565d719d2b8" category="list-text">vCenter 관리자로 vSphere Web Client에 로그인합니다.</block>
+  <block id="1a331e443f5aee428076dfc1341e09b5" category="list-text">vSphere Client 메뉴에서 * VMS * 및 * Templates * 를 선택합니다.</block>
+  <block id="f42849b7cb77e25b9a5601553a509100" category="list-text">가상 머신을 마우스 오른쪽 버튼으로 클릭하고 * 호환성 * &gt; * Upgrade VM Compatibility * 를 선택합니다.</block>
+  <block id="cf8716d5690805e881fbd8fa22fb282a" category="list-text">vSphere 환경의 버전에 따라 ESXi 6.7 이상 버전을 선택합니다.</block>
+  <block id="7473f663a4bbad1085e61ed9c976a50a" category="list-text">업그레이드가 완료된 후 * vSphere Client Refresh * 를 선택하고 VM 호환성이 원하는 버전인지 확인합니다.</block>
+  <block id="6b17900bf8b7a52b1be75bbe68b2d77e" category="section-title">2단계: 관리 노드를 Element 12.5 이상으로 업그레이드합니다</block>
+  <block id="d5bdcd035d3751961b201dd1c2261aa3" category="paragraph">다음 업그레이드 옵션 중 하나를 선택합니다.</block>
+  <block id="6d8cd87a85946daeae42cb54aade3baa" category="section-title">단계 1: ISO 또는 OVA를 다운로드하고 VM을 배포합니다</block>
+  <block id="90c4d8ddd76d9f5f86c144316cec5657" category="paragraph">NetApp 지원 사이트에서 적절한 ISO 또는 OVA를 다운로드하고 VM을 설치합니다.</block>
+  <block id="c6913d34fefabb7329dba971ad99632d" category="section-title">2단계: 관리 노드 관리자를 생성하고 네트워크를 구성합니다</block>
+  <block id="8e1cc7b20e9f183452b777f8a4fb586d" category="paragraph">VM 설치가 완료된 후 관리 노드 관리자 사용자를 생성하고 관리 노드 네트워크를 구성합니다.</block>
+  <block id="5e0472334bca93d0d28d3eeaaf723518" category="section-title">3단계: 시간 동기화를 구성합니다</block>
+  <block id="6646ab3d83d88b5b34e61e3a58b244e8" category="paragraph">관리 노드를 설정하기 전에 관리 노드와 스토리지 클러스터 간의 시간을 동기화합니다.</block>
+  <block id="ef246c91c687e7d720eb49c5e2a4cd47" category="section-title">4단계: 관리 노드 설정</block>
+  <block id="9f150d20e38589485a1bb878b18c51e2" category="paragraph">명령을 사용하여 관리 노드를<block ref="73028873f2b0a018096b6a3d871634b5" prefix=" " category="inline-code"></block> 구성합니다.</block>
+  <block id="2cec258fd66ace0725a9af6922c80f3e" category="section-title">5단계: 컨트롤러 자산 구성</block>
+  <block id="b5d27a207b01cd3ca9fef9594d50836f" category="paragraph">설치 ID를 찾고 vCenter 컨트롤러 자산을 추가합니다.</block>
+  <block id="bd6447e80251856484a25ace239c3873" category="section-title">6단계: (NetApp HCI만 해당) 컴퓨팅 노드 자산 구성</block>
+  <block id="64391abac346294811422637c6d0a865" category="paragraph">관리 노드 알려진 자산에 컴퓨팅 노드 자산을 추가합니다</block>
+  <block id="975648a39ca92865d807bc35f02b5984" category="inline-link-macro">Element 소프트웨어 12.8에 대한 고지 사항</block>
+  <block id="d70cd205dfc4339579c798a35dc44462" category="list-text"><block ref="d70cd205dfc4339579c798a35dc44462" category="inline-link-macro-rx"></block></block>
 </blocks>

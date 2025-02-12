@@ -36,7 +36,9 @@ NetApp HCI는 2노드 또는 3노드 스토리지 클러스터에서 특정 스�
 ====
 * 요구 사항 *: 컴퓨팅 노드에 대해 로컬 데이터 저장소(NDE에 의해 기본적으로 설정됨)를 사용하도록 Witness Node VM을 구성합니다. SolidFire 스토리지 볼륨과 같은 공유 스토리지에는 구성하지 않아야 합니다. VM이 자동으로 마이그레이션되지 않도록 하려면 Witness Node VM에 대한 DRS(Distributed Resource Scheduler) 자동화 수준을 * Disabled * 로 설정합니다. 이렇게 하면 Witness Node가 동일한 컴퓨팅 노드에서 실행되고 HA(Non-High Availability) 쌍 구성이 발생하지 않습니다.
 
-NetApp HCI 설치 프로세스에서 Witness 노드를 설치하면 VMware vCenter에 VM 템플릿이 저장되며, Witness 노드가 실수로 제거, 손실 또는 손상된 경우 이를 다시 배포하는 데 사용할 수 있습니다. Witness Node를 호스팅하던 장애가 발생한 컴퓨팅 노드를 교체해야 하는 경우 이 템플릿을 사용하여 Witness Node를 재구축할 수도 있습니다. 자세한 내용은 2노드 및 3노드 스토리지 클러스터를 위한 * 재구축 Witness 노드 * 섹션을 참조하십시오 link:task_hci_h410crepl.html["여기"^].
+NetApp HCI 설치 프로세스에서 Witness 노드를 설치하면 VMware vCenter에 VM 템플릿이 저장되며, Witness 노드가 실수로 제거, 손실 또는 손상된 경우 이를 다시 배포하는 데 사용할 수 있습니다. Witness Node를 호스팅하던 장애가 발생한 컴퓨팅 노드를 교체해야 하는 경우 이 템플릿을 사용하여 Witness Node를 재구축할 수도 있습니다. 자세한 내용은 을 link:task_hci_h410crepl.html["2노드 및 3노드 스토리지 클러스터에 Witness 노드 재구축"]참조하십시오.
+
+기존 Witness 노드를 Element 12.8로 전체 업그레이드를 수행하는 경우 업그레이드하기 전에 Witness Node의 VM 하드웨어 버전이 ESXi 6.7(VM 하드웨어 버전 14) 이상과 호환되는지 확인해야 합니다. 을 link:task_hcc_upgrade_management_node.html#upgrade-vm-hardware["VM 하드웨어 버전을 업그레이드합니다"]참조하십시오.
 
 ====
 
