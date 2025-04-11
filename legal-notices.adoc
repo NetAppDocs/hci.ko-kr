@@ -47,7 +47,7 @@ link:https://www.netapp.com/company/legal/privacy-policy/["https://www.netapp.co
 통지 파일은 NetApp 소프트웨어에 사용된 타사의 저작권 및 라이센스에 대한 정보를 제공합니다.
 
 * link:./media/NetApp_HCI_1.11_notice.pdf["NetApp HCI 1.11에 대한 고지 사항"^]
-* link:../media/Element_Software_12.8.pdf["Element 소프트웨어 12.8에 대한 고지 사항"^]
+* link:./media/Element_Software_12.8.pdf["Element 소프트웨어 12.8에 대한 고지 사항"^]
 * link:./media/Element_Software_12.7.pdf["Element 소프트웨어 12.7에 대한 고지 사항"^]
 * link:./media/Ember_OS_12.7.pdf["Ember OS 12.7에 대한 고지 사항"^]
 * link:./media/mNode_12.7.pdf["관리 노드 12.7에 대한 고지 사항"^]

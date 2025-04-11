@@ -6252,5 +6252,5 @@
   <block id="bd6447e80251856484a25ace239c3873" category="section-title">6단계: (NetApp HCI만 해당) 컴퓨팅 노드 자산 구성</block>
   <block id="64391abac346294811422637c6d0a865" category="paragraph">관리 노드 알려진 자산에 컴퓨팅 노드 자산을 추가합니다</block>
   <block id="975648a39ca92865d807bc35f02b5984" category="inline-link-macro">Element 소프트웨어 12.8에 대한 고지 사항</block>
-  <block id="d70cd205dfc4339579c798a35dc44462" category="list-text"><block ref="d70cd205dfc4339579c798a35dc44462" category="inline-link-macro-rx"></block></block>
+  <block id="2d0be4b4ba388979c4f454ae05179965" category="list-text"><block ref="2d0be4b4ba388979c4f454ae05179965" category="inline-link-macro-rx"></block></block>
 </blocks>
