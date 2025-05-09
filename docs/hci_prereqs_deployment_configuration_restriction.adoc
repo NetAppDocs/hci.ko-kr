@@ -18,9 +18,8 @@ VMware vSphere 버전, 컴퓨팅 노드 유형 및 스토리지 노드 수에 �
 
 있다면 link:task_nde_select_inventory.html["Inventory * 페이지에서 제한된 구성을 선택합니다"] 배포 중에 다른 유효한 구성 옵션과 함께 오류 메시지가 나타납니다.
 
-[discrete]
+
+
 == 자세한 내용을 확인하십시오
 
-* https://www.netapp.com/hybrid-cloud/hci-documentation/["NetApp HCI 리소스 페이지를 참조하십시오"^]
-* https://docs.netapp.com/us-en/vcp/index.html["vCenter Server용 NetApp Element 플러그인"^]
-
+https://docs.netapp.com/us-en/vcp/index.html["vCenter Server용 NetApp Element 플러그인"^]

@@ -44,7 +44,6 @@
   <block id="6b2019a31feeec476725deff1e79ed78" category="inline-link-macro">환경 요구 사항</block>
   <block id="9077d0c626c6abe8e5c94e742b66762a" category="inline-link-macro">보호 도메인</block>
   <block id="6bc3cc5c8a1df1f098ef6e35a878f98e" category="inline-link-macro">노드 2개 스토리지 클러스터의 노드 리소스 요구 사항</block>
-  <block id="acc25bb29912a0eb99591d6397d5e11d" category="list-text"><block ref="acc25bb29912a0eb99591d6397d5e11d" category="inline-link-rx"></block></block>
   <block id="a881a0468246e93ae6e2c5bccd78758e" category="inline-link">vCenter Server용 NetApp Element 플러그인</block>
   <block id="7cf5cffc3745b8348cdcfb1c3d0d472f" category="list-text"><block ref="7cf5cffc3745b8348cdcfb1c3d0d472f" category="inline-link-rx"></block></block>
   <block id="574816adb261e291d4483d3e7dd93542" category="summary">NetApp HCI 구축을 마친 후에는 NetApp 하이브리드 클라우드 제어를 사용하여 NetApp HCI 스토리지 리소스를 확장하고 구성할 수 있습니다.</block>
@@ -104,8 +103,6 @@
   <block id="0c06b376558e1430024d8a566a84067a" category="paragraph">NetApp HCI에서 리소스를 추가하고 구성하는 동안 진행률을 모니터링할 수 있습니다.</block>
   <block id="61dfc712d6e3605cfa8c03816883a956" category="list-text">* 선택 사항 *: VMware vSphere Web Client(컴퓨팅 노드의 경우) 또는 vCenter Server용 Element 플러그인(스토리지 노드의 경우)에 새 노드가 표시되는지 확인합니다.</block>
   <block id="f48a06284a0df48dae9a67886037b154" category="inline-link-macro">수동으로 제거합니다</block>
-  <block id="a83404b3b2ca8b3c39459b719d7844d7" category="inline-link">NetApp HCI 리소스 페이지 를 참조하십시오</block>
-  <block id="efb3497df51898324a04d1329dc9b9ae" category="list-text"><block ref="efb3497df51898324a04d1329dc9b9ae" category="inline-link-rx"></block></block>
   <block id="de8f3c57f62ff5861214b8103726109f" category="inline-link">NetApp HCI 컴퓨팅 및 스토리지 노드 설치 및 설정 지침</block>
   <block id="5eed704594b84518dc6a723520e99cfc" category="list-text"><block ref="5eed704594b84518dc6a723520e99cfc" category="inline-link-rx"></block></block>
   <block id="a3e8bb013b9f2a7fa74453a28fd169f9" category="inline-link">VMware 기술 자료: EVC(Enhanced vMotion Compatibility) 프로세서 지원</block>
@@ -6233,10 +6230,7 @@
   <block id="6bdecd9b5d3ab973ac36df911f986fc3" category="paragraph">기존 관리 노드를 Element 12.8로 전체 업그레이드를 수행하는 경우 업그레이드하기 전에 관리 노드의 VM 하드웨어 버전이 ESXi 6.7(VM 하드웨어 버전 14) 이상과 호환되는지 확인해야 합니다.</block>
   <block id="d334c1e547b1e27eae5f50bf46f786cd" category="admonition">다음 단계에 따라 Witness 노드에서 VM 하드웨어 버전을 업그레이드할 수도 있습니다.</block>
   <block id="da356a9209429c8cb4f06565d719d2b8" category="list-text">vCenter 관리자로 vSphere Web Client에 로그인합니다.</block>
-  <block id="1a331e443f5aee428076dfc1341e09b5" category="list-text">vSphere Client 메뉴에서 * VMS * 및 * Templates * 를 선택합니다.</block>
-  <block id="f42849b7cb77e25b9a5601553a509100" category="list-text">가상 머신을 마우스 오른쪽 버튼으로 클릭하고 * 호환성 * &gt; * Upgrade VM Compatibility * 를 선택합니다.</block>
   <block id="cf8716d5690805e881fbd8fa22fb282a" category="list-text">vSphere 환경의 버전에 따라 ESXi 6.7 이상 버전을 선택합니다.</block>
-  <block id="7473f663a4bbad1085e61ed9c976a50a" category="list-text">업그레이드가 완료된 후 * vSphere Client Refresh * 를 선택하고 VM 호환성이 원하는 버전인지 확인합니다.</block>
   <block id="6b17900bf8b7a52b1be75bbe68b2d77e" category="section-title">2단계: 관리 노드를 Element 12.5 이상으로 업그레이드합니다</block>
   <block id="d5bdcd035d3751961b201dd1c2261aa3" category="paragraph">다음 업그레이드 옵션 중 하나를 선택합니다.</block>
   <block id="6d8cd87a85946daeae42cb54aade3baa" category="section-title">단계 1: ISO 또는 OVA를 다운로드하고 VM을 배포합니다</block>
@@ -6253,4 +6247,10 @@
   <block id="64391abac346294811422637c6d0a865" category="paragraph">관리 노드 알려진 자산에 컴퓨팅 노드 자산을 추가합니다</block>
   <block id="975648a39ca92865d807bc35f02b5984" category="inline-link-macro">Element 소프트웨어 12.8에 대한 고지 사항</block>
   <block id="2d0be4b4ba388979c4f454ae05179965" category="list-text"><block ref="2d0be4b4ba388979c4f454ae05179965" category="inline-link-macro-rx"></block></block>
+  <block id="6e93fbac14e98fd4eee5f4f560e1d580" category="list-text">vSphere Client 메뉴에서 * VM and Templates * 를 선택합니다.</block>
+  <block id="be19667c20f2f3c6b932b48a9c488774" category="list-text">가상 머신(VM)을 마우스 오른쪽 버튼으로 클릭하고 * Power * &gt; * Shut Down Guest OS * 를 선택합니다.</block>
+  <block id="6f5f678ae471ecc070cea185b3d40ed4" category="paragraph">VM의 전원이 꺼질 때까지 기다립니다.</block>
+  <block id="b58c4fe6ac8a2dffa0fb94c9d1de7556" category="list-text">VM을 마우스 오른쪽 버튼으로 클릭하고 * 호환성 * &gt; * Upgrade VM Compatibility * 를 선택합니다.</block>
+  <block id="eeb196c0a77fbb85f8908ae3cca16bfc" category="list-text">업그레이드가 완료된 후 VM을 마우스 오른쪽 버튼으로 클릭하고 * Power * &gt; * Power On * 을 선택합니다.</block>
+  <block id="917268d8045dd1bb18e5f8cc7caf9359" category="list-text">vSphere 클라이언트 새로 고침 * 을 선택하고 VM 호환성이 원하는 버전인지 확인합니다.</block>
 </blocks>
