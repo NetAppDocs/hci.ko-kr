@@ -11,21 +11,24 @@ keywords: netapp, hci, cluster, element, H610S upgrade, hcc
 [role="lead"]
 NetApp Element 소프트웨어를 업그레이드하려면 NetApp 하이브리드 클라우드 제어 UI 또는 REST API를 사용할 수 있습니다. 노드 추가 및 제거, 드라이브 추가 및 제거, 이니시에이터, 볼륨 액세스 그룹 및 가상 네트워크와 관련된 명령 등 Element 소프트웨어를 업그레이드하는 동안 특정 작업이 표시되지 않습니다.
 
+주의:
 
-NOTE: Element 12.5부터는 NetApp HealthTools에서 Element 소프트웨어 업그레이드가 더 이상 지원되지 않습니다. Element 11.0 또는 11.1을 실행 중인 경우 먼저 해야 합니다 link:https://docs.netapp.com/us-en/hci19/docs/task_hcc_upgrade_element_software.html#upgrade-element-software-at-connected-sites-using-healthtools["HealthTools를 사용하여 Element 12.3으로 업그레이드하십시오"^] 그리고 NetApp 하이브리드 클라우드 제어를 사용하여 Element 12.5 이상으로 업그레이드하십시오.
+[]
+====
+관리 서비스 2.27 번들에는 vCenter Server 5.5용 Element 플러그인이 포함되어 있으며, 이는 관리 노드 12.8과만 호환됩니다.  관리 서비스 2.27로 업데이트하는 경우 Element 12.8로 업그레이드한 후 업그레이드 순서를 변경하고 관리 서비스 번들을 업데이트하여 관리 노드와 관리 서비스 간의 호환성을 보장해야 합니다.
 
-.필요한 것
+관리 서비스 2.21.61~2.26.40으로 업데이트하는 경우 Element 12.8로 업그레이드하기 전에 관리 서비스 번들을 업데이트해야 합니다.
+
+====
+.시작하기 전에
 * * 관리자 권한 *: 업그레이드를 수행할 수 있는 스토리지 클러스터 관리자 권한이 있습니다.
 * * 유효한 업그레이드 경로 *: 업그레이드하려는 Element 버전에 대한 업그레이드 경로 정보를 확인했으며 업그레이드 경로가 유효한지 확인했습니다. 을 참조하십시오 https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/Element_Software/What_is_the_upgrade_matrix_for_storage_clusters_running_NetApp_Element_software%3F["NetApp KB: NetApp Element 소프트웨어를 실행하는 스토리지 클러스터의 업그레이드 매트릭스입니다"^]
++
+Element 12.5부터는 NetApp HealthTools에서 Element 소프트웨어 업그레이드가 더 이상 지원되지 않습니다. Element 11.0 또는 11.1을 실행 중인 경우 먼저 해야 합니다 link:https://docs.netapp.com/us-en/hci19/docs/task_hcc_upgrade_element_software.html#upgrade-element-software-at-connected-sites-using-healthtools["HealthTools를 사용하여 Element 12.3으로 업그레이드하십시오"^] 그리고 NetApp 하이브리드 클라우드 제어를 사용하여 Element 12.5 이상으로 업그레이드하십시오.
+
 * * 시스템 시간 동기화 *: 모든 노드의 시스템 시간이 동기화되고 스토리지 클러스터 및 노드에 대해 NTP가 올바르게 구성되었는지 확인했습니다. 각 노드는 시간편중과 관련된 해결되지 않은 클러스터 장애가 없는 노드별 웹 UI('https://[IP address]:442')에서 DNS 이름 서버로 구성되어야 합니다.
 * * 시스템 포트 *: 업그레이드에 NetApp 하이브리드 클라우드 제어를 사용하는 경우 필요한 포트가 열려 있는지 확인했습니다. 을 참조하십시오 link:hci_prereqs_required_network_ports.html["네트워크 포트"] 를 참조하십시오.
 * * 관리 노드 *: NetApp 하이브리드 클라우드 제어 UI 및 API의 경우, 사용자 환경의 관리 노드에서 버전 11.3이 실행되고 있습니다.
-* * 관리 서비스 *: 관리 서비스 번들을 최신 버전으로 업데이트했습니다.
-
-
-
-IMPORTANT: Element 소프트웨어를 버전 12.5 이상으로 업그레이드하기 전에 최신 관리 서비스 번들로 업그레이드해야 합니다. Element 소프트웨어를 버전 12.5 이상으로 업데이트하는 경우 계속하려면 관리 서비스 2.21.61 이상이 필요합니다.
-
 * * 클러스터 상태 *: 클러스터를 업그레이드할 준비가 되었는지 확인했습니다. 을 참조하십시오 link:task_hcc_upgrade_element_prechecks.html["스토리지를 업그레이드하기 전에 Element 스토리지 상태 점검을 실행합니다"].
 * * H610S 노드의 업데이트된 베이스보드 관리 컨트롤러(BMC) *: H610S 노드의 BMC 버전을 업그레이드했습니다. 를 참조하십시오 link:rn_H610S_BMC_3.84.07.html["릴리스 정보 및 업그레이드 지침"].
 * * 업그레이드 프로세스 시간 *: 업그레이드를 수행하기에 충분한 시간을 예약했습니다. Element 소프트웨어 12.5 이상으로 업그레이드할 경우 업그레이드 프로세스 시간은 현재 Element 소프트웨어 버전 및 펌웨어 업데이트에 따라 달라집니다.
