@@ -6214,12 +6214,8 @@
   <block id="9c9a41bc801502e6500c79ea7586ba95" category="inline-link-macro">2노드 및 3노드 스토리지 클러스터에 Witness 노드 재구축</block>
   <block id="d0f20378e2595fa7956c455387d1bc5a" category="paragraph">NetApp HCI 설치 프로세스에서 Witness 노드를 설치하면 VMware vCenter에 VM 템플릿이 저장되며, Witness 노드가 실수로 제거, 손실 또는 손상된 경우 이를 다시 배포하는 데 사용할 수 있습니다. Witness Node를 호스팅하던 장애가 발생한 컴퓨팅 노드를 교체해야 하는 경우 이 템플릿을 사용하여 Witness Node를 재구축할 수도 있습니다. 자세한 내용은 을 <block ref="6fa44f1a6cd8ce6de51cb02b7ae12cc5" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="3c72afcfca67f187b816a55135a243dd" category="inline-link-macro">VM 하드웨어 버전을 업그레이드합니다</block>
-  <block id="4fff07540e1d83ac9775ec8030cce786" category="paragraph">기존 Witness 노드를 Element 12.8로 전체 업그레이드를 수행하는 경우 업그레이드하기 전에 Witness Node의 VM 하드웨어 버전이 ESXi 6.7(VM 하드웨어 버전 14) 이상과 호환되는지 확인해야 합니다. 을 <block ref="d1fe5954ed8bd3e53eba83ab0658a6e0" category="inline-link-macro-rx"></block>참조하십시오.</block>
   <block id="6db7dd4182be7a1979ad403111fa8618" category="inline-link">NetApp Element 소프트웨어 12.8 릴리스 정보</block>
-  <block id="a175ee087381806b642bbcfee91690d5" category="inline-link">Element 12.8의 새로운 기능에 대해 자세히 알아보십시오</block>
-  <block id="669c1fb7e11e3bb5ca277eb16b4a55f4" category="admonition">Element 소프트웨어 12.8은 최신 릴리스이며 보안 및 시스템 구성 요소 업데이트, 운영 개선 사항 및 해결된 문제가 포함되어 있습니다.<block ref="4f11681fa65d50fd10f6fc370da0cbe3" category="inline-link-rx"></block>..</block>
   <block id="b036ebb7aa6b63db449d4df71f28c3cd" category="section-title">1단계: 관리 노드에서 VM 하드웨어 버전 업그레이드</block>
-  <block id="6bdecd9b5d3ab973ac36df911f986fc3" category="paragraph">기존 관리 노드를 Element 12.8로 전체 업그레이드를 수행하는 경우 업그레이드하기 전에 관리 노드의 VM 하드웨어 버전이 ESXi 6.7(VM 하드웨어 버전 14) 이상과 호환되는지 확인해야 합니다.</block>
   <block id="d334c1e547b1e27eae5f50bf46f786cd" category="admonition">다음 단계에 따라 Witness 노드에서 VM 하드웨어 버전을 업그레이드할 수도 있습니다.</block>
   <block id="da356a9209429c8cb4f06565d719d2b8" category="list-text">vCenter 관리자로 vSphere Web Client에 로그인합니다.</block>
   <block id="cf8716d5690805e881fbd8fa22fb282a" category="list-text">vSphere 환경의 버전에 따라 ESXi 6.7 이상 버전을 선택합니다.</block>
@@ -6247,7 +6243,6 @@
   <block id="917268d8045dd1bb18e5f8cc7caf9359" category="list-text">vSphere 클라이언트 새로 고침 * 을 선택하고 VM 호환성이 원하는 버전인지 확인합니다.</block>
   <block id="53e04163346326834efd61306c0800b5" category="list-text"><block ref="53e04163346326834efd61306c0800b5" category="inline-link-rx"></block></block>
   <block id="7373675a8dd923fb7362a663e0cb6e1f" category="inline-link">vCenter 플러그인 5.5 릴리스 노트</block>
-  <block id="1bb29b9b64a805e59f4873c404e002c4" category="list-text"><block ref="19934d197d6821fc66160fdecbaaf499" category="inline-link-rx"></block>_새로운_</block>
   <block id="912995e99772bb097b2c7b32940725bb" category="list-text"><block ref="912995e99772bb097b2c7b32940725bb" category="inline-link-rx"></block></block>
   <block id="3a1a022151085ffe24dae724b7ca88e3" category="list-text"><block ref="3a1a022151085ffe24dae724b7ca88e3" category="inline-link-macro-rx"></block></block>
   <block id="3d25e722329aebc696a982dcb7743d0a" category="list-text"><block ref="3d25e722329aebc696a982dcb7743d0a" category="inline-link-macro-rx"></block></block>
@@ -6260,4 +6255,13 @@
   <block id="6eb41496b0f7ef5be359156d440fc5ea" category="paragraph">다음 버전 세부 정보가 표시됩니다.</block>
   <block id="9addfb2ff8ac3a9826d26736c6697320" category="inline-link-macro">Management Services 2.27.40(VMware vCenter Server 5.5.16용 NetApp Element 플러그인)에 대한 알림</block>
   <block id="5f97199338e05d8d021611cc709fe28f" category="list-text"><block ref="5f97199338e05d8d021611cc709fe28f" category="inline-link-macro-rx"></block></block>
+  <block id="7de7586f0e33815db80af5cc26ab5a42" category="paragraph">기존 Witness Node를 Element 12.8 이상으로 인플레이스 업그레이드하는 경우, 업그레이드하기 전에 Witness Node의 VM 하드웨어 버전이 환경에 따라 ESXi 6.7(VM 하드웨어 버전 14) 이상과 호환되는지 확인해야 합니다. 보다<block ref="d1fe5954ed8bd3e53eba83ab0658a6e0" category="inline-link-macro-rx"></block> .</block>
+  <block id="f3910c16a2d3ccfefad3cf6a2990562f" category="inline-link">NetApp Element 소프트웨어 12.9 릴리스 노트</block>
+  <block id="0a78d79842d809e9ae78fabb8260b585" category="list-text"><block ref="65f476025a11aaf16dc58328cfd02319" category="inline-link-rx"></block>_새로운_</block>
+  <block id="19934d197d6821fc66160fdecbaaf499" category="list-text"><block ref="19934d197d6821fc66160fdecbaaf499" category="inline-link-rx"></block></block>
+  <block id="3bd4daba204c3f29ed7fddf0efed2bc2" category="inline-link">Element 12.9의 새로운 기능에 대해 자세히 알아보세요</block>
+  <block id="d7f3db2dc1a21014b46d367c5cc3e266" category="admonition">Element 소프트웨어 12.9는 최신 릴리스로, 보안 및 시스템 구성 요소 업데이트, 운영 개선 사항, 해결된 문제가 포함되어 있습니다.<block ref="15b1f8dce4dd523137ccbf3f7f3f2745" category="inline-link-rx"></block> .</block>
+  <block id="ae8bd58eb0b6e5ff8cd67738f2ab773b" category="paragraph">기존 관리 노드를 Element 12.8 이상으로 제자리 업그레이드하는 경우, 업그레이드하기 전에 환경에 따라 관리 노드의 VM 하드웨어 버전이 ESXi 6.7(VM 하드웨어 버전 14) 이상과 호환되는지 확인해야 합니다.</block>
+  <block id="576a64066f01cba7e1d9e6cc332e1c1e" category="inline-link-macro">Element 소프트웨어 12.9에 대한 공지</block>
+  <block id="0052f32dde4447765e38fcb8d2c7c0fb" category="list-text"><block ref="0052f32dde4447765e38fcb8d2c7c0fb" category="inline-link-macro-rx"></block></block>
 </blocks>
